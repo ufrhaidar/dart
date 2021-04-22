@@ -2,7 +2,7 @@
 
 ### DART 7
 
-* [master](https://dartsim.github.io/dart/master/)
+* [main](https://dartsim.github.io/dart/main/)
 
 ### DART 6
 
