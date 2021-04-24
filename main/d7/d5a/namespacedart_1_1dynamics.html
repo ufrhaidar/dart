@@ -898,9 +898,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a61cbc6ea951344563de318c5d171c779"><td class="memTemplParams" colspan="2">template&lt;void(DegreeOfFreedom::*)(double _value) setValue&gt; </td></tr>
 <tr class="memitem:a61cbc6ea951344563de318c5d171c779"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a61cbc6ea951344563de318c5d171c779">setAllValuesFromVector</a> (<a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html">MetaSkeleton</a> *skel, const Eigen::VectorXd &amp;_values, const std::string &amp;_fname, const std::string &amp;_vname)</td></tr>
 <tr class="separator:a61cbc6ea951344563de318c5d171c779"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85ef65628134cb9b864b89b55ec8dd57"><td class="memTemplParams" colspan="2">template&lt;double(DegreeOfFreedom::*)() const getValue&gt; </td></tr>
-<tr class="memitem:a85ef65628134cb9b864b89b55ec8dd57"><td class="memTemplItemLeft" align="right" valign="top">static Eigen::VectorXd&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a85ef65628134cb9b864b89b55ec8dd57">getValuesFromVector</a> (const <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html">MetaSkeleton</a> *skel, const std::vector&lt; std::size_t &gt; &amp;_indices, const std::string &amp;_fname)</td></tr>
-<tr class="separator:a85ef65628134cb9b864b89b55ec8dd57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2988cc96b92f37260bbd893c3e483efb"><td class="memTemplParams" colspan="2">template&lt;double(DegreeOfFreedom::*)() const getValue&gt; </td></tr>
+<tr class="memitem:a2988cc96b92f37260bbd893c3e483efb"><td class="memTemplItemLeft" align="right" valign="top">static Eigen::VectorXd&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a2988cc96b92f37260bbd893c3e483efb">getValuesFromVector</a> (const <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html">MetaSkeleton</a> *skel, const std::vector&lt; std::size_t &gt; &amp;indices, const std::string &amp;fname)</td></tr>
+<tr class="separator:a2988cc96b92f37260bbd893c3e483efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeec6fec6649364d7d6b4c7133d7e3023"><td class="memTemplParams" colspan="2">template&lt;double(DegreeOfFreedom::*)() const getValue&gt; </td></tr>
 <tr class="memitem:aeec6fec6649364d7d6b4c7133d7e3023"><td class="memTemplItemLeft" align="right" valign="top">static Eigen::VectorXd&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#aeec6fec6649364d7d6b4c7133d7e3023">getValuesFromAllDofs</a> (const <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html">MetaSkeleton</a> *skel, const std::string &amp;_fname)</td></tr>
 <tr class="separator:aeec6fec6649364d7d6b4c7133d7e3023"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4815,8 +4815,8 @@ template&lt;double(DegreeOfFreedom::*)() const getValue&gt; </div>
 
 </div>
 </div>
-<a id="a85ef65628134cb9b864b89b55ec8dd57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85ef65628134cb9b864b89b55ec8dd57">&#9670;&nbsp;</a></span>getValuesFromVector()</h2>
+<a id="a2988cc96b92f37260bbd893c3e483efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2988cc96b92f37260bbd893c3e483efb">&#9670;&nbsp;</a></span>getValuesFromVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -4836,13 +4836,13 @@ template&lt;double(DegreeOfFreedom::*)() const getValue&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>_indices</em>, </td>
+          <td class="paramname"><em>indices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>_fname</em>&#160;</td>
+          <td class="paramname"><em>fname</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -6490,7 +6490,7 @@ template&lt;typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li>
-    <li class="footer">Generated on Thu Apr 22 2021 10:07:48 for DART by
+    <li class="footer">Generated on Sat Apr 24 2021 03:15:17 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
