@@ -24,6 +24,7 @@ var searchData=
   ['boxshapegeode',['BoxShapeGeode',['../d2/d7a/classdart_1_1gui_1_1osg_1_1render_1_1BoxShapeGeode.html#a4134b109ef8bbdba539080ba1dbfb6b7',1,'dart::gui::osg::render::BoxShapeGeode']]],
   ['boxshapenode',['BoxShapeNode',['../d0/d8f/classdart_1_1gui_1_1osg_1_1render_1_1BoxShapeNode.html#a3ae8fff79fe623b78c673823f1e5bac9',1,'dart::gui::osg::render::BoxShapeNode']]],
   ['branch',['Branch',['../dd/d80/classdart_1_1dynamics_1_1Branch.html#a85e036c35fbb1410313923ac399bdade',1,'dart::dynamics::Branch']]],
+  ['build',['build',['../d3/d0d/classdart_1_1math_1_1Icosphere.html#ae15e6921914f9d11f263d550612e0e53',1,'dart::math::Icosphere']]],
   ['buildconstrainedgroups',['buildConstrainedGroups',['../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a07a5243550ab85ea0d17fc97fae57237',1,'dart::dynamics::ConstraintSolver']]],
   ['bulletcollisiondetector',['BulletCollisionDetector',['../d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#a1ac57754114a7b0c0e398eaa4e04d2e0',1,'dart::collision::BulletCollisionDetector']]],
   ['bulletcollisiondispatcher',['BulletCollisionDispatcher',['../d8/d3d/classdart_1_1collision_1_1detail_1_1BulletCollisionDispatcher.html#a624ec5fed6ebe1eca56b5691eec81362',1,'dart::collision::detail::BulletCollisionDispatcher']]],

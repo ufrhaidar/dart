@@ -147,6 +147,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a20e0cef896a002dfc0e38149d7d14f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a494c475a0b0b44936f3631ebcf7c02"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a7a494c475a0b0b44936f3631ebcf7c02">drawMultiSphere</a> (const std::vector&lt; std::pair&lt; double, Eigen::Vector3d &gt;&gt; &amp;spheres, int slices=16, int stacks=16)</td></tr>
 <tr class="separator:a7a494c475a0b0b44936f3631ebcf7c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c0fc63b683001054943b537404e51c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a87c0fc63b683001054943b537404e51c">drawMultiSphereConvexHull</a> (const std::vector&lt; std::pair&lt; double, Eigen::Vector3d &gt;&gt; &amp;spheres, std::size_t subdivisions)</td></tr>
+<tr class="separator:a87c0fc63b683001054943b537404e51c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46cdd01c2c3b203fdd9305bc89832e1f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a46cdd01c2c3b203fdd9305bc89832e1f">drawEllipsoid</a> (const Eigen::Vector3d &amp;_size)</td></tr>
 <tr class="separator:a46cdd01c2c3b203fdd9305bc89832e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90c14bc7ec645a4049b7458939714603"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a90c14bc7ec645a4049b7458939714603">drawCube</a> (const Eigen::Vector3d &amp;_size)</td></tr>
@@ -650,6 +652,44 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented in <a class="el" href="../../dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#ab8fd4f7ca7d7add9ffa676c7e95fd01d">dart::gui::OpenGLRenderInterface</a>.</p>
+
+</div>
+</div>
+<a id="a87c0fc63b683001054943b537404e51c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c0fc63b683001054943b537404e51c">&#9670;&nbsp;</a></span>drawMultiSphereConvexHull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::gui::RenderInterface::drawMultiSphereConvexHull </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::pair&lt; double, Eigen::Vector3d &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>spheres</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>subdivisions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#a65063b8cdeee3b5c461325211e2ae05b">dart::gui::OpenGLRenderInterface</a>.</p>
 
 </div>
 </div>
@@ -1470,7 +1510,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d0/dcf/namespacedart_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="../../d2/d6f/classdart_1_1gui_1_1RenderInterface.html">RenderInterface</a></li>
-    <li class="footer">Generated on Sat Apr 24 2021 03:15:19 for DART by
+    <li class="footer">Generated on Tue May 4 2021 15:07:58 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

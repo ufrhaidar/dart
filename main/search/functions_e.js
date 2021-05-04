@@ -21,6 +21,8 @@ var searchData=
   ['noop',['NoOp',['../d3/dd0/namespacedart_1_1common_1_1detail.html#a276818d8b4f9fe0a7fa23f009176e1d8',1,'dart::common::detail']]],
   ['normal',['normal',['../dd/dfb/classdart_1_1math_1_1Random.html#a5eeb2097b022dea3446b9f0d0bdb977f',1,'dart::math::Random']]],
   ['normalfromvertex',['normalFromVertex',['../d4/d7f/namespacedart_1_1gui_1_1osg_1_1render.html#a916393944fb4380018dfc0fa956eb320',1,'dart::gui::osg::render']]],
+  ['normalizetrianglenormals',['normalizeTriangleNormals',['../d4/d2d/classdart_1_1math_1_1TriMesh.html#a2a80ca31291b40c9dac2701817131300',1,'dart::math::TriMesh']]],
+  ['normalizevertexnormals',['normalizeVertexNormals',['../d5/d10/classdart_1_1math_1_1Mesh.html#a9f7d9bba089cbbdb8d9fb9adf7b37fb5',1,'dart::math::Mesh']]],
   ['notifyaccelerationupdate',['notifyAccelerationUpdate',['../d7/d42/classdart_1_1dynamics_1_1Entity.html#a618443c8bad16c985f432897381396cc',1,'dart::dynamics::Entity::notifyAccelerationUpdate()'],['../d6/d5b/classdart_1_1dynamics_1_1Joint.html#a52639faf7a863932fb97bd4ab97c42a0',1,'dart::dynamics::Joint::notifyAccelerationUpdate()']]],
   ['notifyaccelerationupdated',['notifyAccelerationUpdated',['../d6/d5b/classdart_1_1dynamics_1_1Joint.html#aacaa5afd5ec49dd5b912a832d336ba88',1,'dart::dynamics::Joint']]],
   ['notifyalphaupdate',['notifyAlphaUpdate',['../db/d1c/classdart_1_1dynamics_1_1Shape.html#a675ea9bc41741a4a62c8288c75f09fdd',1,'dart::dynamics::Shape']]],
