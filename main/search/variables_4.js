@@ -10,5 +10,6 @@ var searchData=
   ['eps',['eps',['../d8/ddd/classdart_1_1planning_1_1PathFollowingTrajectory.html#ac9e92ee37323908a6e8ff54f2ae6e11d',1,'dart::planning::PathFollowingTrajectory']]],
   ['eps_5fdiv',['eps_div',['../d9/d90/structdart_1_1dynamics_1_1PGSOption.html#a00512e6fc2baae0afdf87ae0641c35e4',1,'dart::dynamics::PGSOption']]],
   ['eps_5fea',['eps_ea',['../d9/d90/structdart_1_1dynamics_1_1PGSOption.html#a85620462c69f89f101ea418d0305a9b6',1,'dart::dynamics::PGSOption']]],
-  ['eps_5fres',['eps_res',['../d9/d90/structdart_1_1dynamics_1_1PGSOption.html#a7666e6781cb22b5c0b3ba687497aa565',1,'dart::dynamics::PGSOption']]]
+  ['eps_5fres',['eps_res',['../d9/d90/structdart_1_1dynamics_1_1PGSOption.html#a7666e6781cb22b5c0b3ba687497aa565',1,'dart::dynamics::PGSOption']]],
+  ['epsilon',['EPSILON',['../da/dcd/namespacedart_1_1collision.html#a4df30563daae17b203e7b46ca22f7115',1,'dart::collision']]]
 ];

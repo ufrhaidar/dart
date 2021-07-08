@@ -84,7 +84,7 @@ var searchData=
   ['sphereshapegeode',['SphereShapeGeode',['../dd/dde/classdart_1_1gui_1_1osg_1_1render_1_1SphereShapeGeode.html',1,'dart::gui::osg::render']]],
   ['sphereshapenode',['SphereShapeNode',['../dd/dbe/classdart_1_1gui_1_1osg_1_1render_1_1SphereShapeNode.html',1,'dart::gui::osg::render']]],
   ['squaredrawable',['SquareDrawable',['../db/d93/classdart_1_1gui_1_1osg_1_1render_1_1SquareDrawable.html',1,'dart::gui::osg::render']]],
-  ['state',['State',['../d4/d98/classdart_1_1dynamics_1_1Node_1_1State.html',1,'dart::dynamics::Node::State'],['../d4/d3b/structdart_1_1dynamics_1_1PointMass_1_1State.html',1,'dart::dynamics::PointMass::State'],['../d9/de4/classdart_1_1common_1_1Aspect_1_1State.html',1,'dart::common::Aspect::State']]],
+  ['state',['State',['../d9/de4/classdart_1_1common_1_1Aspect_1_1State.html',1,'dart::common::Aspect::State'],['../d4/d98/classdart_1_1dynamics_1_1Node_1_1State.html',1,'dart::dynamics::Node::State'],['../d4/d3b/structdart_1_1dynamics_1_1PointMass_1_1State.html',1,'dart::dynamics::PointMass::State']]],
   ['sub_5fptr',['sub_ptr',['../d5/dfd/classdart_1_1common_1_1sub__ptr.html',1,'dart::common']]],
   ['sub_5fptr_3c_20dart_3a_3adynamics_3a_3ainversekinematics_20_3e',['sub_ptr&lt; dart::dynamics::InverseKinematics &gt;',['../d5/dfd/classdart_1_1common_1_1sub__ptr.html',1,'dart::common']]],
   ['sub_5fptr_3c_20dart_3a_3adynamics_3a_3ajacobiannode_20_3e',['sub_ptr&lt; dart::dynamics::JacobianNode &gt;',['../d5/dfd/classdart_1_1common_1_1sub__ptr.html',1,'dart::common']]],

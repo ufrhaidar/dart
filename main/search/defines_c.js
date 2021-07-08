@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['on_5fall_5ftrees',['ON_ALL_TREES',['../d2/d7c/Skeleton_8cpp.html#a942e04afdbc545b6dd31b615a1a137ed',1,'Skeleton.cpp']]]
+  ['pgs_5fepsilon',['PGS_EPSILON',['../db/dd5/PgsBoxedLcpSolver_8cpp.html#a69512ba7d74c4a75cbc4d3a1d0e968d9',1,'PgsBoxedLcpSolver.cpp']]],
+  ['primitive_5fmagic_5fnumber',['PRIMITIVE_MAGIC_NUMBER',['../d6/dbd/Shape_8cpp.html#acbc824e22045a51d87e7d4678e0f7eb1',1,'Shape.cpp']]]
 ];

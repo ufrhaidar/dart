@@ -279,12 +279,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a7ab2c1e05d8c6447b458911f62a0f485"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af802b1e134f24c82d00de5c5aeb0b520">SoftContactConstraintPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a7ab2c1e05d8c6447b458911f62a0f485">mSoftContactConstraints</a></td></tr>
 <tr class="memdesc:a7ab2c1e05d8c6447b458911f62a0f485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Soft contact constraints those are automatically created.  <a href="#a7ab2c1e05d8c6447b458911f62a0f485">More...</a><br /></td></tr>
 <tr class="separator:a7ab2c1e05d8c6447b458911f62a0f485"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6952a467d918214af59a9433dc330f70"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#adfda05a2efaa82299abca0d46b1365b3">JointLimitConstraintPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a6952a467d918214af59a9433dc330f70">mJointLimitConstraints</a></td></tr>
-<tr class="memdesc:a6952a467d918214af59a9433dc330f70"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> limit constraints those are automatically created.  <a href="#a6952a467d918214af59a9433dc330f70">More...</a><br /></td></tr>
-<tr class="separator:a6952a467d918214af59a9433dc330f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeaad6bbac7898cff3584f2a951dfb271"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a36c1f3814c053bfe2cd770d86b122cad">ServoMotorConstraintPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#aeaad6bbac7898cff3584f2a951dfb271">mServoMotorConstraints</a></td></tr>
-<tr class="memdesc:aeaad6bbac7898cff3584f2a951dfb271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Servo motor constraints those are automatically created.  <a href="#aeaad6bbac7898cff3584f2a951dfb271">More...</a><br /></td></tr>
-<tr class="separator:aeaad6bbac7898cff3584f2a951dfb271"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefbe746cfde6c757d7ed41c617e2cd45"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a0f23dd37bb96002cd9a88b224ae236a6">JointConstraintPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#aefbe746cfde6c757d7ed41c617e2cd45">mJointConstraints</a></td></tr>
+<tr class="memdesc:aefbe746cfde6c757d7ed41c617e2cd45"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> limit constraints those are automatically created.  <a href="#aefbe746cfde6c757d7ed41c617e2cd45">More...</a><br /></td></tr>
+<tr class="separator:aefbe746cfde6c757d7ed41c617e2cd45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3fc813968f1c418f36daf851746871e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a5be50109646fdf2cc95be9409fd217df">MimicMotorConstraintPtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#af3fc813968f1c418f36daf851746871e">mMimicMotorConstraints</a></td></tr>
 <tr class="memdesc:af3fc813968f1c418f36daf851746871e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mimic motor constraints those are automatically created.  <a href="#af3fc813968f1c418f36daf851746871e">More...</a><br /></td></tr>
 <tr class="separator:af3fc813968f1c418f36daf851746871e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1469,6 +1466,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aefbe746cfde6c757d7ed41c617e2cd45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefbe746cfde6c757d7ed41c617e2cd45">&#9670;&nbsp;</a></span>mJointConstraints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a0f23dd37bb96002cd9a88b224ae236a6">JointConstraintPtr</a>&gt; dart::dynamics::ConstraintSolver::mJointConstraints</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> limit constraints those are automatically created. </p>
+
+</div>
+</div>
 <a id="a2409a39202bdc6c6da6a06a49f448042"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2409a39202bdc6c6da6a06a49f448042">&#9670;&nbsp;</a></span>mJointCoulombFrictionConstraints</h2>
 
@@ -1490,30 +1511,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> Coulomb friction constraints those are automatically created. </p>
-
-</div>
-</div>
-<a id="a6952a467d918214af59a9433dc330f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6952a467d918214af59a9433dc330f70">&#9670;&nbsp;</a></span>mJointLimitConstraints</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#adfda05a2efaa82299abca0d46b1365b3">JointLimitConstraintPtr</a>&gt; dart::dynamics::ConstraintSolver::mJointLimitConstraints</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> limit constraints those are automatically created. </p>
 
 </div>
 </div>
@@ -1562,30 +1559,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mimic motor constraints those are automatically created. </p>
-
-</div>
-</div>
-<a id="aeaad6bbac7898cff3584f2a951dfb271"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaad6bbac7898cff3584f2a951dfb271">&#9670;&nbsp;</a></span>mServoMotorConstraints</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a36c1f3814c053bfe2cd770d86b122cad">ServoMotorConstraintPtr</a>&gt; dart::dynamics::ConstraintSolver::mServoMotorConstraints</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Servo motor constraints those are automatically created. </p>
 
 </div>
 </div>
@@ -1667,7 +1640,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html">ConstraintSolver</a></li>
-    <li class="footer">Generated on Mon May 31 2021 16:30:47 for DART by
+    <li class="footer">Generated on Thu Jul 8 2021 14:03:37 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

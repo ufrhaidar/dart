@@ -89,15 +89,18 @@ $(document).ready(function(){initNavTree('d5/d68/classdart_1_1dynamics_1_1JointC
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../da/d32/classdart_1_1dynamics_1_1JointConstraint-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">dart::dynamics::JointConstraint Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">dart::dynamics::JointConstraint Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>class <a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html" title="class JointConstraint ">JointConstraint</a>  
+<p><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html" title="JointConstraint handles multiple constraints that are defined in the joint space, such as joint posit...">JointConstraint</a> handles multiple constraints that are defined in the joint space, such as joint position/velocity limits and servo motor.  
  <a href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../d1/d80/JointConstraint_8hpp_source.html">JointConstraint.hpp</a>&gt;</code></p>
@@ -107,87 +110,53 @@ Inheritance diagram for dart::dynamics::JointConstraint:</div>
  <div class="center">
   <img src="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.png" usemap="#dart::dynamics::JointConstraint_map" alt=""/>
   <map id="dart::dynamics::JointConstraint_map" name="dart::dynamics::JointConstraint_map">
-<area href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html" title="Constraint is a base class of concrete constraints classes. " alt="dart::dynamics::ConstraintBase" shape="rect" coords="110,0,321,24"/>
-<area href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html" title="BallJointConstraint represents ball joint constraint between a body and the world or between two bodi..." alt="dart::dynamics::BallJointConstraint" shape="rect" coords="0,112,211,136"/>
-<area href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html" title="WeldJointConstraint represents weld joint constraint between a body and the world or between two bodi..." alt="dart::dynamics::WeldJointConstraint" shape="rect" coords="221,112,432,136"/>
+<area href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html" title="Constraint is a base class of concrete constraints classes. " alt="dart::dynamics::ConstraintBase" shape="rect" coords="0,0,184,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac193898adb5654c03880cd80a74b66ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ac193898adb5654c03880cd80a74b66ea">JointConstraint</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_body)</td></tr>
-<tr class="memdesc:ac193898adb5654c03880cd80a74b66ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contructor.  <a href="#ac193898adb5654c03880cd80a74b66ea">More...</a><br /></td></tr>
-<tr class="separator:ac193898adb5654c03880cd80a74b66ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a847f563842ea26d89c609b384d38954f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a847f563842ea26d89c609b384d38954f">JointConstraint</a> (<a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_body1, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_body2)</td></tr>
-<tr class="memdesc:a847f563842ea26d89c609b384d38954f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contructor.  <a href="#a847f563842ea26d89c609b384d38954f">More...</a><br /></td></tr>
-<tr class="separator:a847f563842ea26d89c609b384d38954f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0dd3551b8bb92372463c0299c1170e2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ae0dd3551b8bb92372463c0299c1170e2">~JointConstraint</a> ()</td></tr>
-<tr class="memdesc:ae0dd3551b8bb92372463c0299c1170e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ae0dd3551b8bb92372463c0299c1170e2">More...</a><br /></td></tr>
-<tr class="separator:ae0dd3551b8bb92372463c0299c1170e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af231e5a59bcc3cd7e0358d8d1b3ee731"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#af231e5a59bcc3cd7e0358d8d1b3ee731">getBodyNode1</a> () const</td></tr>
-<tr class="memdesc:af231e5a59bcc3cd7e0358d8d1b3ee731"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the first <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> that this constraint is associated with.  <a href="#af231e5a59bcc3cd7e0358d8d1b3ee731">More...</a><br /></td></tr>
-<tr class="separator:af231e5a59bcc3cd7e0358d8d1b3ee731"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02117429cec6327b848130ce2982189f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a02117429cec6327b848130ce2982189f">getBodyNode2</a> () const</td></tr>
-<tr class="memdesc:a02117429cec6327b848130ce2982189f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the second <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> that this constraint is associated with.  <a href="#a02117429cec6327b848130ce2982189f">More...</a><br /></td></tr>
-<tr class="separator:a02117429cec6327b848130ce2982189f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6fe87707e51232922edb3128212dd8b"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#ad6fe87707e51232922edb3128212dd8b">getType</a> () const</td></tr>
-<tr class="memdesc:ad6fe87707e51232922edb3128212dd8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the constraint type.  <a href="#ad6fe87707e51232922edb3128212dd8b">More...</a><br /></td></tr>
-<tr class="separator:ad6fe87707e51232922edb3128212dd8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a059d5e63abfcff4eeb6ac7bca529fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a9a059d5e63abfcff4eeb6ac7bca529fd">JointConstraint</a> (<a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html">dynamics::Joint</a> *joint)</td></tr>
+<tr class="memdesc:a9a059d5e63abfcff4eeb6ac7bca529fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a9a059d5e63abfcff4eeb6ac7bca529fd">More...</a><br /></td></tr>
+<tr class="separator:a9a059d5e63abfcff4eeb6ac7bca529fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0830ffab8938d87dc0ed41d761c0769"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ae0830ffab8938d87dc0ed41d761c0769">~JointConstraint</a> () override=default</td></tr>
+<tr class="memdesc:ae0830ffab8938d87dc0ed41d761c0769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#ae0830ffab8938d87dc0ed41d761c0769">More...</a><br /></td></tr>
+<tr class="separator:ae0830ffab8938d87dc0ed41d761c0769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7555251d6d68ba1275aba0beb9254be1"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a7555251d6d68ba1275aba0beb9254be1">getType</a> () const override</td></tr>
+<tr class="memdesc:a7555251d6d68ba1275aba0beb9254be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the constraint type.  <a href="#a7555251d6d68ba1275aba0beb9254be1">More...</a><br /></td></tr>
+<tr class="separator:a7555251d6d68ba1275aba0beb9254be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74157a314cf1031a7c7d80c1f3d2255c"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a74157a314cf1031a7c7d80c1f3d2255c">getDimension</a> () const</td></tr>
 <tr class="memdesc:a74157a314cf1031a7c7d80c1f3d2255c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return dimesion of this constranit.  <a href="#a74157a314cf1031a7c7d80c1f3d2255c">More...</a><br /></td></tr>
 <tr class="separator:a74157a314cf1031a7c7d80c1f3d2255c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ccd3f4ef474157c50b369da917c393b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a1ccd3f4ef474157c50b369da917c393b">update</a> ()=0</td></tr>
-<tr class="memdesc:a1ccd3f4ef474157c50b369da917c393b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update constraint using updated <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html" title="class Skeleton ">Skeleton</a>'s states.  <a href="#a1ccd3f4ef474157c50b369da917c393b">More...</a><br /></td></tr>
-<tr class="separator:a1ccd3f4ef474157c50b369da917c393b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0c3452fbec1eedd4a25e86f1674acce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#ab0c3452fbec1eedd4a25e86f1674acce">getInformation</a> (<a class="el" href="../../dd/df6/structdart_1_1dynamics_1_1ConstraintInfo.html">ConstraintInfo</a> *info)=0</td></tr>
-<tr class="memdesc:ab0c3452fbec1eedd4a25e86f1674acce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill LCP variables.  <a href="#ab0c3452fbec1eedd4a25e86f1674acce">More...</a><br /></td></tr>
-<tr class="separator:ab0c3452fbec1eedd4a25e86f1674acce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3af3810489a7316168cbc8460350f2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a1b3af3810489a7316168cbc8460350f2">applyUnitImpulse</a> (std::size_t <a class="el" href="../../d8/d35/SkelParser_8cpp.html#ac28efa16fb8062e271f8b7a373cc1734">index</a>)=0</td></tr>
-<tr class="memdesc:a1b3af3810489a7316168cbc8460350f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply unit impulse to constraint space.  <a href="#a1b3af3810489a7316168cbc8460350f2">More...</a><br /></td></tr>
-<tr class="separator:a1b3af3810489a7316168cbc8460350f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fc83201070fd19e579c824cc91b0ec2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a9fc83201070fd19e579c824cc91b0ec2">getVelocityChange</a> (double *vel, bool withCfm)=0</td></tr>
-<tr class="memdesc:a9fc83201070fd19e579c824cc91b0ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get velocity change due to the uint impulse.  <a href="#a9fc83201070fd19e579c824cc91b0ec2">More...</a><br /></td></tr>
-<tr class="separator:a9fc83201070fd19e579c824cc91b0ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7463f28ac26c0b35e4c7894d0683870"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#af7463f28ac26c0b35e4c7894d0683870">excite</a> ()=0</td></tr>
-<tr class="memdesc:af7463f28ac26c0b35e4c7894d0683870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Excite the constraint.  <a href="#af7463f28ac26c0b35e4c7894d0683870">More...</a><br /></td></tr>
-<tr class="separator:af7463f28ac26c0b35e4c7894d0683870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3cc0e0574b27aed025ed7ff9be1eec"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a1b3cc0e0574b27aed025ed7ff9be1eec">unexcite</a> ()=0</td></tr>
-<tr class="memdesc:a1b3cc0e0574b27aed025ed7ff9be1eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unexcite the constraint.  <a href="#a1b3cc0e0574b27aed025ed7ff9be1eec">More...</a><br /></td></tr>
-<tr class="separator:a1b3cc0e0574b27aed025ed7ff9be1eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f13ae08072e72ff4ce84118dedc678d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a4f13ae08072e72ff4ce84118dedc678d">applyImpulse</a> (double *lambda)=0</td></tr>
-<tr class="memdesc:a4f13ae08072e72ff4ce84118dedc678d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply computed constraint impulse to constrained skeletons.  <a href="#a4f13ae08072e72ff4ce84118dedc678d">More...</a><br /></td></tr>
-<tr class="separator:a4f13ae08072e72ff4ce84118dedc678d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84dec2bc1b9f4d65752c5da47075ff40"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a84dec2bc1b9f4d65752c5da47075ff40">isActive</a> () const =0</td></tr>
-<tr class="memdesc:a84dec2bc1b9f4d65752c5da47075ff40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if this constraint is active.  <a href="#a84dec2bc1b9f4d65752c5da47075ff40">More...</a><br /></td></tr>
-<tr class="separator:a84dec2bc1b9f4d65752c5da47075ff40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87e40313326aa5d58b8ac5ff04684d88"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618">dynamics::SkeletonPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a87e40313326aa5d58b8ac5ff04684d88">getRootSkeleton</a> () const =0</td></tr>
-<tr class="separator:a87e40313326aa5d58b8ac5ff04684d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf012b76ed6b126e1479e5541d472ba8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#aaf012b76ed6b126e1479e5541d472ba8">uniteSkeletons</a> ()</td></tr>
 <tr class="separator:aaf012b76ed6b126e1479e5541d472ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:abbd0e52614bbaf4df12361840c72146b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#abbd0e52614bbaf4df12361840c72146b">setErrorAllowance</a> (double _allowance)</td></tr>
-<tr class="memdesc:abbd0e52614bbaf4df12361840c72146b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global error reduction parameter.  <a href="#abbd0e52614bbaf4df12361840c72146b">More...</a><br /></td></tr>
-<tr class="separator:abbd0e52614bbaf4df12361840c72146b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa89f5b3b124408265346156d15b0c05"><td class="memItemLeft" align="right" valign="top">static const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#afa89f5b3b124408265346156d15b0c05">getStaticType</a> ()</td></tr>
+<tr class="memdesc:afa89f5b3b124408265346156d15b0c05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns constraint type for this class.  <a href="#afa89f5b3b124408265346156d15b0c05">More...</a><br /></td></tr>
+<tr class="separator:afa89f5b3b124408265346156d15b0c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a308ce9453e8d3e447848ebd51d69fc11"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a308ce9453e8d3e447848ebd51d69fc11">setErrorAllowance</a> (double allowance)</td></tr>
+<tr class="memdesc:a308ce9453e8d3e447848ebd51d69fc11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global error reduction parameter.  <a href="#a308ce9453e8d3e447848ebd51d69fc11">More...</a><br /></td></tr>
+<tr class="separator:a308ce9453e8d3e447848ebd51d69fc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0adc76962d337e05913ee8bb2462f886"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a0adc76962d337e05913ee8bb2462f886">getErrorAllowance</a> ()</td></tr>
 <tr class="memdesc:a0adc76962d337e05913ee8bb2462f886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get global error reduction parameter.  <a href="#a0adc76962d337e05913ee8bb2462f886">More...</a><br /></td></tr>
 <tr class="separator:a0adc76962d337e05913ee8bb2462f886"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca2284bba79e90a73af3946c967f905f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#aca2284bba79e90a73af3946c967f905f">setErrorReductionParameter</a> (double _erp)</td></tr>
-<tr class="memdesc:aca2284bba79e90a73af3946c967f905f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global error reduction parameter.  <a href="#aca2284bba79e90a73af3946c967f905f">More...</a><br /></td></tr>
-<tr class="separator:aca2284bba79e90a73af3946c967f905f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a288357b622aa9c1737179a041b54a130"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a288357b622aa9c1737179a041b54a130">setErrorReductionParameter</a> (double erp)</td></tr>
+<tr class="memdesc:a288357b622aa9c1737179a041b54a130"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global error reduction parameter.  <a href="#a288357b622aa9c1737179a041b54a130">More...</a><br /></td></tr>
+<tr class="separator:a288357b622aa9c1737179a041b54a130"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adee1d93c5a08641df3e9be5a7b6f6b76"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#adee1d93c5a08641df3e9be5a7b6f6b76">getErrorReductionParameter</a> ()</td></tr>
 <tr class="memdesc:adee1d93c5a08641df3e9be5a7b6f6b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get global error reduction parameter.  <a href="#adee1d93c5a08641df3e9be5a7b6f6b76">More...</a><br /></td></tr>
 <tr class="separator:adee1d93c5a08641df3e9be5a7b6f6b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e982c2c2129cf965d2fdc7a38ee6246"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a0e982c2c2129cf965d2fdc7a38ee6246">setMaxErrorReductionVelocity</a> (double _erv)</td></tr>
-<tr class="memdesc:a0e982c2c2129cf965d2fdc7a38ee6246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global error reduction parameter.  <a href="#a0e982c2c2129cf965d2fdc7a38ee6246">More...</a><br /></td></tr>
-<tr class="separator:a0e982c2c2129cf965d2fdc7a38ee6246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e878b62bccab050831c4477f588a839"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a1e878b62bccab050831c4477f588a839">setMaxErrorReductionVelocity</a> (double erv)</td></tr>
+<tr class="memdesc:a1e878b62bccab050831c4477f588a839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global error reduction parameter.  <a href="#a1e878b62bccab050831c4477f588a839">More...</a><br /></td></tr>
+<tr class="separator:a1e878b62bccab050831c4477f588a839"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ced14dd64caebce35b76f4037ce2f6d"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a7ced14dd64caebce35b76f4037ce2f6d">getMaxErrorReductionVelocity</a> ()</td></tr>
 <tr class="memdesc:a7ced14dd64caebce35b76f4037ce2f6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get global error reduction parameter.  <a href="#a7ced14dd64caebce35b76f4037ce2f6d">More...</a><br /></td></tr>
 <tr class="separator:a7ced14dd64caebce35b76f4037ce2f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a9a1752817345e8d4be6fe88c338589"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a6a9a1752817345e8d4be6fe88c338589">setConstraintForceMixing</a> (double _cfm)</td></tr>
-<tr class="memdesc:a6a9a1752817345e8d4be6fe88c338589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global constraint force mixing parameter.  <a href="#a6a9a1752817345e8d4be6fe88c338589">More...</a><br /></td></tr>
-<tr class="separator:a6a9a1752817345e8d4be6fe88c338589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad98f5a5b80fcf38e9a86b171d916614d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ad98f5a5b80fcf38e9a86b171d916614d">setConstraintForceMixing</a> (double cfm)</td></tr>
+<tr class="memdesc:ad98f5a5b80fcf38e9a86b171d916614d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set global constraint force mixing parameter.  <a href="#ad98f5a5b80fcf38e9a86b171d916614d">More...</a><br /></td></tr>
+<tr class="separator:ad98f5a5b80fcf38e9a86b171d916614d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1465d72905bef68644fe7570a1fd6bb7"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a1465d72905bef68644fe7570a1fd6bb7">getConstraintForceMixing</a> ()</td></tr>
 <tr class="memdesc:a1465d72905bef68644fe7570a1fd6bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get global constraint force mixing parameter.  <a href="#a1465d72905bef68644fe7570a1fd6bb7">More...</a><br /></td></tr>
 <tr class="separator:a1465d72905bef68644fe7570a1fd6bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,20 +165,73 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a82bada9b9e19d8a7bf7dabff8223d17e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618">dynamics::SkeletonPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a82bada9b9e19d8a7bf7dabff8223d17e">compressPath</a> (<a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618">dynamics::SkeletonPtr</a> skeleton)</td></tr>
 <tr class="separator:a82bada9b9e19d8a7bf7dabff8223d17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a581b7f4c54393ac94e5c94980e996f70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a581b7f4c54393ac94e5c94980e996f70">update</a> () override</td></tr>
+<tr class="memdesc:a581b7f4c54393ac94e5c94980e996f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update constraint using updated <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html" title="class Skeleton ">Skeleton</a>'s states.  <a href="#a581b7f4c54393ac94e5c94980e996f70">More...</a><br /></td></tr>
+<tr class="separator:a581b7f4c54393ac94e5c94980e996f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac06cd48502ec245d6ebb897f8fe55afa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ac06cd48502ec245d6ebb897f8fe55afa">getInformation</a> (<a class="el" href="../../dd/df6/structdart_1_1dynamics_1_1ConstraintInfo.html">ConstraintInfo</a> *lcp) override</td></tr>
+<tr class="memdesc:ac06cd48502ec245d6ebb897f8fe55afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill LCP variables.  <a href="#ac06cd48502ec245d6ebb897f8fe55afa">More...</a><br /></td></tr>
+<tr class="separator:ac06cd48502ec245d6ebb897f8fe55afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a7fb6a8fcb74c24c65252f1b761d85a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a5a7fb6a8fcb74c24c65252f1b761d85a">applyUnitImpulse</a> (std::size_t <a class="el" href="../../d8/d35/SkelParser_8cpp.html#ac28efa16fb8062e271f8b7a373cc1734">index</a>) override</td></tr>
+<tr class="memdesc:a5a7fb6a8fcb74c24c65252f1b761d85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply unit impulse to constraint space.  <a href="#a5a7fb6a8fcb74c24c65252f1b761d85a">More...</a><br /></td></tr>
+<tr class="separator:a5a7fb6a8fcb74c24c65252f1b761d85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e5bb35eb77e07e034ad3b3cd3a5494"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a91e5bb35eb77e07e034ad3b3cd3a5494">getVelocityChange</a> (double *delVel, bool withCfm) override</td></tr>
+<tr class="memdesc:a91e5bb35eb77e07e034ad3b3cd3a5494"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get velocity change due to the uint impulse.  <a href="#a91e5bb35eb77e07e034ad3b3cd3a5494">More...</a><br /></td></tr>
+<tr class="separator:a91e5bb35eb77e07e034ad3b3cd3a5494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf1fbf881546014430a0b85fad7eb5fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#abf1fbf881546014430a0b85fad7eb5fb">excite</a> () override</td></tr>
+<tr class="memdesc:abf1fbf881546014430a0b85fad7eb5fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Excite the constraint.  <a href="#abf1fbf881546014430a0b85fad7eb5fb">More...</a><br /></td></tr>
+<tr class="separator:abf1fbf881546014430a0b85fad7eb5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae112e56a3946c5841a79bfeba3de731e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ae112e56a3946c5841a79bfeba3de731e">unexcite</a> () override</td></tr>
+<tr class="memdesc:ae112e56a3946c5841a79bfeba3de731e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unexcite the constraint.  <a href="#ae112e56a3946c5841a79bfeba3de731e">More...</a><br /></td></tr>
+<tr class="separator:ae112e56a3946c5841a79bfeba3de731e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03f952a75f5293a729d287ffe08da734"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a03f952a75f5293a729d287ffe08da734">applyImpulse</a> (double *lambda) override</td></tr>
+<tr class="memdesc:a03f952a75f5293a729d287ffe08da734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply computed constraint impulse to constrained skeletons.  <a href="#a03f952a75f5293a729d287ffe08da734">More...</a><br /></td></tr>
+<tr class="separator:a03f952a75f5293a729d287ffe08da734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43039465cae9d2b821528d9ef18549a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618">dynamics::SkeletonPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#aa43039465cae9d2b821528d9ef18549a">getRootSkeleton</a> () const override</td></tr>
+<tr class="separator:aa43039465cae9d2b821528d9ef18549a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a441bba1da21b828590f3a576721c490d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a441bba1da21b828590f3a576721c490d">isActive</a> () const override</td></tr>
+<tr class="memdesc:a441bba1da21b828590f3a576721c490d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if this constraint is active.  <a href="#a441bba1da21b828590f3a576721c490d">More...</a><br /></td></tr>
+<tr class="separator:a441bba1da21b828590f3a576721c490d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a719cd672143c0ab2e7d988dfc2f2edaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a719cd672143c0ab2e7d988dfc2f2edaf">mBodyNode1</a></td></tr>
-<tr class="memdesc:a719cd672143c0ab2e7d988dfc2f2edaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">First body node.  <a href="#a719cd672143c0ab2e7d988dfc2f2edaf">More...</a><br /></td></tr>
-<tr class="separator:a719cd672143c0ab2e7d988dfc2f2edaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad68bbc90a3498113f96576ca8243a8c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ad68bbc90a3498113f96576ca8243a8c6">mBodyNode2</a></td></tr>
-<tr class="memdesc:ad68bbc90a3498113f96576ca8243a8c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Second body node.  <a href="#ad68bbc90a3498113f96576ca8243a8c6">More...</a><br /></td></tr>
-<tr class="separator:ad68bbc90a3498113f96576ca8243a8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9832f44e945cd183e4bba05ddbb328e"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#aa9832f44e945cd183e4bba05ddbb328e">mDim</a></td></tr>
 <tr class="memdesc:aa9832f44e945cd183e4bba05ddbb328e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dimension of constraint.  <a href="#aa9832f44e945cd183e4bba05ddbb328e">More...</a><br /></td></tr>
 <tr class="separator:aa9832f44e945cd183e4bba05ddbb328e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
-Static Protected Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aea612ad4bb27a622d630674e8e90cbe8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html">dynamics::Joint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#aea612ad4bb27a622d630674e8e90cbe8">mJoint</a></td></tr>
+<tr class="memdesc:aea612ad4bb27a622d630674e8e90cbe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> that this constraint is associated with.  <a href="#aea612ad4bb27a622d630674e8e90cbe8">More...</a><br /></td></tr>
+<tr class="separator:aea612ad4bb27a622d630674e8e90cbe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6b5d9e42944023e10c3f3549db39bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a8e6b5d9e42944023e10c3f3549db39bf">mBodyNode</a></td></tr>
+<tr class="memdesc:a8e6b5d9e42944023e10c3f3549db39bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The child <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> of the <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> that this constraint is associated with.  <a href="#a8e6b5d9e42944023e10c3f3549db39bf">More...</a><br /></td></tr>
+<tr class="separator:a8e6b5d9e42944023e10c3f3549db39bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfbe581737976b23ab8f3f687221714a"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#acfbe581737976b23ab8f3f687221714a">mAppliedImpulseIndex</a></td></tr>
+<tr class="memdesc:acfbe581737976b23ab8f3f687221714a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of applied impulse.  <a href="#acfbe581737976b23ab8f3f687221714a">More...</a><br /></td></tr>
+<tr class="separator:acfbe581737976b23ab8f3f687221714a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d010ce36a9662029ca29eebff1e244"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; std::size_t, 6, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a47d010ce36a9662029ca29eebff1e244">mLifeTime</a></td></tr>
+<tr class="memdesc:a47d010ce36a9662029ca29eebff1e244"><td class="mdescLeft">&#160;</td><td class="mdescRight">Life time of constraint of each DOF.  <a href="#a47d010ce36a9662029ca29eebff1e244">More...</a><br /></td></tr>
+<tr class="separator:a47d010ce36a9662029ca29eebff1e244"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9cdf63c89f263a9f7018fb7b6c579f1"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; bool, 6, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ad9cdf63c89f263a9f7018fb7b6c579f1">mActive</a></td></tr>
+<tr class="memdesc:ad9cdf63c89f263a9f7018fb7b6c579f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether any of the joint contraint is active of each joint.  <a href="#ad9cdf63c89f263a9f7018fb7b6c579f1">More...</a><br /></td></tr>
+<tr class="separator:ad9cdf63c89f263a9f7018fb7b6c579f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a731e297187a0668694d49377ca9c999c"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, 6, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a731e297187a0668694d49377ca9c999c">mDesiredVelocityChange</a></td></tr>
+<tr class="memdesc:a731e297187a0668694d49377ca9c999c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The desired delta velocity to satisfy the joint limit constraint.  <a href="#a731e297187a0668694d49377ca9c999c">More...</a><br /></td></tr>
+<tr class="separator:a731e297187a0668694d49377ca9c999c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440805d988f154e21a2d131b48866e0f"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, 6, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a440805d988f154e21a2d131b48866e0f">mOldX</a></td></tr>
+<tr class="memdesc:a440805d988f154e21a2d131b48866e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constraint impulse of the previous step.  <a href="#a440805d988f154e21a2d131b48866e0f">More...</a><br /></td></tr>
+<tr class="separator:a440805d988f154e21a2d131b48866e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ce1fbbffe8274d2775d0b4b710694f"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, 6, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#ad3ce1fbbffe8274d2775d0b4b710694f">mImpulseUpperBound</a></td></tr>
+<tr class="memdesc:ad3ce1fbbffe8274d2775d0b4b710694f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper limit of the constraint impulse.  <a href="#ad3ce1fbbffe8274d2775d0b4b710694f">More...</a><br /></td></tr>
+<tr class="separator:ad3ce1fbbffe8274d2775d0b4b710694f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60d376c17b5c7fc0d3a511b427932182"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, 6, 1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a60d376c17b5c7fc0d3a511b427932182">mImpulseLowerBound</a></td></tr>
+<tr class="memdesc:a60d376c17b5c7fc0d3a511b427932182"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower limit of the constraint impulse.  <a href="#a60d376c17b5c7fc0d3a511b427932182">More...</a><br /></td></tr>
+<tr class="separator:a60d376c17b5c7fc0d3a511b427932182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
 <tr class="memitem:a7cdf7afbbb5ce2ab92121e1d9f5d1d48"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a7cdf7afbbb5ce2ab92121e1d9f5d1d48">mErrorAllowance</a> = 0.0</td></tr>
 <tr class="memdesc:a7cdf7afbbb5ce2ab92121e1d9f5d1d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global constraint error allowance.  <a href="#a7cdf7afbbb5ce2ab92121e1d9f5d1d48">More...</a><br /></td></tr>
 <tr class="separator:a7cdf7afbbb5ce2ab92121e1d9f5d1d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,12 +244,19 @@ Static Protected Attributes</h2></td></tr>
 <tr class="memitem:a18e6c2788a29d1b324eb2387b7be24bc"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a18e6c2788a29d1b324eb2387b7be24bc">mConstraintForceMixing</a> = 1e-9</td></tr>
 <tr class="memdesc:a18e6c2788a29d1b324eb2387b7be24bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global constraint force mixing parameter in the range of [1e-9, 1].  <a href="#a18e6c2788a29d1b324eb2387b7be24bc">More...</a><br /></td></tr>
 <tr class="separator:a18e6c2788a29d1b324eb2387b7be24bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a9604aeb393ba731519e459cdd02b09ff"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a9604aeb393ba731519e459cdd02b09ff">ConstraintSolver</a></td></tr>
+<tr class="separator:a9604aeb393ba731519e459cdd02b09ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6410a06e07dfc729a6b7c1b05a207ef5"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html#a6410a06e07dfc729a6b7c1b05a207ef5">ConstrainedGroup</a></td></tr>
+<tr class="separator:a6410a06e07dfc729a6b7c1b05a207ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>class <a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html" title="class JointConstraint ">JointConstraint</a> </p>
+<div class="textblock"><p><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html" title="JointConstraint handles multiple constraints that are defined in the joint space, such as joint posit...">JointConstraint</a> handles multiple constraints that are defined in the joint space, such as joint position/velocity limits and servo motor. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac193898adb5654c03880cd80a74b66ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac193898adb5654c03880cd80a74b66ea">&#9670;&nbsp;</a></span>JointConstraint() <span class="overload">[1/2]</span></h2>
+<a id="a9a059d5e63abfcff4eeb6ac7bca529fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a059d5e63abfcff4eeb6ac7bca529fd">&#9670;&nbsp;</a></span>JointConstraint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,8 +267,8 @@ Static Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">dart::dynamics::JointConstraint::JointConstraint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td>
-          <td class="paramname"><em>_body</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html">dynamics::Joint</a> *&#160;</td>
+          <td class="paramname"><em>joint</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -250,42 +279,12 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Contructor. </p>
+<p>Constructor. </p>
 
 </div>
 </div>
-<a id="a847f563842ea26d89c609b384d38954f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a847f563842ea26d89c609b384d38954f">&#9670;&nbsp;</a></span>JointConstraint() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">dart::dynamics::JointConstraint::JointConstraint </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td>
-          <td class="paramname"><em>_body1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td>
-          <td class="paramname"><em>_body2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Contructor. </p>
-
-</div>
-</div>
-<a id="ae0dd3551b8bb92372463c0299c1170e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0dd3551b8bb92372463c0299c1170e2">&#9670;&nbsp;</a></span>~JointConstraint()</h2>
+<a id="ae0830ffab8938d87dc0ed41d761c0769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0830ffab8938d87dc0ed41d761c0769">&#9670;&nbsp;</a></span>~JointConstraint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,7 +301,7 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -312,8 +311,8 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4f13ae08072e72ff4ce84118dedc678d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f13ae08072e72ff4ce84118dedc678d">&#9670;&nbsp;</a></span>applyImpulse()</h2>
+<a id="a03f952a75f5293a729d287ffe08da734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03f952a75f5293a729d287ffe08da734">&#9670;&nbsp;</a></span>applyImpulse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +321,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void dart::dynamics::ConstraintBase::applyImpulse </td>
+          <td class="memname">void dart::dynamics::JointConstraint::applyImpulse </td>
           <td>(</td>
           <td class="paramtype">double *&#160;</td>
           <td class="paramname"><em>lambda</em></td><td>)</td>
@@ -331,19 +330,19 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Apply computed constraint impulse to constrained skeletons. </p>
 
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#a8ced06b8d02acbe6e903cd364804dd0a">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#acd1875c927370bbeaa738aede66838fc">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#ad9339d653a6c3b3af7f1f0d8a844004d">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#af50f395e4bcadd9d27e6973363effbd3">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#a4f4a589c93cf59356f66b554977f40eb">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#a793a7171405f1172526c7f17d226a6fe">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#ad3d651ea3d029786bb2a0b4e3548f408">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#a5588c722f2ae7115c10773dc79b078b3">dart::dynamics::WeldJointConstraint</a>.</p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a4f13ae08072e72ff4ce84118dedc678d">dart::dynamics::ConstraintBase</a>.</p>
 
 </div>
 </div>
-<a id="a1b3af3810489a7316168cbc8460350f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b3af3810489a7316168cbc8460350f2">&#9670;&nbsp;</a></span>applyUnitImpulse()</h2>
+<a id="a5a7fb6a8fcb74c24c65252f1b761d85a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a7fb6a8fcb74c24c65252f1b761d85a">&#9670;&nbsp;</a></span>applyUnitImpulse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,7 +351,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void dart::dynamics::ConstraintBase::applyUnitImpulse </td>
+          <td class="memname">void dart::dynamics::JointConstraint::applyUnitImpulse </td>
           <td>(</td>
           <td class="paramtype">std::size_t&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -361,14 +360,14 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Apply unit impulse to constraint space. </p>
 
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#a36d0b5c88ee914cade9f47b01c3730ff">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a2e950e03723dab5244ba97864c00eda2">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#a7f7206a8715a6c4b9a39fa4c9ff91db1">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#ab1caa907caa1e478a0334acff305341d">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#acc8a0d490ed6887a71b91d8610f9acdc">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#a5ee82849a3154f6698350c216eb0c5fb">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#a975986302cd51f9f8af943afedc6ab50">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#a37729c87dc423f852cdf3db081f51995">dart::dynamics::WeldJointConstraint</a>.</p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a1b3af3810489a7316168cbc8460350f2">dart::dynamics::ConstraintBase</a>.</p>
 
 </div>
 </div>
@@ -398,8 +397,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af7463f28ac26c0b35e4c7894d0683870"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7463f28ac26c0b35e4c7894d0683870">&#9670;&nbsp;</a></span>excite()</h2>
+<a id="abf1fbf881546014430a0b85fad7eb5fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf1fbf881546014430a0b85fad7eb5fb">&#9670;&nbsp;</a></span>excite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -408,7 +407,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void dart::dynamics::ConstraintBase::excite </td>
+          <td class="memname">void dart::dynamics::JointConstraint::excite </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -416,52 +415,14 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Excite the constraint. </p>
 
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#ada415e92f3d00eb58625476c5985acd1">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#afcfdb2cb27fdfa96590751d8149e4ad3">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#ad66160cf69a1c87cd163734a1ac969c9">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#a1c20909e04232d09423a3420b3dd5f7f">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#afbacf2155833331139af432417fdb7e7">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#aa738dab2017a2b9be837b99a7c86a538">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#a7d78cbcc14dc18e56b31c1356c70c42a">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#aba91e1879b300478e5edb2bb5b693f41">dart::dynamics::WeldJointConstraint</a>.</p>
-
-</div>
-</div>
-<a id="af231e5a59bcc3cd7e0358d8d1b3ee731"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af231e5a59bcc3cd7e0358d8d1b3ee731">&#9670;&nbsp;</a></span>getBodyNode1()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> * dart::dynamics::JointConstraint::getBodyNode1 </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the first <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> that this constraint is associated with. </p>
-
-</div>
-</div>
-<a id="a02117429cec6327b848130ce2982189f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02117429cec6327b848130ce2982189f">&#9670;&nbsp;</a></span>getBodyNode2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> * dart::dynamics::JointConstraint::getBodyNode2 </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the second <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> that this constraint is associated with. </p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#af7463f28ac26c0b35e4c7894d0683870">dart::dynamics::ConstraintBase</a>.</p>
 
 </div>
 </div>
@@ -573,8 +534,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab0c3452fbec1eedd4a25e86f1674acce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0c3452fbec1eedd4a25e86f1674acce">&#9670;&nbsp;</a></span>getInformation()</h2>
+<a id="ac06cd48502ec245d6ebb897f8fe55afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac06cd48502ec245d6ebb897f8fe55afa">&#9670;&nbsp;</a></span>getInformation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -583,7 +544,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void dart::dynamics::ConstraintBase::getInformation </td>
+          <td class="memname">void dart::dynamics::JointConstraint::getInformation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/df6/structdart_1_1dynamics_1_1ConstraintInfo.html">ConstraintInfo</a> *&#160;</td>
           <td class="paramname"><em>info</em></td><td>)</td>
@@ -592,14 +553,14 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Fill LCP variables. </p>
 
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#a005004812509b0b366228d7f9f831331">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a90a31ffd2f0e7b4bd9c4fecf87653538">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#a1a1240f3da4e7238594af5d2ac86d857">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#aece4308de3c043950dcaf152f657789d">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#a6edcc0530f78f465d0c4b5b73e73c7e0">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#a87ea686227107c94ea4383dd939b8de3">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#a5d519ba2c0b64b6464eb6eeddfd2045f">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#adb4dbbec9e80e1221d05d7205ece77e2">dart::dynamics::WeldJointConstraint</a>.</p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#ab0c3452fbec1eedd4a25e86f1674acce">dart::dynamics::ConstraintBase</a>.</p>
 
 </div>
 </div>
@@ -630,35 +591,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a87e40313326aa5d58b8ac5ff04684d88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87e40313326aa5d58b8ac5ff04684d88">&#9670;&nbsp;</a></span>getRootSkeleton() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618">dynamics::SkeletonPtr</a> dart::dynamics::ConstraintBase::getRootSkeleton </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#abd8fd7503f6f0adb36bd1ab039f3b9c7">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a8011f8696b82d390f2952435ff889c59">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#ae8618d600ff7e53ed605f42f7ed74db8">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#a06c3f85885b1a803ca9e1c748f0d0255">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#a801e68ba00ae0cacf6a4c01c62729670">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#a6df9910e75968fb2160c4ff10d77f7dc">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#a303830b09915fb2d05772681a2c8f37b">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#a4ca6e832aea513047a74db26a71b6844">dart::dynamics::WeldJointConstraint</a>.</p>
-
-</div>
-</div>
 <a id="a4fd959988ee6ca0a63d5c7256bf148b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fd959988ee6ca0a63d5c7256bf148b7">&#9670;&nbsp;</a></span>getRootSkeleton() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fd959988ee6ca0a63d5c7256bf148b7">&#9670;&nbsp;</a></span>getRootSkeleton() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -683,8 +617,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad6fe87707e51232922edb3128212dd8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6fe87707e51232922edb3128212dd8b">&#9670;&nbsp;</a></span>getType()</h2>
+<a id="aa43039465cae9d2b821528d9ef18549a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa43039465cae9d2b821528d9ef18549a">&#9670;&nbsp;</a></span>getRootSkeleton() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -693,7 +627,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; dart::dynamics::ConstraintBase::getType </td>
+          <td class="memname"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618">dynamics::SkeletonPtr</a> dart::dynamics::JointConstraint::getRootSkeleton </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -701,19 +635,17 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a string representing the constraint type. </p>
-
-<p>Reimplemented in <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#abcfaf8d9003b10e54a1cabc2baf51ed5">dart::dynamics::BallJointConstraint</a>, <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#adfd6bd09e98dd5b269d841ca6c984dc5">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#a6060ed37547d17e2d4edfbcf264aecea">dart::dynamics::WeldJointConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#a53c71a13e9128fa27757fa9e130d5347">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a81bc66c93d1c17f8f24396e07b2d2b40">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#aa4e715b4ebb3434c440e4cc0c7cd112c">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#a7761b96ade8dca35fc5088f481026fd5">dart::dynamics::JointCoulombFrictionConstraint</a>, and <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#a7438b93e0ed2ee80b5ae66c3ef21d155">dart::dynamics::ServoMotorConstraint</a>.</p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a87e40313326aa5d58b8ac5ff04684d88">dart::dynamics::ConstraintBase</a>.</p>
 
 </div>
 </div>
-<a id="a9fc83201070fd19e579c824cc91b0ec2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fc83201070fd19e579c824cc91b0ec2">&#9670;&nbsp;</a></span>getVelocityChange()</h2>
+<a id="afa89f5b3b124408265346156d15b0c05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa89f5b3b124408265346156d15b0c05">&#9670;&nbsp;</a></span>getStaticType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -722,7 +654,63 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void dart::dynamics::ConstraintBase::getVelocityChange </td>
+          <td class="memname">const std::string &amp; dart::dynamics::JointConstraint::getStaticType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns constraint type for this class. </p>
+
+</div>
+</div>
+<a id="a7555251d6d68ba1275aba0beb9254be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7555251d6d68ba1275aba0beb9254be1">&#9670;&nbsp;</a></span>getType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; dart::dynamics::JointConstraint::getType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a string representing the constraint type. </p>
+
+<p>Reimplemented from <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#ad6fe87707e51232922edb3128212dd8b">dart::dynamics::ConstraintBase</a>.</p>
+
+</div>
+</div>
+<a id="a91e5bb35eb77e07e034ad3b3cd3a5494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91e5bb35eb77e07e034ad3b3cd3a5494">&#9670;&nbsp;</a></span>getVelocityChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::JointConstraint::getVelocityChange </td>
           <td>(</td>
           <td class="paramtype">double *&#160;</td>
           <td class="paramname"><em>vel</em>, </td>
@@ -741,19 +729,19 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Get velocity change due to the uint impulse. </p>
 
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#aa39eef25a3d19db66127f84699bd4eea">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#ac66b4b4dfcba4a6003a933184b890e59">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#a19dd90da5df09cd40f9a8207bc509388">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#aa37f4b6640779b2396d8de9b74175ab0">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#ace1c16a100c2575e22aa5bf88f0fdcc9">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#a44421e7414f74172ce6c39c4a3266bd4">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#ab6022355f058d138b78de0658b59b71d">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#a15843c700eb3995a4841ba6c1f3fcd1b">dart::dynamics::WeldJointConstraint</a>.</p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a9fc83201070fd19e579c824cc91b0ec2">dart::dynamics::ConstraintBase</a>.</p>
 
 </div>
 </div>
-<a id="a84dec2bc1b9f4d65752c5da47075ff40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84dec2bc1b9f4d65752c5da47075ff40">&#9670;&nbsp;</a></span>isActive()</h2>
+<a id="a441bba1da21b828590f3a576721c490d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a441bba1da21b828590f3a576721c490d">&#9670;&nbsp;</a></span>isActive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -762,7 +750,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool dart::dynamics::ConstraintBase::isActive </td>
+          <td class="memname">bool dart::dynamics::JointConstraint::isActive </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -770,19 +758,19 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Return true if this constraint is active. </p>
 
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#a08cd2b07011dc7ea3608e02c9acd4b1b">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a725835fad85fb79bb73c2ee42c921445">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#a82aec147fa05a597b41d048dbb6737fc">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#afa6c8a7bd6b6e1d7064e3d3070a5dc12">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#ab650aeb8b6de392b74fe06def8b4af78">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#acc13af51894c3962f7cc4edd992544d3">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#a32874c47ca43d07c2937f4af5de13a1a">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#a52cc6742e5b5955a4d6606f9eb387214">dart::dynamics::WeldJointConstraint</a>.</p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a84dec2bc1b9f4d65752c5da47075ff40">dart::dynamics::ConstraintBase</a>.</p>
 
 </div>
 </div>
-<a id="a6a9a1752817345e8d4be6fe88c338589"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a9a1752817345e8d4be6fe88c338589">&#9670;&nbsp;</a></span>setConstraintForceMixing()</h2>
+<a id="ad98f5a5b80fcf38e9a86b171d916614d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad98f5a5b80fcf38e9a86b171d916614d">&#9670;&nbsp;</a></span>setConstraintForceMixing()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -794,7 +782,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">void dart::dynamics::JointConstraint::setConstraintForceMixing </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_cfm</em></td><td>)</td>
+          <td class="paramname"><em>cfm</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -809,8 +797,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abbd0e52614bbaf4df12361840c72146b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbd0e52614bbaf4df12361840c72146b">&#9670;&nbsp;</a></span>setErrorAllowance()</h2>
+<a id="a308ce9453e8d3e447848ebd51d69fc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a308ce9453e8d3e447848ebd51d69fc11">&#9670;&nbsp;</a></span>setErrorAllowance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -822,7 +810,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">void dart::dynamics::JointConstraint::setErrorAllowance </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_allowance</em></td><td>)</td>
+          <td class="paramname"><em>allowance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -837,8 +825,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aca2284bba79e90a73af3946c967f905f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca2284bba79e90a73af3946c967f905f">&#9670;&nbsp;</a></span>setErrorReductionParameter()</h2>
+<a id="a288357b622aa9c1737179a041b54a130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a288357b622aa9c1737179a041b54a130">&#9670;&nbsp;</a></span>setErrorReductionParameter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -850,7 +838,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">void dart::dynamics::JointConstraint::setErrorReductionParameter </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_erp</em></td><td>)</td>
+          <td class="paramname"><em>erp</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -865,8 +853,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0e982c2c2129cf965d2fdc7a38ee6246"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e982c2c2129cf965d2fdc7a38ee6246">&#9670;&nbsp;</a></span>setMaxErrorReductionVelocity()</h2>
+<a id="a1e878b62bccab050831c4477f588a839"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e878b62bccab050831c4477f588a839">&#9670;&nbsp;</a></span>setMaxErrorReductionVelocity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -878,7 +866,7 @@ Static Protected Attributes</h2></td></tr>
           <td class="memname">void dart::dynamics::JointConstraint::setMaxErrorReductionVelocity </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>_erv</em></td><td>)</td>
+          <td class="paramname"><em>erv</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -893,8 +881,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1b3cc0e0574b27aed025ed7ff9be1eec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b3cc0e0574b27aed025ed7ff9be1eec">&#9670;&nbsp;</a></span>unexcite()</h2>
+<a id="ae112e56a3946c5841a79bfeba3de731e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae112e56a3946c5841a79bfeba3de731e">&#9670;&nbsp;</a></span>unexcite()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -903,7 +891,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void dart::dynamics::ConstraintBase::unexcite </td>
+          <td class="memname">void dart::dynamics::JointConstraint::unexcite </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -911,14 +899,14 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Unexcite the constraint. </p>
 
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#abe62eb29c7d327d3b64a4a6c458b4d48">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a970061360031b980997f7e502fe60892">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#a4821715d64d5fc87d3eb86fd4e4f1a3d">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#a6b511fcf3546c23153b814d482676256">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#a1a3954e379be3261ce194a1def66892a">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#a866b3cdc371d997294f5b8e977b2d73a">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#a957c521a8ee8aa87d33e5bf68b260137">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#a897f70a2662caffd673f407bebbd1922">dart::dynamics::WeldJointConstraint</a>.</p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a1b3cc0e0574b27aed025ed7ff9be1eec">dart::dynamics::ConstraintBase</a>.</p>
 
 </div>
 </div>
@@ -949,8 +937,8 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1ccd3f4ef474157c50b369da917c393b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ccd3f4ef474157c50b369da917c393b">&#9670;&nbsp;</a></span>update()</h2>
+<a id="a581b7f4c54393ac94e5c94980e996f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a581b7f4c54393ac94e5c94980e996f70">&#9670;&nbsp;</a></span>update()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -959,7 +947,7 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void dart::dynamics::ConstraintBase::update </td>
+          <td class="memname">void dart::dynamics::JointConstraint::update </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -967,20 +955,65 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Update constraint using updated <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html" title="class Skeleton ">Skeleton</a>'s states. </p>
 
-<p>Implemented in <a class="el" href="../../da/d99/classdart_1_1dynamics_1_1SoftContactConstraint.html#abf59e695af77d09da9a5b0f8eec8728c">dart::dynamics::SoftContactConstraint</a>, <a class="el" href="../../da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a5bfdfe0b69962b3548c18f37c9dac3d5">dart::dynamics::ContactConstraint</a>, <a class="el" href="../../df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html#a6e829e69ebeb19b47353d17556d1b251">dart::dynamics::JointLimitConstraint</a>, <a class="el" href="../../dd/d01/classdart_1_1dynamics_1_1MimicMotorConstraint.html#aabdacb244a8115d29de6bf6f9b7ccef3">dart::dynamics::MimicMotorConstraint</a>, <a class="el" href="../../d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html#addd2833dc8e0f36cc68bb5bd75cdf84d">dart::dynamics::JointCoulombFrictionConstraint</a>, <a class="el" href="../../d7/d06/classdart_1_1dynamics_1_1ServoMotorConstraint.html#a0c4a99a189cf94b8d284201d6045f991">dart::dynamics::ServoMotorConstraint</a>, <a class="el" href="../../d4/d7c/classdart_1_1dynamics_1_1BallJointConstraint.html#ae73654aa3a11605b2da0ac3aed15220f">dart::dynamics::BallJointConstraint</a>, and <a class="el" href="../../d1/d84/classdart_1_1dynamics_1_1WeldJointConstraint.html#a4f326f9b26017c5fbc0ed5837415bd10">dart::dynamics::WeldJointConstraint</a>.</p>
+<p>Implements <a class="el" href="../../d1/d07/classdart_1_1dynamics_1_1ConstraintBase.html#a1ccd3f4ef474157c50b369da917c393b">dart::dynamics::ConstraintBase</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a6410a06e07dfc729a6b7c1b05a207ef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6410a06e07dfc729a6b7c1b05a207ef5">&#9670;&nbsp;</a></span>ConstrainedGroup</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d3/d3f/classdart_1_1dynamics_1_1ConstrainedGroup.html">ConstrainedGroup</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9604aeb393ba731519e459cdd02b09ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9604aeb393ba731519e459cdd02b09ff">&#9670;&nbsp;</a></span>ConstraintSolver</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html">ConstraintSolver</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a719cd672143c0ab2e7d988dfc2f2edaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a719cd672143c0ab2e7d988dfc2f2edaf">&#9670;&nbsp;</a></span>mBodyNode1</h2>
+<a id="ad9cdf63c89f263a9f7018fb7b6c579f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9cdf63c89f263a9f7018fb7b6c579f1">&#9670;&nbsp;</a></span>mActive</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -989,22 +1022,22 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a>* dart::dynamics::JointConstraint::mBodyNode1</td>
+          <td class="memname">Eigen::Matrix&lt;bool, 6, 1&gt; dart::dynamics::JointConstraint::mActive</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>First body node. </p>
+<p>Whether any of the joint contraint is active of each joint. </p>
 
 </div>
 </div>
-<a id="ad68bbc90a3498113f96576ca8243a8c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad68bbc90a3498113f96576ca8243a8c6">&#9670;&nbsp;</a></span>mBodyNode2</h2>
+<a id="acfbe581737976b23ab8f3f687221714a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfbe581737976b23ab8f3f687221714a">&#9670;&nbsp;</a></span>mAppliedImpulseIndex</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1013,17 +1046,41 @@ Static Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a>* dart::dynamics::JointConstraint::mBodyNode2</td>
+          <td class="memname">std::size_t dart::dynamics::JointConstraint::mAppliedImpulseIndex</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Second body node. </p>
+<p>Index of applied impulse. </p>
+
+</div>
+</div>
+<a id="a8e6b5d9e42944023e10c3f3549db39bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e6b5d9e42944023e10c3f3549db39bf">&#9670;&nbsp;</a></span>mBodyNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a>* dart::dynamics::JointConstraint::mBodyNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The child <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a> of the <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> that this constraint is associated with. </p>
 
 </div>
 </div>
@@ -1042,13 +1099,37 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Global constraint force mixing parameter in the range of [1e-9, 1]. </p>
 <p>The default is 1e-5 </p><dl class="section see"><dt>See also</dt><dd><a href="http://www.ode.org/ode-latest-userguide.html#sec_3_8_0">http://www.ode.org/ode-latest-userguide.html#sec_3_8_0</a> </dd></dl>
+
+</div>
+</div>
+<a id="a731e297187a0668694d49377ca9c999c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a731e297187a0668694d49377ca9c999c">&#9670;&nbsp;</a></span>mDesiredVelocityChange</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix&lt;double, 6, 1&gt; dart::dynamics::JointConstraint::mDesiredVelocityChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The desired delta velocity to satisfy the joint limit constraint. </p>
 
 </div>
 </div>
@@ -1091,7 +1172,7 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1115,13 +1196,109 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Global constraint error redection parameter in the range of [0, 1]. </p>
 <p>The default is 0.01. </p>
+
+</div>
+</div>
+<a id="a60d376c17b5c7fc0d3a511b427932182"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60d376c17b5c7fc0d3a511b427932182">&#9670;&nbsp;</a></span>mImpulseLowerBound</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix&lt;double, 6, 1&gt; dart::dynamics::JointConstraint::mImpulseLowerBound</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lower limit of the constraint impulse. </p>
+
+</div>
+</div>
+<a id="ad3ce1fbbffe8274d2775d0b4b710694f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3ce1fbbffe8274d2775d0b4b710694f">&#9670;&nbsp;</a></span>mImpulseUpperBound</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix&lt;double, 6, 1&gt; dart::dynamics::JointConstraint::mImpulseUpperBound</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Upper limit of the constraint impulse. </p>
+
+</div>
+</div>
+<a id="aea612ad4bb27a622d630674e8e90cbe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea612ad4bb27a622d630674e8e90cbe8">&#9670;&nbsp;</a></span>mJoint</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html">dynamics::Joint</a>* dart::dynamics::JointConstraint::mJoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a> that this constraint is associated with. </p>
+
+</div>
+</div>
+<a id="a47d010ce36a9662029ca29eebff1e244"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d010ce36a9662029ca29eebff1e244">&#9670;&nbsp;</a></span>mLifeTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix&lt;std::size_t, 6, 1&gt; dart::dynamics::JointConstraint::mLifeTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Life time of constraint of each DOF. </p>
 
 </div>
 </div>
@@ -1140,12 +1317,36 @@ Static Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Maximum error reduction velocity. </p>
+
+</div>
+</div>
+<a id="a440805d988f154e21a2d131b48866e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a440805d988f154e21a2d131b48866e0f">&#9670;&nbsp;</a></span>mOldX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Matrix&lt;double, 6, 1&gt; dart::dynamics::JointConstraint::mOldX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constraint impulse of the previous step. </p>
 
 </div>
 </div>
@@ -1155,7 +1356,7 @@ Static Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d5/d68/classdart_1_1dynamics_1_1JointConstraint.html">JointConstraint</a></li>
-    <li class="footer">Generated on Mon May 31 2021 16:30:48 for DART by
+    <li class="footer">Generated on Thu Jul 8 2021 14:03:38 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

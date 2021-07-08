@@ -13,5 +13,6 @@ var searchData=
   ['constr_5fidx',['constr_idx',['../d5/dd9/structdart_1_1optimization_1_1snopt_1_1SnoptInterface_1_1Slack.html#af941134b612d0d3455d88ca3931c1069',1,'dart::optimization::snopt::SnoptInterface::Slack']]],
   ['contactcollisions',['contactCollisions',['../de/db9/classdart_1_1collision_1_1OdeCollisionDetector.html#a7245bf1156b4e6d818ab221632a6fdb3',1,'dart::collision::OdeCollisionDetector']]],
   ['contactgeoms',['contactGeoms',['../df/d71/OdeCollisionDetector_8cpp.html#a50151d0eb66fa6cacb68e089f34b8691',1,'OdeCollisionDetector.cpp']]],
-  ['contactpointcomputationmethod',['contactPointComputationMethod',['../d2/d00/FCLCollisionDetector_8cpp.html#aadf88e60d4c7fd3bb1e13a368ce8bb3a',1,'FCLCollisionDetector.cpp']]]
+  ['contactpointcomputationmethod',['contactPointComputationMethod',['../d2/d00/FCLCollisionDetector_8cpp.html#aadf88e60d4c7fd3bb1e13a368ce8bb3a',1,'FCLCollisionDetector.cpp']]],
+  ['coplanar_5fcontact',['COPLANAR_CONTACT',['../da/dcd/namespacedart_1_1collision.html#ab8162861741984eaf27645e621772d78',1,'dart::collision']]]
 ];

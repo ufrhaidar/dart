@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"d0/dd5/classdart_1_1dynamics_1_1DantzigBoxedLcpSolver.html#a352b07229232a23af2a7c060c2e0d367":[3,0,0,2,30,1],
 "d0/dd5/classdart_1_1dynamics_1_1DantzigBoxedLcpSolver.html#a8a8c69b79a77359143c333962b22f171":[3,0,0,2,30,4],
 "d0/dd5/classdart_1_1dynamics_1_1DantzigBoxedLcpSolver.html#a97d5271c6200b498b9e52a96d730a259":[3,0,0,2,30,2],
 "d0/dd8/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html":[3,0,0,0,7,2,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a675ea9bc41741a4a62c8288c75f09fdd":[3,0,0,2,84,24],
 "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9":[3,0,0,2,84,8],
 "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a6ccea1e3a9fe763d4178c4503e2aae55":[3,0,0,2,84,31],
-"d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a6da5a229f0661f7ecab3e8b7213e81a1":[3,0,0,2,84,12]
+"d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a6da5a229f0661f7ecab3e8b7213e81a1":[3,0,0,2,84,12],
+"d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a70e43014d5be3184f88e33eaf0d0694a":[3,0,0,2,84,9]
 };

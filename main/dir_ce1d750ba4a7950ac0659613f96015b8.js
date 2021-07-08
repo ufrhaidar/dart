@@ -148,6 +148,10 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     [ "DistanceResult.hpp", "df/de9/DistanceResult_8hpp.html", [
       [ "DistanceResult", "d0/d4e/structdart_1_1collision_1_1DistanceResult.html", "d0/d4e/structdart_1_1collision_1_1DistanceResult" ]
     ] ],
+    [ "DynamicJointConstraint.cpp", "d3/ddc/DynamicJointConstraint_8cpp.html", "d3/ddc/DynamicJointConstraint_8cpp" ],
+    [ "DynamicJointConstraint.hpp", "db/dd4/DynamicJointConstraint_8hpp.html", [
+      [ "DynamicJointConstraint", "d1/de4/classdart_1_1dynamics_1_1DynamicJointConstraint.html", "d1/de4/classdart_1_1dynamics_1_1DynamicJointConstraint" ]
+    ] ],
     [ "EllipsoidShape.cpp", "d0/d4f/EllipsoidShape_8cpp.html", null ],
     [ "EllipsoidShape.hpp", "dd/d4f/EllipsoidShape_8hpp.html", [
       [ "EllipsoidShape", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape" ]
@@ -223,10 +227,6 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     [ "JointCoulombFrictionConstraint.cpp", "d1/dfc/JointCoulombFrictionConstraint_8cpp.html", "d1/dfc/JointCoulombFrictionConstraint_8cpp" ],
     [ "JointCoulombFrictionConstraint.hpp", "d7/dbe/JointCoulombFrictionConstraint_8hpp.html", [
       [ "JointCoulombFrictionConstraint", "d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint.html", "d5/dbe/classdart_1_1dynamics_1_1JointCoulombFrictionConstraint" ]
-    ] ],
-    [ "JointLimitConstraint.cpp", "db/d5d/JointLimitConstraint_8cpp.html", "db/d5d/JointLimitConstraint_8cpp" ],
-    [ "JointLimitConstraint.hpp", "de/d01/JointLimitConstraint_8hpp.html", [
-      [ "JointLimitConstraint", "df/dff/classdart_1_1dynamics_1_1JointLimitConstraint.html", "df/dff/classdart_1_1dynamics_1_1JointLimitConstraint" ]
     ] ],
     [ "LCPSolver.cpp", "d1/daf/LCPSolver_8cpp.html", null ],
     [ "LCPSolver.hpp", "d6/db1/LCPSolver_8hpp.html", [

@@ -306,6 +306,12 @@ Functions</h2></td></tr>
 <tr class="separator:a81629a83f81c50ad4318050a655ff217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b0e21997b89b43620b925d9ff1a1517"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a4b0e21997b89b43620b925d9ff1a1517">checkGroupValidity</a> (<a class="el" href="../../d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html">FCLCollisionDetector</a> *cd, <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> *group)</td></tr>
 <tr class="separator:a4b0e21997b89b43620b925d9ff1a1517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4855fe7732a9e8fbe515d4fd9f7d2c78"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a4855fe7732a9e8fbe515d4fd9f7d2c78">FABS</a> (float x)</td></tr>
+<tr class="separator:a4855fe7732a9e8fbe515d4fd9f7d2c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d4d92f76006922db9d50a6f42da0e3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a5d4d92f76006922db9d50a6f42da0e3e">edge_tri_intersect</a> (float V0[3], float V1[3], float DV0, float DV1, float V[3])</td></tr>
+<tr class="separator:a5d4d92f76006922db9d50a6f42da0e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322acfbab3a62a6cb73ccb2cc905f1db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a322acfbab3a62a6cb73ccb2cc905f1db">tri_tri_intersect</a> (float V0[3], float V1[3], float V2[3], float U0[3], float U1[3], float U2[3], float res1[3], float res2[3])</td></tr>
+<tr class="separator:a322acfbab3a62a6cb73ccb2cc905f1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39d43959bb3bd71fd9a31ce6dd16bad2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/d73/classdart_1_1collision_1_1detail_1_1OdeGeom.html">detail::OdeGeom</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a39d43959bb3bd71fd9a31ce6dd16bad2">createOdeGeom</a> (<a class="el" href="../../d4/da5/classdart_1_1collision_1_1OdeCollisionObject.html">OdeCollisionObject</a> *collObj, const <a class="el" href="../../d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html">dynamics::ShapeFrame</a> *shapeFrame)</td></tr>
 <tr class="separator:a39d43959bb3bd71fd9a31ce6dd16bad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -317,6 +323,16 @@ Variables</h2></td></tr>
 <tr class="separator:a4146747250f23fa87196b56d54138c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7562cb943cd38b057831387484bea04"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#ae7562cb943cd38b057831387484bea04">nCYLINDER_SEGMENT</a> = 8</td></tr>
 <tr class="separator:ae7562cb943cd38b057831387484bea04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd16418901f9504df23327f47b1724f9"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#acd16418901f9504df23327f47b1724f9">USE_EPSILON_TEST</a> = true</td></tr>
+<tr class="separator:acd16418901f9504df23327f47b1724f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df30563daae17b203e7b46ca22f7115"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a4df30563daae17b203e7b46ca22f7115">EPSILON</a> = 1e-6</td></tr>
+<tr class="separator:a4df30563daae17b203e7b46ca22f7115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07c249906c3f269fbc8101a4aa8aa2e2"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a07c249906c3f269fbc8101a4aa8aa2e2">NO_CONTACT</a> = 0</td></tr>
+<tr class="separator:a07c249906c3f269fbc8101a4aa8aa2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8162861741984eaf27645e621772d78"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#ab8162861741984eaf27645e621772d78">COPLANAR_CONTACT</a> = -1</td></tr>
+<tr class="separator:ab8162861741984eaf27645e621772d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c978e32178ce77b9cba2938233c685"><td class="memItemLeft" align="right" valign="top">constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html#a12c978e32178ce77b9cba2938233c685">INTERIAL_CONTACT</a> = 1</td></tr>
+<tr class="separator:a12c978e32178ce77b9cba2938233c685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a60235dadb9725d7b0a8478778a91f56f"></a>
@@ -1870,6 +1886,86 @@ template&lt;class BV &gt; </div>
 
 </div>
 </div>
+<a id="a5d4d92f76006922db9d50a6f42da0e3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d4d92f76006922db9d50a6f42da0e3e">&#9670;&nbsp;</a></span>edge_tri_intersect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::collision::edge_tri_intersect </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>V0</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>V1</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>DV0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>DV1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>V</em>[3]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4855fe7732a9e8fbe515d4fd9f7d2c78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4855fe7732a9e8fbe515d4fd9f7d2c78">&#9670;&nbsp;</a></span>FABS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float dart::collision::FABS </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a55c49df9631d223285fc8011c9c7b07e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55c49df9631d223285fc8011c9c7b07e">&#9670;&nbsp;</a></span>filterOutCollisions()</h2>
 
@@ -2092,6 +2188,78 @@ template&lt;class BV &gt; </div>
 
 </div>
 </div>
+<a id="a322acfbab3a62a6cb73ccb2cc905f1db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a322acfbab3a62a6cb73ccb2cc905f1db">&#9670;&nbsp;</a></span>tri_tri_intersect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int dart::collision::tri_tri_intersect </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>V0</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>V1</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>V2</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>U0</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>U1</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>U2</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>res1</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>res2</em>[3]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a520e56bcf5668d2de3a482a12cf447e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a520e56bcf5668d2de3a482a12cf447e3">&#9670;&nbsp;</a></span>warnUnsupportedShapeType()</h2>
 
@@ -2111,6 +2279,48 @@ template&lt;class BV &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="ab8162861741984eaf27645e621772d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8162861741984eaf27645e621772d78">&#9670;&nbsp;</a></span>COPLANAR_CONTACT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int dart::collision::COPLANAR_CONTACT = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4df30563daae17b203e7b46ca22f7115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4df30563daae17b203e7b46ca22f7115">&#9670;&nbsp;</a></span>EPSILON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double dart::collision::EPSILON = 1e-6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12c978e32178ce77b9cba2938233c685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12c978e32178ce77b9cba2938233c685">&#9670;&nbsp;</a></span>INTERIAL_CONTACT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int dart::collision::INTERIAL_CONTACT = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a80ba017c7bf196a9663e0a9d3cd8578b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80ba017c7bf196a9663e0a9d3cd8578b">&#9670;&nbsp;</a></span>MAX_CYLBOX_CLIP_POINTS</h2>
 
@@ -2177,13 +2387,41 @@ template&lt;class BV &gt; </div>
 
 </div>
 </div>
+<a id="a07c249906c3f269fbc8101a4aa8aa2e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07c249906c3f269fbc8101a4aa8aa2e2">&#9670;&nbsp;</a></span>NO_CONTACT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int dart::collision::NO_CONTACT = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd16418901f9504df23327f47b1724f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd16418901f9504df23327f47b1724f9">&#9670;&nbsp;</a></span>USE_EPSILON_TEST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool dart::collision::USE_EPSILON_TEST = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html">collision</a></li>
-    <li class="footer">Generated on Mon May 31 2021 16:30:46 for DART by
+    <li class="footer">Generated on Thu Jul 8 2021 14:03:36 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

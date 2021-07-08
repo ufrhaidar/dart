@@ -52,11 +52,10 @@ var classdart_1_1dynamics_1_1ConstraintSolver =
     [ "mCollisionResult", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a1439fcd2ae3aa331f9a3987f4ed6d09e", null ],
     [ "mConstrainedGroups", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a04383dd811df970bddc4f02a3a896427", null ],
     [ "mContactConstraints", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#aa4e260019d52aa246b860b461ab1ca10", null ],
+    [ "mJointConstraints", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#aefbe746cfde6c757d7ed41c617e2cd45", null ],
     [ "mJointCoulombFrictionConstraints", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a2409a39202bdc6c6da6a06a49f448042", null ],
-    [ "mJointLimitConstraints", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a6952a467d918214af59a9433dc330f70", null ],
     [ "mManualConstraints", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a20e5c2ae5f3eebeace64959313194d1e", null ],
     [ "mMimicMotorConstraints", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#af3fc813968f1c418f36daf851746871e", null ],
-    [ "mServoMotorConstraints", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#aeaad6bbac7898cff3584f2a951dfb271", null ],
     [ "mSkeletons", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a228c811742b48bce8a3581ba660deddc", null ],
     [ "mSoftContactConstraints", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a7ab2c1e05d8c6447b458911f62a0f485", null ],
     [ "mTimeStep", "db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#a87db1c1ae8a3190d423f69bfec688db3", null ]

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pgs_5fepsilon',['PGS_EPSILON',['../db/dd5/PgsBoxedLcpSolver_8cpp.html#a69512ba7d74c4a75cbc4d3a1d0e968d9',1,'PgsBoxedLcpSolver.cpp']]],
-  ['primitive_5fmagic_5fnumber',['PRIMITIVE_MAGIC_NUMBER',['../d6/dbd/Shape_8cpp.html#acbc824e22045a51d87e7d4678e0f7eb1',1,'Shape.cpp']]]
+  ['quad_5fobj_5finit',['QUAD_OBJ_INIT',['../d1/d1c/OpenGLRenderInterface_8cpp.html#ac0622674f5e3b0eb0bb851ca8d546b34',1,'OpenGLRenderInterface.cpp']]]
 ];
