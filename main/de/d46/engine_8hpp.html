@@ -167,7 +167,7 @@ Typedefs</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> S&gt;                                                        \</div><div class="line">  typename Engine&lt;S&gt;::template Registrar&lt;engine_type&gt; engine_type::m_registrar{\</div><div class="line">    engine_type::GetStaticType(),                                              \</div><div class="line">  []() -&gt; std::shared_ptr&lt;engine_type&gt; { <span class="keywordflow">return</span> engine_type::Create(); }}</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> S&gt;                                                        \</div><div class="line">  typename Engine&lt;S&gt;::template Registrar&lt;engine_type&gt;                          \</div><div class="line">      engine_type::m_registrar {                                               \</div><div class="line">    engine_type::GetStaticType(), []() -&gt; std::shared_ptr&lt;engine_type&gt; {       \</div><div class="line">      return engine_type::Create();                                            \</div><div class="line">    }                                                                          \</div><div class="line">  }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -176,7 +176,7 @@ Typedefs</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_7aaf2eefc9c12d3855f042d5a221f589.html">collision</a></li><li class="navelem"><a class="el" href="../../de/d46/engine_8hpp.html">engine.hpp</a></li>
-    <li class="footer">Generated on Sun Jul 11 2021 08:27:36 for DART by
+    <li class="footer">Generated on Sun Jul 11 2021 23:01:48 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

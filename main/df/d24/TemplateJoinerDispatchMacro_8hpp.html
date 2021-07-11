@@ -153,7 +153,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> Base1, <span class="keyword">class</span> Base2&gt;                                          \</div><div class="line">  template &lt;class T&gt;                                                           \</div><div class="line">  ReturnType ClassName&lt;Base1, Base2&gt;::Function Suffix                          \</div><div class="line">  {                                                                            \</div><div class="line">    if (Base1::template SpecializationChecker&lt;T&gt;())                            \</div><div class="line">      return Base1::template Function&lt;T&gt; Args;                                 \</div><div class="line">                                                                               \</div><div class="line">    return Base2::template Function&lt;T&gt; Args;                                   \</div><div class="line">  }</div></div><!-- fragment -->
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">class</span> Base1, <span class="keyword">class</span> Base2&gt;                                          \</div><div class="line">  template &lt;class T&gt;                                                           \</div><div class="line">  ReturnType ClassName&lt;Base1, Base2&gt;::Function Suffix {                        \</div><div class="line">    if (Base1::template SpecializationChecker&lt;T&gt;())                            \</div><div class="line">      return Base1::template Function&lt;T&gt; Args;                                 \</div><div class="line">                                                                               \</div><div class="line">    return Base2::template Function&lt;T&gt; Args;                                   \</div><div class="line">  }</div></div><!-- fragment -->
 <p>This macro provides the implementation for most of the member functions in common::CompositeJoiner, dynamics::NodeManagerJoinerForBodyNode, and NodeManagerJoinerForSkeleton. </p>
 <p>The member functions of those classes share essentially the same logic, so it makes sense to have a single macro that provides the implementation for all of them. </p>
 
@@ -212,7 +212,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_038ecf057a57cc1982efaa71edfdbdcb.html">common</a></li><li class="navelem"><a class="el" href="../../dir_201a2942a46777912343adccc75a2706.html">detail</a></li><li class="navelem"><a class="el" href="../../df/d24/TemplateJoinerDispatchMacro_8hpp.html">TemplateJoinerDispatchMacro.hpp</a></li>
-    <li class="footer">Generated on Sun Jul 11 2021 08:27:36 for DART by
+    <li class="footer">Generated on Sun Jul 11 2021 23:01:48 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
