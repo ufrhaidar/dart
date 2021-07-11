@@ -2,8 +2,8 @@ var searchData=
 [
   ['lcpsolver',['LCPSolver',['../d8/d1c/classdart_1_1dynamics_1_1LCPSolver.html#a47ba65fc5c3f3c82929882a2d853961d',1,'dart::dynamics::LCPSolver']]],
   ['lemke',['Lemke',['../d8/d96/namespacedart_1_1math.html#a8164c7a50cfccd89f40a7ec1a499d30f',1,'dart::math']]],
-  ['length',['length',['../dc/df9/namespacedart_1_1collision_1_1fcl.html#a486fdd4db83a0dc8eaebfa06575f14d4',1,'dart::collision::fcl']]],
-  ['length2',['length2',['../dc/df9/namespacedart_1_1collision_1_1fcl.html#a5263b0f58a2dc8bea8974f1f186f28ad',1,'dart::collision::fcl']]],
+  ['length',['length',['../da/dcd/namespacedart_1_1collision.html#a4f2147ac345d597042735fa922172223',1,'dart::collision::length()'],['../d4/d0b/namespacedart_1_1dynamics_1_1fcl.html#a6cd3b247d0f382185dc73c6cc1f700e0',1,'dart::dynamics::fcl::length()']]],
+  ['length2',['length2',['../da/dcd/namespacedart_1_1collision.html#a9bdf116498a2fc9337307a58318539af',1,'dart::collision::length2()'],['../d4/d0b/namespacedart_1_1dynamics_1_1fcl.html#a73862e1832298fd7b089c3a09b491678',1,'dart::dynamics::fcl::length2()']]],
   ['libraryname',['libraryName',['../d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#a675b80b70257451bea4a663a088ee21a',1,'dart::gui::osg::TrackballManipulator']]],
   ['lightgray',['LightGray',['../db/dbc/namespacedart_1_1Color.html#a0eb879225c769be90282fef4a95bde65',1,'dart::Color::LightGray(double alpha)'],['../db/dbc/namespacedart_1_1Color.html#a22c1fdbbea953eff1aaae7bec758f08a',1,'dart::Color::LightGray()']]],
   ['linearpathsegment',['LinearPathSegment',['../d9/dda/classdart_1_1planning_1_1LinearPathSegment.html#a2f7c0c41debfa726eb57290051216b6f',1,'dart::planning::LinearPathSegment']]],

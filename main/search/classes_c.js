@@ -8,7 +8,7 @@ var searchData=
   ['namemanager_3c_20dynamics_3a_3asimpleframeptr_20_3e',['NameManager&lt; dynamics::SimpleFramePtr &gt;',['../d9/dc9/classdart_1_1common_1_1NameManager.html',1,'dart::common']]],
   ['namemanager_3c_20dynamics_3a_3askeletonptr_20_3e',['NameManager&lt; dynamics::SkeletonPtr &gt;',['../d9/dc9/classdart_1_1common_1_1NameManager.html',1,'dart::common']]],
   ['nloptsolver',['NloptSolver',['../db/df4/classdart_1_1optimization_1_1NloptSolver.html',1,'dart::optimization']]],
-  ['node',['Node',['../db/dc8/classdart_1_1dynamics_1_1Node.html',1,'dart::dynamics']]],
+  ['node',['Node',['../db/dc8/classdart_1_1dynamics_1_1Node.html',1,'dart::dynamics::Node'],['../da/d05/classdart_1_1math_1_1Node.html',1,'dart::math::Node']]],
   ['nodedestructor',['NodeDestructor',['../de/ddb/classdart_1_1dynamics_1_1NodeDestructor.html',1,'dart::dynamics']]],
   ['nodemanagerjoinerforbodynode',['NodeManagerJoinerForBodyNode',['../d5/dc2/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode.html',1,'dart::dynamics']]],
   ['nodemanagerjoinerforbodynode_3c_20base1_20_3e',['NodeManagerJoinerForBodyNode&lt; Base1 &gt;',['../d3/ddb/classdart_1_1dynamics_1_1NodeManagerJoinerForBodyNode_3_01Base1_01_4.html',1,'dart::dynamics']]],

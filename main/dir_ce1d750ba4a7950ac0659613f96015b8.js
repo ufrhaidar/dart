@@ -56,38 +56,38 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     ] ],
     [ "CollisionDetector.cpp", "d6/d5e/CollisionDetector_8cpp.html", null ],
     [ "CollisionDetector.hpp", "d1/d6e/CollisionDetector_8hpp.html", [
-      [ "CollisionDetector", "d6/de8/classdart_1_1collision_1_1CollisionDetector.html", "d6/de8/classdart_1_1collision_1_1CollisionDetector" ],
-      [ "CollisionObjectManager", "d1/d32/classdart_1_1collision_1_1CollisionDetector_1_1CollisionObjectManager.html", "d1/d32/classdart_1_1collision_1_1CollisionDetector_1_1CollisionObjectManager" ],
-      [ "ManagerForUnsharableCollisionObjects", "d1/d88/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects.html", "d1/d88/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects" ],
-      [ "CollisionObjectDeleter", "d0/dd8/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html", "d0/dd8/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter" ],
-      [ "ManagerForSharableCollisionObjects", "d7/dde/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects.html", "d7/dde/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects" ],
-      [ "CollisionObjectDeleter", "de/d5e/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects_1_1CollisionObjectDeleter.html", "de/d5e/structdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects_1_1CollisionObjectDeleter" ]
+      [ "CollisionDetector", "d3/dc5/classdart_1_1dynamics_1_1CollisionDetector.html", "d3/dc5/classdart_1_1dynamics_1_1CollisionDetector" ],
+      [ "CollisionObjectManager", "dd/dbd/classdart_1_1dynamics_1_1CollisionDetector_1_1CollisionObjectManager.html", "dd/dbd/classdart_1_1dynamics_1_1CollisionDetector_1_1CollisionObjectManager" ],
+      [ "ManagerForUnsharableCollisionObjects", "d5/da8/classdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects.html", "d5/da8/classdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects" ],
+      [ "CollisionObjectDeleter", "dc/dda/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html", "dc/dda/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter" ],
+      [ "ManagerForSharableCollisionObjects", "de/d2f/classdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects.html", "de/d2f/classdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects" ],
+      [ "CollisionObjectDeleter", "d2/d83/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects_1_1CollisionObjectDeleter.html", "d2/d83/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects_1_1CollisionObjectDeleter" ]
     ] ],
     [ "CollisionFilter.cpp", "d1/de0/CollisionFilter_8cpp.html", null ],
     [ "CollisionFilter.hpp", "d6/de0/CollisionFilter_8hpp.html", [
-      [ "CollisionFilter", "d3/d4d/classdart_1_1collision_1_1CollisionFilter.html", "d3/d4d/classdart_1_1collision_1_1CollisionFilter" ],
-      [ "CompositeCollisionFilter", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter" ],
-      [ "BodyNodeCollisionFilter", "d6/d6e/classdart_1_1collision_1_1BodyNodeCollisionFilter.html", "d6/d6e/classdart_1_1collision_1_1BodyNodeCollisionFilter" ]
+      [ "CollisionFilter", "dc/d62/classdart_1_1dynamics_1_1CollisionFilter.html", "dc/d62/classdart_1_1dynamics_1_1CollisionFilter" ],
+      [ "CompositeCollisionFilter", "d6/da3/classdart_1_1dynamics_1_1CompositeCollisionFilter.html", "d6/da3/classdart_1_1dynamics_1_1CompositeCollisionFilter" ],
+      [ "BodyNodeCollisionFilter", "d1/d75/classdart_1_1dynamics_1_1BodyNodeCollisionFilter.html", "d1/d75/classdart_1_1dynamics_1_1BodyNodeCollisionFilter" ]
     ] ],
     [ "CollisionGroup.cpp", "d1/dac/CollisionGroup_8cpp.html", null ],
     [ "CollisionGroup.hpp", "db/d05/CollisionGroup_8hpp.html", [
-      [ "CollisionGroup", "d2/d7a/classdart_1_1collision_1_1CollisionGroup.html", "d2/d7a/classdart_1_1collision_1_1CollisionGroup" ],
-      [ "ObjectInfo", "da/d22/structdart_1_1collision_1_1CollisionGroup_1_1ObjectInfo.html", "da/d22/structdart_1_1collision_1_1CollisionGroup_1_1ObjectInfo" ],
-      [ "ShapeFrameObserver", "d0/dfe/classdart_1_1collision_1_1CollisionGroup_1_1ShapeFrameObserver.html", "d0/dfe/classdart_1_1collision_1_1CollisionGroup_1_1ShapeFrameObserver" ],
-      [ "CollisionSource", "d3/d23/structdart_1_1collision_1_1CollisionGroup_1_1CollisionSource.html", "d3/d23/structdart_1_1collision_1_1CollisionGroup_1_1CollisionSource" ],
-      [ "ChildInfo", "d1/db3/structdart_1_1collision_1_1CollisionGroup_1_1CollisionSource_1_1ChildInfo.html", "d1/db3/structdart_1_1collision_1_1CollisionGroup_1_1CollisionSource_1_1ChildInfo" ]
+      [ "CollisionGroup", "d6/d1c/classdart_1_1dynamics_1_1CollisionGroup.html", "d6/d1c/classdart_1_1dynamics_1_1CollisionGroup" ],
+      [ "ObjectInfo", "d0/ddf/structdart_1_1dynamics_1_1CollisionGroup_1_1ObjectInfo.html", "d0/ddf/structdart_1_1dynamics_1_1CollisionGroup_1_1ObjectInfo" ],
+      [ "ShapeFrameObserver", "da/d9f/classdart_1_1dynamics_1_1CollisionGroup_1_1ShapeFrameObserver.html", "da/d9f/classdart_1_1dynamics_1_1CollisionGroup_1_1ShapeFrameObserver" ],
+      [ "CollisionSource", "dc/dca/structdart_1_1dynamics_1_1CollisionGroup_1_1CollisionSource.html", "dc/dca/structdart_1_1dynamics_1_1CollisionGroup_1_1CollisionSource" ],
+      [ "ChildInfo", "d6/da8/structdart_1_1dynamics_1_1CollisionGroup_1_1CollisionSource_1_1ChildInfo.html", "d6/da8/structdart_1_1dynamics_1_1CollisionGroup_1_1CollisionSource_1_1ChildInfo" ]
     ] ],
     [ "CollisionObject.cpp", "db/d4c/CollisionObject_8cpp.html", null ],
     [ "CollisionObject.hpp", "dc/d78/CollisionObject_8hpp.html", [
-      [ "CollisionObject", "dd/d11/classdart_1_1collision_1_1CollisionObject.html", "dd/d11/classdart_1_1collision_1_1CollisionObject" ]
+      [ "CollisionObject", "de/dbf/classdart_1_1dynamics_1_1CollisionObject.html", "de/dbf/classdart_1_1dynamics_1_1CollisionObject" ]
     ] ],
     [ "CollisionOption.cpp", "da/d1b/CollisionOption_8cpp.html", null ],
     [ "CollisionOption.hpp", "de/df0/CollisionOption_8hpp.html", [
-      [ "CollisionOption", "d4/d5b/structdart_1_1collision_1_1CollisionOption.html", "d4/d5b/structdart_1_1collision_1_1CollisionOption" ]
+      [ "CollisionOption", "d1/d50/structdart_1_1dynamics_1_1CollisionOption.html", "d1/d50/structdart_1_1dynamics_1_1CollisionOption" ]
     ] ],
     [ "CollisionResult.cpp", "d9/dda/CollisionResult_8cpp.html", null ],
     [ "CollisionResult.hpp", "db/d44/CollisionResult_8hpp.html", [
-      [ "CollisionResult", "d8/d41/classdart_1_1collision_1_1CollisionResult.html", "d8/d41/classdart_1_1collision_1_1CollisionResult" ]
+      [ "CollisionResult", "d0/d03/classdart_1_1dynamics_1_1CollisionResult.html", "d0/d03/classdart_1_1dynamics_1_1CollisionResult" ]
     ] ],
     [ "CompositeNode.hpp", "d8/def/CompositeNode_8hpp.html", [
       [ "CompositeStateNode", "d7/d3d/classdart_1_1dynamics_1_1CompositeStateNode.html", "d7/d3d/classdart_1_1dynamics_1_1CompositeStateNode" ],
@@ -113,7 +113,7 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     ] ],
     [ "Contact.cpp", "d4/d26/Contact_8cpp.html", null ],
     [ "Contact.hpp", "df/d90/Contact_8hpp.html", [
-      [ "Contact", "db/d36/structdart_1_1collision_1_1Contact.html", "db/d36/structdart_1_1collision_1_1Contact" ]
+      [ "Contact", "d0/d99/structdart_1_1dynamics_1_1Contact.html", "d0/d99/structdart_1_1dynamics_1_1Contact" ]
     ] ],
     [ "ContactConstraint.cpp", "d7/d27/ContactConstraint_8cpp.html", "d7/d27/ContactConstraint_8cpp" ],
     [ "ContactConstraint.hpp", "d2/d6e/ContactConstraint_8hpp.html", [
@@ -137,16 +137,16 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     ] ],
     [ "DistanceFilter.cpp", "df/d6c/DistanceFilter_8cpp.html", null ],
     [ "DistanceFilter.hpp", "de/dcb/DistanceFilter_8hpp.html", [
-      [ "DistanceFilter", "d2/d0a/structdart_1_1collision_1_1DistanceFilter.html", "d2/d0a/structdart_1_1collision_1_1DistanceFilter" ],
-      [ "BodyNodeDistanceFilter", "d6/da7/structdart_1_1collision_1_1BodyNodeDistanceFilter.html", "d6/da7/structdart_1_1collision_1_1BodyNodeDistanceFilter" ]
+      [ "DistanceFilter", "d2/d39/structdart_1_1dynamics_1_1DistanceFilter.html", "d2/d39/structdart_1_1dynamics_1_1DistanceFilter" ],
+      [ "BodyNodeDistanceFilter", "df/dde/structdart_1_1dynamics_1_1BodyNodeDistanceFilter.html", "df/dde/structdart_1_1dynamics_1_1BodyNodeDistanceFilter" ]
     ] ],
     [ "DistanceOption.cpp", "d8/ddb/DistanceOption_8cpp.html", null ],
     [ "DistanceOption.hpp", "d6/d07/DistanceOption_8hpp.html", [
-      [ "DistanceOption", "da/d12/structdart_1_1collision_1_1DistanceOption.html", "da/d12/structdart_1_1collision_1_1DistanceOption" ]
+      [ "DistanceOption", "d3/d14/structdart_1_1dynamics_1_1DistanceOption.html", "d3/d14/structdart_1_1dynamics_1_1DistanceOption" ]
     ] ],
     [ "DistanceResult.cpp", "d6/d78/DistanceResult_8cpp.html", "d6/d78/DistanceResult_8cpp" ],
     [ "DistanceResult.hpp", "df/de9/DistanceResult_8hpp.html", [
-      [ "DistanceResult", "d0/d4e/structdart_1_1collision_1_1DistanceResult.html", "d0/d4e/structdart_1_1collision_1_1DistanceResult" ]
+      [ "DistanceResult", "df/de3/structdart_1_1dynamics_1_1DistanceResult.html", "df/de3/structdart_1_1dynamics_1_1DistanceResult" ]
     ] ],
     [ "DynamicJointConstraint.cpp", "d3/ddc/DynamicJointConstraint_8cpp.html", "d3/ddc/DynamicJointConstraint_8cpp" ],
     [ "DynamicJointConstraint.hpp", "db/dd4/DynamicJointConstraint_8hpp.html", [
@@ -261,8 +261,8 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     ] ],
     [ "MultiSphereConvexHullShape.cpp", "d7/df4/MultiSphereConvexHullShape_8cpp.html", null ],
     [ "MultiSphereConvexHullShape.hpp", "d2/d41/MultiSphereConvexHullShape_8hpp.html", "d2/d41/MultiSphereConvexHullShape_8hpp" ],
-    [ "Node.cpp", "dc/d73/Node_8cpp.html", "dc/d73/Node_8cpp" ],
-    [ "Node.hpp", "d7/dc6/Node_8hpp.html", [
+    [ "Node.cpp", "d9/d7c/dynamics_2Node_8cpp.html", "d9/d7c/dynamics_2Node_8cpp" ],
+    [ "Node.hpp", "d3/dd3/dynamics_2Node_8hpp.html", [
       [ "NodeDestructor", "de/ddb/classdart_1_1dynamics_1_1NodeDestructor.html", "de/ddb/classdart_1_1dynamics_1_1NodeDestructor" ],
       [ "Node", "db/dc8/classdart_1_1dynamics_1_1Node.html", "db/dc8/classdart_1_1dynamics_1_1Node" ],
       [ "State", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State.html", "d4/d98/classdart_1_1dynamics_1_1Node_1_1State" ],
@@ -315,12 +315,12 @@ var dir_ce1d750ba4a7950ac0659613f96015b8 =
     ] ],
     [ "RaycastOption.cpp", "d1/d6d/RaycastOption_8cpp.html", null ],
     [ "RaycastOption.hpp", "d1/de3/RaycastOption_8hpp.html", [
-      [ "RaycastOption", "db/d4f/structdart_1_1collision_1_1RaycastOption.html", "db/d4f/structdart_1_1collision_1_1RaycastOption" ]
+      [ "RaycastOption", "d8/d42/structdart_1_1dynamics_1_1RaycastOption.html", "d8/d42/structdart_1_1dynamics_1_1RaycastOption" ]
     ] ],
     [ "RaycastResult.cpp", "d5/df0/RaycastResult_8cpp.html", null ],
     [ "RaycastResult.hpp", "da/d2b/RaycastResult_8hpp.html", [
-      [ "RayHit", "d3/dfc/structdart_1_1collision_1_1RayHit.html", "d3/dfc/structdart_1_1collision_1_1RayHit" ],
-      [ "RaycastResult", "dc/d80/structdart_1_1collision_1_1RaycastResult.html", "dc/d80/structdart_1_1collision_1_1RaycastResult" ]
+      [ "RayHit", "dd/deb/structdart_1_1dynamics_1_1RayHit.html", "dd/deb/structdart_1_1dynamics_1_1RayHit" ],
+      [ "RaycastResult", "d9/dcc/structdart_1_1dynamics_1_1RaycastResult.html", "d9/dcc/structdart_1_1dynamics_1_1RaycastResult" ]
     ] ],
     [ "ReferentialSkeleton.cpp", "db/d2f/ReferentialSkeleton_8cpp.html", "db/d2f/ReferentialSkeleton_8cpp" ],
     [ "ReferentialSkeleton.hpp", "db/d02/ReferentialSkeleton_8hpp.html", [

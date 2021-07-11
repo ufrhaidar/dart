@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('dd/dfb/classdart_1_1math_1_1Random.htm
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="../../d0/d97/classdart_1_1math_1_1Random-members.html">List of all members</a>  </div>
@@ -111,6 +112,23 @@ Public Types</h2></td></tr>
 <tr class="memitem:a45f66389bf4bbf432fbe236a28345d33"><td class="memTemplParams" colspan="2">template&lt;typename FloatType &gt; </td></tr>
 <tr class="memitem:a45f66389bf4bbf432fbe236a28345d33"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dfb/classdart_1_1math_1_1Random.html#a45f66389bf4bbf432fbe236a28345d33">NormalRealDist</a> = std::normal_distribution&lt; FloatType &gt;</td></tr>
 <tr class="separator:a45f66389bf4bbf432fbe236a28345d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a7a80ebb80f25872b20e15c17df5832c9"><td class="memTemplParams" colspan="2">template&lt;typename S  = double&gt; </td></tr>
+<tr class="memitem:a7a80ebb80f25872b20e15c17df5832c9"><td class="memTemplItemLeft" align="right" valign="top">static ::Eigen::Quaternion&lt; S &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dfb/classdart_1_1math_1_1Random.html#a7a80ebb80f25872b20e15c17df5832c9">uniformUnitQuaternion</a> ()</td></tr>
+<tr class="memdesc:a7a80ebb80f25872b20e15c17df5832c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random unit quaternion sampled uniformly sampled on SO(3)  <a href="#a7a80ebb80f25872b20e15c17df5832c9">More...</a><br /></td></tr>
+<tr class="separator:a7a80ebb80f25872b20e15c17df5832c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c7b51c8195b940679ebc664c77dada"><td class="memTemplParams" colspan="2">template&lt;typename S  = double&gt; </td></tr>
+<tr class="memitem:a10c7b51c8195b940679ebc664c77dada"><td class="memTemplItemLeft" align="right" valign="top">static ::Eigen::Matrix&lt; S, 3, 3 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dfb/classdart_1_1math_1_1Random.html#a10c7b51c8195b940679ebc664c77dada">uniformRotationMatrix3</a> ()</td></tr>
+<tr class="memdesc:a10c7b51c8195b940679ebc664c77dada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random rotation matrix that is uniformly sampled on SO(3)  <a href="#a10c7b51c8195b940679ebc664c77dada">More...</a><br /></td></tr>
+<tr class="separator:a10c7b51c8195b940679ebc664c77dada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af936ed8d4226500761e4df40094c9b13"><td class="memTemplParams" colspan="2">template&lt;typename S &gt; </td></tr>
+<tr class="memitem:af936ed8d4226500761e4df40094c9b13"><td class="memTemplItemLeft" align="right" valign="top">::Eigen::Quaternion&lt; S &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dfb/classdart_1_1math_1_1Random.html#af936ed8d4226500761e4df40094c9b13">uniformUnitQuaternion</a> ()</td></tr>
+<tr class="separator:af936ed8d4226500761e4df40094c9b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab77892ad9679707e07832c6cd36b895b"><td class="memTemplParams" colspan="2">template&lt;typename S &gt; </td></tr>
+<tr class="memitem:ab77892ad9679707e07832c6cd36b895b"><td class="memTemplItemLeft" align="right" valign="top">::Eigen::Matrix&lt; S, 3, 3 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dfb/classdart_1_1math_1_1Random.html#ab77892ad9679707e07832c6cd36b895b">uniformRotationMatrix3</a> ()</td></tr>
+<tr class="separator:ab77892ad9679707e07832c6cd36b895b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -659,13 +677,93 @@ template&lt;typename DynamicSizeMatrixT &gt; </div>
 
 </div>
 </div>
+<a id="a10c7b51c8195b940679ebc664c77dada"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10c7b51c8195b940679ebc664c77dada">&#9670;&nbsp;</a></span>uniformRotationMatrix3() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S  = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">static ::Eigen::Matrix&lt;S, 3, 3&gt; dart::math::Random::uniformRotationMatrix3 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a random rotation matrix that is uniformly sampled on SO(3) </p>
+
+</div>
+</div>
+<a id="ab77892ad9679707e07832c6cd36b895b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab77892ad9679707e07832c6cd36b895b">&#9670;&nbsp;</a></span>uniformRotationMatrix3() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">::Eigen::Matrix&lt;S, 3, 3&gt; dart::math::Random::uniformRotationMatrix3 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a80ebb80f25872b20e15c17df5832c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a80ebb80f25872b20e15c17df5832c9">&#9670;&nbsp;</a></span>uniformUnitQuaternion() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S  = double&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">static ::Eigen::Quaternion&lt;S&gt; dart::math::Random::uniformUnitQuaternion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a random unit quaternion sampled uniformly sampled on SO(3) </p>
+
+</div>
+</div>
+<a id="af936ed8d4226500761e4df40094c9b13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af936ed8d4226500761e4df40094c9b13">&#9670;&nbsp;</a></span>uniformUnitQuaternion() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">::Eigen::Quaternion&lt;S&gt; dart::math::Random::uniformUnitQuaternion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d8/d96/namespacedart_1_1math.html">math</a></li><li class="navelem"><a class="el" href="../../dd/dfb/classdart_1_1math_1_1Random.html">Random</a></li>
-    <li class="footer">Generated on Fri Jul 9 2021 04:47:49 for DART by
+    <li class="footer">Generated on Sun Jul 11 2021 07:12:13 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

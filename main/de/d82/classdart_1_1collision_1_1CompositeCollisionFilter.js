@@ -1,9 +1,10 @@
 var classdart_1_1collision_1_1CompositeCollisionFilter =
 [
-    [ "addCollisionFilter", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#a3187d8f07a5b3d5dfea71edb7a9558e5", null ],
-    [ "ignoresCollision", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#aa2b55e11a3ff95363eb61580d6dda3d4", null ],
-    [ "needCollision", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#a8004745e292c29eaa16a23a1d06cf662", null ],
-    [ "removeAllCollisionFilters", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#ac6f05a970019fd3a485b201c7b61fad6", null ],
-    [ "removeCollisionFilter", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#acb87781dd4787a541cdbe8c196e07787", null ],
-    [ "mFilters", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#ad13a183a6dfc5e63c2779b11f6492580", null ]
+    [ "S", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#a985c20343f0ed0d9df309bc85c1652f5", null ],
+    [ "~CompositeCollisionFilter", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#a345e11bdfeccca390efe30b9ba73459b", null ],
+    [ "add_collision_filter", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#ad37373c043ecb5e1a87ec64cf6c1086e", null ],
+    [ "ignores", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#a0d78b518fd1829f811e039212b0cbdc3", null ],
+    [ "remove_all_collision_filters", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#a6925002e9b080bbc845c41b5c0941869", null ],
+    [ "remove_collision_filter", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#a184b710771eec394cf08cf49932b8d8a", null ],
+    [ "m_filters", "de/d82/classdart_1_1collision_1_1CompositeCollisionFilter.html#acae0eaf371fcc71312f4ac5bacd3abbc", null ]
 ];

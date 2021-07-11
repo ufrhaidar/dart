@@ -65,7 +65,7 @@ var dir_720edb90e4ba37359269aa1a2b140160 =
     [ "Size.hpp", "df/dbb/Size_8hpp.html", [
       [ "Size", "d7/de5/classdart_1_1io_1_1MjcfParser_1_1detail_1_1Size.html", "d7/de5/classdart_1_1io_1_1MjcfParser_1_1detail_1_1Size" ]
     ] ],
-    [ "Types.hpp", "d5/d34/Types_8hpp.html", "d5/d34/Types_8hpp" ],
+    [ "Types.hpp", "dc/d25/io_2mjcf_2detail_2Types_8hpp.html", "dc/d25/io_2mjcf_2detail_2Types_8hpp" ],
     [ "Utils.cpp", "df/d0c/Utils_8cpp.html", "df/d0c/Utils_8cpp" ],
     [ "Utils.hpp", "da/d80/io_2mjcf_2detail_2Utils_8hpp.html", "da/d80/io_2mjcf_2detail_2Utils_8hpp" ],
     [ "Weld.cpp", "d9/de2/Weld_8cpp.html", null ],

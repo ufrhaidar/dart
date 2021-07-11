@@ -2,9 +2,9 @@ var searchData=
 [
   ['random',['Random',['../dd/dfb/classdart_1_1math_1_1Random.html',1,'dart::math']]],
   ['range',['Range',['../d6/d32/structdart_1_1math_1_1detail_1_1Range.html',1,'dart::math::detail']]],
-  ['raycastoption',['RaycastOption',['../db/d4f/structdart_1_1collision_1_1RaycastOption.html',1,'dart::collision']]],
-  ['raycastresult',['RaycastResult',['../dc/d80/structdart_1_1collision_1_1RaycastResult.html',1,'dart::collision']]],
-  ['rayhit',['RayHit',['../d3/dfc/structdart_1_1collision_1_1RayHit.html',1,'dart::collision']]],
+  ['raycastoption',['RaycastOption',['../d8/d42/structdart_1_1dynamics_1_1RaycastOption.html',1,'dart::dynamics']]],
+  ['raycastresult',['RaycastResult',['../d9/dcc/structdart_1_1dynamics_1_1RaycastResult.html',1,'dart::dynamics']]],
+  ['rayhit',['RayHit',['../dd/deb/structdart_1_1dynamics_1_1RayHit.html',1,'dart::dynamics']]],
   ['realtimeworldnode',['RealTimeWorldNode',['../db/df7/classdart_1_1gui_1_1osg_1_1RealTimeWorldNode.html',1,'dart::gui::osg']]],
   ['realvectorspace',['RealVectorSpace',['../d7/d50/structdart_1_1math_1_1RealVectorSpace.html',1,'dart::math']]],
   ['recording',['Recording',['../dd/d87/classdart_1_1simulation_1_1Recording.html',1,'dart::simulation::Recording'],['../df/d79/structdart_1_1dynamics_1_1Recording.html',1,'dart::dynamics::Recording']]],

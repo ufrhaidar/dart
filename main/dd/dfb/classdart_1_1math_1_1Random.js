@@ -13,5 +13,9 @@ var classdart_1_1math_1_1Random =
     [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#ad00fe993ed0adfa07bfb29e9ef202b46", null ],
     [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#a2c88d21839617de8785904185d75b3a5", null ],
     [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#add4c11a4eb7a3cf09150c764f9b73616", null ],
-    [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#a761aeef69c37fb996a729b04626fc927", null ]
+    [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#a761aeef69c37fb996a729b04626fc927", null ],
+    [ "uniformRotationMatrix3", "dd/dfb/classdart_1_1math_1_1Random.html#a10c7b51c8195b940679ebc664c77dada", null ],
+    [ "uniformRotationMatrix3", "dd/dfb/classdart_1_1math_1_1Random.html#ab77892ad9679707e07832c6cd36b895b", null ],
+    [ "uniformUnitQuaternion", "dd/dfb/classdart_1_1math_1_1Random.html#a7a80ebb80f25872b20e15c17df5832c9", null ],
+    [ "uniformUnitQuaternion", "dd/dfb/classdart_1_1math_1_1Random.html#af936ed8d4226500761e4df40094c9b13", null ]
 ];

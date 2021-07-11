@@ -6,7 +6,7 @@ var searchData=
   ['reference_5fconst_5ftype',['reference_const_type',['../d6/d65/classdart_1_1common_1_1UriComponent.html#a54ce949d1db15f804610c2bd391d0a9f',1,'dart::common::UriComponent']]],
   ['reference_5ftype',['reference_type',['../d6/d65/classdart_1_1common_1_1UriComponent.html#a3dd5d94fe369d8c3014c8d112a77ae26',1,'dart::common::UriComponent']]],
   ['referentialskeletonptr',['ReferentialSkeletonPtr',['../d7/d5a/namespacedart_1_1dynamics.html#a4430f579c82a8c27774c7c5a64e3d697',1,'dart::dynamics']]],
-  ['registrar',['Registrar',['../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#ae6fcd955a79680753b82f72d3f11666a',1,'dart::collision::CollisionDetector']]],
+  ['registrar',['Registrar',['../d3/da0/classdart_1_1collision_1_1Engine.html#adf579c2a096a0a3af87e7c7ff22a16af',1,'dart::collision::Engine::Registrar()'],['../d3/dc5/classdart_1_1dynamics_1_1CollisionDetector.html#a67e780c1fe7b9e0e80afa7f1d572f1fc',1,'dart::dynamics::CollisionDetector::Registrar()']]],
   ['relativetransformupdatedsignal',['RelativeTransformUpdatedSignal',['../d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html#afb5286622dcd5116edb4e2e817178d7a',1,'dart::dynamics::ShapeFrame::RelativeTransformUpdatedSignal()'],['../d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html#acc7a80a893c2f83639f82acbb8aee5fa',1,'dart::dynamics::ShapeNode::RelativeTransformUpdatedSignal()']]],
   ['requiredaspectset',['RequiredAspectSet',['../d1/d90/classdart_1_1common_1_1Composite.html#a01d796eb30ff90517d110417f9bc033c',1,'dart::common::Composite']]],
   ['resourceptr',['ResourcePtr',['../dd/d6b/namespacedart_1_1common.html#a17b6f1fe8c719e1059adc09c4f43df67',1,'dart::common']]],

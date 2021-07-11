@@ -91,8 +91,6 @@ $(document).ready(function(){initNavTree('da/d58/deprecated.html','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_deprecated000011"></a>Member <a class="el" href="../../d3/d4d/classdart_1_1collision_1_1CollisionFilter.html#a8004745e292c29eaa16a23a1d06cf662">dart::collision::CollisionFilter::needCollision</a>  (const <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> *object1, const <a class="el" href="../../dd/d11/classdart_1_1collision_1_1CollisionObject.html">CollisionObject</a> *object2) const</dt>
-<dd>Deprecated in 6.3.0. Please use ignoreCollision instead. Note that ignoreCollision returns logically opposite to what needCollision returns.  </dd>
 <dt><a class="anchor" id="_deprecated000001"></a>Member <a class="el" href="../../d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager.html#a04187611b7eff5459fb1f04c6dd75991">dart::common::detail::SharedLibraryManager::load</a>  (const boost::filesystem::path &amp;path)</dt>
 <dd>Deprecated in 6.10. Please use <a class="el" href="../../d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager.html#a1afedaf4e2d1897baf51fb32bf5cc6f2" title="Loads the shared library with the specified path. ">load(const std::string&amp;)</a> instead.  </dd>
 <dt><a class="anchor" id="_deprecated000002"></a>Member <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a47e3c9d559f6e5a6c267cbe51a5f4488">dart::common::make_unique</a>  (Args &amp;&amp;... args)</dt>
@@ -113,6 +111,8 @@ $(document).ready(function(){initNavTree('da/d58/deprecated.html','../../');});
 <dd>Deprecated since DART 6.10. </dd>
 <dt><a class="anchor" id="_deprecated000010"></a>Member <a class="el" href="../../d0/d59/classdart_1_1dynamics_1_1BoxedLcpConstraintSolver.html#a1e36616145c07892f783e965bf4be999">dart::dynamics::BoxedLcpConstraintSolver::BoxedLcpConstraintSolver</a>  (double timeStep, BoxedLcpSolverPtr boxedLcpSolver=nullptr, BoxedLcpSolverPtr secondaryBoxedLcpSolver=nullptr)</dt>
 <dd>Deprecated in DART 6.8. Please use other constructors that doesn't take timespte. Timestep should be set by the owner of this solver such as <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html" title="class World ">dart::simulation::World</a> when the solver added.  </dd>
+<dt><a class="anchor" id="_deprecated000011"></a>Member <a class="el" href="../../dc/d62/classdart_1_1dynamics_1_1CollisionFilter.html#a2e03094b61b51fcd8dd27631bbbd53b8">dart::dynamics::CollisionFilter::needCollision</a>  (const <a class="el" href="../../de/dbf/classdart_1_1dynamics_1_1CollisionObject.html">CollisionObject</a> *object1, const <a class="el" href="../../de/dbf/classdart_1_1dynamics_1_1CollisionObject.html">CollisionObject</a> *object2) const</dt>
+<dd>Deprecated in 6.3.0. Please use ignoreCollision instead. Note that ignoreCollision returns logically opposite to what needCollision returns.  </dd>
 <dt><a class="anchor" id="_deprecated000012"></a>Member <a class="el" href="../../db/d24/classdart_1_1dynamics_1_1ConstraintSolver.html#ab257d12c3aa51bfe74dd4c104fa37680">dart::dynamics::ConstraintSolver::ConstraintSolver</a>  (double timeStep)</dt>
 <dd>Deprecated in DART 6.8. Please use other constructors that doesn't take timespte. Timestep should be set by the owner of this solver such as <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html" title="class World ">dart::simulation::World</a> when the solver added.  </dd>
 <dt><a class="anchor" id="_deprecated000013"></a>Class <a class="el" href="../../d4/dfe/classdart_1_1dynamics_1_1DantzigLCPSolver.html">dart::dynamics::DantzigLCPSolver</a>  </dt>
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('da/d58/deprecated.html','../../');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jul 9 2021 04:47:45 for DART by
+    <li class="footer">Generated on Sun Jul 11 2021 07:12:09 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

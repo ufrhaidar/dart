@@ -1,7 +1,7 @@
 var classdart_1_1dynamics_1_1ContactConstraint =
 [
     [ "TangentBasisMatrix", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#aa5f9be8a5577eb4dde336ce36c8190fe", null ],
-    [ "ContactConstraint", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a878d55ab8911ea5eca52e23cb7e8cc42", null ],
+    [ "ContactConstraint", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a6c9d716bf48e307dbf1c63b53bf45160", null ],
     [ "~ContactConstraint", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a2d9c664049a26629a08e7716788db571", null ],
     [ "applyImpulse", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#acd1875c927370bbeaa738aede66838fc", null ],
     [ "applyUnitImpulse", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a2e950e03723dab5244ba97864c00eda2", null ],
@@ -15,7 +15,7 @@ var classdart_1_1dynamics_1_1ContactConstraint =
     [ "computeWorldFirstFrictionDir", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#aa161ca2c23abc9890b3a3b05af612a0d", null ],
     [ "excite", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#afcfdb2cb27fdfa96590751d8149e4ad3", null ],
     [ "getConstraintForceMixing", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#ac55eeacce245b7ed437d5d4446c1d3a0", null ],
-    [ "getContact", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#acde5be21596f5edfb11eecd4aa8558c4", null ],
+    [ "getContact", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a92739a9b379bd4dde9b8589f37845a1d", null ],
     [ "getDimension", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a74157a314cf1031a7c7d80c1f3d2255c", null ],
     [ "getErrorAllowance", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a3038df80b873c55c1e1d6cbe2f402ab1", null ],
     [ "getErrorReductionParameter", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#ade7be6b9b1d7053110f7027cf5ac2d05", null ],
@@ -50,7 +50,7 @@ var classdart_1_1dynamics_1_1ContactConstraint =
     [ "mBodyNodeA", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a6dd2f6c0eb758173de4563c9d0bd792a", null ],
     [ "mBodyNodeB", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a7fa3599c4efb0f6255016dd6db565d96", null ],
     [ "mConstraintForceMixing", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#af7157a048e71e67766d4f647c3dce243", null ],
-    [ "mContact", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a3eca80d830d5722bf183b0a5512ac4b9", null ],
+    [ "mContact", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#acac0a91234fd017439e11515c92b1f91", null ],
     [ "mDim", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#aa9832f44e945cd183e4bba05ddbb328e", null ],
     [ "mErrorAllowance", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a68f48d09887a95a8ddd15e1effde0649", null ],
     [ "mErrorReductionParameter", "da/dfd/classdart_1_1dynamics_1_1ContactConstraint.html#a91340111b15665deb2e9c92404136bbd", null ],

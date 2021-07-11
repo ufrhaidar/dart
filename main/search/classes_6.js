@@ -10,6 +10,10 @@ var searchData=
   ['genericmultiobjectiveproblem',['GenericMultiObjectiveProblem',['../d5/dea/classdart_1_1optimization_1_1GenericMultiObjectiveProblem.html',1,'dart::optimization']]],
   ['geom',['Geom',['../d6/d25/classdart_1_1io_1_1MjcfParser_1_1detail_1_1Geom.html',1,'dart::io::MjcfParser::detail']]],
   ['geomattributes',['GeomAttributes',['../d2/d97/structdart_1_1io_1_1MjcfParser_1_1detail_1_1GeomAttributes.html',1,'dart::io::MjcfParser::detail']]],
+  ['geometry',['Geometry',['../d3/dd8/classdart_1_1math_1_1Geometry.html',1,'dart::math']]],
+  ['geometry2',['Geometry2',['../d4/d16/classdart_1_1math_1_1Geometry2.html',1,'dart::math']]],
+  ['geometry3',['Geometry3',['../d8/d08/classdart_1_1math_1_1Geometry3.html',1,'dart::math']]],
+  ['geometry3_3c_20s_20_3e',['Geometry3&lt; S &gt;',['../d8/d08/classdart_1_1math_1_1Geometry3.html',1,'dart::math']]],
   ['getaspect',['GetAspect',['../d3/dfa/structdart_1_1common_1_1detail_1_1GetAspect.html',1,'dart::common::detail']]],
   ['getaspectimpl',['GetAspectImpl',['../d2/d1c/structdart_1_1common_1_1detail_1_1GetAspectImpl.html',1,'dart::common::detail']]],
   ['getaspectimpl_3c_20aspectorcomposite_2c_20false_20_3e',['GetAspectImpl&lt; AspectOrComposite, false &gt;',['../dd/dd3/structdart_1_1common_1_1detail_1_1GetAspectImpl_3_01AspectOrComposite_00_01false_01_4.html',1,'dart::common::detail']]],
@@ -19,5 +23,6 @@ var searchData=
   ['gradientmethod',['GradientMethod',['../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html',1,'dart::dynamics::InverseKinematics']]],
   ['graphwindow',['GraphWindow',['../dc/d70/classdart_1_1gui_1_1glut_1_1GraphWindow.html',1,'dart::gui::glut']]],
   ['gridvisual',['GridVisual',['../dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html',1,'dart::gui::osg']]],
-  ['group',['Group',['../db/db4/classdart_1_1dynamics_1_1Group.html',1,'dart::dynamics']]]
+  ['group',['Group',['../dc/d74/classdart_1_1collision_1_1Group.html',1,'dart::collision::Group&lt; S_ &gt;'],['../db/db4/classdart_1_1dynamics_1_1Group.html',1,'dart::dynamics::Group']]],
+  ['group_3c_20s_20_3e',['Group&lt; S &gt;',['../dc/d74/classdart_1_1collision_1_1Group.html',1,'dart::collision']]]
 ];

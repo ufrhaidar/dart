@@ -15,6 +15,6 @@ var searchData=
   ['nodevectorproxyaspectproperties',['NodeVectorProxyAspectProperties',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a91b0675d6e58afb0e87db8d4f3c795ec',1,'dart::dynamics::detail']]],
   ['nodevectorproxyaspectstate',['NodeVectorProxyAspectState',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#a1f93b7ec0c4d7a16a227206f7d683ef0',1,'dart::dynamics::detail']]],
   ['normalrealdist',['NormalRealDist',['../dd/dfb/classdart_1_1math_1_1Random.html#a45f66389bf4bbf432fbe236a28345d33',1,'dart::math::Random']]],
-  ['normals',['Normals',['../d3/d0d/classdart_1_1math_1_1Icosphere.html#aa9c3a1cee668f154954f2127da8cb19c',1,'dart::math::Icosphere::Normals()'],['../d5/d10/classdart_1_1math_1_1Mesh.html#a44ff25cdef09e69bfe287eaabaa22567',1,'dart::math::Mesh::Normals()'],['../d4/d2d/classdart_1_1math_1_1TriMesh.html#ac00f1bc34505bd8f86728e8225097e6c',1,'dart::math::TriMesh::Normals()']]],
+  ['normals',['Normals',['../d3/d0d/classdart_1_1math_1_1Icosphere.html#aa9c3a1cee668f154954f2127da8cb19c',1,'dart::math::Icosphere::Normals()'],['../d5/d10/classdart_1_1math_1_1Mesh.html#a44ff25cdef09e69bfe287eaabaa22567',1,'dart::math::Mesh::Normals()'],['../d0/de0/classdart_1_1math_1_1TetraMesh.html#a4f709a1d50bd3d17cd8e8299e39fba0f',1,'dart::math::TetraMesh::Normals()'],['../d4/d2d/classdart_1_1math_1_1TriMesh.html#ac00f1bc34505bd8f86728e8225097e6c',1,'dart::math::TriMesh::Normals()']]],
   ['nullspace',['NullSpace',['../d8/d96/namespacedart_1_1math.html#a2e6eb0a4590dec732af1b119739d5189',1,'dart::math']]]
 ];
