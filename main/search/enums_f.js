@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updatetype',['UpdateType',['../d1/df6/classdart_1_1optimization_1_1snopt_1_1SnoptInterface.html#abeb243da3974129f71a3110cfa9b6ea3',1,'dart::optimization::snopt::SnoptInterface']]]
+  ['type',['Type',['../d7/dd9/classdart_1_1gui_1_1osg_1_1InteractiveTool.html#aa72ba6e417be5aae7c6a66537981a2bd',1,'dart::gui::osg::InteractiveTool']]]
 ];

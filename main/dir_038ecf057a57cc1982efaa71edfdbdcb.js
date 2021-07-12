@@ -50,6 +50,9 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
       [ "SingleLockableReference", "df/daa/classdart_1_1common_1_1SingleLockableReference.html", "df/daa/classdart_1_1common_1_1SingleLockableReference" ],
       [ "MultiLockableReference", "d0/d20/classdart_1_1common_1_1MultiLockableReference.html", "d0/d20/classdart_1_1common_1_1MultiLockableReference" ]
     ] ],
+    [ "logging.cpp", "dd/daf/logging_8cpp.html", "dd/daf/logging_8cpp" ],
+    [ "logging.hpp", "d0/da9/logging_8hpp.html", "d0/da9/logging_8hpp" ],
+    [ "macro.hpp", "d4/dc3/macro_8hpp.html", "d4/dc3/macro_8hpp" ],
     [ "Memory.hpp", "d4/d18/Memory_8hpp.html", "d4/d18/Memory_8hpp" ],
     [ "NameManager.hpp", "d8/de1/NameManager_8hpp.html", [
       [ "NameManager", "d9/dc9/classdart_1_1common_1_1NameManager.html", "d9/dc9/classdart_1_1common_1_1NameManager" ]

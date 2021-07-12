@@ -17,5 +17,8 @@ var searchData=
   ['localresourceretriever_2ecpp',['LocalResourceRetriever.cpp',['../d4/dbd/LocalResourceRetriever_8cpp.html',1,'']]],
   ['localresourceretriever_2ehpp',['LocalResourceRetriever.hpp',['../d8/dfb/LocalResourceRetriever_8hpp.html',1,'']]],
   ['lockablereference_2dimpl_2ehpp',['LockableReference-impl.hpp',['../d6/d7f/LockableReference-impl_8hpp.html',1,'']]],
-  ['lockablereference_2ehpp',['LockableReference.hpp',['../df/d66/LockableReference_8hpp.html',1,'']]]
+  ['lockablereference_2ehpp',['LockableReference.hpp',['../df/d66/LockableReference_8hpp.html',1,'']]],
+  ['logging_2ecpp',['logging.cpp',['../dd/daf/logging_8cpp.html',1,'']]],
+  ['logging_2ehpp',['logging.hpp',['../d0/da9/logging_8hpp.html',1,'']]],
+  ['logging_5fimpl_2ehpp',['logging_impl.hpp',['../d2/db1/logging__impl_8hpp.html',1,'']]]
 ];

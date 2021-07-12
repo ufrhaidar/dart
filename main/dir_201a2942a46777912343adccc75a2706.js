@@ -20,6 +20,7 @@ var dir_201a2942a46777912343adccc75a2706 =
       [ "EnumClassHash", "dd/dec/structdart_1_1common_1_1Factory_1_1EnumClassHash.html", "dd/dec/structdart_1_1common_1_1Factory_1_1EnumClassHash" ]
     ] ],
     [ "LockableReference-impl.hpp", "d6/d7f/LockableReference-impl_8hpp.html", null ],
+    [ "logging_impl.hpp", "d2/db1/logging__impl_8hpp.html", "d2/db1/logging__impl_8hpp" ],
     [ "Memory-impl.hpp", "d2/d9e/Memory-impl_8hpp.html", "d2/d9e/Memory-impl_8hpp" ],
     [ "NameManager.hpp", "d0/d76/detail_2NameManager_8hpp.html", null ],
     [ "NoOp.hpp", "db/df2/NoOp_8hpp.html", "db/df2/NoOp_8hpp" ],

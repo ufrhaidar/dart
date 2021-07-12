@@ -16,6 +16,7 @@ var searchData=
   ['darttnlp',['DartTNLP',['../dc/dc1/classdart_1_1optimization_1_1DartTNLP.html#a3412d6530200d2b8be5e5f649661b759',1,'dart::optimization::DartTNLP']]],
   ['dboxbox',['dBoxBox',['../d7/d5a/namespacedart_1_1dynamics.html#a43f1304e7885d236353d86cca88b6159',1,'dart::dynamics']]],
   ['dclosestlineboxpoints',['dClosestLineBoxPoints',['../d7/d5a/namespacedart_1_1dynamics.html#a7a471d6a905a9d6d48896df7d02dd7aa',1,'dart::dynamics']]],
+  ['debug',['debug',['../dd/d6b/namespacedart_1_1common.html#ae816d457715175de9ac1c327191dd049',1,'dart::common::debug(const S &amp;format_str, [[maybe_unused]] Args &amp;&amp;... args)'],['../dd/d6b/namespacedart_1_1common.html#ac03c387200e73e4b10174cdb4cc708c0',1,'dart::common::debug(const S &amp;format_str, Args &amp;&amp;... args)']]],
   ['decrementreferencecount',['decrementReferenceCount',['../d1/d38/classdart_1_1dynamics_1_1SkeletonRefCountingBase.html#af218ac340b5ce5e46fbf6d964678a751',1,'dart::dynamics::SkeletonRefCountingBase']]],
   ['default',['Default',['../de/d9c/classdart_1_1io_1_1MjcfParser_1_1detail_1_1Default.html#ae00d0eb436e9ab8b00b338ae1c3e337f',1,'dart::io::MjcfParser::detail::Default']]],
   ['defaultcreator',['defaultCreator',['../d9/d84/classdart_1_1common_1_1Factory.html#ac0226109315c5b060cfe1e94b82c32b3',1,'dart::common::Factory']]],
