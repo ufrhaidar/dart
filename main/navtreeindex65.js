@@ -1,5 +1,8 @@
 var NAVTREEINDEX65 =
 {
+"dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#aefa43aa6790b569b119661cc8b5ee455":[3,0,0,2,149,57],
+"dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#af074da7d0fffa875a40313ca78731cb0":[3,0,0,2,149,75],
+"dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#af130fa6d4c82a20035eaa0593a36d080":[3,0,0,2,149,117],
 "dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#af19553a83da93ef8e84f5d3e82c6d5c9":[3,0,0,2,149,17],
 "dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#af19ec6cf064e7e6effbaa1349f5eb0fe":[3,0,0,2,149,24],
 "dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#af256acd666692cf51831971ef2155aa1":[3,0,0,2,149,68],
@@ -246,8 +249,5 @@ var NAVTREEINDEX65 =
 "dc/dda/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html":[3,0,0,2,25,2,0],
 "dc/dda/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html#a3f19c10b74f39732b782989164c18e0a":[3,0,0,2,25,2,0,2],
 "dc/dda/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html#a7ff518fe2b6e59126cd1aebe25e4711d":[3,0,0,2,25,2,0,1],
-"dc/dda/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html#a883521faee476686b07e3882a803a30b":[3,0,0,2,25,2,0,0],
-"dc/ddd/structdart_1_1dynamics_1_1detail_1_1RevoluteJointUniqueProperties.html":[3,0,0,2,0,33],
-"dc/ddd/structdart_1_1dynamics_1_1detail_1_1RevoluteJointUniqueProperties.html#a47da48a27f4db80da7027458984b443f":[3,0,0,2,0,33,2],
-"dc/ddd/structdart_1_1dynamics_1_1detail_1_1RevoluteJointUniqueProperties.html#a984eac2792da4f549fda2731590cb52a":[3,0,0,2,0,33,1]
+"dc/dda/structdart_1_1dynamics_1_1CollisionDetector_1_1ManagerForUnsharableCollisionObjects_1_1CollisionObjectDeleter.html#a883521faee476686b07e3882a803a30b":[3,0,0,2,25,2,0,0]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX74 =
 {
+"df/d0f/classdart_1_1common_1_1CloneableVector.html#a8fc05296a62fde0e9329882a75bc701c":[3,0,0,1,6,1],
+"df/d0f/classdart_1_1common_1_1CloneableVector.html#ab339fb60a6cb2779e2bd52435bb36935":[3,0,0,1,6,0],
+"df/d0f/classdart_1_1common_1_1CloneableVector.html#ad7254c7d2597f71f43e28d51644b25a3":[3,0,0,1,6,3],
 "df/d13/ImGuiHandler_8hpp.html":[4,0,0,3,1,8],
 "df/d13/ImGuiHandler_8hpp_source.html":[4,0,0,3,1,8],
 "df/d16/classdart_1_1gui_1_1osg_1_1render_1_1PyramidShapeDrawable.html":[3,0,0,3,1,0,39],
@@ -246,8 +249,5 @@ var NAVTREEINDEX74 =
 "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html":[3,0,0,3,1,0,23],
 "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a112e0efcec1f20418e80b396e0dff83f":[3,0,0,3,1,0,23,0],
 "df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a14edf5eff6b6fdb14f58f6cb83f2b643":[3,0,0,3,1,0,23,15],
-"df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72":[3,0,0,3,1,0,23,10],
-"df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a4b0153576f8bb68169593234243b9e6e":[3,0,0,3,1,0,23,1],
-"df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a5df9d4b50556afca1b234fbc78d6d1a6":[3,0,0,3,1,0,23,6],
-"df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a6ab69feb7b2342f2d578d17eba4f54e6":[3,0,0,3,1,0,23,9]
+"df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72":[3,0,0,3,1,0,23,10]
 };

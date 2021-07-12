@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"db/dbc/namespacedart_1_1Color.html":[2,0,0,1],
+"db/dbd/structdart_1_1math_1_1detail_1_1toManifoldPointImpl.html":[3,0,0,5,0,16],
+"db/dbd/structdart_1_1math_1_1detail_1_1toManifoldPointImpl.html#a37fe158d7dd4b0a911d96f9fb1d4d6bc":[3,0,0,5,0,16,0],
 "db/dc3/classdart_1_1io_1_1MjcfParser_1_1detail_1_1Inertial.html":[3,0,0,4,0,0,10],
 "db/dc3/classdart_1_1io_1_1MjcfParser_1_1detail_1_1Inertial.html#a0cf58022185621b239d030d93de1d90b":[3,0,0,4,0,0,10,6],
 "db/dc3/classdart_1_1io_1_1MjcfParser_1_1detail_1_1Inertial.html#a12257ef9b33b06829f8c18c1ef929111":[3,0,0,4,0,0,10,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "db/df4/classdart_1_1optimization_1_1NloptSolver.html#ae15afe4815b3317e15475e1fb0c69c61a83ef65e355687e49ef91b6a9d826466f":[3,0,0,6,10,0,26],
 "db/df4/classdart_1_1optimization_1_1NloptSolver.html#ae15afe4815b3317e15475e1fb0c69c61a894012478f2f7129ce12a0817e958c10":[3,0,0,6,10,0,20],
 "db/df4/classdart_1_1optimization_1_1NloptSolver.html#ae15afe4815b3317e15475e1fb0c69c61a8dd9e23623d49a1ff05e02b0ba52d5a0":[3,0,0,6,10,0,40],
-"db/df4/classdart_1_1optimization_1_1NloptSolver.html#ae15afe4815b3317e15475e1fb0c69c61a91c930db2571213f84a2623d6eca4841":[3,0,0,6,10,0,3],
-"db/df4/classdart_1_1optimization_1_1NloptSolver.html#ae15afe4815b3317e15475e1fb0c69c61a91f3b6fcd4ea5a2a96127ccd64d0594f":[3,0,0,6,10,0,42],
-"db/df4/classdart_1_1optimization_1_1NloptSolver.html#ae15afe4815b3317e15475e1fb0c69c61aa56a67cb9095f455d532871a0277b01d":[3,0,0,6,10,0,21],
-"db/df4/classdart_1_1optimization_1_1NloptSolver.html#ae15afe4815b3317e15475e1fb0c69c61aac17834c13c41faf16b8589ce3913fd0":[3,0,0,6,10,0,43]
+"db/df4/classdart_1_1optimization_1_1NloptSolver.html#ae15afe4815b3317e15475e1fb0c69c61a91c930db2571213f84a2623d6eca4841":[3,0,0,6,10,0,3]
 };

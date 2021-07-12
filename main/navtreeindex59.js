@@ -1,5 +1,8 @@
 var NAVTREEINDEX59 =
 {
+"db/db4/classdart_1_1dynamics_1_1Group.html#a36449ddd13a2ee9eee80f00087a50fb6":[3,0,0,2,71,217],
+"db/db4/classdart_1_1dynamics_1_1Group.html#a369a2830d8cc4ebb10e58bcf21c19b35":[3,0,0,2,71,115],
+"db/db4/classdart_1_1dynamics_1_1Group.html#a37fc989733d51827a2fb11916e6982eb":[3,0,0,2,71,49],
 "db/db4/classdart_1_1dynamics_1_1Group.html#a399a92f1621b614a3c10ed04f2c5e1a9":[3,0,0,2,71,218],
 "db/db4/classdart_1_1dynamics_1_1Group.html#a3a175f65b122da1c8c4402d9ea870d8e":[3,0,0,2,71,129],
 "db/db4/classdart_1_1dynamics_1_1Group.html#a3a5e51ec627642c15518052cb36dea9d":[3,0,0,2,71,209],
@@ -246,8 +249,5 @@ var NAVTREEINDEX59 =
 "db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4.html#af0bb85f86c5b142757d7698af9679fe1":[3,0,0,1,49,49],
 "db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4.html#af7c5096003ae0f98a98e68f6d26a5b0b":[3,0,0,1,49,40],
 "db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4.html#afb19783f8ea2e222bba6476915630d3e":[3,0,0,1,49,51],
-"db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4.html#afeea27f7e82c82183c348848d3b3f6a9":[3,0,0,1,49,11],
-"db/dbc/namespacedart_1_1Color.html":[2,0,0,1],
-"db/dbd/structdart_1_1math_1_1detail_1_1toManifoldPointImpl.html":[3,0,0,5,0,16],
-"db/dbd/structdart_1_1math_1_1detail_1_1toManifoldPointImpl.html#a37fe158d7dd4b0a911d96f9fb1d4d6bc":[3,0,0,5,0,16,0]
+"db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4.html#afeea27f7e82c82183c348848d3b3f6a9":[3,0,0,1,49,11]
 };

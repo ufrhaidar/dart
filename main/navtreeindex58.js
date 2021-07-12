@@ -1,5 +1,8 @@
 var NAVTREEINDEX58 =
 {
+"db/d95/XmlHelpers_8hpp.html#a81cbecc22dcd5db2d2c2988fd38a59b4":[4,0,0,4,22,11],
+"db/d95/XmlHelpers_8hpp.html#a86151bfd33901b5f31056bd5627ed660":[4,0,0,4,22,18],
+"db/d95/XmlHelpers_8hpp.html#a8e7d0d4dea6cce89be094244dcf4e4f8":[4,0,0,4,22,40],
 "db/d95/XmlHelpers_8hpp.html#a95253759df78146d84b05244e9bec83e":[4,0,0,4,22,25],
 "db/d95/XmlHelpers_8hpp.html#a99ba7fc937eed0987d1fc718ea1653e9":[4,0,0,4,22,64],
 "db/d95/XmlHelpers_8hpp.html#aa0794b455be05139cb4d7ca47de6abc6":[4,0,0,4,22,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX58 =
 "db/db4/classdart_1_1dynamics_1_1Group.html#a2f327945deedc9e049da6effe93da1af":[3,0,0,2,71,149],
 "db/db4/classdart_1_1dynamics_1_1Group.html#a303570e2cd201b6ca3b7b6061f02eb20":[3,0,0,2,71,153],
 "db/db4/classdart_1_1dynamics_1_1Group.html#a31d2e3871efd6deaa16ad3f9a0409f6e":[3,0,0,2,71,87],
-"db/db4/classdart_1_1dynamics_1_1Group.html#a3636f5137b591ca4f388cf04b5088231":[3,0,0,2,71,117],
-"db/db4/classdart_1_1dynamics_1_1Group.html#a36449ddd13a2ee9eee80f00087a50fb6":[3,0,0,2,71,217],
-"db/db4/classdart_1_1dynamics_1_1Group.html#a369a2830d8cc4ebb10e58bcf21c19b35":[3,0,0,2,71,115],
-"db/db4/classdart_1_1dynamics_1_1Group.html#a37fc989733d51827a2fb11916e6982eb":[3,0,0,2,71,49]
+"db/db4/classdart_1_1dynamics_1_1Group.html#a3636f5137b591ca4f388cf04b5088231":[3,0,0,2,71,117]
 };
