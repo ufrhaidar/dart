@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DART: dart/optimization/GenericMultiObjectiveProblem.cpp File Reference</title>
+<title>DART: dart/optimizer/GenericMultiObjectiveProblem.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">7.0.0</span>
+   &#160;<span id="projectnumber">6.12.0</span>
    </div>
   </td>
  </tr>
@@ -93,36 +93,36 @@ $(document).ready(function(){initNavTree('db/da1/GenericMultiObjectiveProblem_8c
 <div class="title">GenericMultiObjectiveProblem.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/dd0/GenericMultiObjectiveProblem_8hpp_source.html">dart/optimization/GenericMultiObjectiveProblem.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/dd0/GenericMultiObjectiveProblem_8hpp_source.html">dart/optimizer/GenericMultiObjectiveProblem.hpp</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;numeric&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d4f/Console_8hpp_source.html">dart/common/Console.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/dd7/Helpers_8hpp_source.html">dart/math/Helpers.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d59/Function_8hpp_source.html">dart/optimization/Function.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d59/Function_8hpp_source.html">dart/optimizer/Function.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d1/d83/namespacedart"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/d49/namespacedart_1_1optimization"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d49/namespacedart_1_1optimization.html">dart::optimization</a></td></tr>
+<tr class="memitem:d4/d47/namespacedart_1_1optimizer"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d47/namespacedart_1_1optimizer.html">dart::optimizer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0fe45a169b24a9dcfcd764eaf4039097"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0fe45a169b24a9dcfcd764eaf4039097"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d49/namespacedart_1_1optimization.html#a0fe45a169b24a9dcfcd764eaf4039097">dart::optimization::getVectorObjectIfAvailable</a> (std::size_t idx, const std::vector&lt; T &gt; &amp;vec)</td></tr>
-<tr class="separator:a0fe45a169b24a9dcfcd764eaf4039097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75a15864e81ead006b9a4d01583462ae"><td class="memItemLeft" align="right" valign="top">static Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d49/namespacedart_1_1optimization.html#a75a15864e81ead006b9a4d01583462ae">dart::optimization::computeFunctions</a> (const std::vector&lt; FunctionPtr &gt; &amp;functions, std::size_t dimension, const Eigen::VectorXd &amp;x)</td></tr>
-<tr class="separator:a75a15864e81ead006b9a4d01583462ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5fb25a866b5c3b1388c9fbee6ed72ba"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab5fb25a866b5c3b1388c9fbee6ed72ba"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d47/namespacedart_1_1optimizer.html#ab5fb25a866b5c3b1388c9fbee6ed72ba">dart::optimizer::getVectorObjectIfAvailable</a> (std::size_t idx, const std::vector&lt; T &gt; &amp;vec)</td></tr>
+<tr class="separator:ab5fb25a866b5c3b1388c9fbee6ed72ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f6ec5e3464a193a30765f743316c832"><td class="memItemLeft" align="right" valign="top">static Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d47/namespacedart_1_1optimizer.html#a6f6ec5e3464a193a30765f743316c832">dart::optimizer::computeFunctions</a> (const std::vector&lt; FunctionPtr &gt; &amp;functions, std::size_t dimension, const Eigen::VectorXd &amp;x)</td></tr>
+<tr class="separator:a6f6ec5e3464a193a30765f743316c832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_2122df3fd988f26c97e004ee74acbbfb.html">optimization</a></li><li class="navelem"><a class="el" href="../../db/da1/GenericMultiObjectiveProblem_8cpp.html">GenericMultiObjectiveProblem.cpp</a></li>
-    <li class="footer">Generated on Tue Jul 13 2021 06:27:19 for DART by
+    <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_17ecb0674ae43a7dd53465ba621feab7.html">optimizer</a></li><li class="navelem"><a class="el" href="../../db/da1/GenericMultiObjectiveProblem_8cpp.html">GenericMultiObjectiveProblem.cpp</a></li>
+    <li class="footer">Generated on Sun Aug 29 2021 07:17:18 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

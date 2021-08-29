@@ -1,11 +1,9 @@
 # DART API Documentation
 
-### DART 7
-
-* [main](https://dartsim.github.io/dart/main/)
-
 ### DART 6
 
+* [main](https://dartsim.github.io/dart/main/)
+* [v6.11.1](https://dartsim.github.io/dart/v6.11.1/)
 * [v6.10.1](https://dartsim.github.io/dart/v6.10.1/)
 * [v6.9.5](https://dartsim.github.io/dart/v6.9.5/)
 * [v6.8.5](https://dartsim.github.io/dart/v6.8.5/)

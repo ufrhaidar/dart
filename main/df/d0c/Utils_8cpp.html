@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DART: dart/io/mjcf/detail/Utils.cpp File Reference</title>
+<title>DART: dart/utils/mjcf/detail/Utils.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">7.0.0</span>
+   &#160;<span id="projectnumber">6.12.0</span>
    </div>
   </td>
  </tr>
@@ -93,44 +93,44 @@ $(document).ready(function(){initNavTree('df/d0c/Utils_8cpp.html','../../');});
 <div class="title">Utils.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../da/d80/io_2mjcf_2detail_2Utils_8hpp_source.html">dart/io/mjcf/detail/Utils.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d98/CompositeResourceRetriever_8hpp_source.html">dart/io/CompositeResourceRetriever.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d4/d56/DartResourceRetriever_8hpp_source.html">dart/io/DartResourceRetriever.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/d95/XmlHelpers_8hpp_source.html">dart/io/XmlHelpers.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d63/utils_2mjcf_2detail_2Utils_8hpp_source.html">dart/utils/mjcf/detail/Utils.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d98/CompositeResourceRetriever_8hpp_source.html">dart/utils/CompositeResourceRetriever.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/d56/DartResourceRetriever_8hpp_source.html">dart/utils/DartResourceRetriever.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../db/d95/XmlHelpers_8hpp_source.html">dart/utils/XmlHelpers.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d1/d83/namespacedart"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:de/d7e/namespacedart_1_1io"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d7e/namespacedart_1_1io.html">dart::io</a></td></tr>
+<tr class="memitem:d8/d28/namespacedart_1_1utils"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html">dart::utils</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/d16/namespacedart_1_1io_1_1MjcfParser"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d16/namespacedart_1_1io_1_1MjcfParser.html">dart::io::MjcfParser</a></td></tr>
+<tr class="memitem:d7/dc5/namespacedart_1_1utils_1_1MjcfParser"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc5/namespacedart_1_1utils_1_1MjcfParser.html">dart::utils::MjcfParser</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html">dart::io::MjcfParser::detail</a></td></tr>
+<tr class="memitem:dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html">dart::utils::MjcfParser::detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a580d67061c9934a981f82f2cf9268974"><td class="memItemLeft" align="right" valign="top">Errors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html#a580d67061c9934a981f82f2cf9268974">dart::io::MjcfParser::detail::checkOrientationValidity</a> (const tinyxml2::XMLElement *element)</td></tr>
-<tr class="memdesc:a580d67061c9934a981f82f2cf9268974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if orientation elements (i.e., &lt;quat&gt;, &lt;axisangle&gt;, &lt;euler&gt;, &lt;xyaxes&gt;, &lt;zaxis&gt;) are properly set in <code>element</code>.  <a href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html#a580d67061c9934a981f82f2cf9268974">More...</a><br /></td></tr>
-<tr class="separator:a580d67061c9934a981f82f2cf9268974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10aaeb8a24a9921032bdfec460e7aabe"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html#a10aaeb8a24a9921032bdfec460e7aabe">dart::io::MjcfParser::detail::compileRotation</a> (const Eigen::Quaterniond &amp;quat, const common::optional&lt; Eigen::Vector4d &gt; &amp;axisAngle, const common::optional&lt; Eigen::Vector3d &gt; &amp;euler, const common::optional&lt; <a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a> &gt; &amp;xyAxes, const common::optional&lt; Eigen::Vector3d &gt; &amp;zAxis, const Compiler &amp;compiler)</td></tr>
-<tr class="memdesc:a10aaeb8a24a9921032bdfec460e7aabe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts rotation matrix from "pre-parsed" orientation elements and the compiler settings.  <a href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html#a10aaeb8a24a9921032bdfec460e7aabe">More...</a><br /></td></tr>
-<tr class="separator:a10aaeb8a24a9921032bdfec460e7aabe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fc23d47370deb420634eebb2dcbea2e"><td class="memItemLeft" align="right" valign="top">Errors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html#a9fc23d47370deb420634eebb2dcbea2e">dart::io::MjcfParser::detail::handleInclude</a> (tinyxml2::XMLElement *element, const common::Uri &amp;baseUri, const common::ResourceRetrieverPtr &amp;retriever)</td></tr>
-<tr class="memdesc:a9fc23d47370deb420634eebb2dcbea2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Includes other MJCF model file into <code>element</code>.  <a href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html#a9fc23d47370deb420634eebb2dcbea2e">More...</a><br /></td></tr>
-<tr class="separator:a9fc23d47370deb420634eebb2dcbea2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af463bf326941e7cd42bdcc6a9910f4ab"><td class="memItemLeft" align="right" valign="top">std::vector&lt; dynamics::BodyNode * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html#af463bf326941e7cd42bdcc6a9910f4ab">dart::io::MjcfParser::detail::getBodyNodes</a> (const simulation::World &amp;world, const std::string &amp;<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a34be977ed742b42533411161886fd21d">name</a>)</td></tr>
-<tr class="memdesc:af463bf326941e7cd42bdcc6a9910f4ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all BodyNodes by name.  <a href="../../d8/d51/namespacedart_1_1io_1_1MjcfParser_1_1detail.html#af463bf326941e7cd42bdcc6a9910f4ab">More...</a><br /></td></tr>
-<tr class="separator:af463bf326941e7cd42bdcc6a9910f4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c31e64c6c28b9b24c991c08289b41f"><td class="memItemLeft" align="right" valign="top">Errors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a62c31e64c6c28b9b24c991c08289b41f">dart::utils::MjcfParser::detail::checkOrientationValidity</a> (const tinyxml2::XMLElement *element)</td></tr>
+<tr class="memdesc:a62c31e64c6c28b9b24c991c08289b41f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if orientation elements (i.e., &lt;quat&gt;, &lt;axisangle&gt;, &lt;euler&gt;, &lt;xyaxes&gt;, &lt;zaxis&gt;) are properly set in <code>element</code>.  <a href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a62c31e64c6c28b9b24c991c08289b41f">More...</a><br /></td></tr>
+<tr class="separator:a62c31e64c6c28b9b24c991c08289b41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19d6e8e8e2f5d2f77e303dd5cfc9ec1"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#aa19d6e8e8e2f5d2f77e303dd5cfc9ec1">dart::utils::MjcfParser::detail::compileRotation</a> (const Eigen::Quaterniond &amp;quat, const common::optional&lt; Eigen::Vector4d &gt; &amp;axisAngle, const common::optional&lt; Eigen::Vector3d &gt; &amp;euler, const common::optional&lt; <a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a> &gt; &amp;xyAxes, const common::optional&lt; Eigen::Vector3d &gt; &amp;zAxis, const Compiler &amp;compiler)</td></tr>
+<tr class="memdesc:aa19d6e8e8e2f5d2f77e303dd5cfc9ec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts rotation matrix from "pre-parsed" orientation elements and the compiler settings.  <a href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#aa19d6e8e8e2f5d2f77e303dd5cfc9ec1">More...</a><br /></td></tr>
+<tr class="separator:aa19d6e8e8e2f5d2f77e303dd5cfc9ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a160b2ef948db05bada382813a985940b"><td class="memItemLeft" align="right" valign="top">Errors&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a160b2ef948db05bada382813a985940b">dart::utils::MjcfParser::detail::handleInclude</a> (tinyxml2::XMLElement *element, const common::Uri &amp;baseUri, const common::ResourceRetrieverPtr &amp;retriever)</td></tr>
+<tr class="memdesc:a160b2ef948db05bada382813a985940b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Includes other MJCF model file into <code>element</code>.  <a href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a160b2ef948db05bada382813a985940b">More...</a><br /></td></tr>
+<tr class="separator:a160b2ef948db05bada382813a985940b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a297ff674ebfada01618193bd35cd8090"><td class="memItemLeft" align="right" valign="top">std::vector&lt; dynamics::BodyNode * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a297ff674ebfada01618193bd35cd8090">dart::utils::MjcfParser::detail::getBodyNodes</a> (const simulation::World &amp;world, const std::string &amp;<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a34be977ed742b42533411161886fd21d">name</a>)</td></tr>
+<tr class="memdesc:a297ff674ebfada01618193bd35cd8090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds all BodyNodes by name.  <a href="../../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a297ff674ebfada01618193bd35cd8090">More...</a><br /></td></tr>
+<tr class="separator:a297ff674ebfada01618193bd35cd8090"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_74d96ee2de62317664b7fed54010d5c4.html">io</a></li><li class="navelem"><a class="el" href="../../dir_d6dc3d699a159a38f500be9d9ed7c469.html">mjcf</a></li><li class="navelem"><a class="el" href="../../dir_720edb90e4ba37359269aa1a2b140160.html">detail</a></li><li class="navelem"><a class="el" href="../../df/d0c/Utils_8cpp.html">Utils.cpp</a></li>
-    <li class="footer">Generated on Tue Jul 13 2021 06:27:18 for DART by
+    <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_558fb1470c9a14158ce5db1674bc31a0.html">utils</a></li><li class="navelem"><a class="el" href="../../dir_3a681c47fd3b26c2da9e409d1dc14366.html">mjcf</a></li><li class="navelem"><a class="el" href="../../dir_5b9611d8b05e01e90f996da1fec25098.html">detail</a></li><li class="navelem"><a class="el" href="../../df/d0c/Utils_8cpp.html">Utils.cpp</a></li>
+    <li class="footer">Generated on Sun Aug 29 2021 07:17:18 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

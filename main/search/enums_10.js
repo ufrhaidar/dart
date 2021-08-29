@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updatetype',['UpdateType',['../d1/df6/classdart_1_1optimization_1_1snopt_1_1SnoptInterface.html#abeb243da3974129f71a3110cfa9b6ea3',1,'dart::optimization::snopt::SnoptInterface']]]
+  ['validity_5ft',['Validity_t',['../dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a3b7b030cb29c20fe67a45af603738802',1,'dart::dynamics::InverseKinematics::Analytical']]]
 ];

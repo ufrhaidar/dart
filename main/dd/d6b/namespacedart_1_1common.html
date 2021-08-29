@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">7.0.0</span>
+   &#160;<span id="projectnumber">6.12.0</span>
    </div>
   </td>
  </tr>
@@ -302,19 +302,6 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:a50bf4d472a6d45531614669484f3db28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to tag arguments as blank for in variadic joiner classes such as common::CompositeJoiner and dynamics::NodeManagerJoiner.  <a href="../../dd/d6b/namespacedart_1_1common.html#a50bf4d472a6d45531614669484f3db28">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a50bf4d472a6d45531614669484f3db28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2fc587e004cd14656899f61db073eff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073eff">LogLevel</a> { <br />
-&#160;&#160;<a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073effa5f1edaa30219240e36ba7d6eaa43fee9">LogLevel::LL_TRACE</a>, 
-<a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073effaba8d2a9de0eed63e563b5c25cc2d4354">LogLevel::LL_DEBUG</a>, 
-<a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073effaa8ff9b7ae7ea16b9b7ad0a963f4ce5d2">LogLevel::LL_INFO</a>, 
-<a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073effa7b7b2e22fde0cd1d8d2f26a255009d20">LogLevel::LL_WARN</a>, 
-<br />
-&#160;&#160;<a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073effa960a39a012e475a4b7370a803841ab38">LogLevel::LL_ERROR</a>, 
-<a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073effa9d12117680581759b41a500cce9cf481">LogLevel::LL_FATAL</a>, 
-<a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073effad44351f3726c119da75ad1eeb2570f27">LogLevel::LL_OFF</a>
-<br />
- }<tr class="memdesc:ad2fc587e004cd14656899f61db073eff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log level.  <a href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073eff">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:ad2fc587e004cd14656899f61db073eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -337,57 +324,12 @@ Functions</h2></td></tr>
 <tr class="separator:af7e228b6914a47b7f42e43d0ed615e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe69bb6c9e434a7421aee6dbeaa7c195"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#afe69bb6c9e434a7421aee6dbeaa7c195">colorErr</a> (const std::string &amp;_msg, const std::string &amp;_file, unsigned int _line, int _color)</td></tr>
 <tr class="separator:afe69bb6c9e434a7421aee6dbeaa7c195"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad039fcc86ff18b9cdf7a87622d63d1c2"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:ad039fcc86ff18b9cdf7a87622d63d1c2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad039fcc86ff18b9cdf7a87622d63d1c2">trace</a> (const S &amp;format_str, [[maybe_unused]] Args &amp;&amp;... args)</td></tr>
-<tr class="separator:ad039fcc86ff18b9cdf7a87622d63d1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae816d457715175de9ac1c327191dd049"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:ae816d457715175de9ac1c327191dd049"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ae816d457715175de9ac1c327191dd049">debug</a> (const S &amp;format_str, [[maybe_unused]] Args &amp;&amp;... args)</td></tr>
-<tr class="separator:ae816d457715175de9ac1c327191dd049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a490089417a6fdb3d6fde45ea566f8291"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:a490089417a6fdb3d6fde45ea566f8291"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a490089417a6fdb3d6fde45ea566f8291">info</a> (const S &amp;format_str, [[maybe_unused]] Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a490089417a6fdb3d6fde45ea566f8291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0dbbdef6acaf116a7cd0ce4750a3378"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:ac0dbbdef6acaf116a7cd0ce4750a3378"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ac0dbbdef6acaf116a7cd0ce4750a3378">warn</a> (const S &amp;format_str, [[maybe_unused]] Args &amp;&amp;... args)</td></tr>
-<tr class="separator:ac0dbbdef6acaf116a7cd0ce4750a3378"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a933463c63b9ade3d05e2b006e4e438b0"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:a933463c63b9ade3d05e2b006e4e438b0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a933463c63b9ade3d05e2b006e4e438b0">error</a> (const S &amp;format_str, [[maybe_unused]] Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a933463c63b9ade3d05e2b006e4e438b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fa4c0ff0c47c0828d2d95b2f9b064d6"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:a0fa4c0ff0c47c0828d2d95b2f9b064d6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a0fa4c0ff0c47c0828d2d95b2f9b064d6">fatal</a> (const S &amp;format_str, [[maybe_unused]] Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a0fa4c0ff0c47c0828d2d95b2f9b064d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24cbfdfe07bc8af5cafc4ff9e8b2c1fc"><td class="memTemplParams" colspan="2">template&lt;typename _Tp , typename... _Args&gt; </td></tr>
 <tr class="memitem:a24cbfdfe07bc8af5cafc4ff9e8b2c1fc"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; _Tp &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a24cbfdfe07bc8af5cafc4ff9e8b2c1fc">make_aligned_shared</a> (_Args &amp;&amp;... __args)</td></tr>
 <tr class="separator:a24cbfdfe07bc8af5cafc4ff9e8b2c1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47e3c9d559f6e5a6c267cbe51a5f4488"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
 <tr class="memitem:a47e3c9d559f6e5a6c267cbe51a5f4488"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a47e3c9d559f6e5a6c267cbe51a5f4488">make_unique</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a47e3c9d559f6e5a6c267cbe51a5f4488"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedfdafd35f6d8c966c8f08dc250a42c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#aedfdafd35f6d8c966c8f08dc250a42c6">set_log_level</a> (<a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073eff">LogLevel</a> level)</td></tr>
-<tr class="memdesc:aedfdafd35f6d8c966c8f08dc250a42c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets log level of the global logger.  <a href="#aedfdafd35f6d8c966c8f08dc250a42c6">More...</a><br /></td></tr>
-<tr class="separator:aedfdafd35f6d8c966c8f08dc250a42c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac50758e2555199a9ff1c8eb5150e01"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:aaac50758e2555199a9ff1c8eb5150e01"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#aaac50758e2555199a9ff1c8eb5150e01">trace</a> (const S &amp;format_str, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:aaac50758e2555199a9ff1c8eb5150e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs for a trace message.  <a href="#aaac50758e2555199a9ff1c8eb5150e01">More...</a><br /></td></tr>
-<tr class="separator:aaac50758e2555199a9ff1c8eb5150e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac03c387200e73e4b10174cdb4cc708c0"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:ac03c387200e73e4b10174cdb4cc708c0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ac03c387200e73e4b10174cdb4cc708c0">debug</a> (const S &amp;format_str, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:ac03c387200e73e4b10174cdb4cc708c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs for a debug message.  <a href="#ac03c387200e73e4b10174cdb4cc708c0">More...</a><br /></td></tr>
-<tr class="separator:ac03c387200e73e4b10174cdb4cc708c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3815c5337e4cbb516742ea56d590e693"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:a3815c5337e4cbb516742ea56d590e693"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a3815c5337e4cbb516742ea56d590e693">info</a> (const S &amp;format_str, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:a3815c5337e4cbb516742ea56d590e693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs for a info message.  <a href="#a3815c5337e4cbb516742ea56d590e693">More...</a><br /></td></tr>
-<tr class="separator:a3815c5337e4cbb516742ea56d590e693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fc7e10ce165eae387e9ea9c4321b6cf"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:a3fc7e10ce165eae387e9ea9c4321b6cf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a3fc7e10ce165eae387e9ea9c4321b6cf">warn</a> (const S &amp;format_str, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:a3fc7e10ce165eae387e9ea9c4321b6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs for a warn message.  <a href="#a3fc7e10ce165eae387e9ea9c4321b6cf">More...</a><br /></td></tr>
-<tr class="separator:a3fc7e10ce165eae387e9ea9c4321b6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0fffa9600be6cf4ef3a7c45fe64db33"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:ae0fffa9600be6cf4ef3a7c45fe64db33"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ae0fffa9600be6cf4ef3a7c45fe64db33">error</a> (const S &amp;format_str, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:ae0fffa9600be6cf4ef3a7c45fe64db33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs for a error message.  <a href="#ae0fffa9600be6cf4ef3a7c45fe64db33">More...</a><br /></td></tr>
-<tr class="separator:ae0fffa9600be6cf4ef3a7c45fe64db33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17191837589c6168afdb8463115c5fe1"><td class="memTemplParams" colspan="2">template&lt;typename S , typename... Args&gt; </td></tr>
-<tr class="memitem:a17191837589c6168afdb8463115c5fe1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a17191837589c6168afdb8463115c5fe1">fatal</a> (const S &amp;format_str, Args &amp;&amp;... args)</td></tr>
-<tr class="memdesc:a17191837589c6168afdb8463115c5fe1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logs for a fatal message.  <a href="#a17191837589c6168afdb8463115c5fe1">More...</a><br /></td></tr>
-<tr class="separator:a17191837589c6168afdb8463115c5fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c4351ff43c76315b2549773a6fa57bc"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a7c4351ff43c76315b2549773a6fa57bc"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a7c4351ff43c76315b2549773a6fa57bc">getVectorObjectIfAvailable</a> (std::size_t <a class="el" href="../../d8/d35/SkelParser_8cpp.html#ac28efa16fb8062e271f8b7a373cc1734">index</a>, const std::vector&lt; T &gt; &amp;vec)</td></tr>
 <tr class="separator:a7c4351ff43c76315b2549773a6fa57bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -554,49 +496,6 @@ template&lt;class CompositeT , typename StateT &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ad2fc587e004cd14656899f61db073eff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2fc587e004cd14656899f61db073eff">&#9670;&nbsp;</a></span>LogLevel</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073eff">dart::common::LogLevel</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Log level. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad2fc587e004cd14656899f61db073effa5f1edaa30219240e36ba7d6eaa43fee9"></a>LL_TRACE&#160;</td><td class="fielddoc"><p>The TRACE level designates finer-grained information events than the DEBUG level. </p>
-<p>This level is intended to use for showing logic-level program flow, without performance concerns. Not encouraged to use in production. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ad2fc587e004cd14656899f61db073effaba8d2a9de0eed63e563b5c25cc2d4354"></a>LL_DEBUG&#160;</td><td class="fielddoc"><p>The DEBUG level designates fine-grained informational events that are most useful to debug. </p>
-<p>This level is intended to use for dumping variable state, specific error codes, etc, which don't affect the performance significantly. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ad2fc587e004cd14656899f61db073effaa8ff9b7ae7ea16b9b7ad0a963f4ce5d2"></a>LL_INFO&#160;</td><td class="fielddoc"><p>The INFO level designates informational messages that highlight the progress of the application at coarse-grained level. </p>
-<p>Assumed to be used in production. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ad2fc587e004cd14656899f61db073effa7b7b2e22fde0cd1d8d2f26a255009d20"></a>LL_WARN&#160;</td><td class="fielddoc"><p>The WARN level designates potentially harmful situations. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ad2fc587e004cd14656899f61db073effa960a39a012e475a4b7370a803841ab38"></a>LL_ERROR&#160;</td><td class="fielddoc"><p>The ERROR level designates error events that might still allow the application to continue running, but the application might not be able to achieve the goals. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ad2fc587e004cd14656899f61db073effa9d12117680581759b41a500cce9cf481"></a>LL_FATAL&#160;</td><td class="fielddoc"><p>The FATAL level designates very sever error events that will presumably lead the application to abort. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ad2fc587e004cd14656899f61db073effad44351f3726c119da75ad1eeb2570f27"></a>LL_OFF&#160;</td><td class="fielddoc"><p>Use to completely turn off logging. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 <a id="a50bf4d472a6d45531614669484f3db28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50bf4d472a6d45531614669484f3db28">&#9670;&nbsp;</a></span>NoArgTag</h2>
 
@@ -727,130 +626,6 @@ template&lt;class T , class NextAspect , class... Aspects&gt; </div>
 
 </div>
 </div>
-<a id="ae816d457715175de9ac1c327191dd049"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae816d457715175de9ac1c327191dd049">&#9670;&nbsp;</a></span>debug() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::debug </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac03c387200e73e4b10174cdb4cc708c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac03c387200e73e4b10174cdb4cc708c0">&#9670;&nbsp;</a></span>debug() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::debug </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Logs for a debug message. </p>
-
-</div>
-</div>
-<a id="a933463c63b9ade3d05e2b006e4e438b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a933463c63b9ade3d05e2b006e4e438b0">&#9670;&nbsp;</a></span>error() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::error </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae0fffa9600be6cf4ef3a7c45fe64db33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0fffa9600be6cf4ef3a7c45fe64db33">&#9670;&nbsp;</a></span>error() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::error </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Logs for a error message. </p>
-
-</div>
-</div>
 <a id="a449bddb1b71c18772e571de37d50e01b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a449bddb1b71c18772e571de37d50e01b">&#9670;&nbsp;</a></span>extractDataFromObjectTypeMap()</h2>
 
@@ -893,68 +668,6 @@ template&lt;typename ObjectType , class DataType , const DataType *(ObjectType::
 
 </div>
 </div>
-<a id="a0fa4c0ff0c47c0828d2d95b2f9b064d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fa4c0ff0c47c0828d2d95b2f9b064d6">&#9670;&nbsp;</a></span>fatal() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::fatal </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a17191837589c6168afdb8463115c5fe1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17191837589c6168afdb8463115c5fe1">&#9670;&nbsp;</a></span>fatal() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::fatal </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Logs for a fatal message. </p>
-
-</div>
-</div>
 <a id="a7c4351ff43c76315b2549773a6fa57bc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c4351ff43c76315b2549773a6fa57bc">&#9670;&nbsp;</a></span>getVectorObjectIfAvailable()</h2>
 
@@ -990,68 +703,6 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a490089417a6fdb3d6fde45ea566f8291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a490089417a6fdb3d6fde45ea566f8291">&#9670;&nbsp;</a></span>info() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::info </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3815c5337e4cbb516742ea56d590e693"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3815c5337e4cbb516742ea56d590e693">&#9670;&nbsp;</a></span>info() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::info </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Logs for a info message. </p>
 
 </div>
 </div>
@@ -1092,28 +743,7 @@ template&lt;typename T , typename... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Deprecated in 6.9. Use std::make_unique instead. </dd></dl>
-
-</div>
-</div>
-<a id="aedfdafd35f6d8c966c8f08dc250a42c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedfdafd35f6d8c966c8f08dc250a42c6">&#9670;&nbsp;</a></span>set_log_level()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::set_log_level </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ad2fc587e004cd14656899f61db073eff">LogLevel</a>&#160;</td>
-          <td class="paramname"><em>level</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets log level of the global logger. </p>
-<p>Use LogLevel::OFF to completely turn off logging. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>Deprecated in 6.9. Use std::make_unique instead. </dd></dl>
 
 </div>
 </div>
@@ -1159,130 +789,6 @@ template&lt;typename ObjectType , class DataType , void(ObjectType::*)(const Dat
 
 </div>
 </div>
-<a id="ad039fcc86ff18b9cdf7a87622d63d1c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad039fcc86ff18b9cdf7a87622d63d1c2">&#9670;&nbsp;</a></span>trace() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::trace </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaac50758e2555199a9ff1c8eb5150e01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaac50758e2555199a9ff1c8eb5150e01">&#9670;&nbsp;</a></span>trace() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::trace </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Logs for a trace message. </p>
-
-</div>
-</div>
-<a id="ac0dbbdef6acaf116a7cd0ce4750a3378"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0dbbdef6acaf116a7cd0ce4750a3378">&#9670;&nbsp;</a></span>warn() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::warn </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3fc7e10ce165eae387e9ea9c4321b6cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fc7e10ce165eae387e9ea9c4321b6cf">&#9670;&nbsp;</a></span>warn() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S , typename... Args&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::common::warn </td>
-          <td>(</td>
-          <td class="paramtype">const S &amp;&#160;</td>
-          <td class="paramname"><em>format_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Args &amp;&amp;...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Logs for a warn message. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a4151dcb847dcc5e51fe9bd7d4cdeb8e2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4151dcb847dcc5e51fe9bd7d4cdeb8e2">&#9670;&nbsp;</a></span>AspectWithStateAndVersionedProperties</h2>
@@ -1306,7 +812,7 @@ template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , cl
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html">common</a></li>
-    <li class="footer">Generated on Tue Jul 13 2021 06:27:19 for DART by
+    <li class="footer">Generated on Sun Aug 29 2021 07:17:19 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DART: dart/dynamics/ode/OdeCollisionDetector.cpp File Reference</title>
+<title>DART: dart/collision/ode/OdeCollisionDetector.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">7.0.0</span>
+   &#160;<span id="projectnumber">6.12.0</span>
    </div>
   </td>
  </tr>
@@ -92,11 +92,14 @@ $(document).ready(function(){initNavTree('df/d71/OdeCollisionDetector_8cpp.html'
 <div class="title">OdeCollisionDetector.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d50/OdeCollisionDetector_8hpp_source.html">dart/dynamics/ode/OdeCollisionDetector.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d6/d50/OdeCollisionDetector_8hpp_source.html">dart/collision/ode/OdeCollisionDetector.hpp</a>&quot;</code><br />
 <code>#include &lt;ode/ode.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d6/de0/CollisionFilter_8hpp_source.html">dart/collision/CollisionFilter.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d2f/OdeCollisionGroup_8hpp_source.html">dart/collision/ode/OdeCollisionGroup.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../df/d30/OdeCollisionObject_8hpp_source.html">dart/collision/ode/OdeCollisionObject.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d91/OdeTypes_8hpp_source.html">dart/collision/ode/OdeTypes.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d22/BoxShape_8hpp_source.html">dart/dynamics/BoxShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/db5/CapsuleShape_8hpp_source.html">dart/dynamics/CapsuleShape.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d6/de0/CollisionFilter_8hpp_source.html">dart/dynamics/CollisionFilter.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/d62/ConeShape_8hpp_source.html">dart/dynamics/ConeShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d3e/CylinderShape_8hpp_source.html">dart/dynamics/CylinderShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d4f/EllipsoidShape_8hpp_source.html">dart/dynamics/EllipsoidShape.hpp</a>&quot;</code><br />
@@ -105,15 +108,12 @@ $(document).ready(function(){initNavTree('df/d71/OdeCollisionDetector_8cpp.html'
 <code>#include &quot;<a class="el" href="../../d0/de1/PlaneShape_8hpp_source.html">dart/dynamics/PlaneShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../de/d8d/SoftMeshShape_8hpp_source.html">dart/dynamics/SoftMeshShape.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d1/dc2/SphereShape_8hpp_source.html">dart/dynamics/SphereShape.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d2f/OdeCollisionGroup_8hpp_source.html">dart/dynamics/ode/OdeCollisionGroup.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../df/d30/OdeCollisionObject_8hpp_source.html">dart/dynamics/ode/OdeCollisionObject.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d91/OdeTypes_8hpp_source.html">dart/dynamics/ode/OdeTypes.hpp</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d1/d83/namespacedart"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d5a/namespacedart_1_1dynamics"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dart::dynamics</a></td></tr>
+<tr class="memitem:da/dcd/namespacedart_1_1collision"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html">dart::collision</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -201,8 +201,8 @@ Namespaces</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_ce1d750ba4a7950ac0659613f96015b8.html">dynamics</a></li><li class="navelem"><a class="el" href="../../dir_5e5d162be404e03649ca04f2e5cd9ff6.html">ode</a></li><li class="navelem"><a class="el" href="../../df/d71/OdeCollisionDetector_8cpp.html">OdeCollisionDetector.cpp</a></li>
-    <li class="footer">Generated on Tue Jul 13 2021 06:27:18 for DART by
+    <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_7aaf2eefc9c12d3855f042d5a221f589.html">collision</a></li><li class="navelem"><a class="el" href="../../dir_684954adc504023c4471066a5c3fd957.html">ode</a></li><li class="navelem"><a class="el" href="../../df/d71/OdeCollisionDetector_8cpp.html">OdeCollisionDetector.cpp</a></li>
+    <li class="footer">Generated on Sun Aug 29 2021 07:17:18 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">7.0.0</span>
+   &#160;<span id="projectnumber">6.12.0</span>
    </div>
   </td>
  </tr>
@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('d6/def/classdart_1_1dynamics_1_1Invers
 </div><!--header-->
 <div class="contents">
 
-<p>This class should be inherited by <a class="el" href="../../d7/d64/classdart_1_1optimization_1_1Function.html">optimization::Function</a> classes that have a dependency on the <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module that they belong to.  
+<p>This class should be inherited by <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html">optimizer::Function</a> classes that have a dependency on the <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module that they belong to.  
  <a href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="../../de/d6a/InverseKinematics_8hpp_source.html">InverseKinematics.hpp</a>&gt;</code></p>
@@ -111,16 +111,16 @@ Inheritance diagram for dart::dynamics::InverseKinematics::Function:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa9612e246242ee049215ac737bd6c29b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/d49/namespacedart_1_1optimization.html#ad5ff213cbbb28588a04277faf24f989c">optimization::FunctionPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html#aa9612e246242ee049215ac737bd6c29b">clone</a> (<a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a> *_newIK) const =0</td></tr>
-<tr class="memdesc:aa9612e246242ee049215ac737bd6c29b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable this function to be cloned to a new IK module.  <a href="#aa9612e246242ee049215ac737bd6c29b">More...</a><br /></td></tr>
-<tr class="separator:aa9612e246242ee049215ac737bd6c29b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32b2cc147ac6f5f4dec399c6b627deb8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d47/namespacedart_1_1optimizer.html#a091d108c3f5c8ca77baeae7abe86c31c">optimizer::FunctionPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html#a32b2cc147ac6f5f4dec399c6b627deb8">clone</a> (<a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a> *_newIK) const =0</td></tr>
+<tr class="memdesc:a32b2cc147ac6f5f4dec399c6b627deb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable this function to be cloned to a new IK module.  <a href="#a32b2cc147ac6f5f4dec399c6b627deb8">More...</a><br /></td></tr>
+<tr class="separator:a32b2cc147ac6f5f4dec399c6b627deb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81a4d308d440ec7da21085b695ec57a5"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html#a81a4d308d440ec7da21085b695ec57a5">~Function</a> ()=default</td></tr>
 <tr class="memdesc:a81a4d308d440ec7da21085b695ec57a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor.  <a href="#a81a4d308d440ec7da21085b695ec57a5">More...</a><br /></td></tr>
 <tr class="separator:a81a4d308d440ec7da21085b695ec57a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class should be inherited by <a class="el" href="../../d7/d64/classdart_1_1optimization_1_1Function.html">optimization::Function</a> classes that have a dependency on the <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module that they belong to. </p>
-<p>If you pass an <a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html" title="This class should be inherited by optimization::Function classes that have a dependency on the Invers...">InverseKinematics::Function</a> into the Problem of an <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module, then it will be properly cloned whenever the <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module that it belongs to gets cloned. Any <a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html" title="This class should be inherited by optimization::Function classes that have a dependency on the Invers...">Function</a> classes in the Problem that do not inherit <a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html" title="This class should be inherited by optimization::Function classes that have a dependency on the Invers...">InverseKinematics::Function</a> will just be copied over by reference. </p>
+<div class="textblock"><p>This class should be inherited by <a class="el" href="../../d9/dae/classdart_1_1optimizer_1_1Function.html">optimizer::Function</a> classes that have a dependency on the <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module that they belong to. </p>
+<p>If you pass an <a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html" title="This class should be inherited by optimizer::Function classes that have a dependency on the InverseKi...">InverseKinematics::Function</a> into the Problem of an <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module, then it will be properly cloned whenever the <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html" title="The InverseKinematics class provides a convenient way of setting up an IK optimization problem...">InverseKinematics</a> module that it belongs to gets cloned. Any <a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html" title="This class should be inherited by optimizer::Function classes that have a dependency on the InverseKi...">Function</a> classes in the Problem that do not inherit <a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html" title="This class should be inherited by optimizer::Function classes that have a dependency on the InverseKi...">InverseKinematics::Function</a> will just be copied over by reference. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a81a4d308d440ec7da21085b695ec57a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a81a4d308d440ec7da21085b695ec57a5">&#9670;&nbsp;</a></span>~Function()</h2>
@@ -150,8 +150,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa9612e246242ee049215ac737bd6c29b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9612e246242ee049215ac737bd6c29b">&#9670;&nbsp;</a></span>clone()</h2>
+<a id="a32b2cc147ac6f5f4dec399c6b627deb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32b2cc147ac6f5f4dec399c6b627deb8">&#9670;&nbsp;</a></span>clone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d5/d49/namespacedart_1_1optimization.html#ad5ff213cbbb28588a04277faf24f989c">optimization::FunctionPtr</a> dart::dynamics::InverseKinematics::Function::clone </td>
+          <td class="memname">virtual <a class="el" href="../../d4/d47/namespacedart_1_1optimizer.html#a091d108c3f5c8ca77baeae7abe86c31c">optimizer::FunctionPtr</a> dart::dynamics::InverseKinematics::Function::clone </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a> *&#160;</td>
           <td class="paramname"><em>_newIK</em></td><td>)</td>
@@ -176,7 +176,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Enable this function to be cloned to a new IK module. </p>
 
-<p>Implemented in <a class="el" href="../../d8/d14/classdart_1_1dynamics_1_1InverseKinematics_1_1Constraint.html#a59596f4720285af6c180c9d738ab8972">dart::dynamics::InverseKinematics::Constraint</a>, and <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html#a7f8756d65a5701eaf5c73b9e65c31581">dart::dynamics::InverseKinematics::Objective</a>.</p>
+<p>Implemented in <a class="el" href="../../d8/d14/classdart_1_1dynamics_1_1InverseKinematics_1_1Constraint.html#a45acfa422b35cb7140de3b50c0dd61c8">dart::dynamics::InverseKinematics::Constraint</a>, and <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html#ab692075b00ae83d38557a2e8c975d64e">dart::dynamics::InverseKinematics::Objective</a>.</p>
 
 </div>
 </div>
@@ -186,7 +186,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a></li><li class="navelem"><a class="el" href="../../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html">Function</a></li>
-    <li class="footer">Generated on Tue Jul 13 2021 06:27:20 for DART by
+    <li class="footer">Generated on Sun Aug 29 2021 07:17:20 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

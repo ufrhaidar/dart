@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">7.0.0</span>
+   &#160;<span id="projectnumber">6.12.0</span>
    </div>
   </td>
  </tr>
@@ -100,16 +100,10 @@ $(document).ready(function(){initNavTree('d9/d30/common_2SmartPointer_8hpp.html'
 Macros</h2></td></tr>
 <tr class="memitem:aa47e4f5747c17c5684a582c6292b74c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#aa47e4f5747c17c5684a582c6292b74c6">DART_COMMON_DECLARE_SHARED_WEAK</a>(X)</td></tr>
 <tr class="separator:aa47e4f5747c17c5684a582c6292b74c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3113b8cb683642b654a4ca42882aeff2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#a3113b8cb683642b654a4ca42882aeff2">DART_COMMON_DECLARE_SHARED_WEAK_STRUCT</a>(X)</td></tr>
-<tr class="separator:a3113b8cb683642b654a4ca42882aeff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53e9d3715034193bbacd12826d954f5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#a53e9d3715034193bbacd12826d954f5f">DART_COMMON_MAKE_SHARED_WEAK</a>(X)&#160;&#160;&#160;<a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#aa47e4f5747c17c5684a582c6292b74c6">DART_COMMON_DECLARE_SHARED_WEAK</a>(X)</td></tr>
+<tr class="separator:a53e9d3715034193bbacd12826d954f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabeb24b4ea78470e4bc546b9ab7fa76a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#aabeb24b4ea78470e4bc546b9ab7fa76a">DART_COMMON_DECLARE_SMART_POINTERS</a>(X)</td></tr>
 <tr class="separator:aabeb24b4ea78470e4bc546b9ab7fa76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab47d7cbf35d6cea92b42d8e6bd509582"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#ab47d7cbf35d6cea92b42d8e6bd509582">DART_COMMON_DECLARE_SMART_POINTERS_STRUCT</a>(X)</td></tr>
-<tr class="separator:ab47d7cbf35d6cea92b42d8e6bd509582"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03b395f824fbc6f3b4839c074ae9ece7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#a03b395f824fbc6f3b4839c074ae9ece7">DART_DEFINE_STRUCT_POINTERS_T1</a>(x)</td></tr>
-<tr class="separator:a03b395f824fbc6f3b4839c074ae9ece7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeac2fbb7be02309c4c77c96bcc8c3c65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#aeac2fbb7be02309c4c77c96bcc8c3c65">DART_DEFINE_CLASS_POINTERS_T1</a>(x)</td></tr>
-<tr class="separator:aeac2fbb7be02309c4c77c96bcc8c3c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aa47e4f5747c17c5684a582c6292b74c6"></a>
@@ -128,24 +122,6 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">class </span>X;                                                                     \</div><div class="line">  using X##Ptr = std::shared_ptr&lt;X&gt;;                                           \</div><div class="line">  using Const##X##Ptr = std::shared_ptr&lt;const X&gt;;                              \</div><div class="line">  using Weak##X##Ptr = std::weak_ptr&lt;X&gt;;                                       \</div><div class="line">  using WeakConst##X##Ptr = std::weak_ptr&lt;const X&gt;;</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a3113b8cb683642b654a4ca42882aeff2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3113b8cb683642b654a4ca42882aeff2">&#9670;&nbsp;</a></span>DART_COMMON_DECLARE_SHARED_WEAK_STRUCT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DART_COMMON_DECLARE_SHARED_WEAK_STRUCT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">X</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">struct </span>X;                                                                    \</div><div class="line">  using X##Ptr = std::shared_ptr&lt;X&gt;;                                           \</div><div class="line">  using Const##X##Ptr = std::shared_ptr&lt;const X&gt;;                              \</div><div class="line">  using Weak##X##Ptr = std::weak_ptr&lt;X&gt;;                                       \</div><div class="line">  using WeakConst##X##Ptr = std::weak_ptr&lt;const X&gt;;</div></div><!-- fragment -->
 </div>
 </div>
 <a id="aabeb24b4ea78470e4bc546b9ab7fa76a"></a>
@@ -167,61 +143,22 @@ Macros</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ab47d7cbf35d6cea92b42d8e6bd509582"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab47d7cbf35d6cea92b42d8e6bd509582">&#9670;&nbsp;</a></span>DART_COMMON_DECLARE_SMART_POINTERS_STRUCT</h2>
+<a id="a53e9d3715034193bbacd12826d954f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53e9d3715034193bbacd12826d954f5f">&#9670;&nbsp;</a></span>DART_COMMON_MAKE_SHARED_WEAK</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define DART_COMMON_DECLARE_SMART_POINTERS_STRUCT</td>
+          <td class="memname">#define DART_COMMON_MAKE_SHARED_WEAK</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">X</td><td>)</td>
-          <td></td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html#aa47e4f5747c17c5684a582c6292b74c6">DART_COMMON_DECLARE_SHARED_WEAK</a>(X)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d9/d30/common_2SmartPointer_8hpp.html#a3113b8cb683642b654a4ca42882aeff2">DART_COMMON_DECLARE_SHARED_WEAK_STRUCT</a>(X)                                    \</div><div class="line">  using Unique##X##Ptr = std::unique_ptr&lt;X&gt;;                                   \</div><div class="line">  using UniqueConst##X##Ptr = std::unique_ptr&lt;const X&gt;;</div><div class="ttc" id="common_2SmartPointer_8hpp_html_a3113b8cb683642b654a4ca42882aeff2"><div class="ttname"><a href="../../d9/d30/common_2SmartPointer_8hpp.html#a3113b8cb683642b654a4ca42882aeff2">DART_COMMON_DECLARE_SHARED_WEAK_STRUCT</a></div><div class="ttdeci">#define DART_COMMON_DECLARE_SHARED_WEAK_STRUCT(X)</div><div class="ttdef"><b>Definition:</b> SmartPointer.hpp:48</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aeac2fbb7be02309c4c77c96bcc8c3c65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeac2fbb7be02309c4c77c96bcc8c3c65">&#9670;&nbsp;</a></span>DART_DEFINE_CLASS_POINTERS_T1</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DART_DEFINE_CLASS_POINTERS_T1</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;                                                        \</div><div class="line">  class x;                                                                     \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using x##Ptr = ::std::shared_ptr&lt;x&lt;T&gt;&gt;;                                      \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using Const##x##Ptr = ::std::shared_ptr&lt;const x&lt;T&gt;&gt;;                         \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using x##WeakPtr = ::std::weak_ptr&lt;x&lt;T&gt;&gt;;                                    \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using Const##x##WeakPtr = ::std::weak_ptr&lt;const x&lt;T&gt;&gt;;                       \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using x##UniquePtr = ::std::unique_ptr&lt;x&lt;T&gt;&gt;;                                \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using Const##x##UniquePtr = ::std::unique_ptr&lt;const x&lt;T&gt;&gt;;                   \</div><div class="line">  void <a class="code" href="../../da/dcd/namespacedart_1_1collision.html#a96cc85ab0a059a13130a4d0921c3b6f9">_ANONYMOUS_FUNCTION_3</a>()</div><div class="ttc" id="namespacedart_1_1collision_html_a96cc85ab0a059a13130a4d0921c3b6f9"><div class="ttname"><a href="../../da/dcd/namespacedart_1_1collision.html#a96cc85ab0a059a13130a4d0921c3b6f9">dart::collision::_ANONYMOUS_FUNCTION_3</a></div><div class="ttdeci">void _ANONYMOUS_FUNCTION_3()</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a03b395f824fbc6f3b4839c074ae9ece7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03b395f824fbc6f3b4839c074ae9ece7">&#9670;&nbsp;</a></span>DART_DEFINE_STRUCT_POINTERS_T1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DART_DEFINE_STRUCT_POINTERS_T1</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;                                                        \</div><div class="line">  struct x;                                                                    \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using x##Ptr = ::std::shared_ptr&lt;x&lt;T&gt;&gt;;                                      \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using Const##x##Ptr = ::std::shared_ptr&lt;const x&lt;T&gt;&gt;;                         \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using x##WeakPtr = ::std::weak_ptr&lt;x&lt;T&gt;&gt;;                                    \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using Const##x##WeakPtr = ::std::weak_ptr&lt;const x&lt;T&gt;&gt;;                       \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using x##UniquePtr = ::std::unique_ptr&lt;x&lt;T&gt;&gt;;                                \</div><div class="line">  template &lt;typename T&gt;                                                        \</div><div class="line">  using Const##x##UniquePtr = ::std::unique_ptr&lt;const x&lt;T&gt;&gt;;                   \</div><div class="line">  void <a class="code" href="../../da/dcd/namespacedart_1_1collision.html#a96cc85ab0a059a13130a4d0921c3b6f9">_ANONYMOUS_FUNCTION_3</a>()</div><div class="ttc" id="namespacedart_1_1collision_html_a96cc85ab0a059a13130a4d0921c3b6f9"><div class="ttname"><a href="../../da/dcd/namespacedart_1_1collision.html#a96cc85ab0a059a13130a4d0921c3b6f9">dart::collision::_ANONYMOUS_FUNCTION_3</a></div><div class="ttdeci">void _ANONYMOUS_FUNCTION_3()</div></div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -230,7 +167,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_038ecf057a57cc1982efaa71edfdbdcb.html">common</a></li><li class="navelem"><a class="el" href="../../d9/d30/common_2SmartPointer_8hpp.html">SmartPointer.hpp</a></li>
-    <li class="footer">Generated on Tue Jul 13 2021 06:27:18 for DART by
+    <li class="footer">Generated on Sun Aug 29 2021 07:17:18 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

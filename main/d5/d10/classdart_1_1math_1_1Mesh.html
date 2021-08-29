@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">DART
-   &#160;<span id="projectnumber">7.0.0</span>
+   &#160;<span id="projectnumber">6.12.0</span>
    </div>
   </td>
  </tr>
@@ -100,18 +100,15 @@ $(document).ready(function(){initNavTree('d5/d10/classdart_1_1math_1_1Mesh.html'
 <p>Base class for meshes.  
  <a href="../../d5/d10/classdart_1_1math_1_1Mesh.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="../../d7/d28/math_2geometry_2Mesh_8hpp_source.html">Mesh.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../d7/d5d/math_2Mesh_8hpp_source.html">Mesh.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for dart::math::Mesh&lt; S_ &gt;:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="../../d5/d10/classdart_1_1math_1_1Mesh.png" usemap="#dart::math::Mesh_3C_20S_5F_20_3E_map" alt=""/>
   <map id="dart::math::Mesh_3C_20S_5F_20_3E_map" name="dart::math::Mesh_3C_20S_5F_20_3E_map">
-<area href="../../d8/d08/classdart_1_1math_1_1Geometry3.html" alt="dart::math::Geometry3&lt; S_ &gt;" shape="rect" coords="91,56,263,80"/>
-<area href="../../d3/dd8/classdart_1_1math_1_1Geometry.html" alt="dart::math::Geometry" shape="rect" coords="91,0,263,24"/>
-<area href="../../d0/de0/classdart_1_1math_1_1TetraMesh.html" title="This class represents triangle meshes. " alt="dart::math::TetraMesh&lt; S_ &gt;" shape="rect" coords="0,168,172,192"/>
-<area href="../../d4/d2d/classdart_1_1math_1_1TriMesh.html" title="This class represents triangle meshes. " alt="dart::math::TriMesh&lt; S_ &gt;" shape="rect" coords="182,168,354,192"/>
-<area href="../../d3/d0d/classdart_1_1math_1_1Icosphere.html" title="The class Icosphere represents an icosphere where the subdivision and radius are configurable. " alt="dart::math::Icosphere&lt; S_ &gt;" shape="rect" coords="182,224,354,248"/>
+<area href="../../d4/d2d/classdart_1_1math_1_1TriMesh.html" title="This class represents triangle meshes. " alt="dart::math::TriMesh&lt; S_ &gt;" shape="rect" coords="0,56,167,80"/>
+<area href="../../d3/d0d/classdart_1_1math_1_1Icosphere.html" title="The class Icosphere represents an icosphere where the subdivision and radius are configurable. " alt="dart::math::Icosphere&lt; S_ &gt;" shape="rect" coords="0,112,167,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -121,7 +118,7 @@ Public Types</h2></td></tr>
 <tr class="separator:afba3deeb30dcf34c7e01e47941996de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d0c53afe24107cf355cfe373e48a0aa"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a4d0c53afe24107cf355cfe373e48a0aa">Index</a> = std::size_t</td></tr>
 <tr class="separator:a4d0c53afe24107cf355cfe373e48a0aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e278c94c8608abd44403937c901550b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a0e278c94c8608abd44403937c901550b">Vector3</a> = Eigen::Matrix&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a>, 3, 1 &gt;</td></tr>
+<tr class="memitem:a0e278c94c8608abd44403937c901550b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a0e278c94c8608abd44403937c901550b">Vector3</a> = Eigen::Matrix&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a>, 3, 1 &gt;</td></tr>
 <tr class="separator:a0e278c94c8608abd44403937c901550b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52cd1a4753464a8e5b54568e703d8ace"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a52cd1a4753464a8e5b54568e703d8ace">Vertices</a> = std::vector&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a0e278c94c8608abd44403937c901550b">Vector3</a> &gt;</td></tr>
 <tr class="separator:a52cd1a4753464a8e5b54568e703d8ace"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,19 +126,6 @@ Public Types</h2></td></tr>
 <tr class="separator:a44ff25cdef09e69bfe287eaabaa22567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d38a25b42de21bcd358c873d14c5a45"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a8d38a25b42de21bcd358c873d14c5a45">Indices</a> = std::vector&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a4d0c53afe24107cf355cfe373e48a0aa">Index</a> &gt;</td></tr>
 <tr class="separator:a8d38a25b42de21bcd358c873d14c5a45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d6cf37a4f83e6d6bfe6ff72879af09a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09a">DataVariance</a> { <br />
-&#160;&#160;<a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09aad236eb3ef41587923431b695b971b5f5">STATIC</a> = 0, 
-<a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09aa6d3113abad32e8a78f0b6e1c5d8bb9a5">DYNAMIC_TRANSFORM</a> = 1 &lt;&lt; 1, 
-<a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09aa7409279dc1eb28e37dbfc315743854e8">DYNAMIC_PRIMITIVE</a> = 1 &lt;&lt; 2, 
-<a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09aa10b7f0e2dac5580b61059045d6735b2e">DYNAMIC_COLOR</a> = 1 &lt;&lt; 3, 
-<br />
-&#160;&#160;<a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09aad69c4add22bc8c674a5e0e97be50ad65">DYNAMIC_VERTICES</a> = 1 &lt;&lt; 4, 
-<a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09aac33b86b5e0291c4ee0dffb6a14438ddd">DYNAMIC_ELEMENTS</a> = 1 &lt;&lt; 5, 
-<a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09aad5bcfdaf311c568664fe73fdfb104aaf">DYNAMIC</a> = 0xFF
-<br />
- }<tr class="memdesc:a5d6cf37a4f83e6d6bfe6ff72879af09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">DataVariance can be used by renderers to determine whether it should expect data for this geometry to change during each update.  <a href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09a">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a5d6cf37a4f83e6d6bfe6ff72879af09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -169,28 +153,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4bb1a5f83ffe5b9a45834268012b1e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#ab4bb1a5f83ffe5b9a45834268012b1e9">translate</a> (const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a0e278c94c8608abd44403937c901550b">Vector3</a> &amp;translation)</td></tr>
 <tr class="memdesc:ab4bb1a5f83ffe5b9a45834268012b1e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates the mesh vertices by adding <code>translation</code> to the vertices.  <a href="#ab4bb1a5f83ffe5b9a45834268012b1e9">More...</a><br /></td></tr>
 <tr class="separator:ab4bb1a5f83ffe5b9a45834268012b1e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183bf0dd8177982cc11165db2ca56729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a183bf0dd8177982cc11165db2ca56729">operator+</a> (const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a> &amp;other) const</td></tr>
+<tr class="memdesc:a183bf0dd8177982cc11165db2ca56729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Addition operator.  <a href="#a183bf0dd8177982cc11165db2ca56729">More...</a><br /></td></tr>
+<tr class="separator:a183bf0dd8177982cc11165db2ca56729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4f26948a1e35aa9effb7bcaf5e45c36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#af4f26948a1e35aa9effb7bcaf5e45c36">operator+=</a> (const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a> &amp;other)</td></tr>
-<tr class="memdesc:af4f26948a1e35aa9effb7bcaf5e45c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Addition operator.  <a href="#af4f26948a1e35aa9effb7bcaf5e45c36">More...</a><br /></td></tr>
+<tr class="memdesc:af4f26948a1e35aa9effb7bcaf5e45c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Addition assignment operator.  <a href="#af4f26948a1e35aa9effb7bcaf5e45c36">More...</a><br /></td></tr>
 <tr class="separator:af4f26948a1e35aa9effb7bcaf5e45c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3104e09d6baa7122f0e4a63ec7ad5113"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a3104e09d6baa7122f0e4a63ec7ad5113">getVolume</a> () const</td></tr>
-<tr class="memdesc:a3104e09d6baa7122f0e4a63ec7ad5113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the volume of this 3D geometry.  <a href="#a3104e09d6baa7122f0e4a63ec7ad5113">More...</a><br /></td></tr>
-<tr class="separator:a3104e09d6baa7122f0e4a63ec7ad5113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea565fd4bd904adb7551d081ff11b6e9"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#aea565fd4bd904adb7551d081ff11b6e9">getType</a> () const</td></tr>
-<tr class="memdesc:aea565fd4bd904adb7551d081ff11b6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string representing the geometry type.  <a href="#aea565fd4bd904adb7551d081ff11b6e9">More...</a><br /></td></tr>
-<tr class="separator:aea565fd4bd904adb7551d081ff11b6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0438052eb105b572d4f442add8546c66"><td class="memTemplParams" colspan="2">template&lt;typename GeometryType &gt; </td></tr>
-<tr class="memitem:a0438052eb105b572d4f442add8546c66"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a0438052eb105b572d4f442add8546c66">is</a> () const</td></tr>
-<tr class="memdesc:a0438052eb105b572d4f442add8546c66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the types of this <a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html">Geometry</a> and the template parameter (a geometry class) are identical.  <a href="#a0438052eb105b572d4f442add8546c66">More...</a><br /></td></tr>
-<tr class="separator:a0438052eb105b572d4f442add8546c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92ccfc0616f7619d4f46e0ff3f01b24d"><td class="memTemplParams" colspan="2">template&lt;typename GeometryType &gt; </td></tr>
-<tr class="memitem:a92ccfc0616f7619d4f46e0ff3f01b24d"><td class="memTemplItemLeft" align="right" valign="top">const GeometryType *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a92ccfc0616f7619d4f46e0ff3f01b24d">as</a> () const</td></tr>
-<tr class="separator:a92ccfc0616f7619d4f46e0ff3f01b24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43a9d8604c219e808db305db0ef1f5f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a43a9d8604c219e808db305db0ef1f5f9">setName</a> (const std::string &amp;<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a34be977ed742b42533411161886fd21d">name</a>)</td></tr>
-<tr class="memdesc:a43a9d8604c219e808db305db0ef1f5f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the name of this geometry.  <a href="#a43a9d8604c219e808db305db0ef1f5f9">More...</a><br /></td></tr>
-<tr class="separator:a43a9d8604c219e808db305db0ef1f5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8257ee98e3944c72cac104750e7a63a9"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a8257ee98e3944c72cac104750e7a63a9">getName</a> () const</td></tr>
-<tr class="memdesc:a8257ee98e3944c72cac104750e7a63a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of this geometry.  <a href="#a8257ee98e3944c72cac104750e7a63a9">More...</a><br /></td></tr>
-<tr class="separator:a8257ee98e3944c72cac104750e7a63a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -273,7 +241,7 @@ template&lt;typename S_&gt; </div>
 template&lt;typename S_&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; S_ &gt;::<a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> =  S_</td>
+          <td class="memname">using <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; S_ &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> =  S_</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -289,7 +257,7 @@ template&lt;typename S_&gt; </div>
 template&lt;typename S_&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; S_ &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a0e278c94c8608abd44403937c901550b">Vector3</a> =  Eigen::Matrix&lt;<a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a>, 3, 1&gt;</td>
+          <td class="memname">using <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; S_ &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a0e278c94c8608abd44403937c901550b">Vector3</a> =  Eigen::Matrix&lt;<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a>, 3, 1&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -312,46 +280,6 @@ template&lt;typename S_&gt; </div>
 
 </div>
 </div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a5d6cf37a4f83e6d6bfe6ff72879af09a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d6cf37a4f83e6d6bfe6ff72879af09a">&#9670;&nbsp;</a></span>DataVariance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a5d6cf37a4f83e6d6bfe6ff72879af09a">dart::math::Geometry::DataVariance</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>DataVariance can be used by renderers to determine whether it should expect data for this geometry to change during each update. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5d6cf37a4f83e6d6bfe6ff72879af09aad236eb3ef41587923431b695b971b5f5"></a>STATIC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5d6cf37a4f83e6d6bfe6ff72879af09aa6d3113abad32e8a78f0b6e1c5d8bb9a5"></a>DYNAMIC_TRANSFORM&#160;</td><td class="fielddoc"><p>No data will ever change. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a5d6cf37a4f83e6d6bfe6ff72879af09aa7409279dc1eb28e37dbfc315743854e8"></a>DYNAMIC_PRIMITIVE&#160;</td><td class="fielddoc"><p>The relative transform of the <a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html">Geometry</a> might change. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a5d6cf37a4f83e6d6bfe6ff72879af09aa10b7f0e2dac5580b61059045d6735b2e"></a>DYNAMIC_COLOR&#160;</td><td class="fielddoc"><p>The primitive properties (such as x/y/z scaling) of the geometry might change. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a5d6cf37a4f83e6d6bfe6ff72879af09aad69c4add22bc8c674a5e0e97be50ad65"></a>DYNAMIC_VERTICES&#160;</td><td class="fielddoc"><p>The coloring or textures of the geometry might change. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a5d6cf37a4f83e6d6bfe6ff72879af09aac33b86b5e0291c4ee0dffb6a14438ddd"></a>DYNAMIC_ELEMENTS&#160;</td><td class="fielddoc"><p>Vertex positions of a mesh might change (this does not include adding or removing vertices) (this enum is not relevant for primitive geometries) </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a5d6cf37a4f83e6d6bfe6ff72879af09aad5bcfdaf311c568664fe73fdfb104aaf"></a>DYNAMIC&#160;</td><td class="fielddoc"><p>The number of elements and/or arrangement of elements might change (this includes adding and removing vertices) (this enum is not relevant for primitive geometries) </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4e156bb64dff95921671bd8b3e075062"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e156bb64dff95921671bd8b3e075062">&#9670;&nbsp;</a></span>~Mesh()</h2>
@@ -365,7 +293,7 @@ template&lt;typename S &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::~<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a> </td>
+          <td class="memname"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::~<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -394,7 +322,7 @@ template&lt;typename S &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a> </td>
+          <td class="memname"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -412,33 +340,6 @@ template&lt;typename S &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a92ccfc0616f7619d4f46e0ff3f01b24d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92ccfc0616f7619d4f46e0ff3f01b24d">&#9670;&nbsp;</a></span>as()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename GeometryType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const GeometryType * dart::math::Geometry::as </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a99790951826c0280ffe82d6e8728cd5c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99790951826c0280ffe82d6e8728cd5c">&#9670;&nbsp;</a></span>clear()</h2>
 
@@ -451,7 +352,7 @@ template&lt;typename S &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::clear </td>
+          <td class="memname">void <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -466,64 +367,7 @@ template&lt;typename S &gt; </div>
 
 <p>Clears all the vertices and vertex normals. </p>
 
-<p>Reimplemented in <a class="el" href="../../d0/de0/classdart_1_1math_1_1TetraMesh.html#a1948e83e9b9009441e37a421547273f4">dart::math::TetraMesh&lt; S_ &gt;</a>, and <a class="el" href="../../d4/d2d/classdart_1_1math_1_1TriMesh.html#a0ee6424c36ed9c471a82e1e86f1eb39c">dart::math::TriMesh&lt; S_ &gt;</a>.</p>
-
-</div>
-</div>
-<a id="a8257ee98e3944c72cac104750e7a63a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8257ee98e3944c72cac104750e7a63a9">&#9670;&nbsp;</a></span>getName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string &amp; dart::math::Geometry::getName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the name of this geometry. </p>
-
-</div>
-</div>
-<a id="aea565fd4bd904adb7551d081ff11b6e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea565fd4bd904adb7551d081ff11b6e9">&#9670;&nbsp;</a></span>getType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual const std::string&amp; dart::math::Geometry::getType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a string representing the geometry type. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#a0438052eb105b572d4f442add8546c66" title="Returns true if the types of this Geometry and the template parameter (a geometry class) are identica...">is()</a> </dd></dl>
-
-<p>Reimplemented in <a class="el" href="../../d0/de0/classdart_1_1math_1_1TetraMesh.html#aec7daf56e8d46d5bfa3415b254949e4c">dart::math::TetraMesh&lt; S_ &gt;</a>, <a class="el" href="../../dc/dee/classdart_1_1math_1_1Sphere.html#a609671aafc7751922e50e9b6f71707f5">dart::math::Sphere&lt; S_ &gt;</a>, <a class="el" href="../../d4/d2d/classdart_1_1math_1_1TriMesh.html#aeb417099c2a76395f2bcb31b61219cd5">dart::math::TriMesh&lt; S_ &gt;</a>, and <a class="el" href="../../d0/d5e/classdart_1_1math_1_1Polygon.html#ac2e5fae55a4705678c7565c4aa8b9a99">dart::math::Polygon&lt; S_ &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="../../d4/d2d/classdart_1_1math_1_1TriMesh.html#a0ee6424c36ed9c471a82e1e86f1eb39c">dart::math::TriMesh&lt; S_ &gt;</a>.</p>
 
 </div>
 </div>
@@ -536,7 +380,7 @@ template&lt;typename S &gt; </div>
 template&lt;typename S &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a44ff25cdef09e69bfe287eaabaa22567">Normals</a> &amp; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::getVertexNormals </td>
+          <td class="memname">const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a44ff25cdef09e69bfe287eaabaa22567">Normals</a> &amp; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::getVertexNormals </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -557,7 +401,7 @@ template&lt;typename S &gt; </div>
 template&lt;typename S &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a52cd1a4753464a8e5b54568e703d8ace">Vertices</a> &amp; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::getVertices </td>
+          <td class="memname">const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::<a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a52cd1a4753464a8e5b54568e703d8ace">Vertices</a> &amp; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::getVertices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -566,37 +410,6 @@ template&lt;typename S &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the vertices of the mesh. </p>
-
-</div>
-</div>
-<a id="a3104e09d6baa7122f0e4a63ec7ad5113"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3104e09d6baa7122f0e4a63ec7ad5113">&#9670;&nbsp;</a></span>getVolume()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename S_&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html">dart::math::Geometry3</a>&lt; S_ &gt;::getVolume </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes the volume of this 3D geometry. </p>
-
-<p>Reimplemented in <a class="el" href="../../d4/d2d/classdart_1_1math_1_1TriMesh.html#a7a08b1e17d90a4a1d24d1c950ac9ddaa">dart::math::TriMesh&lt; S_ &gt;</a>.</p>
 
 </div>
 </div>
@@ -609,7 +422,7 @@ template&lt;typename S_&gt; </div>
 template&lt;typename S &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::hasVertexNormals </td>
+          <td class="memname">bool <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::hasVertexNormals </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -630,7 +443,7 @@ template&lt;typename S &gt; </div>
 template&lt;typename S &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::hasVertices </td>
+          <td class="memname">bool <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::hasVertices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -639,37 +452,6 @@ template&lt;typename S &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns true if the mesh contains vertices. </p>
-
-</div>
-</div>
-<a id="a0438052eb105b572d4f442add8546c66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0438052eb105b572d4f442add8546c66">&#9670;&nbsp;</a></span>is()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename GeometryType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool dart::math::Geometry::is </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if the types of this <a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html">Geometry</a> and the template parameter (a geometry class) are identical. </p>
-<p>This function is a syntactic sugar, which is identical to: (<a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#aea565fd4bd904adb7551d081ff11b6e9" title="Returns a string representing the geometry type. ">getType()</a> == GeometryType::getStaticType()).</p>
-<p>Example code: </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> (geometry-&gt;is&lt;<a class="code" href="../../d4/d0b/namespacedart_1_1dynamics_1_1fcl.html#a8ea826e2867ac25c288c394dbb3672cc">Sphere</a>&gt;())</div><div class="line">  std::cout &lt;&lt; <span class="stringliteral">&quot;The geometry type is sphere!\n&quot;</span>;</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d3/dd8/classdart_1_1math_1_1Geometry.html#aea565fd4bd904adb7551d081ff11b6e9" title="Returns a string representing the geometry type. ">getType()</a> </dd></dl>
 
 </div>
 </div>
@@ -682,7 +464,7 @@ template&lt;typename GeometryType &gt; </div>
 template&lt;typename S &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::isEmpty </td>
+          <td class="memname">bool <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::isEmpty </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -706,7 +488,7 @@ template&lt;typename S &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::normalizeVertexNormals </td>
+          <td class="memname">void <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::normalizeVertexNormals </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -723,6 +505,28 @@ template&lt;typename S &gt; </div>
 
 </div>
 </div>
+<a id="a183bf0dd8177982cc11165db2ca56729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a183bf0dd8177982cc11165db2ca56729">&#9670;&nbsp;</a></span>operator+()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::operator+ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; S_ &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Addition operator. </p>
+
+</div>
+</div>
 <a id="af4f26948a1e35aa9effb7bcaf5e45c36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af4f26948a1e35aa9effb7bcaf5e45c36">&#9670;&nbsp;</a></span>operator+=()</h2>
 
@@ -732,7 +536,7 @@ template&lt;typename S &gt; </div>
 template&lt;typename S &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt; &amp; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::operator+= </td>
+          <td class="memname"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt; &amp; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::operator+= </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a>&lt; S_ &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
@@ -741,36 +545,7 @@ template&lt;typename S &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Addition operator. </p>
 <p>Addition assignment operator. </p>
-
-</div>
-</div>
-<a id="a43a9d8604c219e808db305db0ef1f5f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43a9d8604c219e808db305db0ef1f5f9">&#9670;&nbsp;</a></span>setName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::math::Geometry::setName </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the name of this geometry. </p>
 
 </div>
 </div>
@@ -783,7 +558,7 @@ template&lt;typename S &gt; </div>
 template&lt;typename S &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d8/d08/classdart_1_1math_1_1Geometry3.html#a487fa4754ecd5e146b117c6f89e5060f">S</a> &gt;::translate </td>
+          <td class="memname">void <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">dart::math::Mesh</a>&lt; <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#afba3deeb30dcf34c7e01e47941996de2">S</a> &gt;::translate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html#a0e278c94c8608abd44403937c901550b">Vector3</a> &amp;&#160;</td>
           <td class="paramname"><em>translation</em></td><td>)</td>
@@ -855,7 +630,7 @@ template&lt;typename S_&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d8/d96/namespacedart_1_1math.html">math</a></li><li class="navelem"><a class="el" href="../../d5/d10/classdart_1_1math_1_1Mesh.html">Mesh</a></li>
-    <li class="footer">Generated on Tue Jul 13 2021 06:27:23 for DART by
+    <li class="footer">Generated on Sun Aug 29 2021 07:17:22 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
