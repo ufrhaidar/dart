@@ -18,6 +18,6 @@ var searchData=
   ['odetypes',['OdeTypes',['../d9/dc8/classdart_1_1collision_1_1OdeTypes.html',1,'dart::collision']]],
   ['openglrenderinterface',['OpenGLRenderInterface',['../dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html',1,'dart::gui']]],
   ['option',['Option',['../df/d66/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Option.html',1,'dart::utils::MjcfParser::detail::Option'],['../da/d9a/structdart_1_1constraint_1_1PgsBoxedLcpSolver_1_1Option.html',1,'dart::constraint::PgsBoxedLcpSolver::Option']]],
-  ['options',['Options',['../d9/df8/structdart_1_1utils_1_1VskParser_1_1Options.html',1,'dart::utils::VskParser::Options'],['../de/d41/structdart_1_1utils_1_1MjcfParser_1_1Options.html',1,'dart::utils::MjcfParser::Options']]],
+  ['options',['Options',['../de/d41/structdart_1_1utils_1_1MjcfParser_1_1Options.html',1,'dart::utils::MjcfParser::Options'],['../d9/df8/structdart_1_1utils_1_1VskParser_1_1Options.html',1,'dart::utils::VskParser::Options'],['../d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html',1,'dart::utils::DartLoader::Options']]],
   ['osgainode',['osgAiNode',['../d2/d09/classdart_1_1gui_1_1osg_1_1render_1_1osgAiNode.html',1,'dart::gui::osg::render']]]
 ];

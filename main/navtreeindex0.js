@@ -98,6 +98,11 @@ var NAVTREEINDEX0 =
 "d0/d20/classdart_1_1common_1_1MultiLockableReference.html#ae0db0a0f48d06a8c771d6cdb2b72fb8f":[3,0,0,1,30,7],
 "d0/d20/classdart_1_1common_1_1MultiLockableReference.html#afd0ce7d4560ddaa7396398b75c98f7c3":[3,0,0,1,30,2],
 "d0/d20/classdart_1_1common_1_1MultiLockableReference.html#afdf79dff10ca324af41cceab35d1bc12":[3,0,0,1,30,3],
+"d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html":[3,0,0,11,8,0],
+"d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html#a575270ac753d9b841cf710c945b73853":[3,0,0,11,8,0,2],
+"d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html#a6c70eb1265f1b61e5d8fc3f85fbe97a7":[3,0,0,11,8,0,0],
+"d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html#a8fd7f22a855662b552a44ef67f59156b":[3,0,0,11,8,0,3],
+"d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html#ab214e65186140df191ce5eff6d79c769":[3,0,0,11,8,0,1],
 "d0/d22/SoftBodyNode_8cpp.html":[4,0,0,3,105],
 "d0/d25/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode_01_4.html":[3,0,0,3,78],
 "d0/d25/classdart_1_1dynamics_1_1SkeletonSpecializedFor_3_01SpecNode_01_4.html#a0e72e4d88c76bd25d0e4563833fbc0cf":[3,0,0,3,78,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX0 =
 "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ae7e694e9bcb1a67a5000b9ed8ceaa7f5":[3,0,0,3,45,33],
 "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#afb10d1d65a13be1c1cb42f4fdfcda773":[3,0,0,3,45,48],
 "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#afe750fa59570b2703cf24d2dd4a0ff26":[3,0,0,3,45,49],
-"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html":[3,0,0,1,16],
-"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html#a010bb9c37ea5f0a1fe5176d4d848a601":[3,0,0,1,16,1],
-"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html#a213461d9fcf091acedf965bebf8f3f6c":[3,0,0,1,16,18],
-"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html#a47aa721cfb882bc7f41869962b3e33e9":[3,0,0,1,16,21],
-"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html#a481b7e22e63d11788712bf0a06f81e9f":[3,0,0,1,16,17],
-"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html#a6b479ddded7c9423932030dedd7e9b9d":[3,0,0,1,16,10]
+"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html":[3,0,0,1,16]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX34 =
 {
+"d7/da3/BulletTypes_8cpp.html":[4,0,0,0,0,9],
+"d7/da3/BulletTypes_8cpp.html#a2f06b4ac7aeef37633e3b3420ab5973c":[4,0,0,0,0,9,3],
+"d7/da3/BulletTypes_8cpp.html#a483f89f8346675830080e7699933100f":[4,0,0,0,0,9,0],
+"d7/da3/BulletTypes_8cpp.html#aac24cea5ee84f5eb396ac2c302296e14":[4,0,0,0,0,9,1],
+"d7/da3/BulletTypes_8cpp.html#af48f34ae3d323de6bee3c08842ed7a41":[4,0,0,0,0,9,2],
 "d7/da4/DantzigBoxedLcpSolver_8hpp.html":[4,0,0,2,17],
 "d7/da4/DantzigBoxedLcpSolver_8hpp_source.html":[4,0,0,2,17],
 "d7/da8/WeldJointConstraint_8hpp.html":[4,0,0,2,42],
@@ -244,10 +249,5 @@ var NAVTREEINDEX34 =
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ab11a88fd730d89427dcd0a40a000d9e9":[3,0,0,3,2,51],
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ab90bddef38cfef8a4dcd93d770ef3a2e":[3,0,0,3,2,37],
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#abfb16259c87319c0e6422dbe2f1af770":[3,0,0,3,2,15],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ac41ea4e71a82c26fac872a48f56de0c9":[3,0,0,3,2,23],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ac9372dc4396a81c410646dd8a260e2e4":[3,0,0,3,2,55],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#acae9d9d1241451e02c61b7fcf2359031":[3,0,0,3,2,70],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#acb21558de80efdc434cd64c90a205ba8":[3,0,0,3,2,76],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#acc1b0fa9b68898d672eacd6062fc1e00":[3,0,0,3,2,22],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#acdfcd01b4050231e208423667604c2a0":[3,0,0,3,2,24]
+"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ac41ea4e71a82c26fac872a48f56de0c9":[3,0,0,3,2,23]
 };

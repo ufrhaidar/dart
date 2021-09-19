@@ -1,5 +1,10 @@
 var NAVTREEINDEX26 =
 {
+"d5/d84/structdart_1_1dynamics_1_1detail_1_1PlanarJointUniqueProperties.html#ac44000e4bb8961e9e87ac765bb79eb18":[3,0,0,3,0,19,1],
+"d5/d84/structdart_1_1dynamics_1_1detail_1_1PlanarJointUniqueProperties.html#ad2185f03ea331efdf52281c2dd12da36":[3,0,0,3,0,19,12],
+"d5/d84/structdart_1_1dynamics_1_1detail_1_1PlanarJointUniqueProperties.html#ad684957c0d278966b2acd05b99f1cd60":[3,0,0,3,0,19,7],
+"d5/d84/structdart_1_1dynamics_1_1detail_1_1PlanarJointUniqueProperties.html#adeffd97795dc577d1b16694cf0d1d5f0":[3,0,0,3,0,19,10],
+"d5/d84/structdart_1_1dynamics_1_1detail_1_1PlanarJointUniqueProperties.html#af7c20618a98b56bd7954bd2ba7e5d208":[3,0,0,3,0,19,11],
 "d5/d85/structdart_1_1math_1_1detail_1_1UniformImpl_3_01T_00_01typename_01std_1_1enable__if_3_01std_1_1i2373630b8b446c630d879d137eda25e7.html":[3,0,0,7,0,21],
 "d5/d85/structdart_1_1math_1_1detail_1_1UniformImpl_3_01T_00_01typename_01std_1_1enable__if_3_01std_1_1i2373630b8b446c630d879d137eda25e7.html#aff00edbee63a4091e77052a751e01091":[3,0,0,7,0,21,0],
 "d5/d87/classdart_1_1utils_1_1DartResourceRetriever.html":[3,0,0,11,9],
@@ -244,10 +249,5 @@ var NAVTREEINDEX26 =
 "d5/dfd/classdart_1_1common_1_1sub__ptr.html#ad1af3f183af47f6521e58c29084c5f32":[3,0,0,1,51,6],
 "d5/dfd/classdart_1_1common_1_1sub__ptr.html#af815b376ad7cff135087c8d0a0825b62":[3,0,0,1,51,1],
 "d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html":[3,0,0,3,101],
-"d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html#a08edac0e76ba0e5cb676b207ac6eb948":[3,0,0,3,101,0],
-"d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html#a0dd67adc0d3cfe7b0d1ddd661fa6acf6":[3,0,0,3,101,2],
-"d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html#a0e547814f5fc0a8c39894bbf4001758c":[3,0,0,3,101,37],
-"d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html#a14156aaa6f977df08c144a37cb766a40":[3,0,0,3,101,26],
-"d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html#a16df8ff934c1134325ebfc21d064728a":[3,0,0,3,101,48],
-"d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html#a1744a89b2f9bf0d096afb9596c8a5cc8":[3,0,0,3,101,27]
+"d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html#a08edac0e76ba0e5cb676b207ac6eb948":[3,0,0,3,101,0]
 };

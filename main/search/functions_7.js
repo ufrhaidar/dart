@@ -548,6 +548,7 @@ var searchData=
   ['getoptimizationtolerance',['getOptimizationTolerance',['../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a9016f1c15b0ce76fb90600ec168d03e8',1,'dart::constraint::BalanceConstraint']]],
   ['getoptimumvalue',['getOptimumValue',['../df/dbc/classdart_1_1optimizer_1_1Problem.html#a3d3e2d1a9ea6e2958a6f4e87d56dbc11',1,'dart::optimizer::Problem']]],
   ['getoption',['getOption',['../db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a0af4c50876176b6a4aec8b6e15dd8f79',1,'dart::constraint::PgsBoxedLcpSolver::getOption()'],['../da/d9c/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1MujocoModel.html#a15f84f08a31a3d34d078ac8007bc0263',1,'dart::utils::MjcfParser::detail::MujocoModel::getOption()']]],
+  ['getoptions',['getOptions',['../d8/d29/classdart_1_1utils_1_1DartLoader.html#aae28bf859a908c817852629a0b0eaecf',1,'dart::utils::DartLoader']]],
   ['getorcreate',['getOrCreate',['../d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#a5362534f145020b7fd9615c09a7d7051',1,'dart::common::detail::CompositeData']]],
   ['getorcreatedestructor',['getOrCreateDestructor',['../db/dc8/classdart_1_1dynamics_1_1Node.html#ab1f0bd39805f5a240d18781feb7c0fa5',1,'dart::dynamics::Node']]],
   ['getorcreateik',['getOrCreateIK',['../d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#a8c4f6611187977b8ac6f77823b2fba1f',1,'dart::dynamics::JacobianNode::getOrCreateIK()'],['../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a7798c99048951765a603e8c10aeea979',1,'dart::dynamics::Skeleton::getOrCreateIK()']]],

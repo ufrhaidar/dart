@@ -228,6 +228,7 @@ var searchData=
   ['setoptimizationtolerance',['setOptimizationTolerance',['../da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a27970eb997546688bb945386d15711db',1,'dart::constraint::BalanceConstraint']]],
   ['setoptimumvalue',['setOptimumValue',['../df/dbc/classdart_1_1optimizer_1_1Problem.html#aece739ccd1fc4c00440a6a8f4cf861c3',1,'dart::optimizer::Problem']]],
   ['setoption',['setOption',['../db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#ac17a7ceb0542d9aabb025271b90afbc5',1,'dart::constraint::PgsBoxedLcpSolver']]],
+  ['setoptions',['setOptions',['../d8/d29/classdart_1_1utils_1_1DartLoader.html#a99273ad81fef44d3bbf83b3eba5cb508',1,'dart::utils::DartLoader']]],
   ['setoutstream',['setOutStream',['../d0/d68/classdart_1_1optimizer_1_1Solver.html#a246afc16ee8bbec331187e709b1a2e02',1,'dart::optimizer::Solver']]],
   ['setoverallcolor',['setOverallColor',['../dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#ac30113f8ad141a65454a361c2867eacf',1,'dart::dynamics::PointCloudShape']]],
   ['setparameter',['setParameter',['../d6/d91/classdart_1_1dynamics_1_1Inertia.html#a0d14e1d586bba1fe5a1baf1fbdf8cc82',1,'dart::dynamics::Inertia']]],
