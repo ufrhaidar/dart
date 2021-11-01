@@ -580,6 +580,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b50871fd5ba5e20158ee56b3dfc049d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html#a1b50871fd5ba5e20158ee56b3dfc049d">getRelativePrimaryAcceleration</a> () const</td></tr>
 <tr class="memdesc:a1b50871fd5ba5e20158ee56b3dfc049d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get J * \( \ddot{q} \) of this joint.  <a href="#a1b50871fd5ba5e20158ee56b3dfc049d">More...</a><br /></td></tr>
 <tr class="separator:a1b50871fd5ba5e20158ee56b3dfc049d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5565043c2af39e1f0f04ffc6bc42310b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html#a5565043c2af39e1f0f04ffc6bc42310b">getWrenchToChildBodyNode</a> (const <a class="el" href="../../db/d38/classdart_1_1dynamics_1_1Frame.html">Frame</a> *withRespectTo=nullptr) const</td></tr>
+<tr class="memdesc:a5565043c2af39e1f0f04ffc6bc42310b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get spring force.  <a href="#a5565043c2af39e1f0f04ffc6bc42310b">More...</a><br /></td></tr>
+<tr class="separator:a5565043c2af39e1f0f04ffc6bc42310b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91f697436e9e7de02a2b9276234176f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html#ad91f697436e9e7de02a2b9276234176f">getWrenchToParentBodyNode</a> (const <a class="el" href="../../db/d38/classdart_1_1dynamics_1_1Frame.html">Frame</a> *withRespectTo=nullptr) const</td></tr>
+<tr class="memdesc:ad91f697436e9e7de02a2b9276234176f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns wrench exerted to the parent body node to satisfy the joint constraint.  <a href="#ad91f697436e9e7de02a2b9276234176f">More...</a><br /></td></tr>
+<tr class="separator:ad91f697436e9e7de02a2b9276234176f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92688a77a7d2f72fd7cb4c57b68f376a"><td class="memItemLeft" align="right" valign="top">virtual std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d01/classdart_1_1common_1_1VersionCounter.html#a92688a77a7d2f72fd7cb4c57b68f376a">incrementVersion</a> ()</td></tr>
 <tr class="memdesc:a92688a77a7d2f72fd7cb4c57b68f376a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment the version for this object.  <a href="#a92688a77a7d2f72fd7cb4c57b68f376a">More...</a><br /></td></tr>
 <tr class="separator:a92688a77a7d2f72fd7cb4c57b68f376a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -622,16 +628,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3aec1ac105a683c2cfaff76e7f353bc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns false if the initial position or initial velocity are outside of limits.  <a href="#a3aec1ac105a683c2cfaff76e7f353bc4">More...</a><br /></td></tr>
 <tr class="separator:a3aec1ac105a683c2cfaff76e7f353bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Update Notifiers</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Get spring force</p>
-<p>We apply spring force in implicit manner. The spring force is F = -(springStiffness * q(k+1)), where q(k+1) is approximated as q(k) + h * dq(k) * h^2 * ddq(k). Since, in the recursive forward dynamics algorithm, ddq(k) is unknown variable that we want to obtain as the result, the spring force here is just F = -springStiffness * (q(k) + h * dq(k)) and -springStiffness * h^2 * ddq(k) term is rearranged at the recursive forward dynamics algorithm, and it affects on the articulated inertia. </p><dl class="section see"><dt>See also</dt><dd>BodyNode::updateArticulatedInertia(double).</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">_timeStep</td><td>Time step used for approximating q(k+1). Get damping force</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>We apply the damping force in implicit manner. The damping force is F = -(dampingCoefficient * dq(k+1)), where dq(k+1) is approximated as dq(k) + h * ddq(k). Since, in the recursive forward dynamics algorithm, ddq(k) is unknown variable that we want to obtain as the result, the damping force here is just F = -(dampingCoefficient * dq(k)) and -dampingCoefficient * h * ddq(k) term is rearranged at the recursive forward dynamics algorithm, and it affects on the articulated inertia. </p><dl class="section see"><dt>See also</dt><dd>BodyNode::updateArticulatedInertia(double). </dd></dl>
-</div></td></tr>
 <tr class="memitem:a57977210b66f005c446a3c33b0bb578e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html#a57977210b66f005c446a3c33b0bb578e">notifyPositionUpdate</a> ()</td></tr>
 <tr class="memdesc:a57977210b66f005c446a3c33b0bb578e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify that a position has updated.  <a href="#a57977210b66f005c446a3c33b0bb578e">More...</a><br /></td></tr>
 <tr class="separator:a57977210b66f005c446a3c33b0bb578e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4293,6 +4289,84 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="a5565043c2af39e1f0f04ffc6bc42310b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5565043c2af39e1f0f04ffc6bc42310b">&#9670;&nbsp;</a></span>getWrenchToChildBodyNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a> dart::dynamics::Joint::getWrenchToChildBodyNode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d38/classdart_1_1dynamics_1_1Frame.html">Frame</a> *&#160;</td>
+          <td class="paramname"><em>withRespectTo</em> = <code>nullptr</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get spring force. </p>
+<p>We apply spring force in implicit manner. The spring force is F = -(springStiffness * q(k+1)), where q(k+1) is approximated as q(k) + h * dq(k) * h^2 * ddq(k). Since, in the recursive forward dynamics algorithm, ddq(k) is unknown variable that we want to obtain as the result, the spring force here is just F = -springStiffness * (q(k) + h * dq(k)) and -springStiffness * h^2 * ddq(k) term is rearranged at the recursive forward dynamics algorithm, and it affects on the articulated inertia. </p><dl class="section see"><dt>See also</dt><dd>BodyNode::updateArticulatedInertia(double).</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">_timeStep</td><td>Time step used for approximating q(k+1). Get damping force</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>We apply the damping force in implicit manner. The damping force is F = -(dampingCoefficient * dq(k+1)), where dq(k+1) is approximated as dq(k) + h * ddq(k). Since, in the recursive forward dynamics algorithm, ddq(k) is unknown variable that we want to obtain as the result, the damping force here is just F = -(dampingCoefficient * dq(k)) and -dampingCoefficient * h * ddq(k) term is rearranged at the recursive forward dynamics algorithm, and it affects on the articulated inertia. </p><dl class="section see"><dt>See also</dt><dd>BodyNode::updateArticulatedInertia(double). Returns wrench exerted to the child body node to satisfy the joint <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html">constraint</a>.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">withRespectTo</td><td>The reference frame where the wrench is measured. The default (i.e., nullptr) is to get the wrench measured in the joint frame. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Wrench where the first three elements represent torque and the last three elements represent force. Zero vector if this joint has no child body node defined. </dd></dl>
+
+</div>
+</div>
+<a id="ad91f697436e9e7de02a2b9276234176f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91f697436e9e7de02a2b9276234176f">&#9670;&nbsp;</a></span>getWrenchToParentBodyNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a> dart::dynamics::Joint::getWrenchToParentBodyNode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d38/classdart_1_1dynamics_1_1Frame.html">Frame</a> *&#160;</td>
+          <td class="paramname"><em>withRespectTo</em> = <code>nullptr</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns wrench exerted to the parent body node to satisfy the joint constraint. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">withRespectTo</td><td>The reference frame where the wrench is measured. The default (i.e., nullptr) is to get the wrench measured in the joint frame. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Wrench where the first three elements represent torque and the last three elements represent force. Zero vector if this joint has no child body node defined. </dd></dl>
+
+</div>
+</div>
 <a id="a4ce09d3a72737ac2e3551041437b5d63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ce09d3a72737ac2e3551041437b5d63">&#9670;&nbsp;</a></span>getZeroDofJointProperties()</h2>
 
@@ -6104,37 +6178,8 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="abd2a1f530816f22cb123147c520f510c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd2a1f530816f22cb123147c520f510c">&#9670;&nbsp;</a></span>setJointAspect() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void dart::dynamics::Joint::setJointAspect </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d4/dc0/classdart_1_1common_1_1EmbedProperties.html#acd58d0c7b37e0750b83ddac696629f6f">Aspect</a> *&#160;</td>
-          <td class="paramname"><em>aspect</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>\ Make a clone of JointAspect and place the clone into this Composite. </p>
-<p>If \ a(an) JointAspect already exists in this Composite, the existing JointAspect \ will be destroyed. \ </p>
-
-</div>
-</div>
 <a id="aa8602c84bd9331aa8566360bdb5ff09f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8602c84bd9331aa8566360bdb5ff09f">&#9670;&nbsp;</a></span>setJointAspect() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8602c84bd9331aa8566360bdb5ff09f">&#9670;&nbsp;</a></span>setJointAspect() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6159,6 +6204,35 @@ template&lt;typename... Args&gt; </div>
 
 <p>\ Use move semantics to place JointAspect into this Composite. </p>
 <p>If a(an) \ JointAspect already exists in this Composite, the existing JointAspect will \ be destroyed. \ </p>
+
+</div>
+</div>
+<a id="abd2a1f530816f22cb123147c520f510c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd2a1f530816f22cb123147c520f510c">&#9670;&nbsp;</a></span>setJointAspect() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::Joint::setJointAspect </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d4/dc0/classdart_1_1common_1_1EmbedProperties.html#acd58d0c7b37e0750b83ddac696629f6f">Aspect</a> *&#160;</td>
+          <td class="paramname"><em>aspect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>\ Make a clone of JointAspect and place the clone into this Composite. </p>
+<p>If \ a(an) JointAspect already exists in this Composite, the existing JointAspect \ will be destroyed. \ </p>
 
 </div>
 </div>
@@ -8437,7 +8511,7 @@ template&lt;typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html">ZeroDofJoint</a></li>
-    <li class="footer">Generated on Fri Oct 29 2021 20:34:09 for DART by
+    <li class="footer">Generated on Mon Nov 1 2021 14:35:49 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

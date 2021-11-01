@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"d7/da2/namespacedart_1_1math_1_1detail.html":[3,0,0,7,0],
+"d7/da2/namespacedart_1_1math_1_1detail.html":[2,0,0,8,0],
 "d7/da3/BulletTypes_8cpp.html":[4,0,0,0,0,9],
 "d7/da3/BulletTypes_8cpp.html#a2f06b4ac7aeef37633e3b3420ab5973c":[4,0,0,0,0,9,3],
 "d7/da3/BulletTypes_8cpp.html#a483f89f8346675830080e7699933100f":[4,0,0,0,0,9,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#aa9e9c48056b299bca7cf692cf03426dc":[3,0,0,3,2,14],
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#aab79efda47832c318cc71a15824f97f0":[3,0,0,3,2,39],
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ab11a88fd730d89427dcd0a40a000d9e9":[3,0,0,3,2,51],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ab90bddef38cfef8a4dcd93d770ef3a2e":[3,0,0,3,2,37],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#abfb16259c87319c0e6422dbe2f1af770":[3,0,0,3,2,15],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ac41ea4e71a82c26fac872a48f56de0c9":[3,0,0,3,2,23]
+"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ab90bddef38cfef8a4dcd93d770ef3a2e":[3,0,0,3,2,37]
 };

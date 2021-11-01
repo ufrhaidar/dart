@@ -116,6 +116,8 @@ var classdart_1_1dynamics_1_1Joint =
     [ "getVelocityUpperLimit", "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a0a22f1897cfdc27e0ceba1f1ae0873b8", null ],
     [ "getVelocityUpperLimits", "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a6792eaaec78c1b678bb06b41af15a89f", null ],
     [ "getVersion", "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a5e86916a004c1eef2b6cc4916301a687", null ],
+    [ "getWrenchToChildBodyNode", "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a5565043c2af39e1f0f04ffc6bc42310b", null ],
+    [ "getWrenchToParentBodyNode", "d6/d5b/classdart_1_1dynamics_1_1Joint.html#ad91f697436e9e7de02a2b9276234176f", null ],
     [ "hasJointAspect", "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a256fa9892caa3e0614823fd78bdd1a16", null ],
     [ "hasPositionLimit", "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a81f728eeffa9e2ab5a9927a686aa1b31", null ],
     [ "incrementVersion", "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a92688a77a7d2f72fd7cb4c57b68f376a", null ],
