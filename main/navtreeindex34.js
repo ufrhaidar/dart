@@ -1,5 +1,12 @@
 var NAVTREEINDEX34 =
 {
+"d7/da1/classdart_1_1common_1_1MakeCloneable.html#a4eefd9cadcddf364ce1096b5df0360e0":[3,0,0,1,29,3],
+"d7/da1/classdart_1_1common_1_1MakeCloneable.html#a6712503d817319346eb1ff534e60c23e":[3,0,0,1,29,13],
+"d7/da1/classdart_1_1common_1_1MakeCloneable.html#a9465f413444c0958aae6e4077c740194":[3,0,0,1,29,11],
+"d7/da1/classdart_1_1common_1_1MakeCloneable.html#ab4ac99a8ddaf5917fea45dd8cde00bb1":[3,0,0,1,29,5],
+"d7/da1/classdart_1_1common_1_1MakeCloneable.html#ac74dad4a0fe7b50318131297d979b56f":[3,0,0,1,29,9],
+"d7/da1/classdart_1_1common_1_1MakeCloneable.html#af957ecb768c390dd2b6c3ddc47ab9882":[3,0,0,1,29,10],
+"d7/da1/classdart_1_1common_1_1MakeCloneable.html#af95ae2ed8e92612ad534cf1e2edbcbf0":[3,0,0,1,29,12],
 "d7/da2/namespacedart_1_1math_1_1detail.html":[3,0,0,7,0],
 "d7/da2/namespacedart_1_1math_1_1detail.html":[2,0,0,8,0],
 "d7/da3/BulletTypes_8cpp.html":[4,0,0,0,0,9],
@@ -242,12 +249,5 @@ var NAVTREEINDEX34 =
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a9b0a54be60a26d1368abe11f338a1b95":[3,0,0,3,2,28],
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a9b36f561430c9824edfea23b78caa360":[3,0,0,3,2,6],
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a9d2e8b206b851ca01cfd14641c88badd":[3,0,0,3,2,56],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a9d3a188f020eb6b01b1472602247c010":[3,0,0,3,2,45],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#aa0685a8a9d886b01dcdcf6e2a121b5bc":[3,0,0,3,2,46],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#aa4ec0172edc2d98894b5a41228b598a8":[3,0,0,3,2,82],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#aa67ec124286a8635969764f11fdc2d81":[3,0,0,3,2,10],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#aa9e9c48056b299bca7cf692cf03426dc":[3,0,0,3,2,14],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#aab79efda47832c318cc71a15824f97f0":[3,0,0,3,2,39],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ab11a88fd730d89427dcd0a40a000d9e9":[3,0,0,3,2,51],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ab90bddef38cfef8a4dcd93d770ef3a2e":[3,0,0,3,2,37]
+"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a9d3a188f020eb6b01b1472602247c010":[3,0,0,3,2,45]
 };
