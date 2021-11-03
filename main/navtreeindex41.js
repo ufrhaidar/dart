@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#af5acca26210496fa4b3a5146d6f0ea0a":[3,0,0,4,1,28,33],
+"d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#afd887f9cb0e504631548efc5ffb872fe":[3,0,0,4,1,28,28],
 "d8/d75/OdeMesh_8hpp.html":[4,0,0,0,4,0,11],
 "d8/d75/OdeMesh_8hpp_source.html":[4,0,0,0,4,0,11],
 "d8/d84/Signal_8hpp.html":[4,0,0,1,35],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a6808da7ca0d20e94226b0109aca2d214":[3,0,0,3,100,198],
 "d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a6811cb47040f888ce177cf2113852d38":[3,0,0,3,100,151],
 "d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a6940d0eee52e92e6d1bf387db0ba2f34":[3,0,0,3,100,138],
-"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a69c499c9349bef45138d27f35a7adb1a":[3,0,0,3,100,181],
-"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a6a11291b70c2cbded85d321ce539c62f":[3,0,0,3,100,229],
-"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a6ccea1e3a9fe763d4178c4503e2aae55":[3,0,0,3,100,152]
+"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a69c499c9349bef45138d27f35a7adb1a":[3,0,0,3,100,181]
 };

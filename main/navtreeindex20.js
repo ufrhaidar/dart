@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"d4/d47/namespacedart_1_1optimizer.html":[2,0,0,9],
+"d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal.html":[3,0,0,3,43,0,1],
 "d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal.html#a55254dba11e32b98ea74cabd88080fb4":[3,0,0,3,43,0,1,1],
 "d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal.html#a84cca8df926924a86d171169cf35d013":[3,0,0,3,43,0,1,2],
 "d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal.html#adaab8c45f9cd35bf3d1feb65e6e41733":[3,0,0,3,43,0,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "d4/d5e/FileInfoWorld_8hpp_source.html":[4,0,0,11,14],
 "d4/d65/classdart_1_1lcpsolver_1_1ODELCPSolver.html":[3,0,0,6,0],
 "d4/d65/classdart_1_1lcpsolver_1_1ODELCPSolver.html#a15fafa037ad1b9fc4f7963872dc10301":[3,0,0,6,0,2],
-"d4/d65/classdart_1_1lcpsolver_1_1ODELCPSolver.html#a2e42f432b12118cee8f73d25179c3faf":[3,0,0,6,0,4],
-"d4/d65/classdart_1_1lcpsolver_1_1ODELCPSolver.html#a350df3d8fa53b8fc9d61cbcf9125c2bc":[3,0,0,6,0,5],
-"d4/d65/classdart_1_1lcpsolver_1_1ODELCPSolver.html#a8b88ae06a0d3855d18efd51492d6049d":[3,0,0,6,0,3]
+"d4/d65/classdart_1_1lcpsolver_1_1ODELCPSolver.html#a2e42f432b12118cee8f73d25179c3faf":[3,0,0,6,0,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX32 =
 {
+"d7/d24/XmlHelpers_8cpp.html#a8a7f116a66ef33b51d9a60577b9332db":[4,0,0,11,21,22],
+"d7/d24/XmlHelpers_8cpp.html#a8ff1b108a74593f1c21e680667c7d017":[4,0,0,11,21,62],
 "d7/d24/XmlHelpers_8cpp.html#a9046e89fc5b72db912003178feebfc8e":[4,0,0,11,21,28],
 "d7/d24/XmlHelpers_8cpp.html#a940dc66fba1f0ee5fc99f320fb85eda2":[4,0,0,11,21,48],
 "d7/d24/XmlHelpers_8cpp.html#a9908fa2e4c843612d86db4f9130d5746":[4,0,0,11,21,65],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a430402b4193aa7ab37ec3b6f872605ab":[3,0,0,7,8,5],
 "d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a4d541cc2b0afa1b97f54615420442ba7":[3,0,0,7,8,7],
 "d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a84e1becc3aec1728309701dd239cf0a4":[3,0,0,7,8,0],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#ad4f230fb29c1926b89cd725e3f12a058":[3,0,0,7,8,1],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#ad659a921f601e2eb0b4719b15fb61ed6":[3,0,0,7,8,4],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#af665edbe8ec586d8b64e92d2a17c3ec5":[3,0,0,7,8,6]
+"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#ad4f230fb29c1926b89cd725e3f12a058":[3,0,0,7,8,1]
 };

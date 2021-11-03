@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"d0/de8/classdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForSkeleton.html#acf010e1d4b71b3bccf0bac819fc956f6":[3,0,0,3,0,1,15],
+"d0/ded/RevoluteJoint_8hpp.html":[4,0,0,3,89],
 "d0/ded/RevoluteJoint_8hpp_source.html":[4,0,0,3,89],
 "d0/df0/utils_2mjcf_2detail_2Joint_8hpp.html":[4,0,0,11,0,0,21],
 "d0/df0/utils_2mjcf_2detail_2Joint_8hpp_source.html":[4,0,0,11,0,0,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html":[3,0,0,3,85],
 "d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#a2491098b31a85f7a0ea5bf264dc93762":[3,0,0,3,85,13],
 "d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#a24fb06ddef47a413f8b89c2a4a32e91c":[3,0,0,3,85,3],
-"d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#a3df39ed69ca21ff93be82d6cda3a7ae0":[3,0,0,3,85,7],
-"d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#a593a6ec66439490ef75ada1d18812401":[3,0,0,3,85,11],
-"d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#a653b5698da23011f8c0e39b928b07848":[3,0,0,3,85,6]
+"d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#a3df39ed69ca21ff93be82d6cda3a7ae0":[3,0,0,3,85,7]
 };

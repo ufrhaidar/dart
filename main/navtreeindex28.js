@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"d6/d5b/classdart_1_1dynamics_1_1Joint.html#a6a11291b70c2cbded85d321ce539c62f":[3,0,0,3,41,228],
+"d6/d5b/classdart_1_1dynamics_1_1Joint.html#a6ccea1e3a9fe763d4178c4503e2aae55":[3,0,0,3,41,150],
 "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a705442bfc126c3f59a5c329fb5631775":[3,0,0,3,41,112],
 "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a70a06c94d9ccd8809a8983a130f4564e":[3,0,0,3,41,59],
 "d6/d5b/classdart_1_1dynamics_1_1Joint.html#a736c0179a85437e8a77966c9d5470024":[3,0,0,3,41,200],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "d6/d6e/classdart_1_1collision_1_1BodyNodeCollisionFilter.html#aaecdcfa01bfa8ec5d27a4467a47f08f0":[3,0,0,0,1,5],
 "d6/d6e/classdart_1_1collision_1_1BodyNodeCollisionFilter.html#ac50f8dedf1a8aee316f216a79684bd47":[3,0,0,0,1,1],
 "d6/d77/structdart_1_1math_1_1detail_1_1toManifoldPointImpl_3_01SE3Space_01_4.html":[3,0,0,7,0,17],
-"d6/d77/structdart_1_1math_1_1detail_1_1toManifoldPointImpl_3_01SE3Space_01_4.html#ac33b4231707382c25bf9964d4a64d8a9":[3,0,0,7,0,17,0],
-"d6/d78/DistanceResult_8cpp.html":[4,0,0,0,23],
-"d6/d78/DistanceResult_8cpp.html#a27ff14d1bba9b6e5a2f42552c476900f":[4,0,0,0,23,1]
+"d6/d77/structdart_1_1math_1_1detail_1_1toManifoldPointImpl_3_01SE3Space_01_4.html#ac33b4231707382c25bf9964d4a64d8a9":[3,0,0,7,0,17,0]
 };
