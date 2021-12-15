@@ -38,10 +38,13 @@ var classdart_1_1dynamics_1_1ArrowShape =
       [ "HEIGHTMAP", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da563a83b086e0e955596b5235211975a2", null ],
       [ "UNSUPPORTED", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dae43d52b0c821bdc945470374f062deba", null ]
     ] ],
+    [ "ArrowShape", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a5ccbd5b863decb2ae9598eddcbe5b80f", null ],
     [ "ArrowShape", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a9b36f561430c9824edfea23b78caa360", null ],
     [ "addDataVariance", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a80f3d99792b89d74e15476fc5c48794c", null ],
+    [ "cloneMesh", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a40cc929ce13d74034e1277abf2b05233", null ],
     [ "computeInertia", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#aa67ec124286a8635969764f11fdc2d81", null ],
     [ "computeInertiaFromDensity", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],

@@ -33,6 +33,7 @@ var classdart_1_1dynamics_1_1SoftMeshShape =
     [ "addDataVariance", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a7ada60e270d2d7a047f52375bfe58c93", null ],
     [ "computeInertia", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#ace0853a07d4920c55d29ce60d7acf361", null ],
     [ "computeInertiaFromDensity", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],

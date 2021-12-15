@@ -1,5 +1,12 @@
 var NAVTREEINDEX32 =
 {
+"d7/d24/XmlHelpers_8cpp.html#a71fe7f1536b4651e57e56d83113bb39f":[4,0,0,11,21,49],
+"d7/d24/XmlHelpers_8cpp.html#a72f6f200690eb7c4cd58f95eb8720932":[4,0,0,11,21,42],
+"d7/d24/XmlHelpers_8cpp.html#a7537e627c6a90286e25482b12bc73eac":[4,0,0,11,21,54],
+"d7/d24/XmlHelpers_8cpp.html#a772def0e95fcf2c7c44247373a437dc3":[4,0,0,11,21,30],
+"d7/d24/XmlHelpers_8cpp.html#a775ea884e7744e2acbae6547809eb320":[4,0,0,11,21,57],
+"d7/d24/XmlHelpers_8cpp.html#a799ecd67b92a6f1688f1e67d6b24a560":[4,0,0,11,21,16],
+"d7/d24/XmlHelpers_8cpp.html#a7a857a5a2f5d07ffa24827d9db7e609d":[4,0,0,11,21,59],
 "d7/d24/XmlHelpers_8cpp.html#a8a7f116a66ef33b51d9a60577b9332db":[4,0,0,11,21,22],
 "d7/d24/XmlHelpers_8cpp.html#a8ff1b108a74593f1c21e680667c7d017":[4,0,0,11,21,62],
 "d7/d24/XmlHelpers_8cpp.html#a9046e89fc5b72db912003178feebfc8e":[4,0,0,11,21,28],
@@ -242,12 +249,5 @@ var NAVTREEINDEX32 =
 "d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#a90b260468825d97c4669130ef81f9faf":[3,0,0,4,1,24,6],
 "d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#aad9e55ea9a9f764c071d3987989eb769":[3,0,0,4,1,24,0],
 "d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#ac431fe2657442d5d55fa27490fc158fd":[3,0,0,4,1,24,4],
-"d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#ac85ee644bcf9075937a59d74ba6cbcf0":[3,0,0,4,1,24,1],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html":[3,0,0,7,8],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a16fc5b0a05e0a6f00d35b9f296ba063b":[3,0,0,7,8,2],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a3b8fe77a51843041eae2b24ae469c89d":[3,0,0,7,8,3],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a430402b4193aa7ab37ec3b6f872605ab":[3,0,0,7,8,5],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a4d541cc2b0afa1b97f54615420442ba7":[3,0,0,7,8,7],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#a84e1becc3aec1728309701dd239cf0a4":[3,0,0,7,8,0],
-"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#ad4f230fb29c1926b89cd725e3f12a058":[3,0,0,7,8,1]
+"d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#ac85ee644bcf9075937a59d74ba6cbcf0":[3,0,0,4,1,24,1]
 };

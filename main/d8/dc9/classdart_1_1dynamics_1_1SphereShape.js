@@ -32,6 +32,7 @@ var classdart_1_1dynamics_1_1SphereShape =
     [ "addDataVariance", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#ae46f11be6dae0d9b6278a3d701826916", null ],
     [ "computeInertia", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a33fabe68736a6b9897a8d4ee3c6ec671", null ],
     [ "computeInertia", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a1b73568bd20b2ad7379229ed8c9b6d6b", null ],
     [ "computeInertiaFromDensity", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],

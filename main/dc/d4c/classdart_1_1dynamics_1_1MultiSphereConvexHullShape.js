@@ -37,6 +37,7 @@ var classdart_1_1dynamics_1_1MultiSphereConvexHullShape =
     [ "addSphere", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a0bbb127be04740a6dd8d2a93ed594acc", null ],
     [ "addSpheres", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a4b1fb3fd5491bb64dc6f0be567252d94", null ],
     [ "checkDataVariance", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a51309ae4a76be86a385b7cdc7aad47ec", null ],
     [ "computeInertia", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a0053077758d043d05c664f92f12b429f", null ],
     [ "computeInertiaFromDensity", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],

@@ -32,6 +32,7 @@ var classdart_1_1dynamics_1_1EllipsoidShape =
     [ "addDataVariance", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a0bccf220428aba9535cb986f70383bef", null ],
     [ "computeInertia", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a40c90ef90862e91ed807b4319ca197ec", null ],
     [ "computeInertia", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a21e53b746045a7ed8c4efed3dd1b7e68", null ],
     [ "computeInertiaFromDensity", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],

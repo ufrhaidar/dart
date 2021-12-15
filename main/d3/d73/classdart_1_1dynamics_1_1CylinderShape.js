@@ -31,6 +31,7 @@ var classdart_1_1dynamics_1_1CylinderShape =
     [ "addDataVariance", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a4c870ba1d70dcdc528f931b4249679c6", null ],
     [ "computeInertia", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#aad7cd9f64678925e0bb3da348a95aea5", null ],
     [ "computeInertia", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a54c0a3d18fd968c7ae49747a75e5dd2e", null ],
     [ "computeInertiaFromDensity", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],

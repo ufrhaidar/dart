@@ -31,6 +31,7 @@ var classdart_1_1dynamics_1_1ConeShape =
     [ "addDataVariance", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a120f9b6e2adccc467cbd3bb793e80b7f", null ],
     [ "computeInertia", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a4fc55557f98bba45186fd33e00626f4b", null ],
     [ "computeInertia", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#af8bea650366935d4218d2ee36c7aa3f5", null ],
     [ "computeInertiaFromDensity", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],

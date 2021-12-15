@@ -31,6 +31,7 @@ var classdart_1_1dynamics_1_1CapsuleShape =
     [ "addDataVariance", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a1e9f43997a21b85b4ad3f7e321961db2", null ],
     [ "computeInertia", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a2d624517c304b53e0302fd015d564380", null ],
     [ "computeInertia", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#aa5397509d1f34d79768c7fa92d8ffb4e", null ],
     [ "computeInertiaFromDensity", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],

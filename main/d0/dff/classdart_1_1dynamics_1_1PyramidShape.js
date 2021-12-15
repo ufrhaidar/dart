@@ -31,6 +31,7 @@ var classdart_1_1dynamics_1_1PyramidShape =
     [ "addDataVariance", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#ac36b435305f3bea62e58a9ef808b0ba7", null ],
     [ "computeInertia", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#ae0b0128ee8f6f29f65b2d7267fd4dd31", null ],
     [ "computeInertiaFromDensity", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],

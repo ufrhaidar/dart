@@ -42,6 +42,8 @@ var classdart_1_1dynamics_1_1MeshShape =
     [ "addDataVariance", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a78e366ab1905843a48cb060447dcbf84", null ],
+    [ "cloneMesh", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a40cc929ce13d74034e1277abf2b05233", null ],
     [ "computeInertia", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#aa67ec124286a8635969764f11fdc2d81", null ],
     [ "computeInertiaFromDensity", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],

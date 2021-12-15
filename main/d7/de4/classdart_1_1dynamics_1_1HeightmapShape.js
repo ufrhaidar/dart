@@ -35,6 +35,7 @@ var classdart_1_1dynamics_1_1HeightmapShape =
     [ "addDataVariance", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#ae87f4a8f7a455793beb79ab497d9b827", null ],
     [ "computeBoundingBox", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a2cffd61b8a0c92ac0f16ad48fcc327bb", null ],
     [ "computeInertia", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a1a8f2ed8019d0c5b1b1f224c870ebd48", null ],
     [ "computeInertiaFromDensity", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],

@@ -225,6 +225,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa67ec124286a8635969764f11fdc2d81"><td class="memItemLeft" align="right" valign="top">Eigen::Matrix3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#aa67ec124286a8635969764f11fdc2d81">computeInertia</a> (double mass) const override</td></tr>
 <tr class="memdesc:aa67ec124286a8635969764f11fdc2d81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the inertia.  <a href="#aa67ec124286a8635969764f11fdc2d81">More...</a><br /></td></tr>
 <tr class="separator:aa67ec124286a8635969764f11fdc2d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e366ab1905843a48cb060447dcbf84"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a197b71f7beb8ffb36e02fb67fbdd9a98">ShapePtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a78e366ab1905843a48cb060447dcbf84">clone</a> () const override</td></tr>
+<tr class="memdesc:a78e366ab1905843a48cb060447dcbf84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deep copy shape.  <a href="#a78e366ab1905843a48cb060447dcbf84">More...</a><br /></td></tr>
+<tr class="separator:a78e366ab1905843a48cb060447dcbf84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab90bddef38cfef8a4dcd93d770ef3a2e"><td class="memTemplParams" colspan="2">template&lt;typename ShapeT &gt; </td></tr>
 <tr class="memitem:ab90bddef38cfef8a4dcd93d770ef3a2e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#ab90bddef38cfef8a4dcd93d770ef3a2e">is</a> () const</td></tr>
 <tr class="memdesc:ab90bddef38cfef8a4dcd93d770ef3a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get true if the types of this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a> and the template parameter (a shape class) are identical.  <a href="#ab90bddef38cfef8a4dcd93d770ef3a2e">More...</a><br /></td></tr>
@@ -306,6 +309,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a6b5029f8ee3c2999e3e605c8d7ca4a24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a6b5029f8ee3c2999e3e605c8d7ca4a24">updateVolume</a> () const override</td></tr>
 <tr class="memdesc:a6b5029f8ee3c2999e3e605c8d7ca4a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates volume.  <a href="#a6b5029f8ee3c2999e3e605c8d7ca4a24">More...</a><br /></td></tr>
 <tr class="separator:a6b5029f8ee3c2999e3e605c8d7ca4a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cc929ce13d74034e1277abf2b05233"><td class="memItemLeft" align="right" valign="top">aiScene *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a40cc929ce13d74034e1277abf2b05233">cloneMesh</a> () const</td></tr>
+<tr class="separator:a40cc929ce13d74034e1277abf2b05233"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ccea1e3a9fe763d4178c4503e2aae55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#a6ccea1e3a9fe763d4178c4503e2aae55">sendDestructionNotification</a> () const</td></tr>
 <tr class="memdesc:a6ccea1e3a9fe763d4178c4503e2aae55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a destruction notification to all Observers.  <a href="#a6ccea1e3a9fe763d4178c4503e2aae55">More...</a><br /></td></tr>
 <tr class="separator:a6ccea1e3a9fe763d4178c4503e2aae55"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -690,6 +695,62 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>True iff this <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html">Shape</a> has the specified type of DataVariance. </p>
+
+</div>
+</div>
+<a id="a78e366ab1905843a48cb060447dcbf84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e366ab1905843a48cb060447dcbf84">&#9670;&nbsp;</a></span>clone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a197b71f7beb8ffb36e02fb67fbdd9a98">ShapePtr</a> dart::dynamics::MeshShape::clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deep copy shape. </p>
+
+<p>Implements <a class="el" href="../../db/d1c/classdart_1_1dynamics_1_1Shape.html#a9f1d15d4f5312dd22c864699576ce081">dart::dynamics::Shape</a>.</p>
+
+<p>Reimplemented in <a class="el" href="../../d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a80f3d99792b89d74e15476fc5c48794c">dart::dynamics::ArrowShape</a>.</p>
+
+</div>
+</div>
+<a id="a40cc929ce13d74034e1277abf2b05233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40cc929ce13d74034e1277abf2b05233">&#9670;&nbsp;</a></span>cloneMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">aiScene * dart::dynamics::MeshShape::cloneMesh </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -2346,7 +2407,7 @@ template&lt;typename ShapeT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d0/d2d/classdart_1_1dynamics_1_1MeshShape.html">MeshShape</a></li>
-    <li class="footer">Generated on Thu Nov 4 2021 20:49:56 for DART by
+    <li class="footer">Generated on Wed Dec 15 2021 19:09:00 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

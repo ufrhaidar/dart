@@ -45,6 +45,7 @@ var classdart_1_1dynamics_1_1PointCloudShape =
     [ "addPoint", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a73c015a63889238300d8e185c0eed9d4", null ],
     [ "addPoint", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a9e58470ecc7fa73eeb42d70513963599", null ],
     [ "checkDataVariance", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a963f8a9945fcd777f234c34f32bfff85", null ],
     [ "computeInertia", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a849931f35617fc5a024fcee7f7091bf2", null ],
     [ "computeInertiaFromDensity", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],

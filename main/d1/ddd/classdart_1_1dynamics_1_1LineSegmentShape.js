@@ -35,6 +35,7 @@ var classdart_1_1dynamics_1_1LineSegmentShape =
     [ "addVertex", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a8039163fdec866f2d45ea391fc987be1", null ],
     [ "addVertex", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#aa20d3e6742a33747aba3e16be070ba4c", null ],
     [ "checkDataVariance", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
+    [ "clone", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a189e6886f7647f531c222f5c3d0077ba", null ],
     [ "computeInertia", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a04724a5c1f88ba635fc19f53112c38d9", null ],
     [ "computeInertiaFromDensity", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],
