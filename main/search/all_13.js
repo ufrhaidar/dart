@@ -599,7 +599,7 @@ var searchData=
   ['steptonextchild',['stepToNextChild',['../d7/d5a/namespacedart_1_1dynamics.html#a31b7ff6e325fe120986c323e42dff3f0',1,'dart::dynamics']]],
   ['steptoparent',['stepToParent',['../d7/d5a/namespacedart_1_1dynamics.html#a466fc4586e72854934cec316dae9677a',1,'dart::dynamics']]],
   ['stlhelpers_2ehpp',['StlHelpers.hpp',['../dc/d2e/StlHelpers_8hpp.html',1,'']]],
-  ['stop',['stop',['../d9/d32/classdart_1_1common_1_1Timer.html#a6d51eb06eb5dc55fc1e5f1a625459f4e',1,'dart::common::Timer::stop()'],['../d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a1c337f54c6162498c26908088dda78c4a24bcd68d9ae245dbc08e0ecc0ecadb23',1,'dart::optimizer::snopt::SnoptInterface::Stop()']]],
+  ['stop',['Stop',['../d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a1c337f54c6162498c26908088dda78c4a24bcd68d9ae245dbc08e0ecc0ecadb23',1,'dart::optimizer::snopt::SnoptInterface::Stop()'],['../d9/d32/classdart_1_1common_1_1Timer.html#a6d51eb06eb5dc55fc1e5f1a625459f4e',1,'dart::common::Timer::stop()']]],
   ['stringarray',['StringArray',['../d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a7568cdc6919bd4f6fc9e501752ef2ad0',1,'dart::dynamics::detail::GenericJointUniqueProperties']]],
   ['structuralchangesignal',['StructuralChangeSignal',['../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af7bfad7a867c6b66d47f92e5f819d6a1',1,'dart::dynamics::BodyNode']]],
   ['stuff',['stuff',['../d1/d1f/structdart_1_1utils_1_1c3d__head__t.html#a05723c903b65bf2377bc92c3cbd331a1',1,'dart::utils::c3d_head_t::stuff()'],['../df/d7a/structdart_1_1utils_1_1c3d__param__t.html#a5c95a39404ee474ad8b57ee022d0cc69',1,'dart::utils::c3d_param_t::stuff()']]],
