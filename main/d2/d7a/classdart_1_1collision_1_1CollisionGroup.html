@@ -221,6 +221,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6cad2a10a2b2a69729f28a4075c323c"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#ad6cad2a10a2b2a69729f28a4075c323c">unsubscribeFrom</a> (const <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html">dynamics::Skeleton</a> *skeleton, const Others *... others)</td></tr>
 <tr class="memdesc:ad6cad2a10a2b2a69729f28a4075c323c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsubscribe from skeleton.  <a href="#ad6cad2a10a2b2a69729f28a4075c323c">More...</a><br /></td></tr>
 <tr class="separator:ad6cad2a10a2b2a69729f28a4075c323c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea9f2dabf4a34f634bff9bf8fdef219"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#a6ea9f2dabf4a34f634bff9bf8fdef219">unsubscribeFrom</a> ()</td></tr>
+<tr class="memdesc:a6ea9f2dabf4a34f634bff9bf8fdef219"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do nothing.  <a href="#a6ea9f2dabf4a34f634bff9bf8fdef219">More...</a><br /></td></tr>
+<tr class="separator:a6ea9f2dabf4a34f634bff9bf8fdef219"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbbcb3c093075964d94e4304362dcd1f"><td class="memTemplParams" colspan="2">template&lt;typename... Others&gt; </td></tr>
+<tr class="memitem:adbbcb3c093075964d94e4304362dcd1f"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#adbbcb3c093075964d94e4304362dcd1f">isSubscribedTo</a> (const <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *bodyNode, const Others *... others)</td></tr>
+<tr class="memdesc:adbbcb3c093075964d94e4304362dcd1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this is subscribed to bodyNode and the other sources.  <a href="#adbbcb3c093075964d94e4304362dcd1f">More...</a><br /></td></tr>
+<tr class="separator:adbbcb3c093075964d94e4304362dcd1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3738586a54dc788e0e8ebbbc59ae272"><td class="memTemplParams" colspan="2">template&lt;typename... Others&gt; </td></tr>
+<tr class="memitem:aa3738586a54dc788e0e8ebbbc59ae272"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#aa3738586a54dc788e0e8ebbbc59ae272">isSubscribedTo</a> (const <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html">dynamics::Skeleton</a> *skeleton, const Others *... others)</td></tr>
+<tr class="memdesc:aa3738586a54dc788e0e8ebbbc59ae272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if this is subscribed to skeleton and the other sources.  <a href="#aa3738586a54dc788e0e8ebbbc59ae272">More...</a><br /></td></tr>
+<tr class="separator:aa3738586a54dc788e0e8ebbbc59ae272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1574c1327f4096ed53bf6cd17f5a9c97"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#a1574c1327f4096ed53bf6cd17f5a9c97">isSubscribedTo</a> ()</td></tr>
+<tr class="memdesc:a1574c1327f4096ed53bf6cd17f5a9c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true.  <a href="#a1574c1327f4096ed53bf6cd17f5a9c97">More...</a><br /></td></tr>
+<tr class="separator:a1574c1327f4096ed53bf6cd17f5a9c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfb8bdd686a545c11d044cbc74b3a965"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#abfb8bdd686a545c11d044cbc74b3a965">hasShapeFrame</a> (const <a class="el" href="../../d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html">dynamics::ShapeFrame</a> *shapeFrame) const</td></tr>
 <tr class="memdesc:abfb8bdd686a545c11d044cbc74b3a965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if this <a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a> contains shapeFrame.  <a href="#abfb8bdd686a545c11d044cbc74b3a965">More...</a><br /></td></tr>
 <tr class="separator:abfb8bdd686a545c11d044cbc74b3a965"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1105,6 +1119,90 @@ template&lt;typename... Others&gt; </div>
 
 </div>
 </div>
+<a id="adbbcb3c093075964d94e4304362dcd1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbbcb3c093075964d94e4304362dcd1f">&#9670;&nbsp;</a></span>isSubscribedTo() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Others&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::collision::CollisionGroup::isSubscribedTo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td>
+          <td class="paramname"><em>bodyNode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Others *...&#160;</td>
+          <td class="paramname"><em>others</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if this is subscribed to bodyNode and the other sources. </p>
+
+</div>
+</div>
+<a id="aa3738586a54dc788e0e8ebbbc59ae272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3738586a54dc788e0e8ebbbc59ae272">&#9670;&nbsp;</a></span>isSubscribedTo() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Others&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::collision::CollisionGroup::isSubscribedTo </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html">dynamics::Skeleton</a> *&#160;</td>
+          <td class="paramname"><em>skeleton</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Others *...&#160;</td>
+          <td class="paramname"><em>others</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if this is subscribed to skeleton and the other sources. </p>
+
+</div>
+</div>
+<a id="a1574c1327f4096ed53bf6cd17f5a9c97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1574c1327f4096ed53bf6cd17f5a9c97">&#9670;&nbsp;</a></span>isSubscribedTo() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::collision::CollisionGroup::isSubscribedTo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return true. </p>
+<p>This function is for terminating the recursive variadic template </p>
+
+</div>
+</div>
 <a id="a9d7c097d26f0c30b7794fab9793dfb2d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d7c097d26f0c30b7794fab9793dfb2d">&#9670;&nbsp;</a></span>raycast()</h2>
 
@@ -1628,7 +1726,7 @@ template&lt;typename... Others&gt; </div>
 </div>
 </div>
 <a id="a89a0eae3b69f23a1403eaa22d5301a33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89a0eae3b69f23a1403eaa22d5301a33">&#9670;&nbsp;</a></span>unsubscribeFrom() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a89a0eae3b69f23a1403eaa22d5301a33">&#9670;&nbsp;</a></span>unsubscribeFrom() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1661,7 +1759,7 @@ template&lt;typename... Others&gt; </div>
 </div>
 </div>
 <a id="ad6cad2a10a2b2a69729f28a4075c323c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6cad2a10a2b2a69729f28a4075c323c">&#9670;&nbsp;</a></span>unsubscribeFrom() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6cad2a10a2b2a69729f28a4075c323c">&#9670;&nbsp;</a></span>unsubscribeFrom() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1690,6 +1788,26 @@ template&lt;typename... Others&gt; </div>
 
 <p>Unsubscribe from skeleton. </p>
 <p>The ShapeFrames of the skeleton will also be removed if no other source is requesting them for this group. </p>
+
+</div>
+</div>
+<a id="a6ea9f2dabf4a34f634bff9bf8fdef219"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea9f2dabf4a34f634bff9bf8fdef219">&#9670;&nbsp;</a></span>unsubscribeFrom() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::collision::CollisionGroup::unsubscribeFrom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Do nothing. </p>
+<p>This function is for terminating the recursive variadic template. </p>
 
 </div>
 </div>
@@ -2011,7 +2129,7 @@ template&lt;typename... Others&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../da/dcd/namespacedart_1_1collision.html">collision</a></li><li class="navelem"><a class="el" href="../../d2/d7a/classdart_1_1collision_1_1CollisionGroup.html">CollisionGroup</a></li>
-    <li class="footer">Generated on Sat Dec 18 2021 15:58:08 for DART by
+    <li class="footer">Generated on Sat Dec 18 2021 16:15:22 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
