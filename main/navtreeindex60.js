@@ -1,8 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599":[3,0,0,3,61,4,12],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0ea2adb89398eb53552c6d4931eee6eb":[3,0,0,3,61,4,5],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da0f13778af4f881caa5c6b9999ba50cb7":[3,0,0,3,61,4,3],
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1a2e85ce2b2595449bc654786aa8aa01":[3,0,0,3,61,4,0],
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da1f94d2e24535ca3d0514898c01202351":[3,0,0,3,61,4,9],
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da3691b628dfab6bb7743f09293b62dbbf":[3,0,0,3,61,4,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX60 =
 "dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a5c83f5b11d9c9ab335103f15efd0d659":[3,0,0,3,80,78],
 "dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a60d1a8c7f1ddc949e5da5c13c2b2fae2":[3,0,0,3,80,42],
 "dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a612b59db8196238c6bd4474379f2a460":[3,0,0,3,80,27],
-"dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a615c0413e6cbf329f8ab1806c0a73da3":[3,0,0,3,80,37]
+"dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a615c0413e6cbf329f8ab1806c0a73da3":[3,0,0,3,80,37],
+"dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a65d318b58232344f049fed1bc65d0aad":[3,0,0,3,80,91],
+"dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a6a11291b70c2cbded85d321ce539c62f":[3,0,0,3,80,90],
+"dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a6b20b97eb3bda05f36d79f065b62ec1a":[3,0,0,3,80,16]
 };

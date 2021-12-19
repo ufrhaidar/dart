@@ -33,8 +33,5 @@ var DARTCollide_8cpp =
     [ "Inner14", "d2/db2/DARTCollide_8cpp.html#ade2fe0e9de532caa8d4b317f59cb6cce", null ],
     [ "Inner41", "d2/db2/DARTCollide_8cpp.html#a5930bfa267cb2944c3f9b3e3dbd9b314", null ],
     [ "Inner44", "d2/db2/DARTCollide_8cpp.html#a9468049d0828ec2acded2d76495dc68a", null ],
-    [ "intersectRectQuad", "d2/db2/DARTCollide_8cpp.html#a3a0ff848fc18f09ae206645081fcab0e", null ],
-    [ "MAX_CYLBOX_CLIP_POINTS", "d2/db2/DARTCollide_8cpp.html#a80ba017c7bf196a9663e0a9d3cd8578b", null ],
-    [ "nCYLINDER_AXIS", "d2/db2/DARTCollide_8cpp.html#a4146747250f23fa87196b56d54138c19", null ],
-    [ "nCYLINDER_SEGMENT", "d2/db2/DARTCollide_8cpp.html#ae7562cb943cd38b057831387484bea04", null ]
+    [ "intersectRectQuad", "d2/db2/DARTCollide_8cpp.html#a3a0ff848fc18f09ae206645081fcab0e", null ]
 ];

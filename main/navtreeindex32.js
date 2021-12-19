@@ -1,8 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d7/d24/XmlHelpers_8cpp.html#a3eaa83373efcf7c9e1fc1f5fad404185":[4,0,0,11,21,40],
-"d7/d24/XmlHelpers_8cpp.html#a4519a719e9d6742be68448e5238536c5":[4,0,0,11,21,7],
-"d7/d24/XmlHelpers_8cpp.html#a4796ef15ee434643c06a95137133a569":[4,0,0,11,21,15],
 "d7/d24/XmlHelpers_8cpp.html#a551edc4a0141b36472d21843f3675c47":[4,0,0,11,21,1],
 "d7/d24/XmlHelpers_8cpp.html#a58942c589535c4d34afdc5458dbb105b":[4,0,0,11,21,2],
 "d7/d24/XmlHelpers_8cpp.html#a59baa147c86d2f99cbb7cc2b1f6fd427":[4,0,0,11,21,24],
@@ -249,5 +246,8 @@ var NAVTREEINDEX32 =
 "d7/d4c/DragAndDrop_8cpp.html":[4,0,0,4,1,3],
 "d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html":[3,0,0,4,1,24],
 "d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#a00705b7bccc6deac60b6a3d2a5b6805f":[3,0,0,4,1,24,2],
-"d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#a0785da24870a552e7156e94519274b7d":[3,0,0,4,1,24,5]
+"d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#a0785da24870a552e7156e94519274b7d":[3,0,0,4,1,24,5],
+"d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#a46dd5bf577d8ba6e53aaf17cac472ad4":[3,0,0,4,1,24,9],
+"d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#a5355e0ef4cca37c744ac6502c97b084d":[3,0,0,4,1,24,3],
+"d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html#a675b80b70257451bea4a663a088ee21a":[3,0,0,4,1,24,7]
 };

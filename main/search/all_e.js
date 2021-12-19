@@ -12,8 +12,6 @@ var searchData=
   ['namemanager_3c_20dart_3a_3adynamics_3a_3asoftbodynode_20_2a_3e',['NameManager&lt; dart::dynamics::SoftBodyNode *&gt;',['../d9/dc9/classdart_1_1common_1_1NameManager.html',1,'dart::common']]],
   ['namemanager_3c_20dynamics_3a_3asimpleframeptr_20_3e',['NameManager&lt; dynamics::SimpleFramePtr &gt;',['../d9/dc9/classdart_1_1common_1_1NameManager.html',1,'dart::common']]],
   ['namemanager_3c_20dynamics_3a_3askeletonptr_20_3e',['NameManager&lt; dynamics::SkeletonPtr &gt;',['../d9/dc9/classdart_1_1common_1_1NameManager.html',1,'dart::common']]],
-  ['ncylinder_5faxis',['nCYLINDER_AXIS',['../da/dcd/namespacedart_1_1collision.html#a4146747250f23fa87196b56d54138c19',1,'dart::collision']]],
-  ['ncylinder_5fsegment',['nCYLINDER_SEGMENT',['../da/dcd/namespacedart_1_1collision.html#ae7562cb943cd38b057831387484bea04',1,'dart::collision']]],
   ['ndim',['ndim',['../d7/dd6/classdart_1_1planning_1_1RRT.html#a26e8d49708915c80f223745de93ea071',1,'dart::planning::RRT']]],
   ['nearestpoint1',['nearestPoint1',['../d0/d4e/structdart_1_1collision_1_1DistanceResult.html#ae99248ed4ab8142ee457ead5965931ee',1,'dart::collision::DistanceResult']]],
   ['nearestpoint2',['nearestPoint2',['../d0/d4e/structdart_1_1collision_1_1DistanceResult.html#a72141cd76642f37fb85c838cdd74f97d',1,'dart::collision::DistanceResult']]],

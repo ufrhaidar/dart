@@ -1,8 +1,5 @@
 var NAVTREEINDEX24 =
 {
-"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a743e577b90cdd875090072b9a0702ebe":[3,0,0,3,6,176],
-"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a75158f514bb9182638f59771be392a79":[3,0,0,3,6,64],
-"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a75efe36e5bf5e39bd9a1afb2f15e9445":[3,0,0,3,6,71],
 "d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a766a4e1784fc26e644797603f079b867":[3,0,0,3,6,265],
 "d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a76e5c424e1d34c51953c84710dcc5627":[3,0,0,3,6,291],
 "d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a799127a9f4f516d2ce2991d9a3b5b560":[3,0,0,3,6,245],
@@ -249,5 +246,8 @@ var NAVTREEINDEX24 =
 "d5/d3d/TriMesh_8cpp.html":[4,0,0,7,12],
 "d5/d40/Platform_8hpp.html":[4,0,0,1,25],
 "d5/d40/Platform_8hpp.html#a07d4511eebe737483e65a98b1b5999a5":[4,0,0,1,25,4],
-"d5/d40/Platform_8hpp.html#a500be8eebd2266b893a622c68c02c93a":[4,0,0,1,25,1]
+"d5/d40/Platform_8hpp.html#a500be8eebd2266b893a622c68c02c93a":[4,0,0,1,25,1],
+"d5/d40/Platform_8hpp.html#aa3bbf471e9aa13f5c07bb97eec674615":[4,0,0,1,25,3],
+"d5/d40/Platform_8hpp.html#ae56a7021ccef1e6dbeb5dff475016508":[4,0,0,1,25,0],
+"d5/d40/Platform_8hpp.html#af6d382154f9a6ff8ee1656f23d8d2462":[4,0,0,1,25,2]
 };
