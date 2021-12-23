@@ -179,6 +179,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a4597045ad808e556c1eda3fa525d0660"><td class="memTemplParams" colspan="2">template&lt;class AspectT , typename PropertiesT &gt; </td></tr>
 <tr class="memitem:a4597045ad808e556c1eda3fa525d0660"><td class="memTemplItemLeft" align="right" valign="top">const PropertiesT &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd0/namespacedart_1_1common_1_1detail.html#a4597045ad808e556c1eda3fa525d0660">DefaultGetEmbeddedProperties</a> (const AspectT *aspect)</td></tr>
 <tr class="separator:a4597045ad808e556c1eda3fa525d0660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ebbc98b49228d49034fb632c319834"><td class="memTemplParams" colspan="2">template&lt;typename S1 , typename S2 &gt; </td></tr>
+<tr class="memitem:a10ebbc98b49228d49034fb632c319834"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd0/namespacedart_1_1common_1_1detail.html#a10ebbc98b49228d49034fb632c319834">print</a> (std::ostream &amp;os, const S1 &amp;header, const S2 &amp;format_str, int color)</td></tr>
+<tr class="separator:a10ebbc98b49228d49034fb632c319834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0590ed5552c6583b4bc1cba9d8ad3bc0"><td class="memTemplParams" colspan="2">template&lt;typename S , typename Arg , typename... Args&gt; </td></tr>
+<tr class="memitem:a0590ed5552c6583b4bc1cba9d8ad3bc0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd0/namespacedart_1_1common_1_1detail.html#a0590ed5552c6583b4bc1cba9d8ad3bc0">print</a> (std::ostream &amp;os, const S &amp;header, std::string format_str, int color, Arg &amp;&amp;arg, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a0590ed5552c6583b4bc1cba9d8ad3bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a276818d8b4f9fe0a7fa23f009176e1d8"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a276818d8b4f9fe0a7fa23f009176e1d8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d3/dd0/namespacedart_1_1common_1_1detail.html#a276818d8b4f9fe0a7fa23f009176e1d8">NoOp</a> (Args...)</td></tr>
 <tr class="memdesc:a276818d8b4f9fe0a7fa23f009176e1d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">NoOp is short for "no operation".  <a href="#a276818d8b4f9fe0a7fa23f009176e1d8">More...</a><br /></td></tr>
@@ -412,6 +418,102 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
+<a id="a10ebbc98b49228d49034fb632c319834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10ebbc98b49228d49034fb632c319834">&#9670;&nbsp;</a></span>print() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S1 , typename S2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::common::detail::print </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const S1 &amp;&#160;</td>
+          <td class="paramname"><em>header</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const S2 &amp;&#160;</td>
+          <td class="paramname"><em>format_str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0590ed5552c6583b4bc1cba9d8ad3bc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0590ed5552c6583b4bc1cba9d8ad3bc0">&#9670;&nbsp;</a></span>print() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S , typename Arg , typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::common::detail::print </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const S &amp;&#160;</td>
+          <td class="paramname"><em>header</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>format_str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Arg &amp;&amp;&#160;</td>
+          <td class="paramname"><em>arg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a0ecff72efea0796c88b7bcf83813d43b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ecff72efea0796c88b7bcf83813d43b">&#9670;&nbsp;</a></span>AspectWithState</h2>
@@ -483,7 +585,7 @@ template&lt;class BaseT , class DerivedT , typename StateDataT , typename StateT
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html">common</a></li><li class="navelem"><a class="el" href="../../d3/dd0/namespacedart_1_1common_1_1detail.html">detail</a></li>
-    <li class="footer">Generated on Thu Dec 23 2021 16:33:54 for DART by
+    <li class="footer">Generated on Thu Dec 23 2021 19:56:10 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
