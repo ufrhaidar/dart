@@ -88,12 +88,14 @@ $(document).ready(function(){initNavTree('d8/d51/Castable_8hpp.html','../../');}
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">Castable.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../d4/db0/Castable-impl_8hpp_source.html">dart/common/detail/Castable-impl.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d4/db0/Castable-impl_8hpp_source.html">dart/common/detail/Castable-impl.hpp</a>&quot;</code><br />
 </div>
 <p><a href="../../d8/d51/Castable_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -107,14 +109,39 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:dd/d6b/namespacedart_1_1common"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html">dart::common</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ae6e406ad91a98a334a59ef863604608f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d51/Castable_8hpp.html#ae6e406ad91a98a334a59ef863604608f">DART_STRING_TYPE</a>(type_name)</td></tr>
+<tr class="separator:ae6e406ad91a98a334a59ef863604608f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae6e406ad91a98a334a59ef863604608f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6e406ad91a98a334a59ef863604608f">&#9670;&nbsp;</a></span>DART_STRING_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DART_STRING_TYPE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type_name</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">                                                  \</div><div class="line">  [[nodiscard]] <span class="keyword">static</span> <span class="keyword">const</span> std::string&amp; getStaticType()                      \</div><div class="line">  {                                                                            \</div><div class="line">    static <span class="keyword">const</span> std::string <a class="code" href="../../d6/d24/SdfParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a> = #type_name;                                \</div><div class="line">    return <a class="code" href="../../d6/d24/SdfParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>;                                                               \</div><div class="line">  }                                                                            \</div><div class="line">                                                                               \</div><div class="line">  [[nodiscard]] <span class="keyword">const</span> std::string&amp; getType() const override                    \</div><div class="line">  {                                                                            \</div><div class="line">    return getStaticType();                                                    \</div><div class="line">  }                                                                            \</div><div class="line">  void _ANONYMOUS_FUNCTION_1()</div><div class="ttc" id="SdfParser_8cpp_html_a75b160f574a0be26114bae2c7686a5e1"><div class="ttname"><a href="../../d6/d24/SdfParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a></div><div class="ttdeci">std::string type</div><div class="ttdef"><b>Definition:</b> SdfParser.cpp:82</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_038ecf057a57cc1982efaa71edfdbdcb.html">common</a></li><li class="navelem"><a class="el" href="../../d8/d51/Castable_8hpp.html">Castable.hpp</a></li>
-    <li class="footer">Generated on Thu Dec 23 2021 19:56:09 for DART by
+    <li class="footer">Generated on Thu Dec 23 2021 22:01:23 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

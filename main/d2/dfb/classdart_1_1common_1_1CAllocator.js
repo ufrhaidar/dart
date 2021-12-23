@@ -1,0 +1,26 @@
+var classdart_1_1common_1_1CAllocator =
+[
+    [ "CAllocator", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a41706661798fe579649462eec9e6c618", null ],
+    [ "~CAllocator", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a2bebc51b111f3c5362a66ca780001f36", null ],
+    [ "_ANONYMOUS_FUNCTION_1", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a2db23d563b8253f22cb48fbaad0ffaaa", null ],
+    [ "allocate", "d2/dfb/classdart_1_1common_1_1CAllocator.html#adf986598665bf54669d441ce976d7b44", null ],
+    [ "allocateAs", "d2/dfb/classdart_1_1common_1_1CAllocator.html#af63bd1725c883fbed5a79c1ea4c6f081", null ],
+    [ "as", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ad769689ed09d55c0529d8d9390fe0043", null ],
+    [ "as", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a062c3cedf57062040cd4fee24005abe2", null ],
+    [ "as_ref", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a90d4a383c1f3f71e323151b2c5d19dc5", null ],
+    [ "as_ref", "d2/dfb/classdart_1_1common_1_1CAllocator.html#adeb053ac0f46be6a6f5f2368c32d764d", null ],
+    [ "construct", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ac81fff9e522f1b62e231e550728d18c3", null ],
+    [ "constructAt", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ab0e96a13b0edf0cb3164a9d7f09df80e", null ],
+    [ "constructAt", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ae8b15388ad9a57772bced35aef5691fd", null ],
+    [ "deallocate", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a21a965197ff9012fad20ab9de4599ea0", null ],
+    [ "destroy", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a729caadcd7a1a32f1ba9ac84457f4c91", null ],
+    [ "GetDefault", "d2/dfb/classdart_1_1common_1_1CAllocator.html#acbda1b02de6f3c2acb5fa330d96c5b21", null ],
+    [ "getStaticType", "d2/dfb/classdart_1_1common_1_1CAllocator.html#adc1c64a2fed8d372229172ae80c28e3a", null ],
+    [ "getType", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ae0344fb97afd143101db39b8f59c115e", null ],
+    [ "is", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a4d171ea0afccad1214c01eedd14a5616", null ],
+    [ "print", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a081f8f44e75950054f580bef5b07e491", null ],
+    [ "m_map_pointer_to_size", "d2/dfb/classdart_1_1common_1_1CAllocator.html#adeed0a36deb98500cf860d594dfc36b4", null ],
+    [ "m_mutex", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a883380e5b2d27c5c693f3daa25579055", null ],
+    [ "m_peak", "d2/dfb/classdart_1_1common_1_1CAllocator.html#acd1ace4edae9b793ebf39f04f66a9d36", null ],
+    [ "m_size", "d2/dfb/classdart_1_1common_1_1CAllocator.html#afd30e2ce7cc7ecbc2a23405a3eef5566", null ]
+];

@@ -111,6 +111,7 @@ var searchData=
   ['dart_5fspecialized_5fnode_5finternal',['DART_SPECIALIZED_NODE_INTERNAL',['../d3/d71/detail_2Node_8hpp.html#aefb2f35088b86fa984ddd65fb9d9bc3e',1,'Node.hpp']]],
   ['dart_5fspecialized_5fnode_5ftemplate',['DART_SPECIALIZED_NODE_TEMPLATE',['../d3/d71/detail_2Node_8hpp.html#a12d461834810901f339ca03e95045b5f',1,'Node.hpp']]],
   ['dart_5fspecialized_5fnode_5ftemplate_5firregular',['DART_SPECIALIZED_NODE_TEMPLATE_IRREGULAR',['../d3/d71/detail_2Node_8hpp.html#a9d6ddbad731b126927087008cffa60e5',1,'Node.hpp']]],
+  ['dart_5fstring_5ftype',['DART_STRING_TYPE',['../d8/d51/Castable_8hpp.html#ae6e406ad91a98a334a59ef863604608f',1,'Castable.hpp']]],
   ['dart_5fsub',['DART_SUB',['../d9/df5/tri__tri__intersection__test_8hpp.html#a094413af53a8b480f5584c721aac1970',1,'tri_tri_intersection_test.hpp']]],
   ['dart_5fswap',['DART_SWAP',['../d9/df5/tri__tri__intersection__test_8hpp.html#a98d27cf1a24797bca7ec90885460425a',1,'tri_tri_intersection_test.hpp']]],
   ['dart_5ftrace',['DART_TRACE',['../da/db4/Logging_8hpp.html#aeef32a80b30096990d623f91e2e7433f',1,'Logging.hpp']]],

@@ -4,9 +4,11 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
     [ "Aspect.cpp", "dc/dc8/Aspect_8cpp.html", null ],
     [ "Aspect.hpp", "d4/d97/Aspect_8hpp.html", "d4/d97/Aspect_8hpp" ],
     [ "AspectWithVersion.hpp", "d7/d2a/AspectWithVersion_8hpp.html", "d7/d2a/AspectWithVersion_8hpp" ],
-    [ "Castable.hpp", "d8/d51/Castable_8hpp.html", [
-      [ "Castable", "d0/d70/classdart_1_1common_1_1Castable.html", "d0/d70/classdart_1_1common_1_1Castable" ]
+    [ "CAllocator.cpp", "d0/d02/CAllocator_8cpp.html", null ],
+    [ "CAllocator.hpp", "da/d67/CAllocator_8hpp.html", [
+      [ "CAllocator", "d2/dfb/classdart_1_1common_1_1CAllocator.html", "d2/dfb/classdart_1_1common_1_1CAllocator" ]
     ] ],
+    [ "Castable.hpp", "d8/d51/Castable_8hpp.html", "d8/d51/Castable_8hpp" ],
     [ "ClassWithVirtualBase.hpp", "de/d47/ClassWithVirtualBase_8hpp.html", "de/d47/ClassWithVirtualBase_8hpp" ],
     [ "Cloneable.hpp", "dd/d84/Cloneable_8hpp.html", [
       [ "Cloneable", "d4/d0a/classdart_1_1common_1_1Cloneable.html", "d4/d0a/classdart_1_1common_1_1Cloneable" ],
@@ -55,6 +57,10 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
     ] ],
     [ "Logging.hpp", "da/db4/Logging_8hpp.html", "da/db4/Logging_8hpp" ],
     [ "Memory.hpp", "d4/d18/Memory_8hpp.html", "d4/d18/Memory_8hpp" ],
+    [ "MemoryAllocator.cpp", "db/d29/MemoryAllocator_8cpp.html", "db/d29/MemoryAllocator_8cpp" ],
+    [ "MemoryAllocator.hpp", "dd/d64/MemoryAllocator_8hpp.html", [
+      [ "MemoryAllocator", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html", "d0/d74/classdart_1_1common_1_1MemoryAllocator" ]
+    ] ],
     [ "Metaprogramming.hpp", "da/d8e/Metaprogramming_8hpp.html", "da/d8e/Metaprogramming_8hpp" ],
     [ "NameManager.hpp", "d8/de1/NameManager_8hpp.html", [
       [ "NameManager", "d9/dc9/classdart_1_1common_1_1NameManager.html", "d9/dc9/classdart_1_1common_1_1NameManager" ]
