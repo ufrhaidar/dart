@@ -1,6 +1,5 @@
 var dir_f2ed43681a1f94b8b6b590eee51c5fa9 =
 [
-    [ "detail", "dir_adf779ea8073f74dd851387a55fe6710.html", "dir_adf779ea8073f74dd851387a55fe6710" ],
     [ "BalanceConstraint.cpp", "db/d7c/BalanceConstraint_8cpp.html", "db/d7c/BalanceConstraint_8cpp" ],
     [ "BalanceConstraint.hpp", "d8/d37/BalanceConstraint_8hpp.html", [
       [ "BalanceConstraint", "da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html", "da/d5b/classdart_1_1constraint_1_1BalanceConstraint" ]

@@ -11,7 +11,7 @@ var searchData=
   ['servomotorconstraint_2ecpp',['ServoMotorConstraint.cpp',['../da/dbb/ServoMotorConstraint_8cpp.html',1,'']]],
   ['servomotorconstraint_2ehpp',['ServoMotorConstraint.hpp',['../d9/d8d/ServoMotorConstraint_8hpp.html',1,'']]],
   ['shape_2ecpp',['Shape.cpp',['../d6/dbd/Shape_8cpp.html',1,'']]],
-  ['shape_2ehpp',['Shape.hpp',['../d1/d9a/detail_2Shape_8hpp.html',1,'(Global Namespace)'],['../d2/df8/Shape_8hpp.html',1,'(Global Namespace)']]],
+  ['shape_2ehpp',['Shape.hpp',['../d2/df8/Shape_8hpp.html',1,'']]],
   ['shapeframe_2ecpp',['ShapeFrame.cpp',['../d7/d5e/ShapeFrame_8cpp.html',1,'']]],
   ['shapeframe_2ehpp',['ShapeFrame.hpp',['../db/dd7/ShapeFrame_8hpp.html',1,'']]],
   ['shapeframeaspect_2ehpp',['ShapeFrameAspect.hpp',['../d2/d45/ShapeFrameAspect_8hpp.html',1,'']]],

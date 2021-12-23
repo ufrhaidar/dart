@@ -15,6 +15,8 @@ var searchData=
   ['getaspectimpl_3c_20aspectorcomposite_2c_20false_20_3e',['GetAspectImpl&lt; AspectOrComposite, false &gt;',['../dd/dd3/structdart_1_1common_1_1detail_1_1GetAspectImpl_3_01AspectOrComposite_00_01false_01_4.html',1,'dart::common::detail']]],
   ['getproperties',['GetProperties',['../d3/d09/structdart_1_1common_1_1detail_1_1GetProperties.html',1,'dart::common::detail']]],
   ['getstate',['GetState',['../d9/d40/structdart_1_1common_1_1detail_1_1GetState.html',1,'dart::common::detail']]],
+  ['got_5ftype',['got_type',['../d5/d1a/structdart_1_1common_1_1detail_1_1got__type.html',1,'dart::common::detail']]],
+  ['got_5ftype_3c_20a_20_3e',['got_type&lt; A &gt;',['../d1/d92/structdart_1_1common_1_1detail_1_1got__type_3_01A_01_4.html',1,'dart::common::detail']]],
   ['gradientdescentsolver',['GradientDescentSolver',['../d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html',1,'dart::optimizer']]],
   ['gradientmethod',['GradientMethod',['../dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html',1,'dart::dynamics::InverseKinematics']]],
   ['graphwindow',['GraphWindow',['../dc/d70/classdart_1_1gui_1_1glut_1_1GraphWindow.html',1,'dart::gui::glut']]],

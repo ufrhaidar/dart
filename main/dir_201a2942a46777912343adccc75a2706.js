@@ -3,6 +3,16 @@ var dir_201a2942a46777912343adccc75a2706 =
     [ "AlignedAllocator.hpp", "d1/d6b/AlignedAllocator_8hpp.html", null ],
     [ "Aspect.hpp", "d0/dc7/detail_2Aspect_8hpp.html", null ],
     [ "AspectWithVersion.hpp", "df/d43/detail_2AspectWithVersion_8hpp.html", "df/d43/detail_2AspectWithVersion_8hpp" ],
+    [ "Castable-impl.hpp", "d4/db0/Castable-impl_8hpp.html", [
+      [ "Alias_getType", "da/d8e/structdart_1_1common_1_1Alias__getType.html", null ],
+      [ "Alias_getType< T, ::std::integral_constant< bool, ::dart::common::detail::got_type< decltype(&T::getType)>::value > >", "da/d7c/structdart_1_1common_1_1Alias__getType_3_01T_00_01_1_1std_1_1integral__constant_3_01bool_00_01_1c419055a5a175e237b9b279ec38fe3b9.html", "da/d7c/structdart_1_1common_1_1Alias__getType_3_01T_00_01_1_1std_1_1integral__constant_3_01bool_00_01_1c419055a5a175e237b9b279ec38fe3b9" ],
+      [ "AmbiguitySeed_getType", "d3/d3f/structdart_1_1common_1_1AmbiguitySeed__getType.html", "d3/d3f/structdart_1_1common_1_1AmbiguitySeed__getType" ],
+      [ "has_member_getType", "d2/d5d/structdart_1_1common_1_1has__member__getType.html", "d2/d5d/structdart_1_1common_1_1has__member__getType" ],
+      [ "Alias_getStaticType", "d5/d97/structdart_1_1common_1_1Alias__getStaticType.html", null ],
+      [ "Alias_getStaticType< T, ::std::integral_constant< bool, ::dart::common::detail::got_type< decltype(&T::getStaticType)>::value > >", "d1/dd3/structdart_1_1common_1_1Alias__getStaticType_3_01T_00_01_1_1std_1_1integral__constant_3_01bool_0145424fb2a6de18ccbbeaa9184255479.html", "d1/dd3/structdart_1_1common_1_1Alias__getStaticType_3_01T_00_01_1_1std_1_1integral__constant_3_01bool_0145424fb2a6de18ccbbeaa9184255479" ],
+      [ "AmbiguitySeed_getStaticType", "d4/dfc/structdart_1_1common_1_1AmbiguitySeed__getStaticType.html", "d4/dfc/structdart_1_1common_1_1AmbiguitySeed__getStaticType" ],
+      [ "has_member_getStaticType", "df/d67/structdart_1_1common_1_1has__member__getStaticType.html", "df/d67/structdart_1_1common_1_1has__member__getStaticType" ]
+    ] ],
     [ "Cloneable.hpp", "de/d99/detail_2Cloneable_8hpp.html", null ],
     [ "Composite.hpp", "db/da6/detail_2Composite_8hpp.html", "db/da6/detail_2Composite_8hpp" ],
     [ "CompositeData.hpp", "d2/d01/CompositeData_8hpp.html", "d2/d01/CompositeData_8hpp" ],
@@ -22,6 +32,13 @@ var dir_201a2942a46777912343adccc75a2706 =
     ] ],
     [ "LockableReference-impl.hpp", "d6/d7f/LockableReference-impl_8hpp.html", null ],
     [ "Memory-impl.hpp", "d2/d9e/Memory-impl_8hpp.html", "d2/d9e/Memory-impl_8hpp" ],
+    [ "Metaprogramming-impl.hpp", "db/d71/Metaprogramming-impl_8hpp.html", [
+      [ "ambiguate", "d4/db7/structdart_1_1common_1_1detail_1_1ambiguate.html", null ],
+      [ "got_type", "d5/d1a/structdart_1_1common_1_1detail_1_1got__type.html", null ],
+      [ "got_type< A >", "d1/d92/structdart_1_1common_1_1detail_1_1got__type_3_01A_01_4.html", "d1/d92/structdart_1_1common_1_1detail_1_1got__type_3_01A_01_4" ],
+      [ "sig_check", "dc/da8/structdart_1_1common_1_1detail_1_1sig__check.html", null ],
+      [ "has_member", "db/df7/structdart_1_1common_1_1detail_1_1has__member.html", "db/df7/structdart_1_1common_1_1detail_1_1has__member" ]
+    ] ],
     [ "NameManager.hpp", "d0/d76/detail_2NameManager_8hpp.html", null ],
     [ "NoOp.hpp", "db/df2/NoOp_8hpp.html", "db/df2/NoOp_8hpp" ],
     [ "ProxyAspect.hpp", "da/d6c/detail_2ProxyAspect_8hpp.html", [

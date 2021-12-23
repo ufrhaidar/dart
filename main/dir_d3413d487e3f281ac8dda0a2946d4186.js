@@ -51,7 +51,6 @@ var dir_d3413d487e3f281ac8dda0a2946d4186 =
     [ "RevoluteJointAspect.hpp", "d4/d97/RevoluteJointAspect_8hpp.html", "d4/d97/RevoluteJointAspect_8hpp" ],
     [ "ScrewJointAspect.cpp", "d3/ddd/ScrewJointAspect_8cpp.html", null ],
     [ "ScrewJointAspect.hpp", "d0/d6d/ScrewJointAspect_8hpp.html", "d0/d6d/ScrewJointAspect_8hpp" ],
-    [ "Shape.hpp", "d1/d9a/detail_2Shape_8hpp.html", null ],
     [ "ShapeFrameAspect.hpp", "d2/d45/ShapeFrameAspect_8hpp.html", "d2/d45/ShapeFrameAspect_8hpp" ],
     [ "ShapeNode.hpp", "d7/da0/dynamics_2detail_2ShapeNode_8hpp.html", "d7/da0/dynamics_2detail_2ShapeNode_8hpp" ],
     [ "Skeleton.hpp", "dd/dfc/detail_2Skeleton_8hpp.html", null ],

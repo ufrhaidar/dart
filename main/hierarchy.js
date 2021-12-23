@@ -7,6 +7,12 @@ var hierarchy =
     [ "dart::dynamics::AccessoryNode< FixedJacobianNode >", "df/d31/classdart_1_1dynamics_1_1AccessoryNode.html", [
       [ "dart::dynamics::FixedJacobianNode", "df/d75/classdart_1_1dynamics_1_1FixedJacobianNode.html", null ]
     ] ],
+    [ "dart::common::Alias_getStaticType< T, typename >", "d5/d97/structdart_1_1common_1_1Alias__getStaticType.html", null ],
+    [ "dart::common::Alias_getStaticType< T, ::std::integral_constant< bool, ::dart::common::detail::got_type< decltype(&T::getStaticType)>::value > >", "d1/dd3/structdart_1_1common_1_1Alias__getStaticType_3_01T_00_01_1_1std_1_1integral__constant_3_01bool_0145424fb2a6de18ccbbeaa9184255479.html", null ],
+    [ "dart::common::Alias_getType< T, typename >", "da/d8e/structdart_1_1common_1_1Alias__getType.html", null ],
+    [ "dart::common::Alias_getType< T, ::std::integral_constant< bool, ::dart::common::detail::got_type< decltype(&T::getType)>::value > >", "da/d7c/structdart_1_1common_1_1Alias__getType_3_01T_00_01_1_1std_1_1integral__constant_3_01bool_00_01_1c419055a5a175e237b9b279ec38fe3b9.html", null ],
+    [ "dart::common::AmbiguitySeed_getStaticType", "d4/dfc/structdart_1_1common_1_1AmbiguitySeed__getStaticType.html", null ],
+    [ "dart::common::AmbiguitySeed_getType", "d3/d3f/structdart_1_1common_1_1AmbiguitySeed__getType.html", null ],
     [ "dart::common::Aspect", "da/da6/classdart_1_1common_1_1Aspect.html", [
       [ "dart::common::CompositeTrackingAspect< CompositeT >", "dc/d65/classdart_1_1common_1_1CompositeTrackingAspect.html", [
         [ "dart::common::detail::EmbeddedPropertiesAspect< CompositeTrackingAspect< CompositeT >, EmbeddedPropertiesAspect< CompositeT, PropertiesDataT >, PropertiesDataT >", "d7/d0e/classdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect.html", [
@@ -64,10 +70,6 @@ var hierarchy =
     ] ],
     [ "dart::dynamics::detail::BodyNodeState", "d9/dfa/structdart_1_1dynamics_1_1detail_1_1BodyNodeState.html", null ],
     [ "dart::math::BoundingBox", "da/d06/classdart_1_1math_1_1BoundingBox.html", null ],
-    [ "dart::constraint::BoxedLcpSolver", "d3/d23/classdart_1_1constraint_1_1BoxedLcpSolver.html", [
-      [ "dart::constraint::DantzigBoxedLcpSolver", "d6/ddf/classdart_1_1constraint_1_1DantzigBoxedLcpSolver.html", null ],
-      [ "dart::constraint::PgsBoxedLcpSolver", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html", null ]
-    ] ],
     [ "btCollisionDispatcher", null, [
       [ "dart::collision::detail::BulletCollisionDispatcher", "d8/d3d/classdart_1_1collision_1_1detail_1_1BulletCollisionDispatcher.html", null ]
     ] ],
@@ -81,6 +83,34 @@ var hierarchy =
     [ "dart::utils::c3d_head_t", "d1/d1f/structdart_1_1utils_1_1c3d__head__t.html", null ],
     [ "dart::utils::c3d_param_t", "df/d7a/structdart_1_1utils_1_1c3d__param__t.html", null ],
     [ "dart::dynamics::FixedJacobianNode::Cache", "d9/d66/structdart_1_1dynamics_1_1FixedJacobianNode_1_1Cache.html", null ],
+    [ "dart::common::Castable< Base >", "d0/d70/classdart_1_1common_1_1Castable.html", null ],
+    [ "dart::common::Castable< BoxedLcpSolver >", "d0/d70/classdart_1_1common_1_1Castable.html", [
+      [ "dart::constraint::BoxedLcpSolver", "d3/d23/classdart_1_1constraint_1_1BoxedLcpSolver.html", [
+        [ "dart::constraint::DantzigBoxedLcpSolver", "d6/ddf/classdart_1_1constraint_1_1DantzigBoxedLcpSolver.html", null ],
+        [ "dart::constraint::PgsBoxedLcpSolver", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html", null ]
+      ] ]
+    ] ],
+    [ "dart::common::Castable< Shape >", "d0/d70/classdart_1_1common_1_1Castable.html", [
+      [ "dart::dynamics::Shape", "db/d1c/classdart_1_1dynamics_1_1Shape.html", [
+        [ "dart::dynamics::BoxShape", "d4/d45/classdart_1_1dynamics_1_1BoxShape.html", null ],
+        [ "dart::dynamics::CapsuleShape", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html", null ],
+        [ "dart::dynamics::ConeShape", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html", null ],
+        [ "dart::dynamics::CylinderShape", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html", null ],
+        [ "dart::dynamics::EllipsoidShape", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html", null ],
+        [ "dart::dynamics::HeightmapShape< S_ >", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html", null ],
+        [ "dart::dynamics::LineSegmentShape", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html", null ],
+        [ "dart::dynamics::MeshShape", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html", [
+          [ "dart::dynamics::ArrowShape", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html", null ]
+        ] ],
+        [ "dart::dynamics::MultiSphereConvexHullShape", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html", null ],
+        [ "dart::dynamics::PlaneShape", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html", null ],
+        [ "dart::dynamics::PointCloudShape", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html", null ],
+        [ "dart::dynamics::PyramidShape", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html", null ],
+        [ "dart::dynamics::SoftMeshShape", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html", null ],
+        [ "dart::dynamics::SphereShape", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html", null ],
+        [ "dart::dynamics::HeightmapShape< S >", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html", null ]
+      ] ]
+    ] ],
     [ "dart::collision::CollisionGroup::CollisionSource< Source, Child >::ChildInfo", "d1/db3/structdart_1_1collision_1_1CollisionGroup_1_1CollisionSource_1_1ChildInfo.html", null ],
     [ "dart::common::Cloneable< T >", "d4/d0a/classdart_1_1common_1_1Cloneable.html", null ],
     [ "dart::common::Cloneable< Properties >", "d4/d0a/classdart_1_1common_1_1Cloneable.html", [
@@ -286,6 +316,7 @@ var hierarchy =
     [ "dart::common::Factory< KeyT, BaseT, HeldT, Args >", "d9/d84/classdart_1_1common_1_1Factory.html", null ],
     [ "dart::common::FactoryRegistrar< KeyT, BaseT, DerivedT, HeldT, Args >", "d9/da2/classdart_1_1common_1_1FactoryRegistrar.html", null ],
     [ "false_type", null, [
+      [ "dart::common::detail::got_type< A, typename >", "d5/d1a/structdart_1_1common_1_1detail_1_1got__type.html", null ],
       [ "dart::math::detail::is_compatible_to_uniform_int_distribution< T, Enable >", "de/d45/structdart_1_1math_1_1detail_1_1is__compatible__to__uniform__int__distribution.html", null ]
     ] ],
     [ "dart::collision::FCLCollisionDetector::FCLCollisionGeometryDeleter", "d2/dee/classdart_1_1collision_1_1FCLCollisionDetector_1_1FCLCollisionGeometryDeleter.html", null ],
@@ -385,6 +416,9 @@ var hierarchy =
       [ "dart::gui::osg::DefaultEventHandler", "da/db3/classdart_1_1gui_1_1osg_1_1DefaultEventHandler.html", null ],
       [ "dart::gui::osg::ImGuiHandler", "d9/db1/classdart_1_1gui_1_1osg_1_1ImGuiHandler.html", null ]
     ] ],
+    [ "dart::common::detail::has_member< Alias, AmbiguitySeed >", "db/df7/structdart_1_1common_1_1detail_1_1has__member.html", null ],
+    [ "dart::common::has_member_getStaticType< T >", "df/d67/structdart_1_1common_1_1has__member__getStaticType.html", null ],
+    [ "dart::common::has_member_getType< T >", "d2/d5d/structdart_1_1common_1_1has__member__getType.html", null ],
     [ "std::hash< boost::filesystem::path >", "dc/de2/structstd_1_1hash_3_01boost_1_1filesystem_1_1path_01_4.html", null ],
     [ "dart::math::HullAngle", "d7/dc6/structdart_1_1math_1_1HullAngle.html", null ],
     [ "dart::gui::osg::ImGuiWidget", "db/db4/classdart_1_1gui_1_1osg_1_1ImGuiWidget.html", [
@@ -533,11 +567,11 @@ var hierarchy =
     ] ],
     [ "dart::lcpsolver::ODELCPSolver", "d4/d65/classdart_1_1lcpsolver_1_1ODELCPSolver.html", null ],
     [ "dart::collision::OdeTypes", "d9/dc8/classdart_1_1collision_1_1OdeTypes.html", null ],
-    [ "dart::constraint::PgsBoxedLcpSolver::Option", "da/d9a/structdart_1_1constraint_1_1PgsBoxedLcpSolver_1_1Option.html", null ],
     [ "dart::utils::MjcfParser::detail::Option", "df/d66/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Option.html", null ],
-    [ "dart::utils::DartLoader::Options", "d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html", null ],
-    [ "dart::utils::SdfParser::Options", "d2/d3d/structdart_1_1utils_1_1SdfParser_1_1Options.html", null ],
+    [ "dart::constraint::PgsBoxedLcpSolver::Option", "da/d9a/structdart_1_1constraint_1_1PgsBoxedLcpSolver_1_1Option.html", null ],
     [ "dart::utils::MjcfParser::Options", "de/d41/structdart_1_1utils_1_1MjcfParser_1_1Options.html", null ],
+    [ "dart::utils::SdfParser::Options", "d2/d3d/structdart_1_1utils_1_1SdfParser_1_1Options.html", null ],
+    [ "dart::utils::DartLoader::Options", "d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html", null ],
     [ "dart::utils::VskParser::Options", "d9/df8/structdart_1_1utils_1_1VskParser_1_1Options.html", null ],
     [ "OrbitManipulator", null, [
       [ "dart::gui::osg::TrackballManipulator", "d7/d4f/classdart_1_1gui_1_1osg_1_1TrackballManipulator.html", null ]
@@ -561,12 +595,6 @@ var hierarchy =
       [ "dart::dynamics::detail::PrismaticJointProperties", "dd/d5c/structdart_1_1dynamics_1_1detail_1_1PrismaticJointProperties.html", null ]
     ] ],
     [ "dart::optimizer::Problem", "df/dbc/classdart_1_1optimizer_1_1Problem.html", null ],
-    [ "dart::optimizer::Solver::Properties", "db/d48/structdart_1_1optimizer_1_1Solver_1_1Properties.html", [
-      [ "dart::optimizer::GradientDescentSolver::Properties", "d5/d12/structdart_1_1optimizer_1_1GradientDescentSolver_1_1Properties.html", null ]
-    ] ],
-    [ "dart::dynamics::InverseKinematics::ErrorMethod::Properties", "db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html", [
-      [ "dart::dynamics::InverseKinematics::TaskSpaceRegion::Properties", "d8/d4d/structdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion_1_1Properties.html", null ]
-    ] ],
     [ "dart::dynamics::InverseKinematics::GradientMethod::Properties", "d2/d08/structdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod_1_1Properties.html", [
       [ "dart::dynamics::InverseKinematics::Analytical::Properties", "d3/d04/structdart_1_1dynamics_1_1InverseKinematics_1_1Analytical_1_1Properties.html", null ],
       [ "dart::dynamics::InverseKinematics::JacobianDLS::Properties", "dd/dda/structdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS_1_1Properties.html", null ]
@@ -574,10 +602,16 @@ var hierarchy =
     [ "dart::optimizer::MultiObjectiveSolver::Properties", "da/d45/structdart_1_1optimizer_1_1MultiObjectiveSolver_1_1Properties.html", [
       [ "dart::optimizer::PagmoMultiObjectiveSolver::Properties", "d8/d8d/structdart_1_1optimizer_1_1PagmoMultiObjectiveSolver_1_1Properties.html", null ]
     ] ],
-    [ "dart::dynamics::PointMass::Properties", "d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties.html", null ],
-    [ "dart::dynamics::ArrowShape::Properties", "dc/dc5/structdart_1_1dynamics_1_1ArrowShape_1_1Properties.html", null ],
     [ "Properties", null, [
       [ "dart::dynamics::BallJoint::Properties", "db/ded/structdart_1_1dynamics_1_1BallJoint_1_1Properties.html", null ]
+    ] ],
+    [ "dart::dynamics::PointMass::Properties", "d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties.html", null ],
+    [ "dart::optimizer::Solver::Properties", "db/d48/structdart_1_1optimizer_1_1Solver_1_1Properties.html", [
+      [ "dart::optimizer::GradientDescentSolver::Properties", "d5/d12/structdart_1_1optimizer_1_1GradientDescentSolver_1_1Properties.html", null ]
+    ] ],
+    [ "dart::dynamics::ArrowShape::Properties", "dc/dc5/structdart_1_1dynamics_1_1ArrowShape_1_1Properties.html", null ],
+    [ "dart::dynamics::InverseKinematics::ErrorMethod::Properties", "db/d2b/structdart_1_1dynamics_1_1InverseKinematics_1_1ErrorMethod_1_1Properties.html", [
+      [ "dart::dynamics::InverseKinematics::TaskSpaceRegion::Properties", "d8/d4d/structdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion_1_1Properties.html", null ]
     ] ],
     [ "PropertiesData", null, [
       [ "dart::common::MakeCloneable< PropertiesData >", "d7/da1/classdart_1_1common_1_1MakeCloneable.html", null ]
@@ -795,25 +829,7 @@ var hierarchy =
         [ "dart::dynamics::JacobianNode", "d1/d50/classdart_1_1dynamics_1_1JacobianNode.html", null ]
       ] ],
       [ "dart::dynamics::PointMass", "d5/d55/classdart_1_1dynamics_1_1PointMass.html", null ],
-      [ "dart::dynamics::Shape", "db/d1c/classdart_1_1dynamics_1_1Shape.html", [
-        [ "dart::dynamics::BoxShape", "d4/d45/classdart_1_1dynamics_1_1BoxShape.html", null ],
-        [ "dart::dynamics::CapsuleShape", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html", null ],
-        [ "dart::dynamics::ConeShape", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html", null ],
-        [ "dart::dynamics::CylinderShape", "d3/d73/classdart_1_1dynamics_1_1CylinderShape.html", null ],
-        [ "dart::dynamics::EllipsoidShape", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html", null ],
-        [ "dart::dynamics::HeightmapShape< S_ >", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html", null ],
-        [ "dart::dynamics::LineSegmentShape", "d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html", null ],
-        [ "dart::dynamics::MeshShape", "d0/d2d/classdart_1_1dynamics_1_1MeshShape.html", [
-          [ "dart::dynamics::ArrowShape", "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html", null ]
-        ] ],
-        [ "dart::dynamics::MultiSphereConvexHullShape", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html", null ],
-        [ "dart::dynamics::PlaneShape", "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html", null ],
-        [ "dart::dynamics::PointCloudShape", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html", null ],
-        [ "dart::dynamics::PyramidShape", "d0/dff/classdart_1_1dynamics_1_1PyramidShape.html", null ],
-        [ "dart::dynamics::SoftMeshShape", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html", null ],
-        [ "dart::dynamics::SphereShape", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html", null ],
-        [ "dart::dynamics::HeightmapShape< S >", "d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html", null ]
-      ] ],
+      [ "dart::dynamics::Shape", "db/d1c/classdart_1_1dynamics_1_1Shape.html", null ],
       [ "dart::gui::osg::DefaultEventHandler", "da/db3/classdart_1_1gui_1_1osg_1_1DefaultEventHandler.html", null ],
       [ "dart::gui::osg::DragAndDrop", "db/d5f/classdart_1_1gui_1_1osg_1_1DragAndDrop.html", null ],
       [ "dart::gui::osg::MouseEventHandler", "d5/d0b/classdart_1_1gui_1_1osg_1_1MouseEventHandler.html", null ],
@@ -870,12 +886,14 @@ var hierarchy =
       [ "dart::dynamics::detail::TranslationalJoint2DProperties", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html", null ]
     ] ],
     [ "true_type", null, [
+      [ "dart::common::detail::got_type< A >", "d1/d92/structdart_1_1common_1_1detail_1_1got__type_3_01A_01_4.html", null ],
+      [ "dart::common::detail::sig_check< T, T >", "dc/da8/structdart_1_1common_1_1detail_1_1sig__check.html", null ],
       [ "dart::math::detail::is_compatible_to_uniform_int_distribution< T, typename std::enable_if< std::is_same< typename std::remove_cv< T >::type, short >::value||std::is_same< typename std::remove_cv< T >::type, int >::value||std::is_same< typename std::remove_cv< T >::type, long >::value||std::is_same< typename std::remove_cv< T >::type, long long >::value||std::is_same< typename std::remove_cv< T >::type, unsigned short >::value||std::is_same< typename std::remove_cv< T >::type, unsigned int >::value||std::is_same< typename std::remove_cv< T >::type, unsigned long >::value||std::is_same< typename std::remove_cv< T >::type, unsigned long long >::value >::type >", "d9/dd8/structdart_1_1math_1_1detail_1_1is__compatible__to__uniform__int__distribution_3_01T_00_01typena109950b8ebcefb868d555dee965a1728.html", null ]
     ] ],
+    [ "dart::dynamics::detail::BasicNodeManagerForBodyNode::type< T >", "da/dc8/structdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForBodyNode_1_1type.html", null ],
     [ "Type", null, [
       [ "dart::common::detail::ComposeData< CompositeType, GetData, AspectT, Remainder... >", "d2/df8/structdart_1_1common_1_1detail_1_1ComposeData_3_01CompositeType_00_01GetData_00_01AspectT_00_01Remainder_8_8_8_01_4.html", null ]
     ] ],
-    [ "dart::dynamics::detail::BasicNodeManagerForBodyNode::type< T >", "da/dc8/structdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForBodyNode_1_1type.html", null ],
     [ "dart::common::SpecializedForAspect< SpecAspect >::type< T >", "d5/d70/structdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4_1_1type.html", null ],
     [ "dart::math::detail::UniformImpl< T, Enable >", "d5/d51/structdart_1_1math_1_1detail_1_1UniformImpl.html", null ],
     [ "dart::math::detail::UniformImpl< T, typename std::enable_if< is_base_of_matrix< T >::value >::type >", "d2/dab/structdart_1_1math_1_1detail_1_1UniformImpl_3_01T_00_01typename_01std_1_1enable__if_3_01is__basee32d80d77a2ab8417fba84c961b659f9.html", null ],
@@ -890,20 +908,20 @@ var hierarchy =
     [ "dart::math::detail::UniformScalarImpl< S, Enable >", "d6/dc4/structdart_1_1math_1_1detail_1_1UniformScalarImpl.html", null ],
     [ "dart::math::detail::UniformScalarImpl< S, typename std::enable_if< is_compatible_to_uniform_int_distribution< S >::value >::type >", "d6/de3/structdart_1_1math_1_1detail_1_1UniformScalarImpl_3_01S_00_01typename_01std_1_1enable__if_3_01is8957c820497a71e349f1f739e1b9700c.html", null ],
     [ "dart::math::detail::UniformScalarImpl< S, typename std::enable_if< std::is_floating_point< S >::value >::type >", "d3/ddf/structdart_1_1math_1_1detail_1_1UniformScalarImpl_3_01S_00_01typename_01std_1_1enable__if_3_01st5512e5139f867849670c771044f79fd0.html", null ],
+    [ "dart::optimizer::PagmoMultiObjectiveSolver::UniqueProperties", "db/d34/structdart_1_1optimizer_1_1PagmoMultiObjectiveSolver_1_1UniqueProperties.html", [
+      [ "dart::optimizer::PagmoMultiObjectiveSolver::Properties", "d8/d8d/structdart_1_1optimizer_1_1PagmoMultiObjectiveSolver_1_1Properties.html", null ]
+    ] ],
     [ "dart::dynamics::InverseKinematics::TaskSpaceRegion::UniqueProperties", "d1/d29/structdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion_1_1UniqueProperties.html", [
       [ "dart::dynamics::InverseKinematics::TaskSpaceRegion::Properties", "d8/d4d/structdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion_1_1Properties.html", null ]
     ] ],
     [ "dart::dynamics::InverseKinematics::Analytical::UniqueProperties", "d3/df9/structdart_1_1dynamics_1_1InverseKinematics_1_1Analytical_1_1UniqueProperties.html", [
       [ "dart::dynamics::InverseKinematics::Analytical::Properties", "d3/d04/structdart_1_1dynamics_1_1InverseKinematics_1_1Analytical_1_1Properties.html", null ]
     ] ],
-    [ "dart::optimizer::GradientDescentSolver::UniqueProperties", "d8/db5/structdart_1_1optimizer_1_1GradientDescentSolver_1_1UniqueProperties.html", [
-      [ "dart::optimizer::GradientDescentSolver::Properties", "d5/d12/structdart_1_1optimizer_1_1GradientDescentSolver_1_1Properties.html", null ]
-    ] ],
-    [ "dart::optimizer::PagmoMultiObjectiveSolver::UniqueProperties", "db/d34/structdart_1_1optimizer_1_1PagmoMultiObjectiveSolver_1_1UniqueProperties.html", [
-      [ "dart::optimizer::PagmoMultiObjectiveSolver::Properties", "d8/d8d/structdart_1_1optimizer_1_1PagmoMultiObjectiveSolver_1_1Properties.html", null ]
-    ] ],
     [ "dart::dynamics::InverseKinematics::JacobianDLS::UniqueProperties", "d5/d76/structdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS_1_1UniqueProperties.html", [
       [ "dart::dynamics::InverseKinematics::JacobianDLS::Properties", "dd/dda/structdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS_1_1Properties.html", null ]
+    ] ],
+    [ "dart::optimizer::GradientDescentSolver::UniqueProperties", "d8/db5/structdart_1_1optimizer_1_1GradientDescentSolver_1_1UniqueProperties.html", [
+      [ "dart::optimizer::GradientDescentSolver::Properties", "d5/d12/structdart_1_1optimizer_1_1GradientDescentSolver_1_1Properties.html", null ]
     ] ],
     [ "dart::dynamics::detail::UniversalJointUniqueProperties", "dd/d4a/structdart_1_1dynamics_1_1detail_1_1UniversalJointUniqueProperties.html", [
       [ "dart::dynamics::detail::UniversalJointProperties", "dc/d79/structdart_1_1dynamics_1_1detail_1_1UniversalJointProperties.html", null ]
@@ -939,12 +957,15 @@ var hierarchy =
     ] ],
     [ "dart::utils::urdf_parsing::World", "d5/d46/classdart_1_1utils_1_1urdf__parsing_1_1World.html", null ],
     [ "dart::utils::MjcfParser::detail::Worldbody", "d6/da3/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Worldbody.html", null ],
-    [ "Base", null, [
-      [ "dart::dynamics::CompositePropertiesNode< Base >", "d1/dd1/classdart_1_1dynamics_1_1CompositePropertiesNode.html", null ],
-      [ "dart::dynamics::detail::EntityNodeBase< Base, isCompositeBase >", "d4/d93/classdart_1_1dynamics_1_1detail_1_1EntityNodeBase.html", null ]
+    [ "Args", null, [
+      [ "dart::common::detail::ambiguate< Args >", "d4/db7/structdart_1_1common_1_1detail_1_1ambiguate.html", null ]
     ] ],
     [ "Base", null, [
       [ "dart::common::MakeCloneable< Base, Mixin >", "d7/da1/classdart_1_1common_1_1MakeCloneable.html", null ]
+    ] ],
+    [ "Base", null, [
+      [ "dart::dynamics::CompositePropertiesNode< Base >", "d1/dd1/classdart_1_1dynamics_1_1CompositePropertiesNode.html", null ],
+      [ "dart::dynamics::detail::EntityNodeBase< Base, isCompositeBase >", "d4/d93/classdart_1_1dynamics_1_1detail_1_1EntityNodeBase.html", null ]
     ] ],
     [ "BaseT", null, [
       [ "dart::common::detail::AspectWithState< BaseT, DerivedT, StateDataT, CompositeT, updateState >", "d9/d04/classdart_1_1common_1_1detail_1_1AspectWithState.html", null ],

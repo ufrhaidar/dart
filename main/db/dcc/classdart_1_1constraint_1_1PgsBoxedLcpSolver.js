@@ -1,11 +1,15 @@
 var classdart_1_1constraint_1_1PgsBoxedLcpSolver =
 [
     [ "Option", "da/d9a/structdart_1_1constraint_1_1PgsBoxedLcpSolver_1_1Option.html", "da/d9a/structdart_1_1constraint_1_1PgsBoxedLcpSolver_1_1Option" ],
+    [ "as", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#ad769689ed09d55c0529d8d9390fe0043", null ],
+    [ "as", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a062c3cedf57062040cd4fee24005abe2", null ],
+    [ "as_ref", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a90d4a383c1f3f71e323151b2c5d19dc5", null ],
+    [ "as_ref", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#adeb053ac0f46be6a6f5f2368c32d764d", null ],
     [ "canSolve", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a5f7f46ac8aa92650795b2e4024cdb1e2", null ],
     [ "getOption", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a0af4c50876176b6a4aec8b6e15dd8f79", null ],
     [ "getStaticType", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a4282aa0c5d72efa1b6dcfd0bcf30fe9c", null ],
     [ "getType", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a3d73d3c67859cf73fb811081dc3f8a55", null ],
-    [ "is", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a9f22e305e7cb8526d6d8c20d7e7cff7f", null ],
+    [ "is", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#a4d171ea0afccad1214c01eedd14a5616", null ],
     [ "setOption", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#ac17a7ceb0542d9aabb025271b90afbc5", null ],
     [ "solve", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#aba78a0f6f5f1b40ca5e61848b0581438", null ],
     [ "mCacheD", "db/dcc/classdart_1_1constraint_1_1PgsBoxedLcpSolver.html#aea6cae51a8788b6cb61615a6d37b2973", null ],

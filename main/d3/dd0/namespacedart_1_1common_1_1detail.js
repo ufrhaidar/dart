@@ -1,5 +1,6 @@
 var namespacedart_1_1common_1_1detail =
 [
+    [ "ambiguate", "d4/db7/structdart_1_1common_1_1detail_1_1ambiguate.html", null ],
     [ "AspectWithState", "d9/d04/classdart_1_1common_1_1detail_1_1AspectWithState.html", "d9/d04/classdart_1_1common_1_1detail_1_1AspectWithState" ],
     [ "AspectWithVersionedProperties", "da/db5/classdart_1_1common_1_1detail_1_1AspectWithVersionedProperties.html", "da/db5/classdart_1_1common_1_1detail_1_1AspectWithVersionedProperties" ],
     [ "ComposeData", "d3/d11/classdart_1_1common_1_1detail_1_1ComposeData.html", "d3/d11/classdart_1_1common_1_1detail_1_1ComposeData" ],
@@ -15,7 +16,11 @@ var namespacedart_1_1common_1_1detail =
     [ "GetAspectImpl< AspectOrComposite, false >", "dd/dd3/structdart_1_1common_1_1detail_1_1GetAspectImpl_3_01AspectOrComposite_00_01false_01_4.html", "dd/dd3/structdart_1_1common_1_1detail_1_1GetAspectImpl_3_01AspectOrComposite_00_01false_01_4" ],
     [ "GetProperties", "d3/d09/structdart_1_1common_1_1detail_1_1GetProperties.html", "d3/d09/structdart_1_1common_1_1detail_1_1GetProperties" ],
     [ "GetState", "d9/d40/structdart_1_1common_1_1detail_1_1GetState.html", "d9/d40/structdart_1_1common_1_1detail_1_1GetState" ],
+    [ "got_type", "d5/d1a/structdart_1_1common_1_1detail_1_1got__type.html", null ],
+    [ "got_type< A >", "d1/d92/structdart_1_1common_1_1detail_1_1got__type_3_01A_01_4.html", "d1/d92/structdart_1_1common_1_1detail_1_1got__type_3_01A_01_4" ],
+    [ "has_member", "db/df7/structdart_1_1common_1_1detail_1_1has__member.html", "db/df7/structdart_1_1common_1_1detail_1_1has__member" ],
     [ "ProxyPropertiesAspect", "da/dcb/classdart_1_1common_1_1detail_1_1ProxyPropertiesAspect.html", "da/dcb/classdart_1_1common_1_1detail_1_1ProxyPropertiesAspect" ],
     [ "ProxyStateAspect", "d9/d18/classdart_1_1common_1_1detail_1_1ProxyStateAspect.html", "d9/d18/classdart_1_1common_1_1detail_1_1ProxyStateAspect" ],
-    [ "SharedLibraryManager", "d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager.html", "d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager" ]
+    [ "SharedLibraryManager", "d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager.html", "d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager" ],
+    [ "sig_check", "dc/da8/structdart_1_1common_1_1detail_1_1sig__check.html", null ]
 ];
