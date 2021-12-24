@@ -104,6 +104,10 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
       [ "type", "d5/d70/structdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4_1_1type.html", null ],
       [ "SpecializedForAspect< SpecAspect1, OtherSpecAspects... >", "d2/d3a/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect1_00_01OtherSpecAspects_8_8_8_01_4.html", "d2/d3a/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect1_00_01OtherSpecAspects_8_8_8_01_4" ]
     ] ],
+    [ "StlAllocator.hpp", "d9/d4b/StlAllocator_8hpp.html", [
+      [ "StlAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html", "d6/db1/classdart_1_1common_1_1StlAllocator" ],
+      [ "rebind", "d5/d70/structdart_1_1common_1_1StlAllocator_1_1rebind.html", "d5/d70/structdart_1_1common_1_1StlAllocator_1_1rebind" ]
+    ] ],
     [ "StlHelpers.hpp", "dc/d2e/StlHelpers_8hpp.html", "dc/d2e/StlHelpers_8hpp" ],
     [ "sub_ptr.hpp", "d3/dba/sub__ptr_8hpp.html", "d3/dba/sub__ptr_8hpp" ],
     [ "Subject.cpp", "d7/d91/Subject_8cpp.html", null ],

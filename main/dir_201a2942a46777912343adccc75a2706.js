@@ -56,6 +56,7 @@ var dir_201a2942a46777912343adccc75a2706 =
     [ "Signal.hpp", "dd/dc7/detail_2Signal_8hpp.html", null ],
     [ "Singleton-impl.hpp", "d0/d7d/Singleton-impl_8hpp.html", null ],
     [ "SpecializedForAspect.hpp", "da/dc6/detail_2SpecializedForAspect_8hpp.html", null ],
+    [ "StlAllocator-impl.hpp", "df/da3/StlAllocator-impl_8hpp.html", "df/da3/StlAllocator-impl_8hpp" ],
     [ "sub_ptr.hpp", "d9/d51/detail_2sub__ptr_8hpp.html", null ],
     [ "TemplateJoinerDispatchMacro.hpp", "df/d24/TemplateJoinerDispatchMacro_8hpp.html", "df/d24/TemplateJoinerDispatchMacro_8hpp" ]
 ];

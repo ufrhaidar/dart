@@ -13,6 +13,7 @@ var searchData=
   ['simpleframeptr',['SimpleFramePtr',['../d7/d5a/namespacedart_1_1dynamics.html#ad33cf7bc1221fccb979fedcfec21f1e9',1,'dart::dynamics']]],
   ['simwindow',['SimWindow',['../d0/dcf/namespacedart_1_1gui.html#a22af68726c011e22e3e0756925bf7d3c',1,'dart::gui']]],
   ['singletonfactory',['SingletonFactory',['../d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a093393b11b5fd56666e672718bd29907',1,'dart::collision::CollisionDetector::SingletonFactory()'],['../d9/da2/classdart_1_1common_1_1FactoryRegistrar.html#ab33b8f0a460c026bcbb7e2bbb50b9142',1,'dart::common::FactoryRegistrar::SingletonFactory()']]],
+  ['size_5ftype',['size_type',['../d6/db1/classdart_1_1common_1_1StlAllocator.html#a4870feaba5bfea02451a1829929ff8bf',1,'dart::common::StlAllocator']]],
   ['skeletonaspectbase',['SkeletonAspectBase',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#ac9856c632169526cff610581782e328e',1,'dart::dynamics::detail']]],
   ['skeletonproxyaspects',['SkeletonProxyAspects',['../de/dfe/namespacedart_1_1dynamics_1_1detail.html#abf9ada18284580ee57c50002b2b19927',1,'dart::dynamics::detail']]],
   ['skeletonptr',['SkeletonPtr',['../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618',1,'dart::dynamics']]],

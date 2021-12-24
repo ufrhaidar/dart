@@ -62,6 +62,7 @@ var namespacedart_1_1common =
     [ "SpecializedForAspect", "dc/d64/classdart_1_1common_1_1SpecializedForAspect.html", "dc/d64/classdart_1_1common_1_1SpecializedForAspect" ],
     [ "SpecializedForAspect< SpecAspect >", "db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4.html", "db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4" ],
     [ "SpecializedForAspect< SpecAspect1, OtherSpecAspects... >", "d2/d3a/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect1_00_01OtherSpecAspects_8_8_8_01_4.html", "d2/d3a/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect1_00_01OtherSpecAspects_8_8_8_01_4" ],
+    [ "StlAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html", "d6/db1/classdart_1_1common_1_1StlAllocator" ],
     [ "sub_ptr", "d5/dfd/classdart_1_1common_1_1sub__ptr.html", "d5/dfd/classdart_1_1common_1_1sub__ptr" ],
     [ "Subject", "d3/d73/classdart_1_1common_1_1Subject.html", "d3/d73/classdart_1_1common_1_1Subject" ],
     [ "Timer", "d9/d32/classdart_1_1common_1_1Timer.html", "d9/d32/classdart_1_1common_1_1Timer" ],
