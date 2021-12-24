@@ -340,6 +340,7 @@ var searchData=
   ['duplicate_5fname',['DUPLICATE_NAME',['../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a898bc29de74fe95f614ce67c777008e4a2ed6b51832a1946ce9cfe5f420ab234d',1,'dart::utils::MjcfParser::detail']]],
   ['duplicateaspects',['duplicateAspects',['../d1/d90/classdart_1_1common_1_1Composite.html#a1ea015f5856919a3c673fecd9a3ca0c6',1,'dart::common::Composite']]],
   ['duplicatenodes',['duplicateNodes',['../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#adc72f55dc2c3e25c507508470d10f22f',1,'dart::dynamics::BodyNode']]],
+  ['duration',['duration',['../d9/daf/classdart_1_1common_1_1Stopwatch.html#ad60dd5f99aeed659cd517a8b3b10415f',1,'dart::common::Stopwatch']]],
   ['dvector3',['dVector3',['../da/dcd/namespacedart_1_1collision.html#a06cbc8d8bf1b517485a30f5fb5f59c7e',1,'dart::collision']]],
   ['dvector4',['dVector4',['../da/dcd/namespacedart_1_1collision.html#a31d67aec6c73cf30b210e20f78cae13d',1,'dart::collision']]],
   ['dynamic',['DYNAMIC',['../db/d1c/classdart_1_1dynamics_1_1Shape.html#a61d01bb71d80b589ee363abd755e9f0facab917881ac054365c6c62a35ede15b9',1,'dart::dynamics::Shape::DYNAMIC()'],['../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#aaddc5cc19941c96b2bed3b31fc22806ea0fcc90da4811c877ba9f9c12f7d60bc9',1,'dart::utils::MjcfParser::detail::DYNAMIC()']]],

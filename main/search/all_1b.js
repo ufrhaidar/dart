@@ -246,6 +246,7 @@ var searchData=
   ['_7esphereshapenode',['~SphereShapeNode',['../dd/dbe/classdart_1_1gui_1_1osg_1_1render_1_1SphereShapeNode.html#a5bf997970c8145b07d2866aa9bbd6e43',1,'dart::gui::osg::render::SphereShapeNode']]],
   ['_7estate',['~State',['../d4/d3b/structdart_1_1dynamics_1_1PointMass_1_1State.html#a356f5f403ca3165ee3f7f8e6fa27f307',1,'dart::dynamics::PointMass::State']]],
   ['_7estlallocator',['~StlAllocator',['../d6/db1/classdart_1_1common_1_1StlAllocator.html#a9bbec3c47bd9f682f542f37a196309ad',1,'dart::common::StlAllocator']]],
+  ['_7estopwatch',['~Stopwatch',['../d9/daf/classdart_1_1common_1_1Stopwatch.html#aa103c6f7438ae2fcfcad24601092ca96',1,'dart::common::Stopwatch']]],
   ['_7esubject',['~Subject',['../d3/d73/classdart_1_1common_1_1Subject.html#a20261c0b76e064db6b310e98059f2dc7',1,'dart::common::Subject']]],
   ['_7etaskspaceregion',['~TaskSpaceRegion',['../d9/d4d/classdart_1_1dynamics_1_1InverseKinematics_1_1TaskSpaceRegion.html#aabb077d79efdf318cc70a033fa528d46',1,'dart::dynamics::InverseKinematics::TaskSpaceRegion']]],
   ['_7etemplatebodynodeptr',['~TemplateBodyNodePtr',['../d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#ab4b8cdbc16851a7ee80ecbd6e317e921',1,'dart::dynamics::TemplateBodyNodePtr']]],
