@@ -88,6 +88,7 @@ var searchData=
   ['_7efixedframe',['~FixedFrame',['../d8/d17/classdart_1_1dynamics_1_1FixedFrame.html#a284ba1e6fc1ebb1c030d9e56ae95d91d',1,'dart::dynamics::FixedFrame']]],
   ['_7eframe',['~Frame',['../db/d38/classdart_1_1dynamics_1_1Frame.html#a96ddbbaaaba346f18a6594d479a1728c',1,'dart::dynamics::Frame']]],
   ['_7efreejoint',['~FreeJoint',['../d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#aee51e1b0ccf3ea427243dafbbe9e7c78',1,'dart::dynamics::FreeJoint']]],
+  ['_7efreelistallocator',['~FreeListAllocator',['../de/dd0/classdart_1_1common_1_1FreeListAllocator.html#adc4e6f4b55842e1de386f8a70aea19f9',1,'dart::common::FreeListAllocator']]],
   ['_7efunction',['~Function',['../de/d0e/classdart_1_1dynamics_1_1HierarchicalIK_1_1Function.html#ae1d0b1add8da7a879567176412c6f198',1,'dart::dynamics::HierarchicalIK::Function::~Function()'],['../d6/def/classdart_1_1dynamics_1_1InverseKinematics_1_1Function.html#a81a4d308d440ec7da21085b695ec57a5',1,'dart::dynamics::InverseKinematics::Function::~Function()'],['../d9/dae/classdart_1_1optimizer_1_1Function.html#a990d67a98dc2e125e0e06d07eae615ba',1,'dart::optimizer::Function::~Function()']]],
   ['_7egenericjoint',['~GenericJoint',['../da/d53/classdart_1_1dynamics_1_1GenericJoint.html#acb4e25a9f3e5c048990ca63885096af9',1,'dart::dynamics::GenericJoint']]],
   ['_7egenericjointproperties',['~GenericJointProperties',['../d6/d83/structdart_1_1dynamics_1_1detail_1_1GenericJointProperties.html#aa587512fab6cea6c51a009f27542a71a',1,'dart::dynamics::detail::GenericJointProperties']]],

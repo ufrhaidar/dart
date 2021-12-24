@@ -89,21 +89,6 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 &#160;
 
 <h3><a id="index_m"></a>- m -</h3><ul>
-<li>m_base_allocator
-: <a class="el" href="d6/db1/classdart_1_1common_1_1StlAllocator.html#a285b3ca7bff9cea3017e49f53ece1410">dart::common::StlAllocator&lt; T &gt;</a>
-</li>
-<li>m_map_pointer_to_size
-: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#adeed0a36deb98500cf860d594dfc36b4">dart::common::CAllocator</a>
-</li>
-<li>m_mutex
-: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#a883380e5b2d27c5c693f3daa25579055">dart::common::CAllocator</a>
-</li>
-<li>m_peak
-: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#acd1ace4edae9b793ebf39f04f66a9d36">dart::common::CAllocator</a>
-</li>
-<li>m_size
-: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#afd30e2ce7cc7ecbc2a23405a3eef5566">dart::common::CAllocator</a>
-</li>
 <li>mA
 : <a class="el" href="d3/d2a/classdart_1_1constraint_1_1BoxedLcpConstraintSolver.html#a10b83ad1969697086355595a342af8f9">dart::constraint::BoxedLcpConstraintSolver</a>
 , <a class="el" href="d5/d55/classdart_1_1dynamics_1_1PointMass.html#acf997b47d3febff63a6fa1e9bed92992">dart::dynamics::PointMass</a>
@@ -175,6 +160,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>mAlgorithm
 : <a class="el" href="db/d34/structdart_1_1optimizer_1_1PagmoMultiObjectiveSolver_1_1UniqueProperties.html#a2d6a1304b28383a48c3ab7dd989a547c">dart::optimizer::PagmoMultiObjectiveSolver::UniqueProperties</a>
+</li>
+<li>mAllocatedSize
+: <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#ac38792cd738d8b4f6a8e4bad7a60a9e4">dart::common::FreeListAllocator</a>
 </li>
 <li>mAllowSimulation
 : <a class="el" href="da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#ae51343ff09e3ba714c33487ed27f9177">dart::gui::osg::Viewer</a>
@@ -361,6 +349,10 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>mBalanceMethod
 : <a class="el" href="da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a070e458660db1452d8e6d7e85cfbf288">dart::constraint::BalanceConstraint</a>
 </li>
+<li>mBaseAllocator
+: <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a415bbe55af4e5b5350dc762c474f0ede">dart::common::FreeListAllocator</a>
+, <a class="el" href="d6/db1/classdart_1_1common_1_1StlAllocator.html#ad79c5b00a81aa466ceebb4e9a5775844">dart::common::StlAllocator&lt; T &gt;</a>
+</li>
 <li>mBaseDepth
 : <a class="el" href="d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a2e8288c6ca713d7eea53b10a0b4832d6">dart::dynamics::PyramidShape</a>
 </li>
@@ -384,6 +376,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>mBiasImpulse
 : <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#aafef66da8da154cc0989ae094eb0de2b">dart::dynamics::BodyNode</a>
+</li>
+<li>mBlockHead
+: <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#ae1216481c933a1013b594d6cdc331c81">dart::common::FreeListAllocator</a>
 </li>
 <li>mBody1
 : <a class="el" href="de/dc3/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Weld.html#a7bd4d8f968b0e5b22e671f8637a36db8">dart::utils::MjcfParser::detail::Weld</a>
@@ -1310,6 +1305,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>mFrameToNode
 : <a class="el" href="d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#a2ca3502a692719a9a1f19d3d32bdc056">dart::gui::osg::WorldNode</a>
 </li>
+<li>mFreeBlock
+: <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a9a89f4d66775203556c548c17820c53f">dart::common::FreeListAllocator</a>
+</li>
 <li>mFreeDofs
 : <a class="el" href="da/de8/classdart_1_1dynamics_1_1IkFast.html#aa47f170d345a3d54a02488d1750ad702">dart::dynamics::IkFast</a>
 </li>
@@ -1734,6 +1732,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>mIpoptApp
 : <a class="el" href="dc/ddb/classdart_1_1optimizer_1_1IpoptSolver.html#a2be0de7e94cb9ace34072ea0f5a3d748">dart::optimizer::IpoptSolver</a>
 </li>
+<li>mIsAllocated
+: <a class="el" href="dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader.html#a23064b080c00eda8d31373e647543c86">dart::common::FreeListAllocator::MemoryBlockHeader</a>
+</li>
 <li>mIsBodyJacobianDirty
 : <a class="el" href="d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#abbe4f56462d8fad3c441263156308ff3">dart::dynamics::JacobianNode</a>
 </li>
@@ -1763,6 +1764,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>mIsMobile
 : <a class="el" href="dc/d8c/structdart_1_1dynamics_1_1detail_1_1SkeletonAspectProperties.html#afbcb71dedad21426b3f9899cb0f8636b">dart::dynamics::detail::SkeletonAspectProperties</a>
+</li>
+<li>mIsNextContiguous
+: <a class="el" href="dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader.html#a920ef2f9cabb418000ea3441ba8b2b55">dart::common::FreeListAllocator::MemoryBlockHeader</a>
 </li>
 <li>mIsPartialAccelerationDirty
 : <a class="el" href="d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#adf5b1666f383840393d7d3416fb24b68">dart::dynamics::BodyNode</a>
@@ -2059,6 +2063,10 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>mMapOfTerminals
 : <a class="el" href="de/d88/structdart_1_1dynamics_1_1Linkage_1_1Criteria.html#ab5eda4b2b1c47493aee228ab5c80c2b5">dart::dynamics::Linkage::Criteria</a>
 </li>
+<li>mMapPointerToSize
+: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#abe8014cda6aa43ea75dd335b40e3875b">dart::common::CAllocator</a>
+, <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a49590642d8ea6812b063ad128d422a09">dart::common::FreeListAllocator</a>
+</li>
 <li>mMargin
 : <a class="el" href="d7/d81/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Geom.html#a9b19c795107a6cd9ee296c63e4a7afa3">dart::utils::MjcfParser::detail::Geom</a>
 , <a class="el" href="de/d76/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1GeomAttributes.html#a954e8c5dec86a206d045754f5a9a7ea5">dart::utils::MjcfParser::detail::GeomAttributes</a>
@@ -2255,7 +2263,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 , <a class="el" href="d3/dea/classdart_1_1gui_1_1osg_1_1render_1_1MultiSphereShapeNode.html#ada2bec7a8dd8258c7c45446bb65f8b33">dart::gui::osg::render::MultiSphereShapeNode</a>
 </li>
 <li>mMutex
-: <a class="el" href="de/d69/structdart_1_1dynamics_1_1MutexedWeakSkeletonPtr.html#ae99b07a21b689fc4a701632d2dae61ac">dart::dynamics::MutexedWeakSkeletonPtr</a>
+: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#a9ccc0c3cac51b51f2ec3a251c023c77a">dart::common::CAllocator</a>
+, <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a88ed38f0feb429ad46ceb4bfdf3a912f">dart::common::FreeListAllocator</a>
+, <a class="el" href="de/d69/structdart_1_1dynamics_1_1MutexedWeakSkeletonPtr.html#ae99b07a21b689fc4a701632d2dae61ac">dart::dynamics::MutexedWeakSkeletonPtr</a>
 , <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a646b88e1f50e5c7b078f350ffc08d6bf">dart::dynamics::Skeleton</a>
 </li>
 <li>mName
@@ -2349,6 +2359,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>mNegativeVelocityError
 : <a class="el" href="d1/d54/classdart_1_1constraint_1_1MimicMotorConstraint.html#a7b407e27fc0c0ca3729ed81933879dc2">dart::constraint::MimicMotorConstraint</a>
 , <a class="el" href="d0/d43/classdart_1_1constraint_1_1ServoMotorConstraint.html#a9dc50f980462fe8234c696fe51e432cd">dart::constraint::ServoMotorConstraint</a>
+</li>
+<li>mNext
+: <a class="el" href="dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader.html#af3a979d23bddf935a57472617db509fd">dart::common::FreeListAllocator::MemoryBlockHeader</a>
 </li>
 <li>mNKey
 : <a class="el" href="d3/d8d/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Size.html#a68bdb7714d23669899b96225baf0259f">dart::utils::MjcfParser::detail::Size</a>
@@ -2676,6 +2689,10 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>mPaused
 : <a class="el" href="d9/daf/classdart_1_1common_1_1Stopwatch.html#a0a41c52815ab1762f0b575f87eded403">dart::common::Stopwatch&lt; UnitType, ClockType &gt;</a>
 </li>
+<li>mPeak
+: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#aec61cbda9b3ff3a48e40f755e5a89397">dart::common::CAllocator</a>
+, <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a8748bdb167e272d029871b7e04b6b703">dart::common::FreeListAllocator</a>
+</li>
 <li>mPersp
 : <a class="el" href="d5/ddc/classdart_1_1gui_1_1glut_1_1Win3D.html#a31be6cd7658a91ff3ac12582f0967ac7">dart::gui::glut::Win3D</a>
 </li>
@@ -2803,6 +2820,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>mPreserveOrientationModKey
 : <a class="el" href="d2/d22/classdart_1_1gui_1_1osg_1_1BodyNodeDnD.html#a38de7a67cd762e49dd6c6a28b4fca7f2">dart::gui::osg::BodyNodeDnD</a>
+</li>
+<li>mPrev
+: <a class="el" href="dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader.html#a21b68af3a3fd03808178ae2d10370a28">dart::common::FreeListAllocator::MemoryBlockHeader</a>
 </li>
 <li>mPrimaryAcceleration
 : <a class="el" href="d6/d5b/classdart_1_1dynamics_1_1Joint.html#a0b56730e3b67a130d162b950f00d7192">dart::dynamics::Joint</a>
@@ -3198,7 +3218,10 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="de/d41/structdart_1_1utils_1_1MjcfParser_1_1Options.html#a6a2a1d3865d117d0f65750f93d8d94a5">dart::utils::MjcfParser::Options</a>
 </li>
 <li>mSize
-: <a class="el" href="d4/d45/classdart_1_1dynamics_1_1BoxShape.html#a373340b90b4093560753c534d55ada3b">dart::dynamics::BoxShape</a>
+: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#a6697ca2d1c4f31c7ea2e48c7373e71e7">dart::common::CAllocator</a>
+, <a class="el" href="dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader.html#a5aab2dbefd78451feb2fea6fb0899395">dart::common::FreeListAllocator::MemoryBlockHeader</a>
+, <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#ac2b2c2bfc5f99a185d0b534c19e8841b">dart::common::FreeListAllocator</a>
+, <a class="el" href="d4/d45/classdart_1_1dynamics_1_1BoxShape.html#a373340b90b4093560753c534d55ada3b">dart::dynamics::BoxShape</a>
 , <a class="el" href="d7/d81/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Geom.html#aa812d091caa5719eca76c437f4b96fc1">dart::utils::MjcfParser::detail::Geom</a>
 , <a class="el" href="de/d76/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1GeomAttributes.html#a85c4e495d9c3078e95a297fe30be59b5">dart::utils::MjcfParser::detail::GeomAttributes</a>
 , <a class="el" href="da/d9c/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1MujocoModel.html#a7909e59e433a6d7411d06425a822432a">dart::utils::MjcfParser::detail::MujocoModel</a>
@@ -3904,7 +3927,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Dec 24 2021 07:12:27 for DART by
+    <li class="footer">Generated on Fri Dec 24 2021 07:17:35 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

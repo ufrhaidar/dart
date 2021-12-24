@@ -1,5 +1,6 @@
 var NAVTREEINDEX36 =
 {
+"d7/dd7/Helpers_8hpp.html#a3660a2b791e39ec186f8632c94ba0dbb":[4,0,0,7,6,20],
 "d7/dd7/Helpers_8hpp.html#a40c325dd75125cb0ba7277a867483803":[4,0,0,7,6,46],
 "d7/dd7/Helpers_8hpp.html#a45a9c136c7745ded12b27f208640c29c":[4,0,0,7,6,32],
 "d7/dd7/Helpers_8hpp.html#a4d0c4511a8ead15fb3b6ddc00b474b80":[4,0,0,7,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX36 =
 "d7/dde/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects.html#ac48e4206c22cbaa424cd11b20cec4fc3":[3,0,0,0,7,1,3],
 "d7/dde/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects.html#af50df9b2a5ebfd9e11365337a9ef9dd2":[3,0,0,0,7,1,7],
 "d7/ddf/classdart_1_1utils_1_1urdf__parsing_1_1Entity.html":[3,0,0,11,2,0],
-"d7/ddf/classdart_1_1utils_1_1urdf__parsing_1_1Entity.html#a13ea7d9de4cf8605e12d9640c5e58a07":[3,0,0,11,2,0,4],
-"d7/ddf/classdart_1_1utils_1_1urdf__parsing_1_1Entity.html#a1b8d7995492728e1e8b588ffeaa21fc9":[3,0,0,11,2,0,2]
+"d7/ddf/classdart_1_1utils_1_1urdf__parsing_1_1Entity.html#a13ea7d9de4cf8605e12d9640c5e58a07":[3,0,0,11,2,0,4]
 };

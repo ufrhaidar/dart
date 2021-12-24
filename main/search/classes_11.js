@@ -34,5 +34,5 @@ var searchData=
   ['translationaljoint2dproperties',['TranslationalJoint2DProperties',['../d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html',1,'dart::dynamics::detail']]],
   ['translationaljoint2duniqueproperties',['TranslationalJoint2DUniqueProperties',['../d9/d63/classdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DUniqueProperties.html',1,'dart::dynamics::detail']]],
   ['trimesh',['TriMesh',['../d4/d2d/classdart_1_1math_1_1TriMesh.html',1,'dart::math']]],
-  ['type',['type',['../da/dc8/structdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForBodyNode_1_1type.html',1,'dart::dynamics::detail::BasicNodeManagerForBodyNode::type&lt; T &gt;'],['../d5/d70/structdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4_1_1type.html',1,'dart::common::SpecializedForAspect&lt; SpecAspect &gt;::type&lt; T &gt;']]]
+  ['type',['type',['../d5/d70/structdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4_1_1type.html',1,'dart::common::SpecializedForAspect&lt; SpecAspect &gt;::type&lt; T &gt;'],['../da/dc8/structdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForBodyNode_1_1type.html',1,'dart::dynamics::detail::BasicNodeManagerForBodyNode::type&lt; T &gt;']]]
 ];

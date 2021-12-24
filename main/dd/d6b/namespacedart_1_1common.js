@@ -34,6 +34,7 @@ var namespacedart_1_1common =
     [ "Empty", "d9/dc4/structdart_1_1common_1_1Empty.html", null ],
     [ "Factory", "d9/d84/classdart_1_1common_1_1Factory.html", "d9/d84/classdart_1_1common_1_1Factory" ],
     [ "FactoryRegistrar", "d9/da2/classdart_1_1common_1_1FactoryRegistrar.html", "d9/da2/classdart_1_1common_1_1FactoryRegistrar" ],
+    [ "FreeListAllocator", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html", "de/dd0/classdart_1_1common_1_1FreeListAllocator" ],
     [ "has_member_getStaticType", "df/d67/structdart_1_1common_1_1has__member__getStaticType.html", "df/d67/structdart_1_1common_1_1has__member__getStaticType" ],
     [ "has_member_getType", "d2/d5d/structdart_1_1common_1_1has__member__getType.html", "d2/d5d/structdart_1_1common_1_1has__member__getType" ],
     [ "LocalResource", "d5/db8/classdart_1_1common_1_1LocalResource.html", "d5/db8/classdart_1_1common_1_1LocalResource" ],

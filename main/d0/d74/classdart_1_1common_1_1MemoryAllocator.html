@@ -106,8 +106,9 @@ Inheritance diagram for dart::common::MemoryAllocator:</div>
  <div class="center">
   <img src="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.png" usemap="#dart::common::MemoryAllocator_map" alt=""/>
   <map id="dart::common::MemoryAllocator_map" name="dart::common::MemoryAllocator_map">
-<area href="../../d0/d70/classdart_1_1common_1_1Castable.html" alt="dart::common::Castable&lt; MemoryAllocator &gt;" shape="rect" coords="0,0,262,24"/>
-<area href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html" alt="dart::common::CAllocator" shape="rect" coords="0,112,262,136"/>
+<area href="../../d0/d70/classdart_1_1common_1_1Castable.html" alt="dart::common::Castable&lt; MemoryAllocator &gt;" shape="rect" coords="136,0,398,24"/>
+<area href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html" title="A stateless memory allocator (in release mode) that uses std::malloc and std::free for memory allocat..." alt="dart::common::CAllocator" shape="rect" coords="0,112,262,136"/>
+<area href="../../de/dd0/classdart_1_1common_1_1FreeListAllocator.html" title="Most general heap memory allocator for allocating memory of various sizes. " alt="dart::common::FreeListAllocator" shape="rect" coords="272,112,534,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -157,12 +158,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a062c3cedf57062040cd4fee24005abe2"><td class="memItemLeft" align="right" valign="top">Derived *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html#a062c3cedf57062040cd4fee24005abe2">as</a> ()</td></tr>
 <tr class="memdesc:a062c3cedf57062040cd4fee24005abe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts to pointer of Derived if Base is its base class.  <a href="#a062c3cedf57062040cd4fee24005abe2">More...</a><br /></td></tr>
 <tr class="separator:a062c3cedf57062040cd4fee24005abe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90d4a383c1f3f71e323151b2c5d19dc5"><td class="memItemLeft" align="right" valign="top">const Derived &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html#a90d4a383c1f3f71e323151b2c5d19dc5">as_ref</a> () const</td></tr>
-<tr class="memdesc:a90d4a383c1f3f71e323151b2c5d19dc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts to reference of Derived if Base is its base class. UB otherwise.  <a href="#a90d4a383c1f3f71e323151b2c5d19dc5">More...</a><br /></td></tr>
-<tr class="separator:a90d4a383c1f3f71e323151b2c5d19dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adeb053ac0f46be6a6f5f2368c32d764d"><td class="memItemLeft" align="right" valign="top">Derived &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html#adeb053ac0f46be6a6f5f2368c32d764d">as_ref</a> ()</td></tr>
-<tr class="memdesc:adeb053ac0f46be6a6f5f2368c32d764d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts to reference of Derived if Base is its base class. UB otherwise.  <a href="#adeb053ac0f46be6a6f5f2368c32d764d">More...</a><br /></td></tr>
-<tr class="separator:adeb053ac0f46be6a6f5f2368c32d764d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42af90af3ea4243562e461e7024bc5fe"><td class="memItemLeft" align="right" valign="top">const Derived &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html#a42af90af3ea4243562e461e7024bc5fe">asRef</a> () const</td></tr>
+<tr class="memdesc:a42af90af3ea4243562e461e7024bc5fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts to reference of Derived if Base is its base class. UB otherwise.  <a href="#a42af90af3ea4243562e461e7024bc5fe">More...</a><br /></td></tr>
+<tr class="separator:a42af90af3ea4243562e461e7024bc5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b07bfbdd44bbaef0c29cd0086705614"><td class="memItemLeft" align="right" valign="top">Derived &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html#a5b07bfbdd44bbaef0c29cd0086705614">asRef</a> ()</td></tr>
+<tr class="memdesc:a5b07bfbdd44bbaef0c29cd0086705614"><td class="mdescLeft">&#160;</td><td class="mdescRight">Casts to reference of Derived if Base is its base class. UB otherwise.  <a href="#a5b07bfbdd44bbaef0c29cd0086705614">More...</a><br /></td></tr>
+<tr class="separator:a5b07bfbdd44bbaef0c29cd0086705614"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -269,7 +270,7 @@ Friends</h2></td></tr>
 <dd>
 On failure, a null pointer </dd></dl>
 
-<p>Implemented in <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#adf986598665bf54669d441ce976d7b44">dart::common::CAllocator</a>.</p>
+<p>Implemented in <a class="el" href="../../de/dd0/classdart_1_1common_1_1FreeListAllocator.html#af7d59e0bb4f9d420567ae3be6a38f11d">dart::common::FreeListAllocator</a>, and <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#adf986598665bf54669d441ce976d7b44">dart::common::CAllocator</a>.</p>
 
 </div>
 </div>
@@ -357,8 +358,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a90d4a383c1f3f71e323151b2c5d19dc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90d4a383c1f3f71e323151b2c5d19dc5">&#9670;&nbsp;</a></span>as_ref() <span class="overload">[1/2]</span></h2>
+<a id="a42af90af3ea4243562e461e7024bc5fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42af90af3ea4243562e461e7024bc5fe">&#9670;&nbsp;</a></span>asRef() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,7 +368,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const Derived &amp; <a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html">dart::common::Castable</a>&lt; <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html">MemoryAllocator</a>  &gt;::as_ref </td>
+          <td class="memname">const Derived &amp; <a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html">dart::common::Castable</a>&lt; <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html">MemoryAllocator</a>  &gt;::asRef </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -384,8 +385,8 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="adeb053ac0f46be6a6f5f2368c32d764d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adeb053ac0f46be6a6f5f2368c32d764d">&#9670;&nbsp;</a></span>as_ref() <span class="overload">[2/2]</span></h2>
+<a id="a5b07bfbdd44bbaef0c29cd0086705614"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b07bfbdd44bbaef0c29cd0086705614">&#9670;&nbsp;</a></span>asRef() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -394,7 +395,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Derived &amp; <a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html">dart::common::Castable</a>&lt; <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html">MemoryAllocator</a>  &gt;::as_ref </td>
+          <td class="memname">Derived &amp; <a class="el" href="../../d0/d70/classdart_1_1common_1_1Castable.html">dart::common::Castable</a>&lt; <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html">MemoryAllocator</a>  &gt;::asRef </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -549,7 +550,7 @@ template&lt;typename T , typename... Args&gt; </div>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#a21a965197ff9012fad20ab9de4599ea0">dart::common::CAllocator</a>.</p>
+<p>Implemented in <a class="el" href="../../de/dd0/classdart_1_1common_1_1FreeListAllocator.html#ac791f69a5d1f52b5aed034185a4e143c">dart::common::FreeListAllocator</a>, and <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#a21a965197ff9012fad20ab9de4599ea0">dart::common::CAllocator</a>.</p>
 
 </div>
 </div>
@@ -635,7 +636,7 @@ template&lt;typename T &gt; </div>
 
 <p>Returns type string. </p>
 
-<p>Implemented in <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#ae0344fb97afd143101db39b8f59c115e">dart::common::CAllocator</a>.</p>
+<p>Implemented in <a class="el" href="../../de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a072e8c6408d24f3158fbcfaee6fc6655">dart::common::FreeListAllocator</a>, and <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#ae0344fb97afd143101db39b8f59c115e">dart::common::CAllocator</a>.</p>
 
 </div>
 </div>
@@ -703,7 +704,7 @@ template&lt;typename T &gt; </div>
 
 <p>Prints state of the memory allocator. </p>
 
-<p>Reimplemented in <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#a081f8f44e75950054f580bef5b07e491">dart::common::CAllocator</a>.</p>
+<p>Reimplemented in <a class="el" href="../../de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a9182b2e2502c97bd545cac4407c00a40">dart::common::FreeListAllocator</a>, and <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#a081f8f44e75950054f580bef5b07e491">dart::common::CAllocator</a>.</p>
 
 </div>
 </div>
@@ -752,7 +753,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html">common</a></li><li class="navelem"><a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html">MemoryAllocator</a></li>
-    <li class="footer">Generated on Fri Dec 24 2021 07:12:23 for DART by
+    <li class="footer">Generated on Fri Dec 24 2021 07:17:31 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

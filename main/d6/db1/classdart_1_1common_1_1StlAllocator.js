@@ -6,7 +6,7 @@ var classdart_1_1common_1_1StlAllocator =
     [ "pointer", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a69686856af862d7a0a238f3d2e4d2e78", null ],
     [ "size_type", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a4870feaba5bfea02451a1829929ff8bf", null ],
     [ "value_type", "d6/db1/classdart_1_1common_1_1StlAllocator.html#ab86f4a0b37198d093f98b1875bbfef55", null ],
-    [ "StlAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html#abd49f19e052f1090c885194786b40e0d", null ],
+    [ "StlAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a1f71d6d803eb3759cf6ba784472b5140", null ],
     [ "StlAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html#af5ceadca0e16aabc71ded07d8c07747b", null ],
     [ "StlAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a55cfb64495f7d3248846e0df45a643c9", null ],
     [ "~StlAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a9bbec3c47bd9f682f542f37a196309ad", null ],
@@ -15,5 +15,5 @@ var classdart_1_1common_1_1StlAllocator =
     [ "print", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a0025ddb888c6ee36979d22d17d4c0b96", null ],
     [ "operator<<", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a3f2e0b99c43536abe3a843779ecc7e9b", null ],
     [ "StlAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a33aed79fef060db85833c960ea1841d3", null ],
-    [ "m_base_allocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html#a285b3ca7bff9cea3017e49f53ece1410", null ]
+    [ "mBaseAllocator", "d6/db1/classdart_1_1common_1_1StlAllocator.html#ad79c5b00a81aa466ceebb4e9a5775844", null ]
 ];

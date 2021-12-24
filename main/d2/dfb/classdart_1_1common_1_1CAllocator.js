@@ -7,8 +7,8 @@ var classdart_1_1common_1_1CAllocator =
     [ "allocateAs", "d2/dfb/classdart_1_1common_1_1CAllocator.html#af63bd1725c883fbed5a79c1ea4c6f081", null ],
     [ "as", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ad769689ed09d55c0529d8d9390fe0043", null ],
     [ "as", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a062c3cedf57062040cd4fee24005abe2", null ],
-    [ "as_ref", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a90d4a383c1f3f71e323151b2c5d19dc5", null ],
-    [ "as_ref", "d2/dfb/classdart_1_1common_1_1CAllocator.html#adeb053ac0f46be6a6f5f2368c32d764d", null ],
+    [ "asRef", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a42af90af3ea4243562e461e7024bc5fe", null ],
+    [ "asRef", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a5b07bfbdd44bbaef0c29cd0086705614", null ],
     [ "construct", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ac81fff9e522f1b62e231e550728d18c3", null ],
     [ "constructAt", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ab0e96a13b0edf0cb3164a9d7f09df80e", null ],
     [ "constructAt", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ae8b15388ad9a57772bced35aef5691fd", null ],
@@ -19,8 +19,8 @@ var classdart_1_1common_1_1CAllocator =
     [ "getType", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ae0344fb97afd143101db39b8f59c115e", null ],
     [ "is", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a4d171ea0afccad1214c01eedd14a5616", null ],
     [ "print", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a081f8f44e75950054f580bef5b07e491", null ],
-    [ "m_map_pointer_to_size", "d2/dfb/classdart_1_1common_1_1CAllocator.html#adeed0a36deb98500cf860d594dfc36b4", null ],
-    [ "m_mutex", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a883380e5b2d27c5c693f3daa25579055", null ],
-    [ "m_peak", "d2/dfb/classdart_1_1common_1_1CAllocator.html#acd1ace4edae9b793ebf39f04f66a9d36", null ],
-    [ "m_size", "d2/dfb/classdart_1_1common_1_1CAllocator.html#afd30e2ce7cc7ecbc2a23405a3eef5566", null ]
+    [ "mMapPointerToSize", "d2/dfb/classdart_1_1common_1_1CAllocator.html#abe8014cda6aa43ea75dd335b40e3875b", null ],
+    [ "mMutex", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a9ccc0c3cac51b51f2ec3a251c023c77a", null ],
+    [ "mPeak", "d2/dfb/classdart_1_1common_1_1CAllocator.html#aec61cbda9b3ff3a48e40f755e5a89397", null ],
+    [ "mSize", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a6697ca2d1c4f31c7ea2e48c7373e71e7", null ]
 ];

@@ -44,6 +44,11 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
       [ "Factory", "d9/d84/classdart_1_1common_1_1Factory.html", "d9/d84/classdart_1_1common_1_1Factory" ],
       [ "FactoryRegistrar", "d9/da2/classdart_1_1common_1_1FactoryRegistrar.html", "d9/da2/classdart_1_1common_1_1FactoryRegistrar" ]
     ] ],
+    [ "FreeListAllocator.cpp", "d6/d39/FreeListAllocator_8cpp.html", null ],
+    [ "FreeListAllocator.hpp", "dd/d1b/FreeListAllocator_8hpp.html", [
+      [ "FreeListAllocator", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html", "de/dd0/classdart_1_1common_1_1FreeListAllocator" ],
+      [ "MemoryBlockHeader", "dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader.html", "dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader" ]
+    ] ],
     [ "LocalResource.cpp", "d3/d79/LocalResource_8cpp.html", null ],
     [ "LocalResource.hpp", "d3/d30/LocalResource_8hpp.html", [
       [ "LocalResource", "d5/db8/classdart_1_1common_1_1LocalResource.html", "d5/db8/classdart_1_1common_1_1LocalResource" ]
@@ -56,6 +61,7 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
       [ "MultiLockableReference", "d0/d20/classdart_1_1common_1_1MultiLockableReference.html", "d0/d20/classdart_1_1common_1_1MultiLockableReference" ]
     ] ],
     [ "Logging.hpp", "da/db4/Logging_8hpp.html", "da/db4/Logging_8hpp" ],
+    [ "Macros.hpp", "db/d18/Macros_8hpp.html", "db/d18/Macros_8hpp" ],
     [ "Memory.hpp", "d4/d18/Memory_8hpp.html", "d4/d18/Memory_8hpp" ],
     [ "MemoryAllocator.cpp", "db/d29/MemoryAllocator_8cpp.html", "db/d29/MemoryAllocator_8cpp" ],
     [ "MemoryAllocator.hpp", "dd/d64/MemoryAllocator_8hpp.html", [
