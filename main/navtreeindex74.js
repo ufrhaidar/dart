@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"df/d79/structdart_1_1dynamics_1_1Recording.html#aa01a485f3492cbc94c52634f1b6ee326":[3,0,0,3,66,1],
 "df/d79/structdart_1_1dynamics_1_1Recording.html#af297e36a5b11db82b5e40477eb807375":[3,0,0,3,66,2],
 "df/d7a/structdart_1_1utils_1_1c3d__param__t.html":[3,0,0,11,7],
 "df/d7a/structdart_1_1utils_1_1c3d__param__t.html#a3f1790944ef19d5337e510a5fa067eae":[3,0,0,11,7,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "df/df2/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeNode.html":[3,0,0,4,1,0,18],
 "df/df2/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeNode.html#a2d9c21d1530fd2b13f6d16e7b7ff43d0":[3,0,0,4,1,0,18,0],
 "df/df2/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeNode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72":[3,0,0,4,1,0,18,10],
-"df/df2/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeNode.html#a5df9d4b50556afca1b234fbc78d6d1a6":[3,0,0,4,1,0,18,6],
-"df/df2/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeNode.html#a6ab69feb7b2342f2d578d17eba4f54e6":[3,0,0,4,1,0,18,9]
+"df/df2/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeNode.html#a5df9d4b50556afca1b234fbc78d6d1a6":[3,0,0,4,1,0,18,6]
 };

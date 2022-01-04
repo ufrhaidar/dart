@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"da/dda/Equality_8hpp_source.html":[4,0,0,11,0,0,11],
 "da/de8/classdart_1_1dynamics_1_1IkFast.html":[3,0,0,3,37],
 "da/de8/classdart_1_1dynamics_1_1IkFast.html#a01d2613366a4d2ee9dab8116306b0eb7":[3,0,0,3,37,9],
 "da/de8/classdart_1_1dynamics_1_1IkFast.html#a0680feb1d8de5c6344da611e2d828a20":[3,0,0,3,37,25],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "db/d18/Macros_8hpp.html#a71bdefff1ebb7a53a7b3232a04a7fc30":[4,0,0,1,26,10],
 "db/d18/Macros_8hpp.html#a821f471c6c2d8f63ad0b55dcdc477831":[4,0,0,1,26,7],
 "db/d18/Macros_8hpp.html#a99cd75bf08f05a06ee3c9044337e8132":[4,0,0,1,26,9],
-"db/d18/Macros_8hpp.html#a9c45de0494d05f15fadc49c1e446071e":[4,0,0,1,26,8],
-"db/d18/Macros_8hpp.html#aad8e55afe67402efed30e8d8b2ec86be":[4,0,0,1,26,4]
+"db/d18/Macros_8hpp.html#a9c45de0494d05f15fadc49c1e446071e":[4,0,0,1,26,8]
 };

@@ -41,6 +41,7 @@ var classdart_1_1simulation_1_1World =
     [ "sendDestructionNotification", "d7/d41/classdart_1_1simulation_1_1World.html#a6ccea1e3a9fe763d4178c4503e2aae55", null ],
     [ "setConstraintSolver", "d7/d41/classdart_1_1simulation_1_1World.html#a5babf3c8c6104b9415e7dcf02c738e20", null ],
     [ "setGravity", "d7/d41/classdart_1_1simulation_1_1World.html#aca6b178778492c5881182047d8a0b24b", null ],
+    [ "setGravity", "d7/d41/classdart_1_1simulation_1_1World.html#a8f17c6d71c3e6a3b3e64340a6abc7ba5", null ],
     [ "setName", "d7/d41/classdart_1_1simulation_1_1World.html#ab2e3c6c8a93ed8260c9f9d98c26541ee", null ],
     [ "setTime", "d7/d41/classdart_1_1simulation_1_1World.html#a4cff8eb25601695d80f2ef8b9871ec4e", null ],
     [ "setTimeStep", "d7/d41/classdart_1_1simulation_1_1World.html#a93b9b1d8e28ce7432dac1292da705e8c", null ],
