@@ -8,6 +8,7 @@ var gui_2osg_2Utils_8hpp =
     [ "eigToOsgVec4", "d4/da4/gui_2osg_2Utils_8hpp.html#a90a12a1dc324b3974bd031d83c155ba3", null ],
     [ "eigToOsgVec4d", "d4/da4/gui_2osg_2Utils_8hpp.html#ae0381a0e37a3240bac691e6fb821ae4d", null ],
     [ "eigToOsgVec4f", "d4/da4/gui_2osg_2Utils_8hpp.html#a5958ba65417fc7d724f4a562d9047a08", null ],
+    [ "getAlphaThreshold", "d4/da4/gui_2osg_2Utils_8hpp.html#a8db3d3705e34fd5a9c1b0093f0fae8c4", null ],
     [ "osgToEigVec3", "d4/da4/gui_2osg_2Utils_8hpp.html#a00bed679c338070e5aac35f93b1ddf38", null ],
     [ "osgToEigVec3", "d4/da4/gui_2osg_2Utils_8hpp.html#a1126d85cfbf372914c9642881f84a276", null ],
     [ "osgToEigVec4", "d4/da4/gui_2osg_2Utils_8hpp.html#af264e3539234b10bb1c6751d3b4435cf", null ],

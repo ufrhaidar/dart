@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"db/d18/Macros_8hpp.html#a9c45de0494d05f15fadc49c1e446071e":[4,0,0,1,26,8],
 "db/d18/Macros_8hpp.html#aad8e55afe67402efed30e8d8b2ec86be":[4,0,0,1,26,4],
 "db/d18/Macros_8hpp.html#ab8a04a0cc583dfda1c51a58b4013479e":[4,0,0,1,26,5],
 "db/d18/Macros_8hpp.html#ab942a9547b8abe2cff2bf03c02e156c1":[4,0,0,1,26,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "db/d38/classdart_1_1dynamics_1_1Frame.html#ad9a0a07845f5042d17e271c7449eff68":[3,0,0,3,31,6],
 "db/d38/classdart_1_1dynamics_1_1Frame.html#add16127691766828ff3dc66cc608ca7b":[3,0,0,3,31,40],
 "db/d38/classdart_1_1dynamics_1_1Frame.html#ae1ab2548ac976e40adcc1ced46cb3964":[3,0,0,3,31,14],
-"db/d38/classdart_1_1dynamics_1_1Frame.html#ae243a212c0f8a978d834b8ca665600ae":[3,0,0,3,31,67],
-"db/d38/classdart_1_1dynamics_1_1Frame.html#ae2c6b33adbe52d11d254b0876d63026c":[3,0,0,3,31,90]
+"db/d38/classdart_1_1dynamics_1_1Frame.html#ae243a212c0f8a978d834b8ca665600ae":[3,0,0,3,31,67]
 };
