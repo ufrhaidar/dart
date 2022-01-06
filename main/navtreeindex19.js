@@ -1,5 +1,9 @@
 var NAVTREEINDEX19 =
 {
+"d3/df4/structdart_1_1math_1_1SO3Space.html#a4b56f71f1b000743973ecd09cc131549":[3,0,0,7,10,5],
+"d3/df4/structdart_1_1math_1_1SO3Space.html#a59311b900ffa7eabcea205669e7462f4":[3,0,0,7,10,4],
+"d3/df4/structdart_1_1math_1_1SO3Space.html#a7624d04dc90aadd21b38d8396258ae2c":[3,0,0,7,10,7],
+"d3/df4/structdart_1_1math_1_1SO3Space.html#a85df7c07a30a96a098193c4fe0c27b3f":[3,0,0,7,10,1],
 "d3/df4/structdart_1_1math_1_1SO3Space.html#aa82dbc3c3281d98cf49c00c13e173814":[3,0,0,7,10,2],
 "d3/df4/structdart_1_1math_1_1SO3Space.html#aefc797fd36457cd0aae3a000cdd95fa3":[3,0,0,7,10,3],
 "d3/df9/structdart_1_1dynamics_1_1InverseKinematics_1_1Analytical_1_1UniqueProperties.html":[3,0,0,3,39,0,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX19 =
 "d4/d2d/classdart_1_1math_1_1TriMesh.html#ac56b8b3208d8727e39a39741760e924b":[3,0,0,7,11,17],
 "d4/d2d/classdart_1_1math_1_1TriMesh.html#accae6112c14731c02fb2cfc58bf935d7":[3,0,0,7,11,4],
 "d4/d2d/classdart_1_1math_1_1TriMesh.html#ad54be8f7e2604fa08c6a1664042fb688":[3,0,0,7,11,9],
-"d4/d2d/classdart_1_1math_1_1TriMesh.html#ad814c330d0c5b3d2fd741bc3429210e6":[3,0,0,7,11,32],
-"d4/d2d/classdart_1_1math_1_1TriMesh.html#add3905827537cd9b1dd0b678819beae4":[3,0,0,7,11,19],
-"d4/d2d/classdart_1_1math_1_1TriMesh.html#ae5ba1b5a911a2b13f9e4b4c60d0879d4":[3,0,0,7,11,13],
-"d4/d2d/classdart_1_1math_1_1TriMesh.html#ae7ec3180484d3b252520f91663195efd":[3,0,0,7,11,7],
-"d4/d2d/classdart_1_1math_1_1TriMesh.html#aef688db2c5eeb132e972d20f6658013a":[3,0,0,7,11,5]
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#ad814c330d0c5b3d2fd741bc3429210e6":[3,0,0,7,11,32]
 };

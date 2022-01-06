@@ -20,6 +20,8 @@ var classdart_1_1common_1_1FreeListAllocator =
     [ "getStaticType", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a6cb9b593393b5b8610876d1d2d4490e8", null ],
     [ "getType", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a072e8c6408d24f3158fbcfaee6fc6655", null ],
     [ "is", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a4d171ea0afccad1214c01eedd14a5616", null ],
+    [ "isAllocated", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a2af0bac99212a6043e874523a650f5c6", null ],
+    [ "isEmpty", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a57fe5cb630df5c60af940f46132c2549", null ],
     [ "print", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a9182b2e2502c97bd545cac4407c00a40", null ],
     [ "mAllocatedSize", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html#ac38792cd738d8b4f6a8e4bad7a60a9e4", null ],
     [ "mBaseAllocator", "de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a415bbe55af4e5b5350dc762c474f0ede", null ],

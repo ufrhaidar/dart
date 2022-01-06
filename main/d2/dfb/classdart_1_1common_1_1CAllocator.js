@@ -18,6 +18,8 @@ var classdart_1_1common_1_1CAllocator =
     [ "getStaticType", "d2/dfb/classdart_1_1common_1_1CAllocator.html#adc1c64a2fed8d372229172ae80c28e3a", null ],
     [ "getType", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ae0344fb97afd143101db39b8f59c115e", null ],
     [ "is", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a4d171ea0afccad1214c01eedd14a5616", null ],
+    [ "isAllocated", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a090a78cd322b810875a117edde2321c9", null ],
+    [ "isEmpty", "d2/dfb/classdart_1_1common_1_1CAllocator.html#ad359271b71bebadbddd331b4beba6949", null ],
     [ "print", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a081f8f44e75950054f580bef5b07e491", null ],
     [ "mMapPointerToSize", "d2/dfb/classdart_1_1common_1_1CAllocator.html#abe8014cda6aa43ea75dd335b40e3875b", null ],
     [ "mMutex", "d2/dfb/classdart_1_1common_1_1CAllocator.html#a9ccc0c3cac51b51f2ec3a251c023c77a", null ],

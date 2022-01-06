@@ -77,6 +77,12 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
     ] ],
     [ "Optional.hpp", "d7/dc4/Optional_8hpp.html", "d7/dc4/Optional_8hpp" ],
     [ "Platform.hpp", "d5/d40/Platform_8hpp.html", "d5/d40/Platform_8hpp" ],
+    [ "PoolAllocator.cpp", "d8/dbf/PoolAllocator_8cpp.html", null ],
+    [ "PoolAllocator.hpp", "dd/d4a/PoolAllocator_8hpp.html", [
+      [ "PoolAllocator", "d9/d32/classdart_1_1common_1_1PoolAllocator.html", "d9/d32/classdart_1_1common_1_1PoolAllocator" ],
+      [ "MemoryUnit", "d7/dab/structdart_1_1common_1_1PoolAllocator_1_1MemoryUnit.html", "d7/dab/structdart_1_1common_1_1PoolAllocator_1_1MemoryUnit" ],
+      [ "MemoryBlock", "d7/d52/structdart_1_1common_1_1PoolAllocator_1_1MemoryBlock.html", "d7/d52/structdart_1_1common_1_1PoolAllocator_1_1MemoryBlock" ]
+    ] ],
     [ "ProxyAspect.hpp", "d9/dde/ProxyAspect_8hpp.html", "d9/dde/ProxyAspect_8hpp" ],
     [ "RequiresAspect.hpp", "d4/d73/RequiresAspect_8hpp.html", [
       [ "RequiresAspect", "d4/dc5/classdart_1_1common_1_1RequiresAspect.html", null ],

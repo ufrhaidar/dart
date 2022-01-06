@@ -130,6 +130,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a21a965197ff9012fad20ab9de4599ea0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#a21a965197ff9012fad20ab9de4599ea0">deallocate</a> (void *pointer, size_t size) override</td></tr>
 <tr class="memdesc:a21a965197ff9012fad20ab9de4599ea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates the storage referenced by the pointer <code>p</code>, which must be a pointer obtained by an earlier cal to <a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#adf986598665bf54669d441ce976d7b44" title="Allocates size bytes of uninitialized storage. ">allocate()</a>.  <a href="#a21a965197ff9012fad20ab9de4599ea0">More...</a><br /></td></tr>
 <tr class="separator:a21a965197ff9012fad20ab9de4599ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a090a78cd322b810875a117edde2321c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#a090a78cd322b810875a117edde2321c9">isAllocated</a> (void *pointer, size_t size) const noexcept override</td></tr>
+<tr class="memdesc:a090a78cd322b810875a117edde2321c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a pointer is allocated by this allocator.  <a href="#a090a78cd322b810875a117edde2321c9">More...</a><br /></td></tr>
+<tr class="separator:a090a78cd322b810875a117edde2321c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad359271b71bebadbddd331b4beba6949"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#ad359271b71bebadbddd331b4beba6949">isEmpty</a> () const noexcept override</td></tr>
+<tr class="memdesc:ad359271b71bebadbddd331b4beba6949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there is no memory allocated by this allocator.  <a href="#ad359271b71bebadbddd331b4beba6949">More...</a><br /></td></tr>
+<tr class="separator:ad359271b71bebadbddd331b4beba6949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a081f8f44e75950054f580bef5b07e491"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html#a081f8f44e75950054f580bef5b07e491">print</a> (std::ostream &amp;os=std::cout, int indent=0) const override</td></tr>
 <tr class="memdesc:a081f8f44e75950054f580bef5b07e491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints state of the memory allocator.  <a href="#a081f8f44e75950054f580bef5b07e491">More...</a><br /></td></tr>
 <tr class="separator:a081f8f44e75950054f580bef5b07e491"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -737,6 +743,75 @@ template&lt;typename T &gt; </div>
 <p>Example code: </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> (shape-&gt;is&lt;<a class="code" href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#a1201f599fb543c2c3879cde624aa02ab">Sphere</a>&gt;())</div><div class="line">  std::cout &lt;&lt; <span class="stringliteral">&quot;The shape type is sphere!\n&quot;</span>;</div></div><!-- fragment --> 
 </div>
 </div>
+<a id="a090a78cd322b810875a117edde2321c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a090a78cd322b810875a117edde2321c9">&#9670;&nbsp;</a></span>isAllocated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::common::CAllocator::isAllocated </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pointer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if a pointer is allocated by this allocator. </p>
+
+<p>Implements <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a6fa7b230f54e5e015d3d43e9b2fb992c">dart::common::MemoryAllocator</a>.</p>
+
+</div>
+</div>
+<a id="ad359271b71bebadbddd331b4beba6949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad359271b71bebadbddd331b4beba6949">&#9670;&nbsp;</a></span>isEmpty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::common::CAllocator::isEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if there is no memory allocated by this allocator. </p>
+
+<p>Implements <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a51a37531e35e52134db3c36ffbc86e46">dart::common::MemoryAllocator</a>.</p>
+
+</div>
+</div>
 <a id="a081f8f44e75950054f580bef5b07e491"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a081f8f44e75950054f580bef5b07e491">&#9670;&nbsp;</a></span>print()</h2>
 
@@ -872,7 +947,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html">common</a></li><li class="navelem"><a class="el" href="../../d2/dfb/classdart_1_1common_1_1CAllocator.html">CAllocator</a></li>
-    <li class="footer">Generated on Wed Jan 5 2022 02:41:11 for DART by
+    <li class="footer">Generated on Thu Jan 6 2022 06:23:12 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

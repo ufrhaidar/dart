@@ -45,6 +45,7 @@ var namespacedart_1_1common =
     [ "MultiLockableReference", "d0/d20/classdart_1_1common_1_1MultiLockableReference.html", "d0/d20/classdart_1_1common_1_1MultiLockableReference" ],
     [ "NameManager", "d9/dc9/classdart_1_1common_1_1NameManager.html", "d9/dc9/classdart_1_1common_1_1NameManager" ],
     [ "Observer", "d8/dc0/classdart_1_1common_1_1Observer.html", "d8/dc0/classdart_1_1common_1_1Observer" ],
+    [ "PoolAllocator", "d9/d32/classdart_1_1common_1_1PoolAllocator.html", "d9/d32/classdart_1_1common_1_1PoolAllocator" ],
     [ "ProxyCloneable", "d1/dd5/classdart_1_1common_1_1ProxyCloneable.html", "d1/dd5/classdart_1_1common_1_1ProxyCloneable" ],
     [ "ProxyStateAndPropertiesAspect", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect.html", "d3/da9/classdart_1_1common_1_1ProxyStateAndPropertiesAspect" ],
     [ "RequiresAspect", "d4/dc5/classdart_1_1common_1_1RequiresAspect.html", null ],

@@ -16,6 +16,8 @@ var classdart_1_1common_1_1MemoryAllocator =
     [ "GetDefault", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#acbda1b02de6f3c2acb5fa330d96c5b21", null ],
     [ "getType", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#af96bc816eaf94183bba28b3bc5aeac68", null ],
     [ "is", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a4d171ea0afccad1214c01eedd14a5616", null ],
+    [ "isAllocated", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a6fa7b230f54e5e015d3d43e9b2fb992c", null ],
+    [ "isEmpty", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a51a37531e35e52134db3c36ffbc86e46", null ],
     [ "print", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a710c97b406258a2c99fe88b86d3604c7", null ],
     [ "operator<<", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a068ae8be28221c877293ec661885a31d", null ]
 ];

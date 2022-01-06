@@ -47,6 +47,7 @@ var searchData=
   ['hasvertices',['hasVertices',['../d5/d10/classdart_1_1math_1_1Mesh.html#a87618ea203e282b68175c3db259551e7',1,'dart::math::Mesh']]],
   ['hasvisualaspect',['hasVisualAspect',['../d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html#aeed702e90e75150afe939c7ab532e5df',1,'dart::dynamics::ShapeFrame']]],
   ['haswidget',['hasWidget',['../d9/db1/classdart_1_1gui_1_1osg_1_1ImGuiHandler.html#a8e3c77a909e128f5aa808a7143b000d8',1,'dart::gui::osg::ImGuiHandler']]],
+  ['heap_5fcount',['HEAP_COUNT',['../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a750a39a44969b7595d1bb539dd53029b',1,'dart::common::PoolAllocator']]],
   ['heightfield',['HeightField',['../d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a98d24421f209d3a40e96e665f5b241d4',1,'dart::dynamics::HeightmapShape']]],
   ['heightmap',['HEIGHTMAP',['../db/d1c/classdart_1_1dynamics_1_1Shape.html#a52bc86be856e82f6f6d3d86da9cb4b0da563a83b086e0e955596b5235211975a2',1,'dart::dynamics::Shape']]],
   ['heightmapshape',['HeightmapShape',['../d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html',1,'dart::dynamics::HeightmapShape&lt; S_ &gt;'],['../d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a860c20ac9739de57d2be5cb1c3d177cd',1,'dart::dynamics::HeightmapShape::HeightmapShape()']]],

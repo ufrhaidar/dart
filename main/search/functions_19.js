@@ -186,6 +186,7 @@ var searchData=
   ['_7epointcloudshape',['~PointCloudShape',['../dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a9c8f72c519b0871c20b9095bedaab9c7',1,'dart::dynamics::PointCloudShape']]],
   ['_7epointcloudshapenode',['~PointCloudShapeNode',['../d4/d97/classdart_1_1gui_1_1osg_1_1render_1_1PointCloudShapeNode.html#a1f4e0a26128e486f435b7f55fb150432',1,'dart::gui::osg::render::PointCloudShapeNode']]],
   ['_7epointmass',['~PointMass',['../d5/d55/classdart_1_1dynamics_1_1PointMass.html#a516c86b07d09fb524720f2a4f9f2acc7',1,'dart::dynamics::PointMass']]],
+  ['_7epoolallocator',['~PoolAllocator',['../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a5be28c31a5759f9ef0320b6ed07a526d',1,'dart::common::PoolAllocator']]],
   ['_7eprismaticjoint',['~PrismaticJoint',['../de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a2242017a4bc32794213e1bd57932ff79',1,'dart::dynamics::PrismaticJoint']]],
   ['_7eprismaticjointproperties',['~PrismaticJointProperties',['../dd/d5c/structdart_1_1dynamics_1_1detail_1_1PrismaticJointProperties.html#a629f4503812250b5c30856e4be0a8016',1,'dart::dynamics::detail::PrismaticJointProperties']]],
   ['_7eprismaticjointuniqueproperties',['~PrismaticJointUniqueProperties',['../d4/d0d/structdart_1_1dynamics_1_1detail_1_1PrismaticJointUniqueProperties.html#a1ef5b0eb6aa8a2f4ee0b418b82bc42fb',1,'dart::dynamics::detail::PrismaticJointUniqueProperties']]],

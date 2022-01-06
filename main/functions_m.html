@@ -338,6 +338,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>mAuthority
 : <a class="el" href="d8/d07/structdart_1_1common_1_1Uri.html#a5d2bd0df93b44c4f7c96c10a83099d39">dart::common::Uri</a>
 </li>
+<li>MAX_UNIT_SIZE
+: <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a94de9ce58f86a8a591db4aa1495a2c4e">dart::common::PoolAllocator</a>
+</li>
 <li>maxAcceleration
 : <a class="el" href="d8/ddd/classdart_1_1planning_1_1PathFollowingTrajectory.html#aa35a31469d452c2be5a16d6d79585bc1">dart::planning::PathFollowingTrajectory</a>
 </li>
@@ -409,6 +412,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>mBaseAllocator
 : <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a415bbe55af4e5b5350dc762c474f0ede">dart::common::FreeListAllocator</a>
+, <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a30d61499868fd70ab065ecfd2965003d">dart::common::PoolAllocator</a>
 , <a class="el" href="d6/db1/classdart_1_1common_1_1StlAllocator.html#ad79c5b00a81aa466ceebb4e9a5775844">dart::common::StlAllocator&lt; T &gt;</a>
 </li>
 <li>mBaseDepth
@@ -921,6 +925,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>mCurrentElement
 : <a class="el" href="d3/dd6/classdart_1_1utils_1_1TemplatedElementEnumerator.html#ab03c81d4d4a53bd14ccb9f681ef3275b">dart::utils::TemplatedElementEnumerator&lt; ElementType &gt;</a>
 </li>
+<li>mCurrentMemoryBlockIndex
+: <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a6d09c1136843caa1f1c9876f23542325">dart::common::PoolAllocator</a>
+</li>
 <li>mCurrQuat
 : <a class="el" href="de/d9b/classdart_1_1gui_1_1Trackball.html#a26fffcaef9a39dfcb0560bc52433c2db">dart::gui::Trackball</a>
 </li>
@@ -1405,6 +1412,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>mFreeDofs
 : <a class="el" href="da/de8/classdart_1_1dynamics_1_1IkFast.html#aa47f170d345a3d54a02488d1750ad702">dart::dynamics::IkFast</a>
 </li>
+<li>mFreeMemoryUnits
+: <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#aa7aa6aeb8869168afabf89d91c97a05c">dart::common::PoolAllocator</a>
+</li>
 <li>mFreeParams
 : <a class="el" href="da/de8/classdart_1_1dynamics_1_1IkFast.html#a7d3ca26e51c74db276175bf6505f2fde">dart::dynamics::IkFast</a>
 </li>
@@ -1760,6 +1770,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>mInitialGuess
 : <a class="el" href="df/dbc/classdart_1_1optimizer_1_1Problem.html#a058f35c9e6ca6be6aba8c09526f247e4">dart::optimizer::Problem</a>
+</li>
+<li>mInitialized
+: <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a7546558297503a1361ef440088430952">dart::common::PoolAllocator</a>
 </li>
 <li>mInitialPositions
 : <a class="el" href="d0/de0/structdart_1_1dynamics_1_1detail_1_1GenericJointUniqueProperties.html#a8da9a8d55ec9de2b33a21c8ebe8a4125">dart::dynamics::detail::GenericJointUniqueProperties&lt; ConfigSpaceT &gt;</a>
@@ -2163,6 +2176,10 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>mMapPointerToSize
 : <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#abe8014cda6aa43ea75dd335b40e3875b">dart::common::CAllocator</a>
 , <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a49590642d8ea6812b063ad128d422a09">dart::common::FreeListAllocator</a>
+, <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a77bb0a99267acc6e79b2c91a2102ab0c">dart::common::PoolAllocator</a>
+</li>
+<li>mMapSizeToHeapIndex
+: <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#aec7cf32a2de38bb8b1d0d0f2b1be5efb">dart::common::PoolAllocator</a>
 </li>
 <li>mMargin
 : <a class="el" href="d7/d81/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Geom.html#a9b19c795107a6cd9ee296c63e4a7afa3">dart::utils::MjcfParser::detail::Geom</a>
@@ -2214,6 +2231,15 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>mMaxRandomizationStep
 : <a class="el" href="d8/db5/structdart_1_1optimizer_1_1GradientDescentSolver_1_1UniqueProperties.html#ac35a58bf6521cd532ffd69950f37d832">dart::optimizer::GradientDescentSolver::UniqueProperties</a>
+</li>
+<li>mMemoryBlocks
+: <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a282180e839e3c663605627387a0b8313">dart::common::PoolAllocator</a>
+</li>
+<li>mMemoryBlocksSize
+: <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a3375761894e843a3b657ddcb1799954b">dart::common::PoolAllocator</a>
+</li>
+<li>mMemoryUnits
+: <a class="el" href="d7/d52/structdart_1_1common_1_1PoolAllocator_1_1MemoryBlock.html#a1579247d221ce4b318ad247bc1f6eddb">dart::common::PoolAllocator::MemoryBlock</a>
 </li>
 <li>mMesh
 : <a class="el" href="d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a0ca12db4d0674aa1e5e091b567690ba2">dart::dynamics::MeshShape</a>
@@ -2362,6 +2388,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>mMutex
 : <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#a9ccc0c3cac51b51f2ec3a251c023c77a">dart::common::CAllocator</a>
 , <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a88ed38f0feb429ad46ceb4bfdf3a912f">dart::common::FreeListAllocator</a>
+, <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a149b6c4f2ea30070f2f37a0c6a1e97f4">dart::common::PoolAllocator</a>
 , <a class="el" href="de/d69/structdart_1_1dynamics_1_1MutexedWeakSkeletonPtr.html#ae99b07a21b689fc4a701632d2dae61ac">dart::dynamics::MutexedWeakSkeletonPtr</a>
 , <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a646b88e1f50e5c7b078f350ffc08d6bf">dart::dynamics::Skeleton</a>
 </li>
@@ -2459,6 +2486,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>mNext
 : <a class="el" href="dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader.html#af3a979d23bddf935a57472617db509fd">dart::common::FreeListAllocator::MemoryBlockHeader</a>
+, <a class="el" href="d7/dab/structdart_1_1common_1_1PoolAllocator_1_1MemoryUnit.html#a5bfb16fc1448d0f97d6f6183e3e7a6b3">dart::common::PoolAllocator::MemoryUnit</a>
 </li>
 <li>mNKey
 : <a class="el" href="d3/d8d/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Size.html#a68bdb7714d23669899b96225baf0259f">dart::utils::MjcfParser::detail::Size</a>
@@ -2829,6 +2857,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>mPeak
 : <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#aec61cbda9b3ff3a48e40f755e5a89397">dart::common::CAllocator</a>
 , <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#a8748bdb167e272d029871b7e04b6b703">dart::common::FreeListAllocator</a>
+, <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#ad23428d02db1dc63ef929c9b35507c10">dart::common::PoolAllocator</a>
 </li>
 <li>mPersp
 : <a class="el" href="d5/ddc/classdart_1_1gui_1_1glut_1_1Win3D.html#a31be6cd7658a91ff3ac12582f0967ac7">dart::gui::glut::Win3D</a>
@@ -3358,6 +3387,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#a6697ca2d1c4f31c7ea2e48c7373e71e7">dart::common::CAllocator</a>
 , <a class="el" href="dc/d26/structdart_1_1common_1_1FreeListAllocator_1_1MemoryBlockHeader.html#a5aab2dbefd78451feb2fea6fb0899395">dart::common::FreeListAllocator::MemoryBlockHeader</a>
 , <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#ac2b2c2bfc5f99a185d0b534c19e8841b">dart::common::FreeListAllocator</a>
+, <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#aeeee9d45fb57d397b214cabf2fe327f6">dart::common::PoolAllocator</a>
 , <a class="el" href="d4/d45/classdart_1_1dynamics_1_1BoxShape.html#a373340b90b4093560753c534d55ada3b">dart::dynamics::BoxShape</a>
 , <a class="el" href="d7/d81/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Geom.html#aa812d091caa5719eca76c437f4b96fc1">dart::utils::MjcfParser::detail::Geom</a>
 , <a class="el" href="de/d76/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1GeomAttributes.html#a85c4e495d9c3078e95a297fe30be59b5">dart::utils::MjcfParser::detail::GeomAttributes</a>
@@ -3806,6 +3836,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>mUnit
 : <a class="el" href="d4/da4/classdart_1_1optimizer_1_1snopt_1_1SnoptSolver.html#a8e3431411520c873c3dab215f3a5a7fd">dart::optimizer::snopt::SnoptSolver</a>
 </li>
+<li>mUnitSizes
+: <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a574493b47d6210a50a2b0bcd238c931b">dart::common::PoolAllocator</a>
+</li>
 <li>mUp
 : <a class="el" href="d5/ddc/classdart_1_1gui_1_1glut_1_1Win3D.html#a582c52844ac0c87603cfdbe84cc0eb27">dart::gui::glut::Win3D</a>
 </li>
@@ -4101,7 +4134,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 5 2022 02:41:15 for DART by
+    <li class="footer">Generated on Thu Jan 6 2022 06:23:15 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

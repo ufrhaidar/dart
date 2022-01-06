@@ -1,5 +1,9 @@
 var NAVTREEINDEX20 =
 {
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#add3905827537cd9b1dd0b678819beae4":[3,0,0,7,11,19],
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#ae5ba1b5a911a2b13f9e4b4c60d0879d4":[3,0,0,7,11,13],
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#ae7ec3180484d3b252520f91663195efd":[3,0,0,7,11,7],
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#aef688db2c5eeb132e972d20f6658013a":[3,0,0,7,11,5],
 "d4/d2d/classdart_1_1math_1_1TriMesh.html#af4f26948a1e35aa9effb7bcaf5e45c36":[3,0,0,7,11,28],
 "d4/d2d/classdart_1_1math_1_1TriMesh.html#af82d0e4727389d410201268c273c8128":[3,0,0,7,11,10],
 "d4/d2e/detail_2CompositeNode_8hpp.html":[4,0,0,3,0,4],
@@ -102,8 +106,8 @@ var NAVTREEINDEX20 =
 "d4/d45/classdart_1_1dynamics_1_1BoxShape.html#ae26897cfb3225572170f4ae649541a00":[3,0,0,3,10,4],
 "d4/d45/classdart_1_1dynamics_1_1BoxShape.html#ae71b996db98ac43bdddd3e38a38e425e":[3,0,0,3,10,6],
 "d4/d45/classdart_1_1dynamics_1_1BoxShape.html#ae9eba452bb5bf7c5a9cc4b0f89351039":[3,0,0,3,10,12],
-"d4/d47/namespacedart_1_1optimizer.html":[3,0,0,8],
 "d4/d47/namespacedart_1_1optimizer.html":[2,0,0,9],
+"d4/d47/namespacedart_1_1optimizer.html":[3,0,0,8],
 "d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal.html":[3,0,0,3,43,0,1],
 "d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal.html#a55254dba11e32b98ea74cabd88080fb4":[3,0,0,3,43,0,1,1],
 "d4/d49/structdart_1_1dynamics_1_1Linkage_1_1Criteria_1_1Terminal.html#a84cca8df926924a86d171169cf35d013":[3,0,0,3,43,0,1,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX20 =
 "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ab7d122c509fbb7236a3e4c04749dbbf0":[3,0,0,3,46,25],
 "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ab89ca4f16ffc79c783ce1f602608d1ee":[3,0,0,3,46,67],
 "d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#abe3241a4b77779c9545315f7193cfa56":[3,0,0,3,46,171],
-"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac00c6d0393ad92cb518e14a2a40d5875":[3,0,0,3,46,153],
-"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac06fcbd68628926fd58515e021ee33ec":[3,0,0,3,46,39],
-"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac0a32b590848f133fb31eeea3c22c3d1":[3,0,0,3,46,32],
-"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac1083532af5b277abc53401d978a61d7":[3,0,0,3,46,127],
-"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac45a5507e9226afbb208b32032d838fd":[3,0,0,3,46,149]
+"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac00c6d0393ad92cb518e14a2a40d5875":[3,0,0,3,46,153]
 };
