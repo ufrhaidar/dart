@@ -37,6 +37,7 @@ var dir_d3413d487e3f281ac8dda0a2946d4186 =
     [ "MarkerAspect.hpp", "d1/d67/MarkerAspect_8hpp.html", [
       [ "MarkerProperties", "d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties.html", "d2/d31/structdart_1_1dynamics_1_1detail_1_1MarkerProperties" ]
     ] ],
+    [ "MetaSkeleton-impl.hpp", "d5/d6f/MetaSkeleton-impl_8hpp.html", null ],
     [ "Node.hpp", "d3/d71/detail_2Node_8hpp.html", "d3/d71/detail_2Node_8hpp" ],
     [ "NodeManagerJoiner.hpp", "d6/d91/detail_2NodeManagerJoiner_8hpp.html", null ],
     [ "NodePtr.hpp", "de/da4/NodePtr_8hpp.html", [

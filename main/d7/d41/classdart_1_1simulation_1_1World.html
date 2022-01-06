@@ -234,6 +234,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae602e49e836f4f305b0b8a08d7656695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d87/classdart_1_1simulation_1_1Recording.html">Recording</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ae602e49e836f4f305b0b8a08d7656695">getRecording</a> ()</td></tr>
 <tr class="memdesc:ae602e49e836f4f305b0b8a08d7656695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get recording.  <a href="#ae602e49e836f4f305b0b8a08d7656695">More...</a><br /></td></tr>
 <tr class="separator:ae602e49e836f4f305b0b8a08d7656695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Iterations</div></td></tr>
+<tr class="memitem:aa4f818b0f2026303ea18e27a415f1970"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:aa4f818b0f2026303ea18e27a415f1970"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#aa4f818b0f2026303ea18e27a415f1970">eachSkeleton</a> (Func func) const</td></tr>
+<tr class="memdesc:aa4f818b0f2026303ea18e27a415f1970"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the Skeletons and invokes the callback function.  <a href="#aa4f818b0f2026303ea18e27a415f1970">More...</a><br /></td></tr>
+<tr class="separator:aa4f818b0f2026303ea18e27a415f1970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af48e09ddab83c79c2826d3c9260dccb9"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:af48e09ddab83c79c2826d3c9260dccb9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#af48e09ddab83c79c2826d3c9260dccb9">eachSkeleton</a> (Func func)</td></tr>
+<tr class="memdesc:af48e09ddab83c79c2826d3c9260dccb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the Skeletons and invokes the callback function.  <a href="#af48e09ddab83c79c2826d3c9260dccb9">More...</a><br /></td></tr>
+<tr class="separator:af48e09ddab83c79c2826d3c9260dccb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a3b635233945197374ac30732a45db"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:aa1a3b635233945197374ac30732a45db"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#aa1a3b635233945197374ac30732a45db">eachSimpleFrame</a> (Func func) const</td></tr>
+<tr class="memdesc:aa1a3b635233945197374ac30732a45db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the SimpleFrames and invokes the callback function.  <a href="#aa1a3b635233945197374ac30732a45db">More...</a><br /></td></tr>
+<tr class="separator:aa1a3b635233945197374ac30732a45db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab273aa117139110d955f663f30806e10"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:ab273aa117139110d955f663f30806e10"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html#ab273aa117139110d955f663f30806e10">eachSimpleFrame</a> (Func func)</td></tr>
+<tr class="memdesc:ab273aa117139110d955f663f30806e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the SimpleFrames and invokes the callback function.  <a href="#ab273aa117139110d955f663f30806e10">More...</a><br /></td></tr>
+<tr class="separator:ab273aa117139110d955f663f30806e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -601,6 +618,142 @@ template&lt;typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Creates a <a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html" title="class World ">World</a>. </p>
+
+</div>
+</div>
+<a id="aa1a3b635233945197374ac30732a45db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a3b635233945197374ac30732a45db">&#9670;&nbsp;</a></span>eachSimpleFrame() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::simulation::World::eachSimpleFrame </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the SimpleFrames and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(const SimpleFrame*)</code> or <code>bool(const SimpleFrame*)</code>. If you want to conditionally iterate, use <code>bool(const SimpleFrame*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each SimpleFrame. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab273aa117139110d955f663f30806e10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab273aa117139110d955f663f30806e10">&#9670;&nbsp;</a></span>eachSimpleFrame() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::simulation::World::eachSimpleFrame </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the SimpleFrames and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(SimpleFrame*)</code> or <code>bool(SimpleFrame*)</code>. If you want to conditionally iterate, use <code>bool(SimpleFrame*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each SimpleFrame. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa4f818b0f2026303ea18e27a415f1970"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4f818b0f2026303ea18e27a415f1970">&#9670;&nbsp;</a></span>eachSkeleton() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::simulation::World::eachSkeleton </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the Skeletons and invokes the callback function. </p>
+<p>Example: </p><div class="fragment"><div class="line">bodyNode-&gt;eachSkeleton([](<span class="keyword">const</span> Skeleton* skel) {</div><div class="line">  <span class="comment">// ...</span></div><div class="line">});</div><div class="line"></div><div class="line">bodyNode-&gt;eachSkeleton([](<span class="keyword">const</span> Skeleton* skel) -&gt; <span class="keywordtype">bool</span> {</div><div class="line">  <span class="keywordflow">if</span> (!skel-&gt;getName() == <span class="stringliteral">&quot;name&quot;</span>)</div><div class="line">  {</div><div class="line">    <span class="comment">// to stop iterating when found a ShapeNode with no VisualAspect</span></div><div class="line">    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line">  }</div><div class="line">  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line">});</div></div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(const Skeleton*)</code> or <code>bool(const Skeleton*)</code>. If you want to conditionally iterate, use <code>bool(const Skeleton*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each Skeleton. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af48e09ddab83c79c2826d3c9260dccb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af48e09ddab83c79c2826d3c9260dccb9">&#9670;&nbsp;</a></span>eachSkeleton() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::simulation::World::eachSkeleton </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the Skeletons and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(Skeleton*)</code> or <code>bool(Skeleton*)</code>. If you want to conditionally iterate, use <code>bool(Skeleton*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each Skeleton. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1782,7 +1935,7 @@ template&lt;typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d4/d0b/namespacedart_1_1simulation.html">simulation</a></li><li class="navelem"><a class="el" href="../../d7/d41/classdart_1_1simulation_1_1World.html">World</a></li>
-    <li class="footer">Generated on Thu Jan 6 2022 06:23:15 for DART by
+    <li class="footer">Generated on Thu Jan 6 2022 08:45:47 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

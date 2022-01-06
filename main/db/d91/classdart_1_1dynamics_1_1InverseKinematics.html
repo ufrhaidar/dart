@@ -1681,7 +1681,7 @@ template&lt;class IKGradientMethod , typename... Args&gt; </div>
 <p>By default, the list of seeds is empty, but they can be added by calling <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#aba09513be2d20e621a399b05c95d2888" title="Get the Problem that is being maintained by this IK module. ">InverseKinematics::getProblem()</a> and then using Problem::addSeed(Eigen::VectorXd).</p>
 <p>By default, the <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html" title="class Skeleton ">Skeleton</a> itself will retain the solved joint positions. If you pass in false for _applySolution, then the joint positions will be returned to their original positions after the problem is solved.</p>
 <p>Calling this function will automatically call Position::setLowerBounds(~) and Position::setUpperBounds(~) with the lower/upper position bounds of the corresponding Degrees Of Freedom. Problem::setDimension(~) will be taken care of automatically, and Problem::setInitialGuess(~) will be called with the current positions of the Degrees Of Freedom.</p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000027">Deprecated:</a></b></dt><dd>Deprecated in DART 6.8. Please use <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#afed331c4ee983c3ab45a65d3c5f36332" title="Identical to findSolution(), but this function applies the solution when the solver successfully foun...">solveAndApply()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000031">Deprecated:</a></b></dt><dd>Deprecated in DART 6.8. Please use <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#afed331c4ee983c3ab45a65d3c5f36332" title="Identical to findSolution(), but this function applies the solution when the solver successfully foun...">solveAndApply()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -1712,7 +1712,7 @@ template&lt;class IKGradientMethod , typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Same as <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a85c48b042d48c45a8d4e387af99a50aa" title="Solve the IK Problem. ">solve(bool)</a>, but the positions vector will be filled with the solved positions. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000028">Deprecated:</a></b></dt><dd>Deprecated in DART 6.8. Please use <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#afed331c4ee983c3ab45a65d3c5f36332" title="Identical to findSolution(), but this function applies the solution when the solver successfully foun...">solveAndApply()</a> or <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a01f424c307f246a9f92742205d652f3f" title="Finds a solution of the IK problem without applying the solution. ">findSolution()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000032">Deprecated:</a></b></dt><dd>Deprecated in DART 6.8. Please use <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#afed331c4ee983c3ab45a65d3c5f36332" title="Identical to findSolution(), but this function applies the solution when the solver successfully foun...">solveAndApply()</a> or <a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a01f424c307f246a9f92742205d652f3f" title="Finds a solution of the IK problem without applying the solution. ">findSolution()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -2330,7 +2330,7 @@ template&lt;class IKGradientMethod , typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../db/d91/classdart_1_1dynamics_1_1InverseKinematics.html">InverseKinematics</a></li>
-    <li class="footer">Generated on Thu Jan 6 2022 06:23:13 for DART by
+    <li class="footer">Generated on Thu Jan 6 2022 08:45:45 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

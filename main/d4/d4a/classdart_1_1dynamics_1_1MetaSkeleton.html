@@ -139,6 +139,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ada751de216d917664063b866b7257f24"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="../../db/dde/classdart_1_1common_1_1LockableReference.html">common::LockableReference</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ada751de216d917664063b866b7257f24">getLockableReference</a> () const =0</td></tr>
 <tr class="memdesc:ada751de216d917664063b866b7257f24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mutex.  <a href="#ada751de216d917664063b866b7257f24">More...</a><br /></td></tr>
 <tr class="separator:ada751de216d917664063b866b7257f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76007af80e98520160f2e5ab37fcc238"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a76007af80e98520160f2e5ab37fcc238">setColor</a> (const Eigen::Vector3d &amp;color)</td></tr>
+<tr class="memdesc:a76007af80e98520160f2e5ab37fcc238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the RGB color of the BodyNodes that are currently in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a76007af80e98520160f2e5ab37fcc238">More...</a><br /></td></tr>
+<tr class="separator:a76007af80e98520160f2e5ab37fcc238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c00832142af963d7e523843a60ee38b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a3c00832142af963d7e523843a60ee38b">setColor</a> (const Eigen::Vector4d &amp;color)</td></tr>
+<tr class="memdesc:a3c00832142af963d7e523843a60ee38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the RGBA color of the BodyNodes that are currently in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a3c00832142af963d7e523843a60ee38b">More...</a><br /></td></tr>
+<tr class="separator:a3c00832142af963d7e523843a60ee38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f6fe34a794fd0bcf71e72ea38500ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a95f6fe34a794fd0bcf71e72ea38500ed">setAlpha</a> (double alpha)</td></tr>
+<tr class="memdesc:a95f6fe34a794fd0bcf71e72ea38500ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the alpha component of the BodyNodes that are currently in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a95f6fe34a794fd0bcf71e72ea38500ed">More...</a><br /></td></tr>
+<tr class="separator:a95f6fe34a794fd0bcf71e72ea38500ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Name</div></td></tr>
 <tr class="memitem:a6f1a8a8817d901853133b1109c71a48d"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a6f1a8a8817d901853133b1109c71a48d">setName</a> (const std::string &amp;_name)=0</td></tr>
 <tr class="memdesc:a6f1a8a8817d901853133b1109c71a48d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>.  <a href="#a6f1a8a8817d901853133b1109c71a48d">More...</a><br /></td></tr>
@@ -659,6 +668,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac06fcbd68628926fd58515e021ee33ec"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d8/d96/namespacedart_1_1math.html#aae98472b61ec9cd58aa0575cc5fce4e9">math::LinearJacobian</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac06fcbd68628926fd58515e021ee33ec">getCOMLinearJacobianDeriv</a> (const <a class="el" href="../../db/d38/classdart_1_1dynamics_1_1Frame.html">Frame</a> *_inCoordinatesOf=<a class="el" href="../../db/d38/classdart_1_1dynamics_1_1Frame.html#a6531fc7ae10eb122b887cb10946bc9d8">Frame::World</a>()) const =0</td></tr>
 <tr class="memdesc:ac06fcbd68628926fd58515e021ee33ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html" title="class Skeleton ">Skeleton</a>'s COM Linear Jacobian time derivative in terms of any <a class="el" href="../../db/d38/classdart_1_1dynamics_1_1Frame.html" title="The Frame class serves as the backbone of DART&#39;s kinematic tree structure. ">Frame</a> (default is World <a class="el" href="../../db/d38/classdart_1_1dynamics_1_1Frame.html" title="The Frame class serves as the backbone of DART&#39;s kinematic tree structure. ">Frame</a>).  <a href="#ac06fcbd68628926fd58515e021ee33ec">More...</a><br /></td></tr>
 <tr class="separator:ac06fcbd68628926fd58515e021ee33ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Iterations</div></td></tr>
+<tr class="memitem:a4d4cc271b50295f94c577d6af5aaf0df"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a4d4cc271b50295f94c577d6af5aaf0df"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a4d4cc271b50295f94c577d6af5aaf0df">eachBodyNode</a> (Func func) const</td></tr>
+<tr class="memdesc:a4d4cc271b50295f94c577d6af5aaf0df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the BodyNodes in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function.  <a href="#a4d4cc271b50295f94c577d6af5aaf0df">More...</a><br /></td></tr>
+<tr class="separator:a4d4cc271b50295f94c577d6af5aaf0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7e9a87f723ea410c4f4b23622d4327"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a4e7e9a87f723ea410c4f4b23622d4327"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a4e7e9a87f723ea410c4f4b23622d4327">eachBodyNode</a> (Func func)</td></tr>
+<tr class="memdesc:a4e7e9a87f723ea410c4f4b23622d4327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the BodyNodes in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function.  <a href="#a4e7e9a87f723ea410c4f4b23622d4327">More...</a><br /></td></tr>
+<tr class="separator:a4e7e9a87f723ea410c4f4b23622d4327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ddb2d51600b35dd2eb748bae8d803d0"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a1ddb2d51600b35dd2eb748bae8d803d0"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a1ddb2d51600b35dd2eb748bae8d803d0">eachJoint</a> (Func func) const</td></tr>
+<tr class="memdesc:a1ddb2d51600b35dd2eb748bae8d803d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the Joints in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function.  <a href="#a1ddb2d51600b35dd2eb748bae8d803d0">More...</a><br /></td></tr>
+<tr class="separator:a1ddb2d51600b35dd2eb748bae8d803d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac790968dfa3b99bdb650132d311c94c2"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:ac790968dfa3b99bdb650132d311c94c2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#ac790968dfa3b99bdb650132d311c94c2">eachJoint</a> (Func func)</td></tr>
+<tr class="memdesc:ac790968dfa3b99bdb650132d311c94c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the Joints in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function.  <a href="#ac790968dfa3b99bdb650132d311c94c2">More...</a><br /></td></tr>
+<tr class="separator:ac790968dfa3b99bdb650132d311c94c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e271725c2a12aeadd6ac54b2a1b8067"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a4e271725c2a12aeadd6ac54b2a1b8067"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a4e271725c2a12aeadd6ac54b2a1b8067">eachDof</a> (Func func) const</td></tr>
+<tr class="memdesc:a4e271725c2a12aeadd6ac54b2a1b8067"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the DegreeOfFreedoms in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function.  <a href="#a4e271725c2a12aeadd6ac54b2a1b8067">More...</a><br /></td></tr>
+<tr class="separator:a4e271725c2a12aeadd6ac54b2a1b8067"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba9ac57ee1871a91c14b217534f78957"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:aba9ac57ee1871a91c14b217534f78957"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#aba9ac57ee1871a91c14b217534f78957">eachDof</a> (Func func)</td></tr>
+<tr class="memdesc:aba9ac57ee1871a91c14b217534f78957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the DegreeOfFreedoms in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function.  <a href="#aba9ac57ee1871a91c14b217534f78957">More...</a><br /></td></tr>
+<tr class="separator:aba9ac57ee1871a91c14b217534f78957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -1025,6 +1059,210 @@ Protected Attributes</h2></td></tr>
 <p>Get the potential energy of this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
 
 <p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#aee0c5f05a457f7a4e8c90a004fb645a4">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a994005c1902147e8a3878815466dbdad">dart::dynamics::ReferentialSkeleton</a>.</p>
+
+</div>
+</div>
+<a id="a4d4cc271b50295f94c577d6af5aaf0df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d4cc271b50295f94c577d6af5aaf0df">&#9670;&nbsp;</a></span>eachBodyNode() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::eachBodyNode </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the BodyNodes in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(const BodyNode*)</code> or <code>bool(const BodyNode*)</code>. If you want to conditionally iterate, use <code>bool(const BodyNode*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4e7e9a87f723ea410c4f4b23622d4327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7e9a87f723ea410c4f4b23622d4327">&#9670;&nbsp;</a></span>eachBodyNode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::eachBodyNode </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the BodyNodes in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(BodyNode*)</code> or <code>bool(BodyNode*)</code>. If you want to conditionally iterate, use <code>bool(BodyNode*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4e271725c2a12aeadd6ac54b2a1b8067"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e271725c2a12aeadd6ac54b2a1b8067">&#9670;&nbsp;</a></span>eachDof() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::eachDof </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the DegreeOfFreedoms in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(const DegreeOfFreedom*)</code> or <code>bool</code>(const DegreeOfFreedom*). If you want to conditionally iterate, use <code>bool</code>(const DegreeOfFreedom*) and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each <a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html" title="DegreeOfFreedom class is a proxy class for accessing single degrees of freedom (aka generalized coord...">DegreeOfFreedom</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aba9ac57ee1871a91c14b217534f78957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba9ac57ee1871a91c14b217534f78957">&#9670;&nbsp;</a></span>eachDof() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::eachDof </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the DegreeOfFreedoms in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(DegreeOfFreedom*)</code> or <code>bool(DegreeOfFreedom*)</code>. If you want to conditionally iterate, use <code>bool(DegreeOfFreedom*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each <a class="el" href="../../de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html" title="DegreeOfFreedom class is a proxy class for accessing single degrees of freedom (aka generalized coord...">DegreeOfFreedom</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1ddb2d51600b35dd2eb748bae8d803d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ddb2d51600b35dd2eb748bae8d803d0">&#9670;&nbsp;</a></span>eachJoint() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::eachJoint </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the Joints in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(const Joint*)</code> or <code>bool(const Joint*)</code>. If you want to conditionally iterate, use <code>bool(const BodyNode*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac790968dfa3b99bdb650132d311c94c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac790968dfa3b99bdb650132d311c94c2">&#9670;&nbsp;</a></span>eachJoint() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::eachJoint </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the Joints in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a> and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(Joint*)</code> or <code>bool(Joint*)</code>. If you want to conditionally iterate, use <code>bool(Joint*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each <a class="el" href="../../d6/d5b/classdart_1_1dynamics_1_1Joint.html" title="class Joint ">Joint</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1512,6 +1750,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get all the BodyNodes that are held by this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000035">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a4d4cc271b50295f94c577d6af5aaf0df" title="Iterates all the BodyNodes in this MetaSkeleton and invokes the callback function. ">eachBodyNode()</a> instead. </dd></dl>
 
 <p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a054be83f1d95ea84e5d39c75a7a5f8dd">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#abb92eb609f7b1f2c3b43281efa8d1eda">dart::dynamics::ReferentialSkeleton</a>.</p>
 
@@ -1541,6 +1780,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get all the BodyNodes that are held by this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000036">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a4d4cc271b50295f94c577d6af5aaf0df" title="Iterates all the BodyNodes in this MetaSkeleton and invokes the callback function. ">eachBodyNode()</a> instead. </dd></dl>
 
 <p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#af76584475d7ac040b3947c54050bbf61">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#af3a5ae0bbc99a18851832b56d0ed8646">dart::dynamics::ReferentialSkeleton</a>.</p>
 
@@ -2162,6 +2402,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the vector of DegreesOfFreedom for this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000039">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a4e271725c2a12aeadd6ac54b2a1b8067" title="Iterates all the DegreeOfFreedoms in this MetaSkeleton and invokes the callback function. ">eachDof()</a> instead. </dd></dl>
 
 <p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#af8fbb9cdb6861f7f8637e6490a1b2f21">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a239cafbed2d21c762f85001b01c7f088">dart::dynamics::ReferentialSkeleton</a>.</p>
 
@@ -2191,6 +2432,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get a vector of const DegreesOfFreedom for this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000040">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a4d4cc271b50295f94c577d6af5aaf0df" title="Iterates all the BodyNodes in this MetaSkeleton and invokes the callback function. ">eachBodyNode()</a> instead. </dd></dl>
 
 <p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a4441434c5b04270b28e27343ad2d3412">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#ae9dda8d7c8a4ab5a679052a2f242058a">dart::dynamics::ReferentialSkeleton</a>.</p>
 
@@ -3388,6 +3630,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns all the joints that are held by this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000037">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a1ddb2d51600b35dd2eb748bae8d803d0" title="Iterates all the Joints in this MetaSkeleton and invokes the callback function. ">eachJoint()</a> instead. </dd></dl>
 
 <p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#ab6b22ad7a35087a916fe80459b68c812">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a1714162ebf9472134a2861533ef72d1b">dart::dynamics::ReferentialSkeleton</a>.</p>
 
@@ -3417,6 +3660,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns all the joints that are held by this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000038">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a1ddb2d51600b35dd2eb748bae8d803d0" title="Iterates all the Joints in this MetaSkeleton and invokes the callback function. ">eachJoint()</a> instead. </dd></dl>
 
 <p>Implemented in <a class="el" href="../../d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a42c29dc8f38380470f668c8727748ce1">dart::dynamics::Skeleton</a>, and <a class="el" href="../../d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#ab6064eba922634a9ee4a74a4da4d19f1">dart::dynamics::ReferentialSkeleton</a>.</p>
 
@@ -4892,6 +5136,72 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a95f6fe34a794fd0bcf71e72ea38500ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95f6fe34a794fd0bcf71e72ea38500ed">&#9670;&nbsp;</a></span>setAlpha()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::setAlpha </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>alpha</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the alpha component of the BodyNodes that are currently in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<p>ShapeNodes that don't have <a class="el" href="../../d1/d66/classdart_1_1dynamics_1_1VisualAspect.html">VisualAspect</a> will be ignored.</p>
+<p>Note that the BodyNodes that are added after calling this function don't get updated to the alpha value that was set beforehand. </p>
+
+</div>
+</div>
+<a id="a76007af80e98520160f2e5ab37fcc238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76007af80e98520160f2e5ab37fcc238">&#9670;&nbsp;</a></span>setColor() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::setColor </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Vector3d &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the RGB color of the BodyNodes that are currently in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<p>ShapeNodes that don't have <a class="el" href="../../d1/d66/classdart_1_1dynamics_1_1VisualAspect.html">VisualAspect</a> will be ignored.</p>
+<p>Note that the ShapeNodes that are added after calling this function don't get updated to the color that was set beforehand. </p>
+
+</div>
+</div>
+<a id="a3c00832142af963d7e523843a60ee38b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c00832142af963d7e523843a60ee38b">&#9670;&nbsp;</a></span>setColor() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::dynamics::MetaSkeleton::setColor </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Vector4d &amp;&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the RGBA color of the BodyNodes that are currently in this <a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html" title="MetaSkeleton is a pure abstract base class that provides a common interface for obtaining data (such ...">MetaSkeleton</a>. </p>
+<p>ShapeNodes that don't have <a class="el" href="../../d1/d66/classdart_1_1dynamics_1_1VisualAspect.html">VisualAspect</a> will be ignored.</p>
+<p>Note that the ShapeNodes that are added after calling this function don't get updated to the color that was set beforehand. </p>
+
+</div>
+</div>
 <a id="a5a41fd1f9d1402e66cd4cd50d54b6d69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a41fd1f9d1402e66cd4cd50d54b6d69">&#9670;&nbsp;</a></span>setCommand()</h2>
 
@@ -5809,7 +6119,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html">MetaSkeleton</a></li>
-    <li class="footer">Generated on Thu Jan 6 2022 06:23:13 for DART by
+    <li class="footer">Generated on Thu Jan 6 2022 08:45:45 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
