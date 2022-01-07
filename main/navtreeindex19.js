@@ -1,10 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#ae68b99a9f9feb4f7a88f691e7549feed":[3,0,0,3,32,105],
-"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#ae6cf54858df69658ce30e7bde818b3b0":[3,0,0,3,32,127],
-"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#ae6d4d257a17185e40ce0b4d9874c7838":[3,0,0,3,32,75],
-"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#aea33dcced2d344092574deb6aa84782f":[3,0,0,3,32,9],
-"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#aea6b76529cbf28ddab21a093f131e6f2":[3,0,0,3,32,38],
 "d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#aeab2b61ca97501cbf7057024c377121d":[3,0,0,3,32,26],
 "d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#aeaee8a79e3bc4399eb0b234f016b9a35":[3,0,0,3,32,115],
 "d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#aed0debe178ca978e90b5c039e4edf74f":[3,0,0,3,32,3],
@@ -51,8 +46,8 @@ var NAVTREEINDEX19 =
 "d3/dfc/structdart_1_1collision_1_1RayHit.html#a94683ceb8a0c5f2a2356a70f31c52b42":[3,0,0,0,32,4],
 "d3/dfc/structdart_1_1collision_1_1RayHit.html#aa2a5fc2d40a6ea6b26574b164e2dee0d":[3,0,0,0,32,2],
 "d3/dfc/structdart_1_1collision_1_1RayHit.html#adf2d7a0a8499d62350f53e3aa9584dc5":[3,0,0,0,32,0],
-"d3/dfe/SoftContactConstraint_8hpp.html":[4,0,0,2,39],
-"d3/dfe/SoftContactConstraint_8hpp_source.html":[4,0,0,2,39],
+"d3/dfe/SoftContactConstraint_8hpp.html":[4,0,0,2,40],
+"d3/dfe/SoftContactConstraint_8hpp_source.html":[4,0,0,2,40],
 "d4/d00/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Equality.html":[3,0,0,11,0,0,6],
 "d4/d00/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Equality.html#a08caee753c33da09868423a747d59eb6":[3,0,0,11,0,0,6,5],
 "d4/d00/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Equality.html#a35494c7f71802488acfaf72e10f973c9":[3,0,0,11,0,0,6,2],
@@ -249,5 +244,10 @@ var NAVTREEINDEX19 =
 "d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#afc654f8adffde3a743ed5064d995dcbb":[3,0,0,2,21,5],
 "d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#afd819b9a947b5398f911efd06794f7fe":[3,0,0,2,21,33],
 "d4/d26/Contact_8cpp.html":[4,0,0,0,17],
-"d4/d2d/classdart_1_1math_1_1TriMesh.html":[3,0,0,7,11]
+"d4/d2d/classdart_1_1math_1_1TriMesh.html":[3,0,0,7,11],
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#a03e275af6462a677e22de2e08fcca351":[3,0,0,7,11,18],
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#a08a244b4c32817b20f8238d76197a378":[3,0,0,7,11,6],
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#a0bf53ebcc0b5b984808fa485728f9ec7":[3,0,0,7,11,29],
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#a0ee6424c36ed9c471a82e1e86f1eb39c":[3,0,0,7,11,11],
+"d4/d2d/classdart_1_1math_1_1TriMesh.html#a15a98c48df379e5716244364f30a1610":[3,0,0,7,11,16]
 };

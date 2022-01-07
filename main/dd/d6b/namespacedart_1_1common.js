@@ -42,6 +42,8 @@ var namespacedart_1_1common =
     [ "LockableReference", "db/dde/classdart_1_1common_1_1LockableReference.html", "db/dde/classdart_1_1common_1_1LockableReference" ],
     [ "MakeCloneable", "d7/da1/classdart_1_1common_1_1MakeCloneable.html", "d7/da1/classdart_1_1common_1_1MakeCloneable" ],
     [ "MemoryAllocator", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html", "d0/d74/classdart_1_1common_1_1MemoryAllocator" ],
+    [ "MemoryAllocatorDebugger", "d9/db2/classdart_1_1common_1_1MemoryAllocatorDebugger.html", "d9/db2/classdart_1_1common_1_1MemoryAllocatorDebugger" ],
+    [ "MemoryManager", "dc/d81/classdart_1_1common_1_1MemoryManager.html", "dc/d81/classdart_1_1common_1_1MemoryManager" ],
     [ "MultiLockableReference", "d0/d20/classdart_1_1common_1_1MultiLockableReference.html", "d0/d20/classdart_1_1common_1_1MultiLockableReference" ],
     [ "NameManager", "d9/dc9/classdart_1_1common_1_1NameManager.html", "d9/dc9/classdart_1_1common_1_1NameManager" ],
     [ "Observer", "d8/dc0/classdart_1_1common_1_1Observer.html", "d8/dc0/classdart_1_1common_1_1Observer" ],

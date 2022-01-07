@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#a8d14dd57e616cf8800115601b98f91bb":[3,0,0,4,1,28,21],
+"d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#a8d1f62258b0d11e43cd20938f011fc2f":[3,0,0,4,1,28,25],
 "d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#a971bc3d94b4c21449ad0b0ce4d063bac":[3,0,0,4,1,28,5],
 "d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#a9b11e02eec2ad39654696951d8658060":[3,0,0,4,1,28,29],
 "d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#aadc85c833d22790d93c8f188c096ac53":[3,0,0,4,1,28,24],
@@ -17,8 +19,8 @@ var NAVTREEINDEX42 =
 "d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#afd887f9cb0e504631548efc5ffb872fe":[3,0,0,4,1,28,28],
 "d8/d75/OdeMesh_8hpp.html":[4,0,0,0,4,0,11],
 "d8/d75/OdeMesh_8hpp_source.html":[4,0,0,0,4,0,11],
-"d8/d84/Signal_8hpp.html":[4,0,0,1,47],
-"d8/d84/Signal_8hpp_source.html":[4,0,0,1,47],
+"d8/d84/Signal_8hpp.html":[4,0,0,1,50],
+"d8/d84/Signal_8hpp_source.html":[4,0,0,1,50],
 "d8/d8b/JointPtr_8hpp.html":[4,0,0,3,0,20],
 "d8/d8b/JointPtr_8hpp_source.html":[4,0,0,3,0,20],
 "d8/d8b/structdart_1_1dynamics_1_1detail_1_1FixedFrameProperties.html":[3,0,0,3,0,12],
@@ -111,8 +113,8 @@ var NAVTREEINDEX42 =
 "d8/d90/FileInfoC3D_8cpp.html":[4,0,0,11,9],
 "d8/d92/Trackball_8hpp.html":[4,0,0,4,16],
 "d8/d92/Trackball_8hpp_source.html":[4,0,0,4,16],
-"d8/d96/namespacedart_1_1math.html":[3,0,0,7],
 "d8/d96/namespacedart_1_1math.html":[2,0,0,8],
+"d8/d96/namespacedart_1_1math.html":[3,0,0,7],
 "d8/d97/Random-impl_8hpp.html":[4,0,0,7,0,4],
 "d8/d97/Random-impl_8hpp.html#a7dc9754e3337d353a2463176200bdc11":[4,0,0,7,0,4,23],
 "d8/d97/Random-impl_8hpp.html#a8753e60ba98f8110c7f3ea39a82aaa9c":[4,0,0,7,0,4,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a54d086163310e8a4c2f391bc81c116f8":[3,0,0,3,100,27],
 "d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a5565043c2af39e1f0f04ffc6bc42310b":[3,0,0,3,100,118],
 "d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a55c516f577b810b8b548907718ebc305":[3,0,0,3,100,81],
-"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a568d47e98b81b92fae26c210c7bc9a98":[3,0,0,3,100,246],
-"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a57977210b66f005c446a3c33b0bb578e":[3,0,0,3,100,133],
-"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a59c9c9edec62d75c858c952c6c109b93":[3,0,0,3,100,39]
+"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a568d47e98b81b92fae26c210c7bc9a98":[3,0,0,3,100,246]
 };

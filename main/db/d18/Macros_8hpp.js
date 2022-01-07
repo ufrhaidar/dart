@@ -2,6 +2,7 @@ var Macros_8hpp =
 [
     [ "DART_ASSERT", "db/d18/Macros_8hpp.html#ad7608cdb647c2b5e72797db08082d77f", null ],
     [ "DART_CONCAT", "db/d18/Macros_8hpp.html#a685ec2eecfa8b90106d7e3c50aa2d03d", null ],
+    [ "DART_NOT_IMPLEMENTED", "db/d18/Macros_8hpp.html#ab902835ff95657da49a17cca233dedfc", null ],
     [ "DART_NUM_ARGS", "db/d18/Macros_8hpp.html#a16861a4c8e92e19357b707c2b591b2e5", null ],
     [ "DART_UNUSED", "db/d18/Macros_8hpp.html#add893921768f2ae6d9cc82c1a5e51589", null ],
     [ "DETAIL_DART_ASSERT_1", "db/d18/Macros_8hpp.html#aad8e55afe67402efed30e8d8b2ec86be", null ],

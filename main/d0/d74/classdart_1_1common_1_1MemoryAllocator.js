@@ -2,7 +2,7 @@ var classdart_1_1common_1_1MemoryAllocator =
 [
     [ "MemoryAllocator", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#ab6849bbbc3bc4fabc2a4239144dcda16", null ],
     [ "~MemoryAllocator", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a5b09b9e9322ed749995f4df31a27cae2", null ],
-    [ "allocate", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a55725d36fb7424ca085c3dddda906c77", null ],
+    [ "allocate", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a4a37f057bf3a4b4255c7712947584369", null ],
     [ "allocateAs", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#af63bd1725c883fbed5a79c1ea4c6f081", null ],
     [ "as", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#ad769689ed09d55c0529d8d9390fe0043", null ],
     [ "as", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a062c3cedf57062040cd4fee24005abe2", null ],
@@ -11,13 +11,11 @@ var classdart_1_1common_1_1MemoryAllocator =
     [ "construct", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#ac81fff9e522f1b62e231e550728d18c3", null ],
     [ "constructAt", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#ab0e96a13b0edf0cb3164a9d7f09df80e", null ],
     [ "constructAt", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#ae8b15388ad9a57772bced35aef5691fd", null ],
-    [ "deallocate", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a7f3b55d2558ee5cf1378fe27ba8365fa", null ],
+    [ "deallocate", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a7d2b76ac7efc4ba850e3ed88538b28a6", null ],
     [ "destroy", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a729caadcd7a1a32f1ba9ac84457f4c91", null ],
     [ "GetDefault", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#acbda1b02de6f3c2acb5fa330d96c5b21", null ],
     [ "getType", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#af96bc816eaf94183bba28b3bc5aeac68", null ],
     [ "is", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a4d171ea0afccad1214c01eedd14a5616", null ],
-    [ "isAllocated", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a6fa7b230f54e5e015d3d43e9b2fb992c", null ],
-    [ "isEmpty", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a51a37531e35e52134db3c36ffbc86e46", null ],
     [ "print", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a710c97b406258a2c99fe88b86d3604c7", null ],
     [ "operator<<", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a068ae8be28221c877293ec661885a31d", null ]
 ];

@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('d9/d32/classdart_1_1common_1_1PoolAllo
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -120,6 +121,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dab/structdart_1_1common_1_1PoolAllocator_1_1MemoryUnit.html">MemoryUnit</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:af68ceffb53dfb7d1440d4b3a6214a650"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#af68ceffb53dfb7d1440d4b3a6214a650">Debug</a> = <a class="el" href="../../d9/db2/classdart_1_1common_1_1MemoryAllocatorDebugger.html">MemoryAllocatorDebugger</a>&lt; <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html">PoolAllocator</a> &gt;</td></tr>
+<tr class="separator:af68ceffb53dfb7d1440d4b3a6214a650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a637da0224ca0223794f84ad8c49735f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a637da0224ca0223794f84ad8c49735f4">PoolAllocator</a> (<a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html">MemoryAllocator</a> &amp;baseAllocator=<a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#acbda1b02de6f3c2acb5fa330d96c5b21">MemoryAllocator::GetDefault</a>())</td></tr>
@@ -142,23 +148,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4daf79d12d112289926cbef0a345a369"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a4daf79d12d112289926cbef0a345a369">getNumAllocatedMemoryBlocks</a> () const</td></tr>
 <tr class="memdesc:a4daf79d12d112289926cbef0a345a369"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the count of allocated memory blocks.  <a href="#a4daf79d12d112289926cbef0a345a369">More...</a><br /></td></tr>
 <tr class="separator:a4daf79d12d112289926cbef0a345a369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6851064e4560309647be70b2a3a9b6db"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a6851064e4560309647be70b2a3a9b6db">allocate</a> (size_t size) noexcept override</td></tr>
-<tr class="memdesc:a6851064e4560309647be70b2a3a9b6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates <code>size</code> bytes of uninitialized storage.  <a href="#a6851064e4560309647be70b2a3a9b6db">More...</a><br /></td></tr>
-<tr class="separator:a6851064e4560309647be70b2a3a9b6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79f198e6f7bd45860f1c62bffbc12e3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a79f198e6f7bd45860f1c62bffbc12e3c">deallocate</a> (void *pointer, size_t size) override</td></tr>
-<tr class="memdesc:a79f198e6f7bd45860f1c62bffbc12e3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates the storage referenced by the pointer <code>p</code>, which must be a pointer obtained by an earlier cal to <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a6851064e4560309647be70b2a3a9b6db" title="Allocates size bytes of uninitialized storage. ">allocate()</a>.  <a href="#a79f198e6f7bd45860f1c62bffbc12e3c">More...</a><br /></td></tr>
-<tr class="separator:a79f198e6f7bd45860f1c62bffbc12e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeef4fbc5cab695e1d94e4d128e817be1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#aeef4fbc5cab695e1d94e4d128e817be1">isAllocated</a> (void *pointer, size_t size) const noexcept override</td></tr>
-<tr class="memdesc:aeef4fbc5cab695e1d94e4d128e817be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a pointer is allocated by this allocator.  <a href="#aeef4fbc5cab695e1d94e4d128e817be1">More...</a><br /></td></tr>
-<tr class="separator:aeef4fbc5cab695e1d94e4d128e817be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8c4ac687ee97c62fcc29982c5d4fda1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#af8c4ac687ee97c62fcc29982c5d4fda1">isEmpty</a> () const noexcept override</td></tr>
-<tr class="memdesc:af8c4ac687ee97c62fcc29982c5d4fda1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there is no memory allocated by this allocator.  <a href="#af8c4ac687ee97c62fcc29982c5d4fda1">More...</a><br /></td></tr>
-<tr class="separator:af8c4ac687ee97c62fcc29982c5d4fda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8e51e2044d44e3cb9540da44ad8eb3"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a5c8e51e2044d44e3cb9540da44ad8eb3">allocate</a> (size_t bytes) noexcept override</td></tr>
+<tr class="memdesc:a5c8e51e2044d44e3cb9540da44ad8eb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates <code>size</code> bytes of uninitialized storage.  <a href="#a5c8e51e2044d44e3cb9540da44ad8eb3">More...</a><br /></td></tr>
+<tr class="separator:a5c8e51e2044d44e3cb9540da44ad8eb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a321b054c1ae32bbbd97faac2725bf909"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a321b054c1ae32bbbd97faac2725bf909">deallocate</a> (void *pointer, size_t bytes) override</td></tr>
+<tr class="memdesc:a321b054c1ae32bbbd97faac2725bf909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocates the storage referenced by the pointer <code>p</code>, which must be a pointer obtained by an earlier cal to <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a5c8e51e2044d44e3cb9540da44ad8eb3" title="Allocates size bytes of uninitialized storage. ">allocate()</a>.  <a href="#a321b054c1ae32bbbd97faac2725bf909">More...</a><br /></td></tr>
+<tr class="separator:a321b054c1ae32bbbd97faac2725bf909"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e79b1648e8e48aca70942be8e97d886"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a9e79b1648e8e48aca70942be8e97d886">print</a> (std::ostream &amp;os=std::cout, int indent=0) const override</td></tr>
 <tr class="memdesc:a9e79b1648e8e48aca70942be8e97d886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints state of the memory allocator.  <a href="#a9e79b1648e8e48aca70942be8e97d886">More...</a><br /></td></tr>
 <tr class="separator:a9e79b1648e8e48aca70942be8e97d886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af63bd1725c883fbed5a79c1ea4c6f081"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:af63bd1725c883fbed5a79c1ea4c6f081"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#af63bd1725c883fbed5a79c1ea4c6f081">allocateAs</a> (size_t n=1) noexcept</td></tr>
+<tr class="memdesc:af63bd1725c883fbed5a79c1ea4c6f081"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates object(s) without calling the constructor.  <a href="#af63bd1725c883fbed5a79c1ea4c6f081">More...</a><br /></td></tr>
 <tr class="separator:af63bd1725c883fbed5a79c1ea4c6f081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81fff9e522f1b62e231e550728d18c3"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
 <tr class="memitem:ac81fff9e522f1b62e231e550728d18c3"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#ac81fff9e522f1b62e231e550728d18c3">construct</a> (Args &amp;&amp;... args) noexcept</td></tr>
@@ -219,12 +220,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa7aa6aeb8869168afabf89d91c97a05c"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../d7/dab/structdart_1_1common_1_1PoolAllocator_1_1MemoryUnit.html">MemoryUnit</a> *, <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a750a39a44969b7595d1bb539dd53029b">HEAP_COUNT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#aa7aa6aeb8869168afabf89d91c97a05c">mFreeMemoryUnits</a></td></tr>
 <tr class="memdesc:aa7aa6aeb8869168afabf89d91c97a05c"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of free memory units.  <a href="#aa7aa6aeb8869168afabf89d91c97a05c">More...</a><br /></td></tr>
 <tr class="separator:aa7aa6aeb8869168afabf89d91c97a05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeee9d45fb57d397b214cabf2fe327f6"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#aeeee9d45fb57d397b214cabf2fe327f6">mSize</a> = 0</td></tr>
-<tr class="separator:aeeee9d45fb57d397b214cabf2fe327f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad23428d02db1dc63ef929c9b35507c10"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#ad23428d02db1dc63ef929c9b35507c10">mPeak</a> = 0</td></tr>
-<tr class="separator:ad23428d02db1dc63ef929c9b35507c10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77bb0a99267acc6e79b2c91a2102ab0c"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; void *, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a77bb0a99267acc6e79b2c91a2102ab0c">mMapPointerToSize</a></td></tr>
-<tr class="separator:a77bb0a99267acc6e79b2c91a2102ab0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -243,7 +238,22 @@ Static Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Memory allocator optimized for allocating many objects of the same or similar sizes. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="af68ceffb53dfb7d1440d4b3a6214a650"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af68ceffb53dfb7d1440d4b3a6214a650">&#9670;&nbsp;</a></span>Debug</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#af68ceffb53dfb7d1440d4b3a6214a650">dart::common::PoolAllocator::Debug</a> =  <a class="el" href="../../d9/db2/classdart_1_1common_1_1MemoryAllocatorDebugger.html">MemoryAllocatorDebugger</a>&lt;<a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html">PoolAllocator</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a637da0224ca0223794f84ad8c49735f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a637da0224ca0223794f84ad8c49735f4">&#9670;&nbsp;</a></span>PoolAllocator()</h2>
 
@@ -324,8 +334,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6851064e4560309647be70b2a3a9b6db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6851064e4560309647be70b2a3a9b6db">&#9670;&nbsp;</a></span>allocate()</h2>
+<a id="a5c8e51e2044d44e3cb9540da44ad8eb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c8e51e2044d44e3cb9540da44ad8eb3">&#9670;&nbsp;</a></span>allocate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -337,7 +347,7 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">void * dart::common::PoolAllocator::allocate </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em></td><td>)</td>
+          <td class="paramname"><em>bytes</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -351,7 +361,7 @@ Static Private Attributes</h2></td></tr>
 <p>Allocates <code>size</code> bytes of uninitialized storage. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>The byte size to allocate sotrage for. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bytes</td><td>The byte size to allocate sotrage for. </td></tr>
   </table>
   </dd>
 </dl>
@@ -359,7 +369,7 @@ Static Private Attributes</h2></td></tr>
 <dd>
 On failure, a null pointer </dd></dl>
 
-<p>Implements <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a55725d36fb7424ca085c3dddda906c77">dart::common::MemoryAllocator</a>.</p>
+<p>Implements <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a4a37f057bf3a4b4255c7712947584369">dart::common::MemoryAllocator</a>.</p>
 
 </div>
 </div>
@@ -388,6 +398,15 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Allocates object(s) without calling the constructor. </p>
+<p>This is identical to <code>static_cast&lt;T*&gt;</code>(allocate(n * sizeof(T))).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">n</td><td>The number of objects to allocate. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -528,9 +547,16 @@ template&lt;typename T , typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Allocates uninitialized storage and constructs an object of type T to the allocated storage. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The object type to construct. </td></tr>
+    <tr><td class="paramname">Args...</td><td>The argument types to pass to the object constructor.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">args...</td><td>The constructor arguments to use. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">args</td><td>The constructor arguments to use. </td></tr>
   </table>
   </dd>
 </dl>
@@ -613,8 +639,8 @@ template&lt;typename T , typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="a79f198e6f7bd45860f1c62bffbc12e3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79f198e6f7bd45860f1c62bffbc12e3c">&#9670;&nbsp;</a></span>deallocate()</h2>
+<a id="a321b054c1ae32bbbd97faac2725bf909"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a321b054c1ae32bbbd97faac2725bf909">&#9670;&nbsp;</a></span>deallocate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -632,7 +658,7 @@ template&lt;typename T , typename... Args&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
+          <td class="paramname"><em>bytes</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -647,15 +673,16 @@ template&lt;typename T , typename... Args&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Deallocates the storage referenced by the pointer <code>p</code>, which must be a pointer obtained by an earlier cal to <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a6851064e4560309647be70b2a3a9b6db" title="Allocates size bytes of uninitialized storage. ">allocate()</a>. </p>
+<p>Deallocates the storage referenced by the pointer <code>p</code>, which must be a pointer obtained by an earlier cal to <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a5c8e51e2044d44e3cb9540da44ad8eb3" title="Allocates size bytes of uninitialized storage. ">allocate()</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">pointer</td><td>Pointer obtained from <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a6851064e4560309647be70b2a3a9b6db" title="Allocates size bytes of uninitialized storage. ">allocate()</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pointer</td><td>Pointer obtained from <a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#a5c8e51e2044d44e3cb9540da44ad8eb3" title="Allocates size bytes of uninitialized storage. ">allocate()</a>. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bytes</td><td>The bytes of the allocated memory. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a7f3b55d2558ee5cf1378fe27ba8365fa">dart::common::MemoryAllocator</a>.</p>
+<p>Implements <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a7d2b76ac7efc4ba850e3ed88538b28a6">dart::common::MemoryAllocator</a>.</p>
 
 </div>
 </div>
@@ -855,75 +882,6 @@ template&lt;typename T &gt; </div>
 <p>Returns true if the types of this <code>Base</code> and the template parameter (a base class) are identical. </p>
 <p>This function is a syntactic sugar, which is identical to: (<a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html#aab98ba8d8ea7db73b24cd8d470a988d9" title="Returns type string. ">getType()</a> == ShapeType::getStaticType()).</p>
 <p>Example code: </p><div class="fragment"><div class="line"><span class="keywordflow">if</span> (shape-&gt;is&lt;<a class="code" href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#a1201f599fb543c2c3879cde624aa02ab">Sphere</a>&gt;())</div><div class="line">  std::cout &lt;&lt; <span class="stringliteral">&quot;The shape type is sphere!\n&quot;</span>;</div></div><!-- fragment --> 
-</div>
-</div>
-<a id="aeef4fbc5cab695e1d94e4d128e817be1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeef4fbc5cab695e1d94e4d128e817be1">&#9670;&nbsp;</a></span>isAllocated()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool dart::common::PoolAllocator::isAllocated </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>pointer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if a pointer is allocated by this allocator. </p>
-
-<p>Implements <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a6fa7b230f54e5e015d3d43e9b2fb992c">dart::common::MemoryAllocator</a>.</p>
-
-</div>
-</div>
-<a id="af8c4ac687ee97c62fcc29982c5d4fda1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8c4ac687ee97c62fcc29982c5d4fda1">&#9670;&nbsp;</a></span>isEmpty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool dart::common::PoolAllocator::isEmpty </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if there is no memory allocated by this allocator. </p>
-
-<p>Implements <a class="el" href="../../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a51a37531e35e52134db3c36ffbc86e46">dart::common::MemoryAllocator</a>.</p>
-
 </div>
 </div>
 <a id="a9e79b1648e8e48aca70942be8e97d886"></a>
@@ -1129,28 +1087,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a77bb0a99267acc6e79b2c91a2102ab0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77bb0a99267acc6e79b2c91a2102ab0c">&#9670;&nbsp;</a></span>mMapPointerToSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::unordered_map&lt;void*, size_t&gt; dart::common::PoolAllocator::mMapPointerToSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aec7cf32a2de38bb8b1d0d0f2b1be5efb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec7cf32a2de38bb8b1d0d0f2b1be5efb">&#9670;&nbsp;</a></span>mMapSizeToHeapIndex</h2>
 
@@ -1247,50 +1183,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="ad23428d02db1dc63ef929c9b35507c10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad23428d02db1dc63ef929c9b35507c10">&#9670;&nbsp;</a></span>mPeak</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t dart::common::PoolAllocator::mPeak = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeeee9d45fb57d397b214cabf2fe327f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeeee9d45fb57d397b214cabf2fe327f6">&#9670;&nbsp;</a></span>mSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t dart::common::PoolAllocator::mSize = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a574493b47d6210a50a2b0bcd238c931b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a574493b47d6210a50a2b0bcd238c931b">&#9670;&nbsp;</a></span>mUnitSizes</h2>
 
@@ -1319,7 +1211,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html">common</a></li><li class="navelem"><a class="el" href="../../d9/d32/classdart_1_1common_1_1PoolAllocator.html">PoolAllocator</a></li>
-    <li class="footer">Generated on Fri Jan 7 2022 20:47:54 for DART by
+    <li class="footer">Generated on Fri Jan 7 2022 21:13:49 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -485,11 +485,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0b32240c08abe924bd8ccfddaf31d6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f96c79309f7eec1b8ec4a0c912dd953"><td class="memTemplParams" colspan="2">template&lt;typename Aspect , typename Func &gt; </td></tr>
 <tr class="memitem:a8f96c79309f7eec1b8ec4a0c912dd953"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a8f96c79309f7eec1b8ec4a0c912dd953">eachShapeNodeWith</a> (Func func) const</td></tr>
-<tr class="memdesc:a8f96c79309f7eec1b8ec4a0c912dd953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the ShapeNodes that has a specific aspect.  <a href="#a8f96c79309f7eec1b8ec4a0c912dd953">More...</a><br /></td></tr>
+<tr class="memdesc:a8f96c79309f7eec1b8ec4a0c912dd953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the ShapeNodes that has a specific aspect and invokes the callback function.  <a href="#a8f96c79309f7eec1b8ec4a0c912dd953">More...</a><br /></td></tr>
 <tr class="separator:a8f96c79309f7eec1b8ec4a0c912dd953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4da7c369468c127ea40f9ce8e27b3b3b"><td class="memTemplParams" colspan="2">template&lt;typename Aspect , typename Func &gt; </td></tr>
 <tr class="memitem:a4da7c369468c127ea40f9ce8e27b3b3b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a4da7c369468c127ea40f9ce8e27b3b3b">eachShapeNodeWith</a> (Func func)</td></tr>
-<tr class="memdesc:a4da7c369468c127ea40f9ce8e27b3b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the ShapeNodes that has a specific aspect.  <a href="#a4da7c369468c127ea40f9ce8e27b3b3b">More...</a><br /></td></tr>
+<tr class="memdesc:a4da7c369468c127ea40f9ce8e27b3b3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the ShapeNodes that has a specific aspect and invokes the callback function.  <a href="#a4da7c369468c127ea40f9ce8e27b3b3b">More...</a><br /></td></tr>
 <tr class="separator:a4da7c369468c127ea40f9ce8e27b3b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a743e577b90cdd875090072b9a0702ebe"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a743e577b90cdd875090072b9a0702ebe">getNumEndEffectors</a> () const</td></tr>
 <tr class="separator:a743e577b90cdd875090072b9a0702ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4022,7 +4022,7 @@ template&lt;typename AspectT , typename Func &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Iterates all the ShapeNodes that has a specific aspect. </p>
+<p>Iterates all the ShapeNodes that has a specific aspect and invokes the callback function. </p>
 <p>Example: </p><div class="fragment"><div class="line">bodyNode-&gt;eachShapeNodeWith&lt;VisualAspect&gt;([](<span class="keyword">const</span> ShapeNode* shapeNode)</div><div class="line">{</div><div class="line">  shapeNode-&gt;getVisualAspect()-&gt;getAlpha();</div><div class="line">});</div></div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Aspect</td><td>The Aspect type that ShapeNodes should have to be visited. </td></tr>
@@ -4057,7 +4057,7 @@ template&lt;typename AspectT , typename Func &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Iterates all the ShapeNodes that has a specific aspect. </p>
+<p>Iterates all the ShapeNodes that has a specific aspect and invokes the callback function. </p>
 <p>Example: </p><div class="fragment"><div class="line">bodyNode-&gt;eachShapeNodeWith&lt;VisualAspect&gt;([&amp;](ShapeNode* shapeNode) {</div><div class="line">  shapeNode-&gt;getVisualAspect()-&gt;setAlpha(0.5);</div><div class="line">});</div></div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Aspect</td><td>The Aspect type that ShapeNodes should have to be visited. </td></tr>
@@ -5102,7 +5102,7 @@ template&lt;typename AspectT , typename Func &gt; </div>
 </div><div class="memdoc">
 
 <p>Return frictional coefficient. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000013">Deprecated:</a></b></dt><dd>Deprecated since DART 6.10. Please set the friction coefficient per <a class="el" href="../../d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html">ShapeNode</a> of the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>. This will be removed in the next major release. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000016">Deprecated:</a></b></dt><dd>Deprecated since DART 6.10. Please set the friction coefficient per <a class="el" href="../../d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html">ShapeNode</a> of the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>. This will be removed in the next major release. </dd></dl>
 
 </div>
 </div>
@@ -6746,7 +6746,7 @@ template&lt;class AspectT &gt; </div>
 </div><div class="memdoc">
 
 <p>Return coefficient of restitution. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000015">Deprecated:</a></b></dt><dd>Deprecated since DART 6.10.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000018">Deprecated:</a></b></dt><dd>Deprecated since DART 6.10.</dd></dl>
 <p>Please set the restitution coefficient per <a class="el" href="../../d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html">ShapeNode</a> of the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>. This will be removed in the next major release. </p>
 
 </div>
@@ -6803,7 +6803,7 @@ template&lt;class AspectT &gt; </div>
 </div><div class="memdoc">
 
 <p>Return the list of ShapeNodes. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000016">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a1d9a5a32a73ebdcdb71afdd279e08691">eachShapeNode()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000019">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a1d9a5a32a73ebdcdb71afdd279e08691">eachShapeNode()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -6823,7 +6823,7 @@ template&lt;class AspectT &gt; </div>
 </div><div class="memdoc">
 
 <p>Return the list of (const) ShapeNodes. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000017">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a1d9a5a32a73ebdcdb71afdd279e08691">eachShapeNode()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000020">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a1d9a5a32a73ebdcdb71afdd279e08691">eachShapeNode()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -6845,7 +6845,7 @@ template&lt;class AspectT &gt; </div>
 </div><div class="memdoc">
 
 <p>Return the list of ShapeNodes containing given Aspect. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000018">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a8f96c79309f7eec1b8ec4a0c912dd953" title="Iterates all the ShapeNodes that has a specific aspect. ">eachShapeNodeWith()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000021">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a8f96c79309f7eec1b8ec4a0c912dd953" title="Iterates all the ShapeNodes that has a specific aspect and invokes the callback function. ">eachShapeNodeWith()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -6867,7 +6867,7 @@ template&lt;class AspectT &gt; </div>
 </div><div class="memdoc">
 
 <p>Return the list of ShapeNodes containing given Aspect. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000019">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a8f96c79309f7eec1b8ec4a0c912dd953" title="Iterates all the ShapeNodes that has a specific aspect. ">eachShapeNodeWith()</a> instead. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000022">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a8f96c79309f7eec1b8ec4a0c912dd953" title="Iterates all the ShapeNodes that has a specific aspect and invokes the callback function. ">eachShapeNodeWith()</a> instead. </dd></dl>
 
 </div>
 </div>
@@ -8684,7 +8684,7 @@ template&lt;class AspectT &gt; </div>
 </div><div class="memdoc">
 
 <p>Set coefficient of friction in range of [0, ~]. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000012">Deprecated:</a></b></dt><dd>Deprecated since DART 6.10.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000015">Deprecated:</a></b></dt><dd>Deprecated since DART 6.10.</dd></dl>
 <p>Please set the friction coefficient per <a class="el" href="../../d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html">ShapeNode</a> of the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>. This will be removed in the next major release. </p>
 
 </div>
@@ -8974,7 +8974,7 @@ template&lt;class AspectT &gt; </div>
 </div><div class="memdoc">
 
 <p>Set coefficient of restitution in range of [0, 1]. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000014">Deprecated:</a></b></dt><dd>Deprecated since DART 6.10.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000017">Deprecated:</a></b></dt><dd>Deprecated since DART 6.10.</dd></dl>
 <p>Please set the restitution coefficient per <a class="el" href="../../d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html">ShapeNode</a> of the <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html" title="BodyNode class represents a single node of the skeleton. ">BodyNode</a>. This will be removed in the next major release. </p>
 
 </div>
@@ -10971,7 +10971,7 @@ template&lt;class JointType &gt; </div>
 </div><div class="memdoc">
 
 <p>Whether the node is currently in collision with another node. </p>
-<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000020">Deprecated:</a></b></dt><dd>DART_DEPRECATED(6.0) See #670 for more detail. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000023">Deprecated:</a></b></dt><dd>DART_DEPRECATED(6.0) See #670 for more detail. </dd></dl>
 
 </div>
 </div>
@@ -11882,7 +11882,7 @@ template&lt;class JointType &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html">dynamics</a></li><li class="navelem"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">BodyNode</a></li>
-    <li class="footer">Generated on Fri Jan 7 2022 20:47:55 for DART by
+    <li class="footer">Generated on Fri Jan 7 2022 21:13:49 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

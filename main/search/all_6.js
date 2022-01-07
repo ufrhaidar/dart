@@ -75,7 +75,7 @@ var searchData=
   ['frame_2ehpp',['Frame.hpp',['../d3/dae/Frame_8hpp.html',1,'']]],
   ['framechangedsignal',['FrameChangedSignal',['../d7/d42/classdart_1_1dynamics_1_1Entity.html#ad3c99542eb230994240e184424ff7335',1,'dart::dynamics::Entity']]],
   ['frameptrset',['FramePtrSet',['../d7/d5a/namespacedart_1_1dynamics.html#a932d96e287e22d44ace7fe96aa2e4069',1,'dart::dynamics']]],
-  ['free',['FREE',['../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a68cfbdf383a3d662b4a409353ed861e0a88c189a42c87aa49d667fc8ab76bc323',1,'dart::utils::MjcfParser::detail']]],
+  ['free',['Free',['../dc/d81/classdart_1_1common_1_1MemoryManager.html#a9ecf64fe5574f29a028d7af9b6325873ab24ce0cd392a5b0b8dedc66c25213594',1,'dart::common::MemoryManager::Free()'],['../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a68cfbdf383a3d662b4a409353ed861e0a88c189a42c87aa49d667fc8ab76bc323',1,'dart::utils::MjcfParser::detail::FREE()']]],
   ['freejoint',['FreeJoint',['../d3/df1/classdart_1_1dynamics_1_1FreeJoint.html',1,'dart::dynamics::FreeJoint'],['../d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#a204d737140fec81f4303615493813af0',1,'dart::dynamics::FreeJoint::FreeJoint(const FreeJoint &amp;)=delete'],['../d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#a12c44f7d939d1dfa7f8fabbcf3afc2fa',1,'dart::dynamics::FreeJoint::FreeJoint(const Properties &amp;properties)']]],
   ['freejoint_2ecpp',['FreeJoint.cpp',['../dd/d98/FreeJoint_8cpp.html',1,'']]],
   ['freejoint_2ehpp',['FreeJoint.hpp',['../d1/d8d/FreeJoint_8hpp.html',1,'']]],

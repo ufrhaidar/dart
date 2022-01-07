@@ -1,6 +1,7 @@
 var searchData=
 [
   ['ball',['BALL',['../dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a68cfbdf383a3d662b4a409353ed861e0a0fedd49e896d7082cf3c230b40371ae3',1,'dart::utils::MjcfParser::detail']]],
+  ['base',['Base',['../dc/d81/classdart_1_1common_1_1MemoryManager.html#a9ecf64fe5574f29a028d7af9b6325873a095a1b43effec73955e31e790438de49',1,'dart::common::MemoryManager']]],
   ['beyond_5fendpoints',['BEYOND_ENDPOINTS',['../d8/d96/namespacedart_1_1math.html#aa6dea7601b767f84a165bcdaf3c3a927ad29cba0b7fcfeffda98892d6ac27fa83',1,'dart::math']]],
   ['billboard_5fcircle',['BILLBOARD_CIRCLE',['../dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a87647f81ca2298a6419b5c8fba8026b2a44830069e30fc4c23bcd953b431f4c87',1,'dart::dynamics::PointCloudShape']]],
   ['billboard_5fsquare',['BILLBOARD_SQUARE',['../dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a87647f81ca2298a6419b5c8fba8026b2ab0ca7705c0e2fcca477af43fae4bf316',1,'dart::dynamics::PointCloudShape']]],

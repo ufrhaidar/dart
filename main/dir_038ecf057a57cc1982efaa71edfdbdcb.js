@@ -67,6 +67,13 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
     [ "MemoryAllocator.hpp", "dd/d64/MemoryAllocator_8hpp.html", [
       [ "MemoryAllocator", "d0/d74/classdart_1_1common_1_1MemoryAllocator.html", "d0/d74/classdart_1_1common_1_1MemoryAllocator" ]
     ] ],
+    [ "MemoryAllocatorDebugger.hpp", "dc/dde/MemoryAllocatorDebugger_8hpp.html", [
+      [ "MemoryAllocatorDebugger", "d9/db2/classdart_1_1common_1_1MemoryAllocatorDebugger.html", "d9/db2/classdart_1_1common_1_1MemoryAllocatorDebugger" ]
+    ] ],
+    [ "MemoryManager.cpp", "dd/dbc/MemoryManager_8cpp.html", "dd/dbc/MemoryManager_8cpp" ],
+    [ "MemoryManager.hpp", "d9/d4c/MemoryManager_8hpp.html", [
+      [ "MemoryManager", "dc/d81/classdart_1_1common_1_1MemoryManager.html", "dc/d81/classdart_1_1common_1_1MemoryManager" ]
+    ] ],
     [ "Metaprogramming.hpp", "da/d8e/Metaprogramming_8hpp.html", "da/d8e/Metaprogramming_8hpp" ],
     [ "NameManager.hpp", "d8/de1/NameManager_8hpp.html", [
       [ "NameManager", "d9/dc9/classdart_1_1common_1_1NameManager.html", "d9/dc9/classdart_1_1common_1_1NameManager" ]

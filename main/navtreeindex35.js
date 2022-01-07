@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#a227342f24d5d62fc76306301a7921a79":[3,0,0,8,4,24],
+"d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#a246afc16ee8bbec331187e709b1a2e02":[3,0,0,8,4,37],
 "d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#a265c7c1a31864e3f0b6721f995a276db":[3,0,0,8,4,11],
 "d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#a28c784c676becce01d7c4392478102dc":[3,0,0,8,4,40],
 "d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#a2b4c1c9612667ffe0f84fcf155b47813":[3,0,0,8,4,15],
@@ -51,8 +53,8 @@ var NAVTREEINDEX35 =
 "d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#af33b5d6bcf408eff837cc0968f1f4214":[3,0,0,8,4,29],
 "d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#af5af360ac4623c2f8ca07307d6f5cdab":[3,0,0,8,4,6],
 "d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#af65f2a4286b65c6c4ac903ddc7a2c726":[3,0,0,8,4,9],
-"d7/dbe/JointCoulombFrictionConstraint_8hpp.html":[4,0,0,2,24],
-"d7/dbe/JointCoulombFrictionConstraint_8hpp_source.html":[4,0,0,2,24],
+"d7/dbe/JointCoulombFrictionConstraint_8hpp.html":[4,0,0,2,25],
+"d7/dbe/JointCoulombFrictionConstraint_8hpp_source.html":[4,0,0,2,25],
 "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html":[3,0,0,1,0,5],
 "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#a0a9002a243c53bdfed2ef60cbf3239ad":[3,0,0,1,0,5,3],
 "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#a0b32eae6988dcc912741424361b45e2d":[3,0,0,1,0,5,13],
@@ -68,7 +70,7 @@ var NAVTREEINDEX35 =
 "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#abcb5fc37c710c51c5ccaafa749e4a2e8":[3,0,0,1,0,5,8],
 "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#ac62a3bd4535dccbbfc9a12f47ad61284":[3,0,0,1,0,5,12],
 "d7/dbe/classdart_1_1common_1_1detail_1_1CompositeData.html#ae90705b06c945f47f521d67b50ab7c3c":[3,0,0,1,0,5,6],
-"d7/dc0/ConstraintSolver_8cpp.html":[4,0,0,2,11],
+"d7/dc0/ConstraintSolver_8cpp.html":[4,0,0,2,12],
 "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html":[3,0,0,3,68],
 "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a017508f065842083d55856023786600e":[3,0,0,3,68,33],
 "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a11095f913d3c44e294c65a6de1263272":[3,0,0,3,68,13],
@@ -111,9 +113,9 @@ var NAVTREEINDEX35 =
 "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#aff4abb1d9f42271db94f6e08cc50502c":[3,0,0,3,68,22],
 "d7/dc3/FixedJacobianNode_8hpp.html":[4,0,0,3,36],
 "d7/dc3/FixedJacobianNode_8hpp_source.html":[4,0,0,3,36],
-"d7/dc4/Optional_8hpp.html":[4,0,0,1,34],
-"d7/dc4/Optional_8hpp.html#ae48ac50f62d6c599decd44dcaca5cd89":[4,0,0,1,34,0],
-"d7/dc4/Optional_8hpp_source.html":[4,0,0,1,34],
+"d7/dc4/Optional_8hpp.html":[4,0,0,1,37],
+"d7/dc4/Optional_8hpp.html#ae48ac50f62d6c599decd44dcaca5cd89":[4,0,0,1,37,0],
+"d7/dc4/Optional_8hpp_source.html":[4,0,0,1,37],
 "d7/dc5/namespacedart_1_1utils_1_1MjcfParser.html":[2,0,0,12,0],
 "d7/dc5/namespacedart_1_1utils_1_1MjcfParser.html":[3,0,0,11,0],
 "d7/dc6/BodyNode_8hpp.html":[4,0,0,3,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ace45301a660f8105a26a0410f0292968":[3,0,0,3,2,24],
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#acfa157609b596684398038765e2943db":[3,0,0,3,2,92],
 "d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ad0839111649737fa96e7e771eb0c7efb":[3,0,0,3,2,8],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ad15bb39e1a87467d91dfaa8b070b7a28":[3,0,0,3,2,67],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ad17cd8fb09091d770ea8af4ebde9b48c":[3,0,0,3,2,50],
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ad29339537e74df65b9f6167f78a4cf66":[3,0,0,3,2,1]
+"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#ad15bb39e1a87467d91dfaa8b070b7a28":[3,0,0,3,2,67]
 };

@@ -132,6 +132,8 @@ var searchData=
   ['_7emanagerforsharablecollisionobjects',['~ManagerForSharableCollisionObjects',['../d7/dde/classdart_1_1collision_1_1CollisionDetector_1_1ManagerForSharableCollisionObjects.html#ac48e4206c22cbaa424cd11b20cec4fc3',1,'dart::collision::CollisionDetector::ManagerForSharableCollisionObjects']]],
   ['_7emarker',['~Marker',['../db/d20/classdart_1_1dynamics_1_1Marker.html#a5d1503673bc5639e842acf43566c6307',1,'dart::dynamics::Marker']]],
   ['_7ememoryallocator',['~MemoryAllocator',['../d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a5b09b9e9322ed749995f4df31a27cae2',1,'dart::common::MemoryAllocator']]],
+  ['_7ememoryallocatordebugger',['~MemoryAllocatorDebugger',['../d9/db2/classdart_1_1common_1_1MemoryAllocatorDebugger.html#ac298ffc9e67a25b44e887347ca95ec2c',1,'dart::common::MemoryAllocatorDebugger']]],
+  ['_7ememorymanager',['~MemoryManager',['../dc/d81/classdart_1_1common_1_1MemoryManager.html#a10070d88d4bf6e7b64c2ef39c741b058',1,'dart::common::MemoryManager']]],
   ['_7emesh',['~Mesh',['../d5/d10/classdart_1_1math_1_1Mesh.html#a4e156bb64dff95921671bd8b3e075062',1,'dart::math::Mesh']]],
   ['_7emeshshape',['~MeshShape',['../d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#a979033c4045aca6d1916ff0aa0a909f6',1,'dart::dynamics::MeshShape']]],
   ['_7emeshshapegeode',['~MeshShapeGeode',['../de/d09/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeGeode.html#a2d5d953290563c7c14311fc54856d8b4',1,'dart::gui::osg::render::MeshShapeGeode']]],

@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('db/d18/Macros_8hpp.html','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;cassert&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../da/db4/Logging_8hpp_source.html">dart/common/Logging.hpp</a>&quot;</code><br />
 </div>
 <p><a href="../../db/d18/Macros_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -128,6 +129,8 @@ Macros</h2></td></tr>
 <tr class="separator:ab8a04a0cc583dfda1c51a58b4013479e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7608cdb647c2b5e72797db08082d77f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d18/Macros_8hpp.html#ad7608cdb647c2b5e72797db08082d77f">DART_ASSERT</a>(...)</td></tr>
 <tr class="separator:ad7608cdb647c2b5e72797db08082d77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab902835ff95657da49a17cca233dedfc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d18/Macros_8hpp.html#ab902835ff95657da49a17cca233dedfc">DART_NOT_IMPLEMENTED</a></td></tr>
+<tr class="separator:ab902835ff95657da49a17cca233dedfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ad7608cdb647c2b5e72797db08082d77f"></a>
@@ -145,8 +148,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../db/d18/Macros_8hpp.html#a685ec2eecfa8b90106d7e3c50aa2d03d">DART_CONCAT</a>(DETAIL_DART_ASSERT_, <a class="code" href="../../db/d18/Macros_8hpp.html#a16861a4c8e92e19357b707c2b591b2e5">DART_NUM_ARGS</a>(__VA_ARGS__))                 \</div><div class="line">  (__VA_ARGS__)</div><div class="ttc" id="Macros_8hpp_html_a16861a4c8e92e19357b707c2b591b2e5"><div class="ttname"><a href="../../db/d18/Macros_8hpp.html#a16861a4c8e92e19357b707c2b591b2e5">DART_NUM_ARGS</a></div><div class="ttdeci">#define DART_NUM_ARGS(...)</div><div class="ttdef"><b>Definition:</b> Macros.hpp:40</div></div>
-<div class="ttc" id="Macros_8hpp_html_a685ec2eecfa8b90106d7e3c50aa2d03d"><div class="ttname"><a href="../../db/d18/Macros_8hpp.html#a685ec2eecfa8b90106d7e3c50aa2d03d">DART_CONCAT</a></div><div class="ttdeci">#define DART_CONCAT(a, b)</div><div class="ttdef"><b>Definition:</b> Macros.hpp:45</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../db/d18/Macros_8hpp.html#a685ec2eecfa8b90106d7e3c50aa2d03d">DART_CONCAT</a>(DETAIL_DART_ASSERT_, <a class="code" href="../../db/d18/Macros_8hpp.html#a16861a4c8e92e19357b707c2b591b2e5">DART_NUM_ARGS</a>(__VA_ARGS__))                 \</div><div class="line">  (__VA_ARGS__)</div><div class="ttc" id="Macros_8hpp_html_a16861a4c8e92e19357b707c2b591b2e5"><div class="ttname"><a href="../../db/d18/Macros_8hpp.html#a16861a4c8e92e19357b707c2b591b2e5">DART_NUM_ARGS</a></div><div class="ttdeci">#define DART_NUM_ARGS(...)</div><div class="ttdef"><b>Definition:</b> Macros.hpp:42</div></div>
+<div class="ttc" id="Macros_8hpp_html_a685ec2eecfa8b90106d7e3c50aa2d03d"><div class="ttname"><a href="../../db/d18/Macros_8hpp.html#a685ec2eecfa8b90106d7e3c50aa2d03d">DART_CONCAT</a></div><div class="ttdeci">#define DART_CONCAT(a, b)</div><div class="ttdef"><b>Definition:</b> Macros.hpp:47</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -176,6 +179,21 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="ab902835ff95657da49a17cca233dedfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab902835ff95657da49a17cca233dedfc">&#9670;&nbsp;</a></span>DART_NOT_IMPLEMENTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DART_NOT_IMPLEMENTED</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../da/db4/Logging_8hpp.html#adf39def601bf027c82e4ae2d8be6d63f">DART_FATAL</a>(<span class="stringliteral">&quot;Not implemented: {}:{}&quot;</span>, __FILE__, __LINE__);                    \</div><div class="line">  void(0)</div><div class="ttc" id="Logging_8hpp_html_adf39def601bf027c82e4ae2d8be6d63f"><div class="ttname"><a href="../../da/db4/Logging_8hpp.html#adf39def601bf027c82e4ae2d8be6d63f">DART_FATAL</a></div><div class="ttdeci">#define DART_FATAL(...)</div><div class="ttdef"><b>Definition:</b> Logging.hpp:82</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a16861a4c8e92e19357b707c2b591b2e5"></a>
@@ -599,7 +617,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_038ecf057a57cc1982efaa71edfdbdcb.html">common</a></li><li class="navelem"><a class="el" href="../../db/d18/Macros_8hpp.html">Macros.hpp</a></li>
-    <li class="footer">Generated on Fri Jan 7 2022 20:47:53 for DART by
+    <li class="footer">Generated on Fri Jan 7 2022 21:13:48 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

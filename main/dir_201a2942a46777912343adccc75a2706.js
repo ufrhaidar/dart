@@ -34,6 +34,8 @@ var dir_201a2942a46777912343adccc75a2706 =
     [ "Logging-impl.hpp", "d2/d89/Logging-impl_8hpp.html", "d2/d89/Logging-impl_8hpp" ],
     [ "Memory-impl.hpp", "d2/d9e/Memory-impl_8hpp.html", "d2/d9e/Memory-impl_8hpp" ],
     [ "MemoryAllocator-impl.hpp", "d9/d04/MemoryAllocator-impl_8hpp.html", null ],
+    [ "MemoryAllocatorDebugger-impl.hpp", "d8/dda/MemoryAllocatorDebugger-impl_8hpp.html", null ],
+    [ "MemoryManager-impl.hpp", "d5/d3e/MemoryManager-impl_8hpp.html", null ],
     [ "Metaprogramming-impl.hpp", "db/d71/Metaprogramming-impl_8hpp.html", [
       [ "ambiguate", "d4/db7/structdart_1_1common_1_1detail_1_1ambiguate.html", null ],
       [ "got_type", "d5/d1a/structdart_1_1common_1_1detail_1_1got__type.html", null ],

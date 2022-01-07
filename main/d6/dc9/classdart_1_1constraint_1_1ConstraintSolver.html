@@ -167,6 +167,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a31edbe4b65655f94cf46746133e0f822"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a3ae5d631b2d6c8987428247b2cea65fb">constraint::ConstConstraintBasePtr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a31edbe4b65655f94cf46746133e0f822">getConstraints</a> () const</td></tr>
 <tr class="memdesc:a31edbe4b65655f94cf46746133e0f822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all the constraints added to this <a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html" title="ConstraintSolver manages constraints and computes constraint impulses. ">ConstraintSolver</a>.  <a href="#a31edbe4b65655f94cf46746133e0f822">More...</a><br /></td></tr>
 <tr class="separator:a31edbe4b65655f94cf46746133e0f822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee7be12abd6eeaef91b075869ddb59d1"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:aee7be12abd6eeaef91b075869ddb59d1"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#aee7be12abd6eeaef91b075869ddb59d1">eachConstraint</a> (Func func) const</td></tr>
+<tr class="memdesc:aee7be12abd6eeaef91b075869ddb59d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the constraints and invokes the callback function.  <a href="#aee7be12abd6eeaef91b075869ddb59d1">More...</a><br /></td></tr>
+<tr class="separator:aee7be12abd6eeaef91b075869ddb59d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad43c254f18ff2776e2e9672c6e3c4f35"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:ad43c254f18ff2776e2e9672c6e3c4f35"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#ad43c254f18ff2776e2e9672c6e3c4f35">eachConstraint</a> (Func func)</td></tr>
+<tr class="memdesc:ad43c254f18ff2776e2e9672c6e3c4f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all the constraints and invokes the callback function.  <a href="#ad43c254f18ff2776e2e9672c6e3c4f35">More...</a><br /></td></tr>
+<tr class="separator:ad43c254f18ff2776e2e9672c6e3c4f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e649dc2a2a57f84fbd0ecfdc2d839c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a0e649dc2a2a57f84fbd0ecfdc2d839c9">clearLastCollisionResult</a> ()</td></tr>
 <tr class="memdesc:a0e649dc2a2a57f84fbd0ecfdc2d839c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the last collision result.  <a href="#a0e649dc2a2a57f84fbd0ecfdc2d839c9">More...</a><br /></td></tr>
 <tr class="separator:a0e649dc2a2a57f84fbd0ecfdc2d839c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,8 +237,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a20b7107fc2db6877ef49130b61aaa1de"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a20b7107fc2db6877ef49130b61aaa1de">solveConstrainedGroup</a> (<a class="el" href="../../d6/db4/classdart_1_1constraint_1_1ConstrainedGroup.html">ConstrainedGroup</a> &amp;group)=0</td></tr>
 <tr class="separator:a20b7107fc2db6877ef49130b61aaa1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af077728017931d52566781f6de6167e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#af077728017931d52566781f6de6167e7">containSkeleton</a> (const <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a03ae028443aa91160079807d80e4ca10">dynamics::ConstSkeletonPtr</a> &amp;skeleton) const</td></tr>
-<tr class="memdesc:af077728017931d52566781f6de6167e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the skeleton is contained in this solver.  <a href="#af077728017931d52566781f6de6167e7">More...</a><br /></td></tr>
+<tr class="memdesc:af077728017931d52566781f6de6167e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the skeleton is contained in this solver.  <a href="#af077728017931d52566781f6de6167e7">More...</a><br /></td></tr>
 <tr class="separator:af077728017931d52566781f6de6167e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97995a7e2ff8c37a1fc193dfdf329ee4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a97995a7e2ff8c37a1fc193dfdf329ee4">hasSkeleton</a> (const <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a03ae028443aa91160079807d80e4ca10">dynamics::ConstSkeletonPtr</a> &amp;skeleton) const</td></tr>
+<tr class="memdesc:a97995a7e2ff8c37a1fc193dfdf329ee4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the skeleton is contained in this solver.  <a href="#a97995a7e2ff8c37a1fc193dfdf329ee4">More...</a><br /></td></tr>
+<tr class="separator:a97995a7e2ff8c37a1fc193dfdf329ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eaf9631bc00196d5f64ef4f6766d0b9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a4eaf9631bc00196d5f64ef4f6766d0b9">checkAndAddSkeleton</a> (const <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618">dynamics::SkeletonPtr</a> &amp;skeleton)</td></tr>
 <tr class="memdesc:a4eaf9631bc00196d5f64ef4f6766d0b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add skeleton if the constraint is not contained in this solver.  <a href="#a4eaf9631bc00196d5f64ef4f6766d0b9">More...</a><br /></td></tr>
 <tr class="separator:a4eaf9631bc00196d5f64ef4f6766d0b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -642,7 +653,76 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Check if the skeleton is contained in this solver. </p>
+<p>Checks if the skeleton is contained in this solver. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000011">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a97995a7e2ff8c37a1fc193dfdf329ee4" title="Checks if the skeleton is contained in this solver. ">hasSkeleton()</a> instead. </dd></dl>
+
+</div>
+</div>
+<a id="aee7be12abd6eeaef91b075869ddb59d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee7be12abd6eeaef91b075869ddb59d1">&#9670;&nbsp;</a></span>eachConstraint() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::constraint::ConstraintSolver::eachConstraint </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the constraints and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(const ConstraintBase*)</code> or <code>bool</code>(const ConstraintBase*). If you want to conditionally iterate, use <code>bool</code>(const ConstraintBase*) and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each <a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html" title="Constraint is a base class of concrete constraints classes. ">ConstraintBase</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad43c254f18ff2776e2e9672c6e3c4f35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad43c254f18ff2776e2e9672c6e3c4f35">&#9670;&nbsp;</a></span>eachConstraint() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::constraint::ConstraintSolver::eachConstraint </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Iterates all the constraints and invokes the callback function. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Func</td><td>The callback function type. The function signature should be equivalent to <code>void(ConstraintBase*)</code> or <code>bool(ConstraintBase*)</code>. If you want to conditionally iterate, use <code>bool(ConstraintBase*)</code> and return false when to stop iterating.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">func</td><td>The callback function to be called for each <a class="el" href="../../df/d29/classdart_1_1constraint_1_1ConstraintBase.html" title="Constraint is a base class of concrete constraints classes. ">ConstraintBase</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -816,6 +896,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns all the constraints added to this <a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html" title="ConstraintSolver manages constraints and computes constraint impulses. ">ConstraintSolver</a>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000009">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#aee7be12abd6eeaef91b075869ddb59d1" title="Iterates all the constraints and invokes the callback function. ">eachConstraint()</a> instead </dd></dl>
 
 </div>
 </div>
@@ -835,6 +916,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns all the constraints added to this <a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html" title="ConstraintSolver manages constraints and computes constraint impulses. ">ConstraintSolver</a>. </p>
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000010">Deprecated:</a></b></dt><dd>Use <a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#aee7be12abd6eeaef91b075869ddb59d1" title="Iterates all the constraints and invokes the callback function. ">eachConstraint()</a> instead </dd></dl>
 
 </div>
 </div>
@@ -949,6 +1031,34 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get time step. </p>
+
+</div>
+</div>
+<a id="a97995a7e2ff8c37a1fc193dfdf329ee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97995a7e2ff8c37a1fc193dfdf329ee4">&#9670;&nbsp;</a></span>hasSkeleton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::constraint::ConstraintSolver::hasSkeleton </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#a03ae028443aa91160079807d80e4ca10">dynamics::ConstSkeletonPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>skeleton</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the skeleton is contained in this solver. </p>
 
 </div>
 </div>
@@ -1640,7 +1750,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html">constraint</a></li><li class="navelem"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html">ConstraintSolver</a></li>
-    <li class="footer">Generated on Fri Jan 7 2022 20:47:54 for DART by
+    <li class="footer">Generated on Fri Jan 7 2022 21:13:49 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

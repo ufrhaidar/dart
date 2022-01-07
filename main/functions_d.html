@@ -136,11 +136,23 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 : <a class="el" href="d8/d3c/classdart_1_1integration_1_1RK4Integrator.html#afc40f3721c025af6f979b47b591187e9">dart::integration::RK4Integrator</a>
 </li>
 <li>deallocate()
-: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#a21a965197ff9012fad20ab9de4599ea0">dart::common::CAllocator</a>
-, <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#ac791f69a5d1f52b5aed034185a4e143c">dart::common::FreeListAllocator</a>
-, <a class="el" href="d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a7f3b55d2558ee5cf1378fe27ba8365fa">dart::common::MemoryAllocator</a>
-, <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a79f198e6f7bd45860f1c62bffbc12e3c">dart::common::PoolAllocator</a>
+: <a class="el" href="d2/dfb/classdart_1_1common_1_1CAllocator.html#a7e2771a1b4c389aa2675379ec35bf1b2">dart::common::CAllocator</a>
+, <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#afcc99447f036c4f863986f0cc736531e">dart::common::FreeListAllocator</a>
+, <a class="el" href="d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a7d2b76ac7efc4ba850e3ed88538b28a6">dart::common::MemoryAllocator</a>
+, <a class="el" href="d9/db2/classdart_1_1common_1_1MemoryAllocatorDebugger.html#a6398aced82a913d3338c9b66b16919f0">dart::common::MemoryAllocatorDebugger&lt; T &gt;</a>
+, <a class="el" href="dc/d81/classdart_1_1common_1_1MemoryManager.html#a9aea864f6ee99be8774f8231e9c803d6">dart::common::MemoryManager</a>
+, <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#a321b054c1ae32bbbd97faac2725bf909">dart::common::PoolAllocator</a>
 , <a class="el" href="d6/db1/classdart_1_1common_1_1StlAllocator.html#a74153950550a6c540fb3f38560a20640">dart::common::StlAllocator&lt; T &gt;</a>
+</li>
+<li>deallocateUsingFree()
+: <a class="el" href="dc/d81/classdart_1_1common_1_1MemoryManager.html#aeeb8f0e74da1b9b6f8472252f8e1cacb">dart::common::MemoryManager</a>
+</li>
+<li>deallocateUsingPool()
+: <a class="el" href="dc/d81/classdart_1_1common_1_1MemoryManager.html#ac658cd3422af9da2ec872223757020c3">dart::common::MemoryManager</a>
+</li>
+<li>Debug
+: <a class="el" href="de/dd0/classdart_1_1common_1_1FreeListAllocator.html#aacf4755a77a634ee2367f726f0c1c2f9">dart::common::FreeListAllocator</a>
+, <a class="el" href="d9/d32/classdart_1_1common_1_1PoolAllocator.html#af68ceffb53dfb7d1440d4b3a6214a650">dart::common::PoolAllocator</a>
 </li>
 <li>decrementReferenceCount()
 : <a class="el" href="d1/d38/classdart_1_1dynamics_1_1SkeletonRefCountingBase.html#af218ac340b5ce5e46fbf6d964678a751">dart::dynamics::SkeletonRefCountingBase</a>
@@ -220,8 +232,15 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 </li>
 <li>destroy()
 : <a class="el" href="d0/d74/classdart_1_1common_1_1MemoryAllocator.html#a729caadcd7a1a32f1ba9ac84457f4c91">dart::common::MemoryAllocator</a>
+, <a class="el" href="dc/d81/classdart_1_1common_1_1MemoryManager.html#acab5f628cf38c82201378bba39b17677">dart::common::MemoryManager</a>
 , <a class="el" href="dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#a41d41f378070a67388921e42e09a6a5e">dart::gui::OpenGLRenderInterface</a>
 , <a class="el" href="d2/d6f/classdart_1_1gui_1_1RenderInterface.html#af76cc8f6df821f4374a2f4b1da6b6fb4">dart::gui::RenderInterface</a>
+</li>
+<li>destroyUsingFree()
+: <a class="el" href="dc/d81/classdart_1_1common_1_1MemoryManager.html#ae08e95cae4c21899196d31ce441e6086">dart::common::MemoryManager</a>
+</li>
+<li>destroyUsingPool()
+: <a class="el" href="dc/d81/classdart_1_1common_1_1MemoryManager.html#a3cc706ba5caa69dc1c2947b6671708e4">dart::common::MemoryManager</a>
 </li>
 <li>destructOldTree()
 : <a class="el" href="d3/d19/classdart_1_1dynamics_1_1Skeleton.html#ab71217fb8414c98258070b34912a1a08">dart::dynamics::Skeleton</a>
@@ -319,7 +338,7 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 <li>distance()
 : <a class="el" href="d1/d61/classdart_1_1collision_1_1BulletCollisionDetector.html#aba6de4f1347790f5e603796431bef513">dart::collision::BulletCollisionDetector</a>
 , <a class="el" href="d6/de8/classdart_1_1collision_1_1CollisionDetector.html#a2e0cee9355917c689161136ef934c1fa">dart::collision::CollisionDetector</a>
-, <a class="el" href="d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#a7fdc96d4ed487119db03c2528148dc17">dart::collision::CollisionGroup</a>
+, <a class="el" href="d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#a632910a4e7fceb9021fe840109b1a0e7">dart::collision::CollisionGroup</a>
 , <a class="el" href="dd/d2f/classdart_1_1collision_1_1DARTCollisionDetector.html#a8bf65565a2a7c56899f11df51e16db6d">dart::collision::DARTCollisionDetector</a>
 , <a class="el" href="d1/dce/classdart_1_1collision_1_1FCLCollisionDetector.html#af83fcfdac6806348f67e31802983fc38">dart::collision::FCLCollisionDetector</a>
 , <a class="el" href="de/db9/classdart_1_1collision_1_1OdeCollisionDetector.html#ae153942ef9a8bc2a16b7d74c247838f9">dart::collision::OdeCollisionDetector</a>
@@ -493,7 +512,7 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 : <a class="el" href="db/d9f/classdart_1_1constraint_1_1DynamicJointConstraint.html#a5f7ee528844dbe6fbac7fa860649b885">dart::constraint::DynamicJointConstraint</a>
 </li>
 <li>DynamicsAspect()
-: <a class="el" href="d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a4f73f04a953cfd419b60e9b46ffbc018">dart::dynamics::DynamicsAspect</a>
+: <a class="el" href="d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a6669ef448e15b438dd5b1c2a64e1d165">dart::dynamics::DynamicsAspect</a>
 </li>
 <li>DynamicsAspectProperties()
 : <a class="el" href="dd/da1/structdart_1_1dynamics_1_1detail_1_1DynamicsAspectProperties.html#ac9e82af1366f42339890dd80043658eb">dart::dynamics::detail::DynamicsAspectProperties</a>
@@ -504,7 +523,7 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jan 7 2022 20:47:58 for DART by
+    <li class="footer">Generated on Fri Jan 7 2022 21:13:53 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
