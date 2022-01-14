@@ -1,6 +1,7 @@
 var classdart_1_1constraint_1_1ContactConstraint =
 [
     [ "TangentBasisMatrix", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#adf28a4044b57a28a3c6d72484ed34c2f", null ],
+    [ "ContactConstraint", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a52d4a5f6e192c8856cbe03ea33b0b8e3", null ],
     [ "ContactConstraint", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#aedf3ef582a1bae5e86b7ae3d58dd186c", null ],
     [ "~ContactConstraint", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ac19d6ed8c78c8b3f97b8072d086e95f8", null ],
     [ "applyImpulse", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a4ef55b2fb35f5343a0c20f342ab4266e", null ],
@@ -45,12 +46,14 @@ var classdart_1_1constraint_1_1ContactConstraint =
     [ "updateFirstFrictionalDirection", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a7ac6e5ebc84151ef623faa22db786174", null ],
     [ "ConstrainedGroup", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a6410a06e07dfc729a6b7c1b05a207ef5", null ],
     [ "ConstraintSolver", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a9604aeb393ba731519e459cdd02b09ff", null ],
+    [ "DefaultContactSurfaceHandler", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a44694722d08915ba63584e96e3e6b094", null ],
     [ "mActive", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a43f1cac425a43e8c133fe498e7f7d2d6", null ],
     [ "mAppliedImpulseIndex", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ab2c2bd7a11ab53da81e835ca12473b6a", null ],
     [ "mBodyNodeA", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ab7fdaa8572325e1a538b5eebb886d0bd", null ],
     [ "mBodyNodeB", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ae5583a0a184f8138d9db5ea432cf6b31", null ],
     [ "mConstraintForceMixing", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ae47c5441f4c48ab58b3a1440585ed023", null ],
     [ "mContact", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a9679c6a1e0e52f95bac061b029e67ad3", null ],
+    [ "mContactSurfaceMotionVelocity", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a150dabc4faac8a406e1b6cbc5fa2a106", null ],
     [ "mDim", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a2af10036c25d9109ff568ee7776c55a0", null ],
     [ "mErrorAllowance", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#ac7e4956ad4f6c2ed7a59beff1fccd344", null ],
     [ "mErrorReductionParameter", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a8029beb76abbd99884fa2c2e084c6d0f", null ],

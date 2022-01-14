@@ -123,9 +123,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html">ContactConstraint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html" title="ContactConstraint represents a contact constraint between two bodies. ">ContactConstraint</a> represents a contact constraint between two bodies.  <a href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class used to determine the properties of a contact constraint based on the two colliding bodies and information about their contact.  <a href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html">ContactSurfaceParams</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computed parameters of the contact surface.  <a href="../../de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddf/classdart_1_1constraint_1_1DantzigBoxedLcpSolver.html">DantzigBoxedLcpSolver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d57/classdart_1_1constraint_1_1DantzigLCPSolver.html">DantzigLCPSolver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d42/classdart_1_1constraint_1_1DefaultContactSurfaceHandler.html">DefaultContactSurfaceHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default contact surface handler.  <a href="../../de/d42/classdart_1_1constraint_1_1DefaultContactSurfaceHandler.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/classdart_1_1constraint_1_1DynamicJointConstraint.html">DynamicJointConstraint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for joint constraints that are being created or destructed during simulation.  <a href="../../db/d9f/classdart_1_1constraint_1_1DynamicJointConstraint.html#details">More...</a><br /></td></tr>
@@ -207,6 +216,14 @@ Typedefs</h2></td></tr>
 <tr class="separator:a9c600b04ddf304336c92e6f752deb7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad538e9dfe143c54c0d7dcc0486c3bbb0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#ad538e9dfe143c54c0d7dcc0486c3bbb0">WeakConstContactConstraintPtr</a> = std::weak_ptr&lt; const <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html">ContactConstraint</a> &gt;</td></tr>
 <tr class="separator:ad538e9dfe143c54c0d7dcc0486c3bbb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5729a640cb6d60be7c473dfafe466d0b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a> = std::shared_ptr&lt; <a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a> &gt;</td></tr>
+<tr class="separator:a5729a640cb6d60be7c473dfafe466d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3ffaa6d1d64adcc264b83a04c4fb17"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a7b3ffaa6d1d64adcc264b83a04c4fb17">ConstContactSurfaceHandlerPtr</a> = std::shared_ptr&lt; const <a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a> &gt;</td></tr>
+<tr class="separator:a7b3ffaa6d1d64adcc264b83a04c4fb17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff983eec095b41f78d77c0590654d16c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#aff983eec095b41f78d77c0590654d16c">WeakContactSurfaceHandlerPtr</a> = std::weak_ptr&lt; <a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a> &gt;</td></tr>
+<tr class="separator:aff983eec095b41f78d77c0590654d16c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f9ede75336fcf3e5e25aa0705b6ed38"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a2f9ede75336fcf3e5e25aa0705b6ed38">WeakConstContactSurfaceHandlerPtr</a> = std::weak_ptr&lt; const <a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a> &gt;</td></tr>
+<tr class="separator:a2f9ede75336fcf3e5e25aa0705b6ed38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb9403286439e588f177c91f6cc1b44b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#adb9403286439e588f177c91f6cc1b44b">SoftContactConstraintPtr</a> = std::shared_ptr&lt; <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html">SoftContactConstraint</a> &gt;</td></tr>
 <tr class="separator:adb9403286439e588f177c91f6cc1b44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae51cf4ebf0637e2cef700c7cc4f06105"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#ae51cf4ebf0637e2cef700c7cc4f06105">ConstSoftContactConstraintPtr</a> = std::shared_ptr&lt; const <a class="el" href="../../d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html">SoftContactConstraint</a> &gt;</td></tr>
@@ -333,6 +350,8 @@ Variables</h2></td></tr>
 <tr class="separator:abe6f8361a1ae2ed2b416b56e3c38d00c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea1a2ed0e1f9361d41ad5211eb587bee"><td class="memItemLeft" align="right" valign="top">const Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#aea1a2ed0e1f9361d41ad5211eb587bee">DART_DEFAULT_FRICTION_DIR</a> = Eigen::Vector3d::UnitZ()</td></tr>
 <tr class="separator:aea1a2ed0e1f9361d41ad5211eb587bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dbdc4a87fe39cc54eeade0129ac6fff"><td class="memItemLeft" align="right" valign="top">const Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a8dbdc4a87fe39cc54eeade0129ac6fff">DART_DEFAULT_CONTACT_SURFACE_MOTION_VELOCITY</a> = Eigen::Vector3d::Zero()</td></tr>
+<tr class="separator:a8dbdc4a87fe39cc54eeade0129ac6fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a766adb46770b93d88f3f44e7804a4453"></a>
@@ -497,6 +516,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a05f745ccf54b76f23a2442f5bb98f6a4">dart::constraint::ConstContactConstraintPtr</a> = typedef std::shared_ptr&lt;const <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html">ContactConstraint</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b3ffaa6d1d64adcc264b83a04c4fb17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b3ffaa6d1d64adcc264b83a04c4fb17">&#9670;&nbsp;</a></span>ConstContactSurfaceHandlerPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a7b3ffaa6d1d64adcc264b83a04c4fb17">dart::constraint::ConstContactSurfaceHandlerPtr</a> = typedef std::shared_ptr&lt;const <a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a> &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -693,6 +726,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5be6b5c1132cc919959550b5ef668fd3">dart::constraint::ContactConstraintPtr</a> = typedef std::shared_ptr&lt; <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html">ContactConstraint</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5729a640cb6d60be7c473dfafe466d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5729a640cb6d60be7c473dfafe466d0b">&#9670;&nbsp;</a></span>ContactSurfaceHandlerPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">dart::constraint::ContactSurfaceHandlerPtr</a> = typedef std::shared_ptr&lt; <a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a> &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1021,6 +1068,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2f9ede75336fcf3e5e25aa0705b6ed38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f9ede75336fcf3e5e25aa0705b6ed38">&#9670;&nbsp;</a></span>WeakConstContactSurfaceHandlerPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a2f9ede75336fcf3e5e25aa0705b6ed38">dart::constraint::WeakConstContactSurfaceHandlerPtr</a> = typedef std::weak_ptr&lt;const <a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aff6c8f5501c8d890bf5bf23a889c3421"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aff6c8f5501c8d890bf5bf23a889c3421">&#9670;&nbsp;</a></span>WeakConstDynamicJointConstraintPtr</h2>
 
@@ -1211,6 +1272,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a9c600b04ddf304336c92e6f752deb7cd">dart::constraint::WeakContactConstraintPtr</a> = typedef std::weak_ptr&lt; <a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html">ContactConstraint</a> &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff983eec095b41f78d77c0590654d16c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff983eec095b41f78d77c0590654d16c">&#9670;&nbsp;</a></span>WeakContactSurfaceHandlerPtr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#aff983eec095b41f78d77c0590654d16c">dart::constraint::WeakContactSurfaceHandlerPtr</a> = typedef std::weak_ptr&lt; <a class="el" href="../../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html">ContactSurfaceHandler</a> &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1549,6 +1624,20 @@ template&lt;typename PointMassT , typename SoftBodyNodeT &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a8dbdc4a87fe39cc54eeade0129ac6fff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dbdc4a87fe39cc54eeade0129ac6fff">&#9670;&nbsp;</a></span>DART_DEFAULT_CONTACT_SURFACE_MOTION_VELOCITY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const Eigen::Vector3d dart::constraint::DART_DEFAULT_CONTACT_SURFACE_MOTION_VELOCITY = Eigen::Vector3d::Zero()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a84ca081c5d45d39456a6c74ca1e34382"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a84ca081c5d45d39456a6c74ca1e34382">&#9670;&nbsp;</a></span>DART_DEFAULT_FRICTION_COEFF</h2>
 
@@ -1611,7 +1700,7 @@ template&lt;typename PointMassT , typename SoftBodyNodeT &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html">constraint</a></li>
-    <li class="footer">Generated on Sat Jan 8 2022 00:47:09 for DART by
+    <li class="footer">Generated on Fri Jan 14 2022 20:41:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

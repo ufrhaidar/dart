@@ -1,6 +1,7 @@
 var searchData=
 [
   ['dampingcoefficient',['dampingCoefficient',['../d8/d35/SkelParser_8cpp.html#a25230d663729295b78232c493956fd51',1,'SkelParser.cpp']]],
+  ['dart_5fdefault_5fcontact_5fsurface_5fmotion_5fvelocity',['DART_DEFAULT_CONTACT_SURFACE_MOTION_VELOCITY',['../dd/d6c/namespacedart_1_1constraint.html#a8dbdc4a87fe39cc54eeade0129ac6fff',1,'dart::constraint']]],
   ['dart_5fdefault_5fdamping_5fcoeff',['DART_DEFAULT_DAMPING_COEFF',['../d7/d5a/namespacedart_1_1dynamics.html#a1e2f2ee08c480b9bf178428e48a371af',1,'dart::dynamics']]],
   ['dart_5fdefault_5fedge_5fstifness',['DART_DEFAULT_EDGE_STIFNESS',['../d7/d5a/namespacedart_1_1dynamics.html#afbdb878a4b3b904685b455b2c368a0ff',1,'dart::dynamics']]],
   ['dart_5fdefault_5ffriction_5fcoeff',['DART_DEFAULT_FRICTION_COEFF',['../dd/d6c/namespacedart_1_1constraint.html#a84ca081c5d45d39456a6c74ca1e34382',1,'dart::constraint::DART_DEFAULT_FRICTION_COEFF()'],['../d7/d5a/namespacedart_1_1dynamics.html#a2bf1880222d199764458d14155b0aeeb',1,'dart::dynamics::DART_DEFAULT_FRICTION_COEFF()']]],

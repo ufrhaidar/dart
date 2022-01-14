@@ -236,6 +236,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5713bcc2d76e4b624924003e40652411"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a5713bcc2d76e4b624924003e40652411">setFromOtherConstraintSolver</a> (const <a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html">ConstraintSolver</a> &amp;other)</td></tr>
 <tr class="memdesc:a5713bcc2d76e4b624924003e40652411"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this constraint solver using other constraint solver.  <a href="#a5713bcc2d76e4b624924003e40652411">More...</a><br /></td></tr>
 <tr class="separator:a5713bcc2d76e4b624924003e40652411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b700c5f30dc6c33a4d0d796539f9bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a06b700c5f30dc6c33a4d0d796539f9bc">getLastContactSurfaceHandler</a> () const</td></tr>
+<tr class="memdesc:a06b700c5f30dc6c33a4d0d796539f9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the handler used for computing contact surface parameters based on the contact properties of the two colliding bodies.  <a href="#a06b700c5f30dc6c33a4d0d796539f9bc">More...</a><br /></td></tr>
+<tr class="separator:a06b700c5f30dc6c33a4d0d796539f9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c68e1c29a57619f6fb8aa5d3239f1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a17c68e1c29a57619f6fb8aa5d3239f1e">addContactSurfaceHandler</a> (<a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a> handler)</td></tr>
+<tr class="memdesc:a17c68e1c29a57619f6fb8aa5d3239f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the handler used for computing contact surface parameters based on the contact properties of the two colliding bodies.  <a href="#a17c68e1c29a57619f6fb8aa5d3239f1e">More...</a><br /></td></tr>
+<tr class="separator:a17c68e1c29a57619f6fb8aa5d3239f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec03f5e3db61949a0894b471889e54a7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#aec03f5e3db61949a0894b471889e54a7">removeContactSurfaceHandler</a> (const <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a> &amp;handler)</td></tr>
+<tr class="memdesc:aec03f5e3db61949a0894b471889e54a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the given contact surface handler.  <a href="#aec03f5e3db61949a0894b471889e54a7">More...</a><br /></td></tr>
+<tr class="separator:aec03f5e3db61949a0894b471889e54a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
 Protected Types</h2></td></tr>
@@ -366,6 +375,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aadfc1f1c90fb9eecc5c78373d962c6fb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d6/db4/classdart_1_1constraint_1_1ConstrainedGroup.html">ConstrainedGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#aadfc1f1c90fb9eecc5c78373d962c6fb">mConstrainedGroups</a></td></tr>
 <tr class="memdesc:aadfc1f1c90fb9eecc5c78373d962c6fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constraint group list.  <a href="#aadfc1f1c90fb9eecc5c78373d962c6fb">More...</a><br /></td></tr>
 <tr class="separator:aadfc1f1c90fb9eecc5c78373d962c6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d21bcbb09ec941cd2a06b4e816ed23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a86d21bcbb09ec941cd2a06b4e816ed23">mContactSurfaceHandler</a></td></tr>
+<tr class="memdesc:a86d21bcbb09ec941cd2a06b4e816ed23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Factory for <a class="el" href="../../de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html" title="Computed parameters of the contact surface. ">ContactSurfaceParams</a> for each contact.  <a href="#a86d21bcbb09ec941cd2a06b4e816ed23">More...</a><br /></td></tr>
+<tr class="separator:a86d21bcbb09ec941cd2a06b4e816ed23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -556,6 +568,35 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add a constraint. </p>
+
+</div>
+</div>
+<a id="a17c68e1c29a57619f6fb8aa5d3239f1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c68e1c29a57619f6fb8aa5d3239f1e">&#9670;&nbsp;</a></span>addContactSurfaceHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::constraint::ConstraintSolver::addContactSurfaceHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a>&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the handler used for computing contact surface parameters based on the contact properties of the two colliding bodies. </p>
+<p>This function automatically sets the previous handler as parent of the given handler. </p>
 
 </div>
 </div>
@@ -1213,6 +1254,33 @@ template&lt;typename Func &gt; </div>
 
 </div>
 </div>
+<a id="a06b700c5f30dc6c33a4d0d796539f9bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06b700c5f30dc6c33a4d0d796539f9bc">&#9670;&nbsp;</a></span>getLastContactSurfaceHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a> dart::constraint::ConstraintSolver::getLastContactSurfaceHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the handler used for computing contact surface parameters based on the contact properties of the two colliding bodies. </p>
+
+</div>
+</div>
 <a id="af1d2e0c51c0e57cffd3e5c3e67e13bb3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1d2e0c51c0e57cffd3e5c3e67e13bb3">&#9670;&nbsp;</a></span>getLCPSolver()</h2>
 
@@ -1637,6 +1705,35 @@ template&lt;typename Func &gt; </div>
 </div><div class="memdoc">
 
 <p>Remove a constraint. </p>
+
+</div>
+</div>
+<a id="aec03f5e3db61949a0894b471889e54a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec03f5e3db61949a0894b471889e54a7">&#9670;&nbsp;</a></span>removeContactSurfaceHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool dart::constraint::ConstraintSolver::removeContactSurfaceHandler </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a> &amp;&#160;</td>
+          <td class="paramname"><em>handler</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Remove the given contact surface handler. </p>
+<p>If it is not the last in the chain of handlers, the neighbor handlers are automatically connected when the given handler is removed. This function returns true when the given handler was found. It returns false when the handler is not found. The search procedure utilizes pointer equality (i.e. the shared pointers have to point to the same address to be treated equal). Take special care to make sure at least one handler is always available. </p>
 
 </div>
 </div>
@@ -2282,6 +2379,30 @@ template&lt;typename Func &gt; </div>
 
 </div>
 </div>
+<a id="a86d21bcbb09ec941cd2a06b4e816ed23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d21bcbb09ec941cd2a06b4e816ed23">&#9670;&nbsp;</a></span>mContactSurfaceHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html#a5729a640cb6d60be7c473dfafe466d0b">ContactSurfaceHandlerPtr</a> dart::constraint::ConstraintSolver::mContactSurfaceHandler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Factory for <a class="el" href="../../de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html" title="Computed parameters of the contact surface. ">ContactSurfaceParams</a> for each contact. </p>
+
+</div>
+</div>
 <a id="ac80c55a824f51788aa631ab31dea16b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac80c55a824f51788aa631ab31dea16b0">&#9670;&nbsp;</a></span>mFIndex</h2>
 
@@ -2720,7 +2841,7 @@ template&lt;typename Func &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html">constraint</a></li><li class="navelem"><a class="el" href="../../d3/d2a/classdart_1_1constraint_1_1BoxedLcpConstraintSolver.html">BoxedLcpConstraintSolver</a></li>
-    <li class="footer">Generated on Sat Jan 8 2022 00:47:09 for DART by
+    <li class="footer">Generated on Fri Jan 14 2022 20:41:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

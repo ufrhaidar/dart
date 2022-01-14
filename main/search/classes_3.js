@@ -13,6 +13,7 @@ var searchData=
   ['dcontactgeom',['dContactGeom',['../d9/dea/structdart_1_1collision_1_1dContactGeom.html',1,'dart::collision']]],
   ['default',['Default',['../dd/d30/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Default.html',1,'dart::utils::MjcfParser::detail']]],
   ['defaultcombiner',['DefaultCombiner',['../df/d24/structdart_1_1common_1_1signal_1_1detail_1_1DefaultCombiner.html',1,'dart::common::signal::detail']]],
+  ['defaultcontactsurfacehandler',['DefaultContactSurfaceHandler',['../de/d42/classdart_1_1constraint_1_1DefaultContactSurfaceHandler.html',1,'dart::constraint']]],
   ['defaultcreator',['DefaultCreator',['../da/d83/structdart_1_1common_1_1detail_1_1DefaultCreator.html',1,'dart::common::detail']]],
   ['defaultcreator_3c_20t_2c_20std_3a_3ashared_5fptr_3c_20t_20_3e_2c_20args_2e_2e_2e_20_3e',['DefaultCreator&lt; T, std::shared_ptr&lt; T &gt;, Args... &gt;',['../dd/d83/structdart_1_1common_1_1detail_1_1DefaultCreator_3_01T_00_01std_1_1shared__ptr_3_01T_01_4_00_01Args_8_8_8_01_4.html',1,'dart::common::detail']]],
   ['defaultcreator_3c_20t_2c_20std_3a_3aunique_5fptr_3c_20t_20_3e_2c_20args_2e_2e_2e_20_3e',['DefaultCreator&lt; T, std::unique_ptr&lt; T &gt;, Args... &gt;',['../de/d35/structdart_1_1common_1_1detail_1_1DefaultCreator_3_01T_00_01std_1_1unique__ptr_3_01T_01_4_00_01Args_8_8_8_01_4.html',1,'dart::common::detail']]],

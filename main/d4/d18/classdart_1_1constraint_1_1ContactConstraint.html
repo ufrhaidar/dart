@@ -119,6 +119,9 @@ Inheritance diagram for dart::constraint::ContactConstraint:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a52d4a5f6e192c8856cbe03ea33b0b8e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a52d4a5f6e192c8856cbe03ea33b0b8e3">ContactConstraint</a> (<a class="el" href="../../db/d36/structdart_1_1collision_1_1Contact.html">collision::Contact</a> &amp;contact, double timeStep, const <a class="el" href="../../de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html">ContactSurfaceParams</a> &amp;contactSurfaceParams)</td></tr>
+<tr class="memdesc:a52d4a5f6e192c8856cbe03ea33b0b8e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a52d4a5f6e192c8856cbe03ea33b0b8e3">More...</a><br /></td></tr>
+<tr class="separator:a52d4a5f6e192c8856cbe03ea33b0b8e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedf3ef582a1bae5e86b7ae3d58dd186c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#aedf3ef582a1bae5e86b7ae3d58dd186c">ContactConstraint</a> (<a class="el" href="../../db/d36/structdart_1_1collision_1_1Contact.html">collision::Contact</a> &amp;contact, double timeStep)</td></tr>
 <tr class="memdesc:aedf3ef582a1bae5e86b7ae3d58dd186c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#aedf3ef582a1bae5e86b7ae3d58dd186c">More...</a><br /></td></tr>
 <tr class="separator:aedf3ef582a1bae5e86b7ae3d58dd186c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,7 +280,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a9c94c2892c71a104dd2fca259419888d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary Coefficient of Friction.  <a href="#a9c94c2892c71a104dd2fca259419888d">More...</a><br /></td></tr>
 <tr class="separator:a9c94c2892c71a104dd2fca259419888d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af434115d25a7a5e1b4d00da7cc764fc3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#af434115d25a7a5e1b4d00da7cc764fc3">mSecondaryFrictionCoeff</a></td></tr>
-<tr class="memdesc:af434115d25a7a5e1b4d00da7cc764fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary Coefficient of Friction.  <a href="#af434115d25a7a5e1b4d00da7cc764fc3">More...</a><br /></td></tr>
+<tr class="memdesc:af434115d25a7a5e1b4d00da7cc764fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Secondary Coefficient of Friction.  <a href="#af434115d25a7a5e1b4d00da7cc764fc3">More...</a><br /></td></tr>
 <tr class="separator:af434115d25a7a5e1b4d00da7cc764fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a537cec1e99a9400782929f2f1a9bb5b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a537cec1e99a9400782929f2f1a9bb5b3">mPrimarySlipCompliance</a></td></tr>
 <tr class="memdesc:a537cec1e99a9400782929f2f1a9bb5b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary Coefficient of Slip Compliance.  <a href="#a537cec1e99a9400782929f2f1a9bb5b3">More...</a><br /></td></tr>
@@ -288,6 +291,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acf84778e25fc924fb6bfb89f206abe7b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#acf84778e25fc924fb6bfb89f206abe7b">mRestitutionCoeff</a></td></tr>
 <tr class="memdesc:acf84778e25fc924fb6bfb89f206abe7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coefficient of restitution.  <a href="#acf84778e25fc924fb6bfb89f206abe7b">More...</a><br /></td></tr>
 <tr class="separator:acf84778e25fc924fb6bfb89f206abe7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a150dabc4faac8a406e1b6cbc5fa2a106"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a150dabc4faac8a406e1b6cbc5fa2a106">mContactSurfaceMotionVelocity</a></td></tr>
+<tr class="memdesc:a150dabc4faac8a406e1b6cbc5fa2a106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity of the contact independent of friction x = vel.  <a href="#a150dabc4faac8a406e1b6cbc5fa2a106">More...</a><br /></td></tr>
+<tr class="separator:a150dabc4faac8a406e1b6cbc5fa2a106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec35faf28a667d82336a4bdf839579a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#aec35faf28a667d82336a4bdf839579a5">mIsSelfCollision</a></td></tr>
 <tr class="memdesc:aec35faf28a667d82336a4bdf839579a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this contact is self-collision.  <a href="#aec35faf28a667d82336a4bdf839579a5">More...</a><br /></td></tr>
 <tr class="separator:aec35faf28a667d82336a4bdf839579a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -328,6 +334,8 @@ Friends</h2></td></tr>
 <tr class="separator:a9604aeb393ba731519e459cdd02b09ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6410a06e07dfc729a6b7c1b05a207ef5"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a6410a06e07dfc729a6b7c1b05a207ef5">ConstrainedGroup</a></td></tr>
 <tr class="separator:a6410a06e07dfc729a6b7c1b05a207ef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44694722d08915ba63584e96e3e6b094"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a44694722d08915ba63584e96e3e6b094">DefaultContactSurfaceHandler</a></td></tr>
+<tr class="separator:a44694722d08915ba63584e96e3e6b094"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html" title="ContactConstraint represents a contact constraint between two bodies. ">ContactConstraint</a> represents a contact constraint between two bodies. </p>
@@ -355,8 +363,44 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a52d4a5f6e192c8856cbe03ea33b0b8e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52d4a5f6e192c8856cbe03ea33b0b8e3">&#9670;&nbsp;</a></span>ContactConstraint() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">dart::constraint::ContactConstraint::ContactConstraint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d36/structdart_1_1collision_1_1Contact.html">collision::Contact</a> &amp;&#160;</td>
+          <td class="paramname"><em>contact</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>timeStep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="../../de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html">ContactSurfaceParams</a> &amp;&#160;</td>
+          <td class="paramname"><em>contactSurfaceParams</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
 <a id="aedf3ef582a1bae5e86b7ae3d58dd186c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedf3ef582a1bae5e86b7ae3d58dd186c">&#9670;&nbsp;</a></span>ContactConstraint()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aedf3ef582a1bae5e86b7ae3d58dd186c">&#9670;&nbsp;</a></span>ContactConstraint() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1556,6 +1600,28 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a44694722d08915ba63584e96e3e6b094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44694722d08915ba63584e96e3e6b094">&#9670;&nbsp;</a></span>DefaultContactSurfaceHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../de/d42/classdart_1_1constraint_1_1DefaultContactSurfaceHandler.html">DefaultContactSurfaceHandler</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a43f1cac425a43e8c133fe498e7f7d2d6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43f1cac425a43e8c133fe498e7f7d2d6">&#9670;&nbsp;</a></span>mActive</h2>
@@ -1697,6 +1763,31 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Contact between mBodyNode1 and mBodyNode2. </p>
+
+</div>
+</div>
+<a id="a150dabc4faac8a406e1b6cbc5fa2a106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a150dabc4faac8a406e1b6cbc5fa2a106">&#9670;&nbsp;</a></span>mContactSurfaceMotionVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Eigen::Vector3d dart::constraint::ContactConstraint::mContactSurfaceMotionVelocity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Velocity of the contact independent of friction x = vel. </p>
+<p>in direction of contact normal y = vel. in first friction direction z = vel. in second friction direction </p>
 
 </div>
 </div>
@@ -1981,7 +2072,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Primary Coefficient of Friction. </p>
+<p>Secondary Coefficient of Friction. </p>
 
 </div>
 </div>
@@ -2087,7 +2178,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6c/namespacedart_1_1constraint.html">constraint</a></li><li class="navelem"><a class="el" href="../../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html">ContactConstraint</a></li>
-    <li class="footer">Generated on Sat Jan 8 2022 00:47:09 for DART by
+    <li class="footer">Generated on Fri Jan 14 2022 20:41:16 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

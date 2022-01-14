@@ -232,6 +232,7 @@ var searchData=
   ['setoutstream',['setOutStream',['../d0/d68/classdart_1_1optimizer_1_1Solver.html#a246afc16ee8bbec331187e709b1a2e02',1,'dart::optimizer::Solver']]],
   ['setoverallcolor',['setOverallColor',['../dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#ac30113f8ad141a65454a361c2867eacf',1,'dart::dynamics::PointCloudShape']]],
   ['setparameter',['setParameter',['../d6/d91/classdart_1_1dynamics_1_1Inertia.html#a0d14e1d586bba1fe5a1baf1fbdf8cc82',1,'dart::dynamics::Inertia']]],
+  ['setparent',['setParent',['../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html#a05f0c47f88ec069f6ebcb3c0d15988a1',1,'dart::constraint::ContactSurfaceHandler']]],
   ['setparentframe',['setParentFrame',['../df/dc4/classdart_1_1dynamics_1_1Detachable.html#affcdfa10f62780eaf14ba3db2b5515fe',1,'dart::dynamics::Detachable']]],
   ['setpartialaccelerationto',['setPartialAccelerationTo',['../da/d53/classdart_1_1dynamics_1_1GenericJoint.html#a3ca12fa08835c599d8a6be4d898a9696',1,'dart::dynamics::GenericJoint::setPartialAccelerationTo()'],['../d6/d5b/classdart_1_1dynamics_1_1Joint.html#ac4c911980f955947e9689316df7e370a',1,'dart::dynamics::Joint::setPartialAccelerationTo()'],['../db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html#a1f726f837917146c1848849585dbb859',1,'dart::dynamics::ZeroDofJoint::setPartialAccelerationTo()']]],
   ['setpattern',['setPattern',['../d9/dc9/classdart_1_1common_1_1NameManager.html#a5151f874d38f1b5618458418dddad6b5',1,'dart::common::NameManager']]],

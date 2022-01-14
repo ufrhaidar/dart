@@ -33,6 +33,8 @@ var dir_f2ed43681a1f94b8b6b590eee51c5fa9 =
     [ "ContactConstraint.hpp", "d2/d6e/ContactConstraint_8hpp.html", [
       [ "ContactConstraint", "d4/d18/classdart_1_1constraint_1_1ContactConstraint.html", "d4/d18/classdart_1_1constraint_1_1ContactConstraint" ]
     ] ],
+    [ "ContactSurface.cpp", "df/dd4/ContactSurface_8cpp.html", null ],
+    [ "ContactSurface.hpp", "df/d02/ContactSurface_8hpp.html", "df/d02/ContactSurface_8hpp" ],
     [ "DantzigBoxedLcpSolver.cpp", "da/dbf/DantzigBoxedLcpSolver_8cpp.html", null ],
     [ "DantzigBoxedLcpSolver.hpp", "d7/da4/DantzigBoxedLcpSolver_8hpp.html", [
       [ "DantzigBoxedLcpSolver", "d6/ddf/classdart_1_1constraint_1_1DantzigBoxedLcpSolver.html", "d6/ddf/classdart_1_1constraint_1_1DantzigBoxedLcpSolver" ]

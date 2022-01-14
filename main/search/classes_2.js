@@ -78,6 +78,8 @@ var searchData=
   ['constraintsolver',['ConstraintSolver',['../d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html',1,'dart::constraint']]],
   ['contact',['Contact',['../db/d36/structdart_1_1collision_1_1Contact.html',1,'dart::collision']]],
   ['contactconstraint',['ContactConstraint',['../d4/d18/classdart_1_1constraint_1_1ContactConstraint.html',1,'dart::constraint']]],
+  ['contactsurfacehandler',['ContactSurfaceHandler',['../d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html',1,'dart::constraint']]],
+  ['contactsurfaceparams',['ContactSurfaceParams',['../de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html',1,'dart::constraint']]],
   ['convertifcomposite',['ConvertIfComposite',['../d1/dde/structdart_1_1common_1_1detail_1_1ComposeData_3_01CompositeType_00_01GetData_00_01AspectT_00_01R4c93c03b17577f78c340d93b4f614ae3.html',1,'dart::common::detail::ComposeData&lt; CompositeType, GetData, AspectT, Remainder... &gt;']]],
   ['convertifdata',['ConvertIfData',['../d1/dc7/structdart_1_1common_1_1detail_1_1ComposeData_3_01CompositeType_00_01GetData_00_01AspectT_00_01Rde7bb73278b1897df6f44bed8044c5c3.html',1,'dart::common::detail::ComposeData&lt; CompositeType, GetData, AspectT, Remainder... &gt;']]],
   ['convertifproperties',['ConvertIfProperties',['../d5/d40/structdart_1_1common_1_1detail_1_1EmbeddedPropertiesAspect_1_1ConvertIfProperties.html',1,'dart::common::detail::EmbeddedPropertiesAspect']]],

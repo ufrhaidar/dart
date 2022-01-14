@@ -826,6 +826,13 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="d8/d41/classdart_1_1collision_1_1CollisionResult.html#aa4d02422a9a1d92866742a6ad2f24ac4">dart::collision::CollisionResult</a>
 , <a class="el" href="d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a30f7efb12a7ce82fa20d821175fc943c">dart::constraint::SoftContactConstraint</a>
 </li>
+<li>mContactSurfaceHandler
+: <a class="el" href="d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#a86d21bcbb09ec941cd2a06b4e816ed23">dart::constraint::ConstraintSolver</a>
+</li>
+<li>mContactSurfaceMotionVelocity
+: <a class="el" href="d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a150dabc4faac8a406e1b6cbc5fa2a106">dart::constraint::ContactConstraint</a>
+, <a class="el" href="de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#a13c2432e8f4fd19be836a46197c8116d">dart::constraint::ContactSurfaceParams</a>
+</li>
 <li>mConType
 : <a class="el" href="d7/d81/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Geom.html#af6a2e2a810a6fca5cd4a61537ce9832e">dart::utils::MjcfParser::detail::Geom</a>
 , <a class="el" href="de/d76/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1GeomAttributes.html#a0c212132d18a10d80f57bc9245a955f7">dart::utils::MjcfParser::detail::GeomAttributes</a>
@@ -1173,6 +1180,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>mExternalForces
 : <a class="el" href="d4/d93/structdart_1_1dynamics_1_1Skeleton_1_1DirtyFlags.html#a14667651a7e51ba005158cdb3a6c13b4">dart::dynamics::Skeleton::DirtyFlags</a>
 </li>
+<li>mExtraData
+: <a class="el" href="de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#a094c5bc72320c664cb229ec83aeb4e18">dart::constraint::ContactSurfaceParams</a>
+</li>
 <li>mExtraDofGradCache
 : <a class="el" href="dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a1dcb9715069ed79c4df73f7bf0eed33c">dart::dynamics::InverseKinematics::Analytical</a>
 </li>
@@ -1245,6 +1255,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>mFirstFrictionalDirection
 : <a class="el" href="d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#af645a471aa6ef1db27427c26efcc0c1b">dart::constraint::ContactConstraint</a>
+, <a class="el" href="de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#a28287f26efe230724d61d8f822ed5f12">dart::constraint::ContactSurfaceParams</a>
 , <a class="el" href="d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#ae410c0af89e3f2ec66768d44fc7257d6">dart::constraint::SoftContactConstraint</a>
 </li>
 <li>mFirstFrictionDirection
@@ -2662,7 +2673,8 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="d0/dfd/classdart_1_1optimizer_1_1PagmoMultiObjectiveSolver.html#a63065541c10efb8d8a242de281ede29b">dart::optimizer::PagmoMultiObjectiveSolver</a>
 </li>
 <li>mParent
-: <a class="el" href="dd/d47/classdart_1_1gui_1_1osg_1_1render_1_1CapsuleShapeDrawable.html#a8c0c4fef2446b9ca0485033888db9a0e">dart::gui::osg::render::CapsuleShapeDrawable</a>
+: <a class="el" href="d4/d48/classdart_1_1constraint_1_1ContactSurfaceHandler.html#a41ed26b9ab0481a325603b823383c74b">dart::constraint::ContactSurfaceHandler</a>
+, <a class="el" href="dd/d47/classdart_1_1gui_1_1osg_1_1render_1_1CapsuleShapeDrawable.html#a8c0c4fef2446b9ca0485033888db9a0e">dart::gui::osg::render::CapsuleShapeDrawable</a>
 , <a class="el" href="db/d18/classdart_1_1gui_1_1osg_1_1render_1_1ConeShapeDrawable.html#a9a819c01e2207199a51f87dc3bec2a6b">dart::gui::osg::render::ConeShapeDrawable</a>
 , <a class="el" href="df/d98/classdart_1_1gui_1_1osg_1_1render_1_1CylinderShapeDrawable.html#a1e23fd5f1a7fa7b8067031b819c8cc46">dart::gui::osg::render::CylinderShapeDrawable</a>
 , <a class="el" href="db/dd2/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeDrawable.html#a93ab926cb47d45e0b3b5cb544afbd5e8">dart::gui::osg::render::EllipsoidShapeDrawable</a>
@@ -2861,9 +2873,11 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>mPrimaryFrictionCoeff
 : <a class="el" href="d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a9c94c2892c71a104dd2fca259419888d">dart::constraint::ContactConstraint</a>
+, <a class="el" href="de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#ae228ff781ae0e4f808bbc3b9034a9d71">dart::constraint::ContactSurfaceParams</a>
 </li>
 <li>mPrimarySlipCompliance
 : <a class="el" href="d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a537cec1e99a9400782929f2f1a9bb5b3">dart::constraint::ContactConstraint</a>
+, <a class="el" href="de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#ade7338b323a10f52a3d6d1d6c748c461">dart::constraint::ContactSurfaceParams</a>
 , <a class="el" href="dd/da1/structdart_1_1dynamics_1_1detail_1_1DynamicsAspectProperties.html#a6b1a510aaea5dc376bb998ffcbec43f3">dart::dynamics::detail::DynamicsAspectProperties</a>
 </li>
 <li>mPrimitiveSet
@@ -3058,6 +3072,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>mRestitutionCoeff
 : <a class="el" href="d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#acf84778e25fc924fb6bfb89f206abe7b">dart::constraint::ContactConstraint</a>
+, <a class="el" href="de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#a7c8469cdf097ddbfb3ccef09f588890d">dart::constraint::ContactSurfaceParams</a>
 , <a class="el" href="d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#ab0c0bf9e59d6d80c21dfe446ba930133">dart::constraint::SoftContactConstraint</a>
 , <a class="el" href="dc/d15/structdart_1_1dynamics_1_1detail_1_1BodyNodeAspectProperties.html#a4d27ae3295cf475bf95251e8ee2c425a">dart::dynamics::detail::BodyNodeAspectProperties</a>
 , <a class="el" href="dd/da1/structdart_1_1dynamics_1_1detail_1_1DynamicsAspectProperties.html#a4f1891739c8e49dff3647f0bae4a5367">dart::dynamics::detail::DynamicsAspectProperties</a>
@@ -3159,10 +3174,12 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>mSecondaryFrictionCoeff
 : <a class="el" href="d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#af434115d25a7a5e1b4d00da7cc764fc3">dart::constraint::ContactConstraint</a>
+, <a class="el" href="de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#ac827026bfdac349c2f34e6f048acef9e">dart::constraint::ContactSurfaceParams</a>
 , <a class="el" href="dd/da1/structdart_1_1dynamics_1_1detail_1_1DynamicsAspectProperties.html#a350ea9a87eb0f6e79541350dae9391df">dart::dynamics::detail::DynamicsAspectProperties</a>
 </li>
 <li>mSecondarySlipCompliance
 : <a class="el" href="d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a747e20549737f3b4425e63c228425119">dart::constraint::ContactConstraint</a>
+, <a class="el" href="de/db0/structdart_1_1constraint_1_1ContactSurfaceParams.html#aa3436f224dd31d60346c793381b1b978">dart::constraint::ContactSurfaceParams</a>
 , <a class="el" href="dd/da1/structdart_1_1dynamics_1_1detail_1_1DynamicsAspectProperties.html#a2c70183c4182502158c7fa1146fd8869">dart::dynamics::detail::DynamicsAspectProperties</a>
 </li>
 <li>mSeeds
@@ -3967,7 +3984,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Jan 8 2022 00:47:12 for DART by
+    <li class="footer">Generated on Fri Jan 14 2022 20:41:20 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
