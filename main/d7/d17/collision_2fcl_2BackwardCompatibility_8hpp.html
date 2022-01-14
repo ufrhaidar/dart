@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('d7/d17/collision_2fcl_2BackwardCompati
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Eigen/Dense&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/dbb/Deprecated_8hpp_source.html">dart/common/Deprecated.hpp</a>&quot;</code><br />
 <code>#include &quot;dart/config.hpp&quot;</code><br />
 <code>#include &lt;fcl/config.h&gt;</code><br />
 <code>#include &lt;fcl/math/matrix_3f.h&gt;</code><br />
@@ -109,8 +110,7 @@ $(document).ready(function(){initNavTree('d7/d17/collision_2fcl_2BackwardCompati
 <code>#include &lt;fcl/collision_object.h&gt;</code><br />
 <code>#include &lt;fcl/distance.h&gt;</code><br />
 <code>#include &lt;fcl/broadphase/broadphase_dynamic_AABB_tree.h&gt;</code><br />
-<code>#include &lt;boost/make_shared.hpp&gt;</code><br />
-<code>#include &lt;boost/weak_ptr.hpp&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
 </div>
 <p><a href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -132,12 +132,12 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a6715e066d0d8d2e0cabab99057ff9288"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a6715e066d0d8d2e0cabab99057ff9288"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a6715e066d0d8d2e0cabab99057ff9288">fcl_shared_ptr</a> = boost::shared_ptr&lt; T &gt;</td></tr>
-<tr class="separator:a6715e066d0d8d2e0cabab99057ff9288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5189f1a97953bf2b7a65a7bb8fca0b1f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a5189f1a97953bf2b7a65a7bb8fca0b1f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a5189f1a97953bf2b7a65a7bb8fca0b1f">fcl_weak_ptr</a> = boost::weak_ptr&lt; T &gt;</td></tr>
-<tr class="separator:a5189f1a97953bf2b7a65a7bb8fca0b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a559963329103e34a86aefa3f4bc5e04f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a559963329103e34a86aefa3f4bc5e04f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a559963329103e34a86aefa3f4bc5e04f">fcl_shared_ptr</a> = std::shared_ptr&lt; T &gt;</td></tr>
+<tr class="separator:a559963329103e34a86aefa3f4bc5e04f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb6b0eef2dbf01b310ef4703ca21379"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a9fb6b0eef2dbf01b310ef4703ca21379"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a9fb6b0eef2dbf01b310ef4703ca21379">fcl_weak_ptr</a> = std::weak_ptr&lt; T &gt;</td></tr>
+<tr class="separator:a9fb6b0eef2dbf01b310ef4703ca21379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96f4ac9c1b4b6f6d7931ddf495424618"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#a96f4ac9c1b4b6f6d7931ddf495424618">dart::collision::fcl::Vector3</a> = ::fcl::Vec3f</td></tr>
 <tr class="separator:a96f4ac9c1b4b6f6d7931ddf495424618"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8e71fdd2fbd858079bac04f0fcb267f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#ab8e71fdd2fbd858079bac04f0fcb267f">dart::collision::fcl::Matrix3</a> = ::fcl::Matrix3f</td></tr>
@@ -172,12 +172,14 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab6e1b664bdb7026c8de2bd894d266390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4f7b98de497f3e04d9a581598fe4af9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#af4f7b98de497f3e04d9a581598fe4af9">dart::collision::fcl::Contact</a> = ::fcl::Contact</td></tr>
 <tr class="separator:af4f7b98de497f3e04d9a581598fe4af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab091c1b193827a13fc59e35cd9538e8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#aab091c1b193827a13fc59e35cd9538e8">dart::collision::fcl::Ellipsoid</a> = ::fcl::Ellipsoid</td></tr>
+<tr class="separator:aab091c1b193827a13fc59e35cd9538e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9464b20e42cd1023280592e91d6ced53"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
-<tr class="memitem:a9464b20e42cd1023280592e91d6ced53"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a6715e066d0d8d2e0cabab99057ff9288">fcl_shared_ptr</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a9464b20e42cd1023280592e91d6ced53">fcl_make_shared</a> (Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a9464b20e42cd1023280592e91d6ced53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714bebd74bb9551b4871f1928db640d3"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:a714bebd74bb9551b4871f1928db640d3"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a714bebd74bb9551b4871f1928db640d3">fcl_make_shared</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a714bebd74bb9551b4871f1928db640d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a486fdd4db83a0dc8eaebfa06575f14d4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#a486fdd4db83a0dc8eaebfa06575f14d4">dart::collision::fcl::length</a> (const <a class="el" href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#a96f4ac9c1b4b6f6d7931ddf495424618">dart::collision::fcl::Vector3</a> &amp;t)</td></tr>
 <tr class="memdesc:a486fdd4db83a0dc8eaebfa06575f14d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns norm of a 3-dim vector.  <a href="../../dc/df9/namespacedart_1_1collision_1_1fcl.html#a486fdd4db83a0dc8eaebfa06575f14d4">More...</a><br /></td></tr>
 <tr class="separator:a486fdd4db83a0dc8eaebfa06575f14d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -267,8 +269,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a6715e066d0d8d2e0cabab99057ff9288"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6715e066d0d8d2e0cabab99057ff9288">&#9670;&nbsp;</a></span>fcl_shared_ptr</h2>
+<a id="a559963329103e34a86aefa3f4bc5e04f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a559963329103e34a86aefa3f4bc5e04f">&#9670;&nbsp;</a></span>fcl_shared_ptr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -276,15 +278,16 @@ Functions</h2></td></tr>
 template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a6715e066d0d8d2e0cabab99057ff9288">fcl_shared_ptr</a> =  boost::shared_ptr&lt;T&gt;</td>
+          <td class="memname">using <a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a559963329103e34a86aefa3f4bc5e04f">fcl_shared_ptr</a> =  std::shared_ptr&lt;T&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Use std::shared_ptr() instead </dd></dl>
 
 </div>
 </div>
-<a id="a5189f1a97953bf2b7a65a7bb8fca0b1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5189f1a97953bf2b7a65a7bb8fca0b1f">&#9670;&nbsp;</a></span>fcl_weak_ptr</h2>
+<a id="a9fb6b0eef2dbf01b310ef4703ca21379"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fb6b0eef2dbf01b310ef4703ca21379">&#9670;&nbsp;</a></span>fcl_weak_ptr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,16 +295,17 @@ template&lt;class T &gt; </div>
 template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a5189f1a97953bf2b7a65a7bb8fca0b1f">fcl_weak_ptr</a> =  boost::weak_ptr&lt;T&gt;</td>
+          <td class="memname">using <a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a9fb6b0eef2dbf01b310ef4703ca21379">fcl_weak_ptr</a> =  std::weak_ptr&lt;T&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>Use std::weak_ptr() instead </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a9464b20e42cd1023280592e91d6ced53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9464b20e42cd1023280592e91d6ced53">&#9670;&nbsp;</a></span>fcl_make_shared()</h2>
+<a id="a714bebd74bb9551b4871f1928db640d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a714bebd74bb9551b4871f1928db640d3">&#9670;&nbsp;</a></span>fcl_make_shared()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -309,7 +313,7 @@ template&lt;class T &gt; </div>
 template&lt;class T , class... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html#a6715e066d0d8d2e0cabab99057ff9288">fcl_shared_ptr</a>&lt;T&gt; fcl_make_shared </td>
+          <td class="memname">std::shared_ptr&lt;T&gt; fcl_make_shared </td>
           <td>(</td>
           <td class="paramtype">Args &amp;&amp;...&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
@@ -317,6 +321,7 @@ template&lt;class T , class... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000004">Deprecated:</a></b></dt><dd>Use std::make_shared() instead </dd></dl>
 
 </div>
 </div>
@@ -326,7 +331,7 @@ template&lt;class T , class... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_7aaf2eefc9c12d3855f042d5a221f589.html">collision</a></li><li class="navelem"><a class="el" href="../../dir_d9bc0d3f4e4fe81f6b2799c71d86043d.html">fcl</a></li><li class="navelem"><a class="el" href="../../d7/d17/collision_2fcl_2BackwardCompatibility_8hpp.html">BackwardCompatibility.hpp</a></li>
-    <li class="footer">Generated on Fri Jan 14 2022 20:41:15 for DART by
+    <li class="footer">Generated on Fri Jan 14 2022 23:50:58 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

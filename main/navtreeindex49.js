@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"da/d06/classdart_1_1math_1_1BoundingBox.html#a48b1338bb5bffa6ad1a1225f5f9abaa3":[3,0,0,7,1,9],
 "da/d06/classdart_1_1math_1_1BoundingBox.html#a4c2fd5d007b77afe53406e705aae2360":[3,0,0,7,1,4],
 "da/d06/classdart_1_1math_1_1BoundingBox.html#a75a853833386761d6677748d981b81a5":[3,0,0,7,1,2],
 "da/d06/classdart_1_1math_1_1BoundingBox.html#a944ffdcba8bf6e95bc30ba8e42ca3c60":[3,0,0,7,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "da/d28/DegreeOfFreedom_8hpp.html":[4,0,0,3,23],
 "da/d28/DegreeOfFreedom_8hpp_source.html":[4,0,0,3,23],
 "da/d29/classdart_1_1gui_1_1osg_1_1render_1_1BillboardPointNode.html":[3,0,0,4,1,0,0],
-"da/d29/classdart_1_1gui_1_1osg_1_1render_1_1BillboardPointNode.html#a09ba93505961ddf37df68350a5e7f1e6":[3,0,0,4,1,0,0,0],
-"da/d29/classdart_1_1gui_1_1osg_1_1render_1_1BillboardPointNode.html#a48c5c485c94af917009775ecc76f8944":[3,0,0,4,1,0,0,3]
+"da/d29/classdart_1_1gui_1_1osg_1_1render_1_1BillboardPointNode.html#a09ba93505961ddf37df68350a5e7f1e6":[3,0,0,4,1,0,0,0]
 };

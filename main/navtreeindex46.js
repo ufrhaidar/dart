@@ -1,5 +1,6 @@
 var NAVTREEINDEX46 =
 {
+"d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a47657f562dacc4b8576b0666b68be7b3":[3,0,0,3,60,17],
 "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a4a4e412a53cb6ea5b0852b10e0df8db5":[3,0,0,3,60,28],
 "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a4aae7f3d060fc6c9b7a37b9893975f67":[3,0,0,3,60,11],
 "d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a4d171ea0afccad1214c01eedd14a5616":[3,0,0,3,60,29],
@@ -248,6 +249,5 @@ var NAVTREEINDEX46 =
 "d9/d58/PGSLCPSolver_8hpp.html":[4,0,0,2,37],
 "d9/d58/PGSLCPSolver_8hpp.html#a2488681e6db07eb614b77f7715eac2c1":[4,0,0,2,37,2],
 "d9/d58/PGSLCPSolver_8hpp_source.html":[4,0,0,2,37],
-"d9/d63/classdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DUniqueProperties.html":[3,0,0,3,0,34],
-"d9/d63/classdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DUniqueProperties.html#a0eb79326f0e4bf7f0eb24f908aa0026c":[3,0,0,3,0,34,6]
+"d9/d63/classdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DUniqueProperties.html":[3,0,0,3,0,34]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"dc/db2/structdart_1_1math_1_1detail_1_1toManifoldPointImpl_3_01SO3Space_01_4.html":[3,0,0,7,0,18],
 "dc/db2/structdart_1_1math_1_1detail_1_1toManifoldPointImpl_3_01SO3Space_01_4.html#a00019d3eadaf4554d371c5b65b557c29":[3,0,0,7,0,18,0],
 "dc/dbc/classdart_1_1gui_1_1osg_1_1render_1_1ConeShapeGeode.html":[3,0,0,4,1,0,11],
 "dc/dbc/classdart_1_1gui_1_1osg_1_1render_1_1ConeShapeGeode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72":[3,0,0,4,1,0,11,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "dd/d1a/classdart_1_1gui_1_1osg_1_1SimpleFrameDnD.html#a599ac96f2160704617ca01fe4ad2c8b0":[3,0,0,4,1,21,24],
 "dd/d1a/classdart_1_1gui_1_1osg_1_1SimpleFrameDnD.html#a637597eab1f65bee5773a1c623e21faf":[3,0,0,4,1,21,15],
 "dd/d1a/classdart_1_1gui_1_1osg_1_1SimpleFrameDnD.html#a6ccea1e3a9fe763d4178c4503e2aae55":[3,0,0,4,1,21,23],
-"dd/d1a/classdart_1_1gui_1_1osg_1_1SimpleFrameDnD.html#a70b5ee4980e73cb540cc9168662e6572":[3,0,0,4,1,21,12],
-"dd/d1a/classdart_1_1gui_1_1osg_1_1SimpleFrameDnD.html#a83ad26a4b10f7cd295bef0de0fc7fe84":[3,0,0,4,1,21,14]
+"dd/d1a/classdart_1_1gui_1_1osg_1_1SimpleFrameDnD.html#a70b5ee4980e73cb540cc9168662e6572":[3,0,0,4,1,21,12]
 };

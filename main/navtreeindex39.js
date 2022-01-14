@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"d7/dfd/Stopwatch_8hpp.html#af112acd562182901d47475822718c4d2":[4,0,0,1,57,5],
 "d7/dfd/Stopwatch_8hpp_source.html":[4,0,0,1,57],
 "d7/dfe/World_8cpp.html":[4,0,0,10,4],
 "d7/dff/detail_2InverseKinematics_8hpp.html":[4,0,0,3,0,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "d8/d29/classdart_1_1utils_1_1DartLoader.html#a96fac463e1c09d8484f63b57ec4b7d93":[3,0,0,11,9,19],
 "d8/d29/classdart_1_1utils_1_1DartLoader.html#a99273ad81fef44d3bbf83b3eba5cb508":[3,0,0,11,9,25],
 "d8/d29/classdart_1_1utils_1_1DartLoader.html#a9ee27fb1000bac5b44f4d6edc679496b":[3,0,0,11,9,6],
-"d8/d29/classdart_1_1utils_1_1DartLoader.html#a9f0d4e5fb7d17460f0ecf2d70db7b037":[3,0,0,11,9,28],
-"d8/d29/classdart_1_1utils_1_1DartLoader.html#aa087dce657ab67a763b995935fd2f6bc":[3,0,0,11,9,2]
+"d8/d29/classdart_1_1utils_1_1DartLoader.html#a9f0d4e5fb7d17460f0ecf2d70db7b037":[3,0,0,11,9,28]
 };

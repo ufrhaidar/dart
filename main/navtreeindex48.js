@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d9/db5/CapsuleShape_8hpp.html":[4,0,0,3,14],
 "d9/db5/CapsuleShape_8hpp_source.html":[4,0,0,3,14],
 "d9/db7/VersionCounter_8hpp.html":[4,0,0,1,66],
 "d9/db7/VersionCounter_8hpp_source.html":[4,0,0,1,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "da/d06/Error_8cpp.html":[4,0,0,11,0,0,12],
 "da/d06/classdart_1_1math_1_1BoundingBox.html":[3,0,0,7,1],
 "da/d06/classdart_1_1math_1_1BoundingBox.html#a04a316c16422c39c530cc6af0f77f7c2":[3,0,0,7,1,5],
-"da/d06/classdart_1_1math_1_1BoundingBox.html#a20d35577d893dd49ffa4f05e64205c45":[3,0,0,7,1,8],
-"da/d06/classdart_1_1math_1_1BoundingBox.html#a48b1338bb5bffa6ad1a1225f5f9abaa3":[3,0,0,7,1,9]
+"da/d06/classdart_1_1math_1_1BoundingBox.html#a20d35577d893dd49ffa4f05e64205c45":[3,0,0,7,1,8]
 };
