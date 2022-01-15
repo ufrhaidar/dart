@@ -159,8 +159,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:ad285b6a796a9b4ad7f23540aaf74c3a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8192795044e4474bdecb0daf5c3a3b71"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a8192795044e4474bdecb0daf5c3a3b71">PackageResourceRetrieverPtr</a> = std::shared_ptr&lt; <a class="el" href="../../d8/d23/classdart_1_1utils_1_1PackageResourceRetriever.html">PackageResourceRetriever</a> &gt;</td></tr>
 <tr class="separator:a8192795044e4474bdecb0daf5c3a3b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07b8511877e0c1607dc16415de735bbf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a07b8511877e0c1607dc16415de735bbf">ModelInterfacePtr</a> = urdf_shared_ptr&lt; urdf::ModelInterface &gt;</td></tr>
-<tr class="separator:a07b8511877e0c1607dc16415de735bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12fba5978dc26932946d3bdfbc0ba023"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a12fba5978dc26932946d3bdfbc0ba023">ModelInterfacePtr</a> = std::shared_ptr&lt; urdf::ModelInterface &gt;</td></tr>
+<tr class="separator:a12fba5978dc26932946d3bdfbc0ba023"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca9b6628dbe888926901fa25ac1379c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#aca9b6628dbe888926901fa25ac1379c5">ElementEnumerator</a> = <a class="el" href="../../d3/dd6/classdart_1_1utils_1_1TemplatedElementEnumerator.html">TemplatedElementEnumerator</a>&lt; tinyxml2::XMLElement &gt;</td></tr>
 <tr class="separator:aca9b6628dbe888926901fa25ac1379c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab10c84093cc5dcbba72069f85ce02172"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#ab10c84093cc5dcbba72069f85ce02172">ConstElementEnumerator</a> = <a class="el" href="../../d3/dd6/classdart_1_1utils_1_1TemplatedElementEnumerator.html">TemplatedElementEnumerator</a>&lt; const tinyxml2::XMLElement &gt;</td></tr>
@@ -176,6 +176,18 @@ Functions</h2></td></tr>
 <tr class="separator:a2e66c9922323d9ddb8b819fe16d77c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e50426153dbd954f42b7d773b905096"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a8e50426153dbd954f42b7d773b905096">saveC3DFile</a> (const char *_fileName, std::vector&lt; std::vector&lt; Eigen::Vector3d &gt;&gt; &amp;_pointData, int _nFrame, int _nMarker, double _freq)</td></tr>
 <tr class="separator:a8e50426153dbd954f42b7d773b905096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40d7557af690e901d46c2213875cfa4"><td class="memTemplParams" colspan="2">template&lt;typename S , int N&gt; </td></tr>
+<tr class="memitem:aa40d7557af690e901d46c2213875cfa4"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#aa40d7557af690e901d46c2213875cfa4">toString</a> (const Eigen::Matrix&lt; S, N, 1 &gt; &amp;v)</td></tr>
+<tr class="separator:aa40d7557af690e901d46c2213875cfa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f07dd88402212c61bf44671d8db410"><td class="memTemplParams" colspan="2">template&lt;typename S &gt; </td></tr>
+<tr class="memitem:a70f07dd88402212c61bf44671d8db410"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a70f07dd88402212c61bf44671d8db410">toString</a> (const Eigen::Transform&lt; S, 3, Eigen::Isometry &gt; &amp;v, const std::string &amp;rotationType)</td></tr>
+<tr class="separator:a70f07dd88402212c61bf44671d8db410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d27259ddfde675fa1360772c8674661"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
+<tr class="memitem:a0d27259ddfde675fa1360772c8674661"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, N, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a0d27259ddfde675fa1360772c8674661">toVectorNd</a> (const std::string &amp;str)</td></tr>
+<tr class="separator:a0d27259ddfde675fa1360772c8674661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55bf864ec8ee99c7f6f98d97ca0c80a3"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
+<tr class="memitem:a55bf864ec8ee99c7f6f98d97ca0c80a3"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, N, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a55bf864ec8ee99c7f6f98d97ca0c80a3">getAttributeVectorNd</a> (const tinyxml2::XMLElement *element, const std::string &amp;attributeName)</td></tr>
+<tr class="separator:a55bf864ec8ee99c7f6f98d97ca0c80a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1600034c7c05d626de86379b2079862"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#af1600034c7c05d626de86379b2079862">createDartJointAndNodeForRoot</a> (const <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#af57edbc25b171ccbb0fd2fbd5ae2ab12">dynamics::BodyNode::Properties</a> &amp;_body, <a class="el" href="../../d5/d2e/classdart_1_1dynamics_1_1BodyNode.html">dynamics::BodyNode</a> *_parent, <a class="el" href="../../d7/d5a/namespacedart_1_1dynamics.html#af869536bb870ff2c8c99acff9817b618">dynamics::SkeletonPtr</a> _skeleton, const <a class="el" href="../../d0/d20/structdart_1_1utils_1_1DartLoader_1_1Options.html">DartLoader::Options</a> &amp;<a class="el" href="../../de/dcc/VskParser_8cpp.html#a0854f015e3e2fb7d0a094a1b7adabaf0">options</a>)</td></tr>
 <tr class="separator:af1600034c7c05d626de86379b2079862"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c62debee37d3459f9191ddb4b6af5c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a7c62debee37d3459f9191ddb4b6af5c7">setMaterial</a> (const urdf::ModelInterface *model, <a class="el" href="../../d1/d66/classdart_1_1dynamics_1_1VisualAspect.html">dynamics::VisualAspect</a> *visualAspect, const urdf::Visual *viz)</td></tr>
@@ -196,18 +208,6 @@ Functions</h2></td></tr>
 <tr class="separator:a71fe7f1536b4651e57e56d83113bb39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6300c4d6d990d3c1cae8b8d08b6659d2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a6300c4d6d990d3c1cae8b8d08b6659d2">toString</a> (char v)</td></tr>
 <tr class="separator:a6300c4d6d990d3c1cae8b8d08b6659d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7334737de601e396c253e4c4401d0f3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#ac7334737de601e396c253e4c4401d0f3">toString</a> (const Eigen::Vector2d &amp;v)</td></tr>
-<tr class="separator:ac7334737de601e396c253e4c4401d0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa874d45abcc70bb929fc4e6bc181cfc7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#aa874d45abcc70bb929fc4e6bc181cfc7">toString</a> (const Eigen::Vector3d &amp;v)</td></tr>
-<tr class="separator:aa874d45abcc70bb929fc4e6bc181cfc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade97b2796a68870258e06e5315d0be4a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#ade97b2796a68870258e06e5315d0be4a">toString</a> (const Eigen::Vector3i &amp;v)</td></tr>
-<tr class="separator:ade97b2796a68870258e06e5315d0be4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7537e627c6a90286e25482b12bc73eac"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a7537e627c6a90286e25482b12bc73eac">toString</a> (const <a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a> &amp;v)</td></tr>
-<tr class="separator:a7537e627c6a90286e25482b12bc73eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2b223e8a456b9258af73536f831aaf6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#af2b223e8a456b9258af73536f831aaf6">toString</a> (const Eigen::VectorXd &amp;v)</td></tr>
-<tr class="separator:af2b223e8a456b9258af73536f831aaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae36194488ef10299d87b5e6306ed99a2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#ae36194488ef10299d87b5e6306ed99a2">toString</a> (const Eigen::Isometry3d &amp;v)</td></tr>
-<tr class="separator:ae36194488ef10299d87b5e6306ed99a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0f47286d2826039414ba6155dfd278c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#ad0f47286d2826039414ba6155dfd278c">toBool</a> (const std::string &amp;str)</td></tr>
 <tr class="separator:ad0f47286d2826039414ba6155dfd278c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f6f200690eb7c4cd58f95eb8720932"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a72f6f200690eb7c4cd58f95eb8720932">toInt</a> (const std::string &amp;str)</td></tr>
@@ -316,12 +316,6 @@ Functions</h2></td></tr>
 <tr class="separator:a551edc4a0141b36472d21843f3675c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2976d9ff32e554b1da69da5a0fac0b36"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a2976d9ff32e554b1da69da5a0fac0b36">copyChildNodes</a> (tinyxml2::XMLNode *destParent, const tinyxml2::XMLNode &amp;src)</td></tr>
 <tr class="separator:a2976d9ff32e554b1da69da5a0fac0b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85342741a4373efeac19789c322d1aa2"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:a85342741a4373efeac19789c322d1aa2"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, N, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a85342741a4373efeac19789c322d1aa2">toVectorNd</a> (const std::string &amp;str)</td></tr>
-<tr class="separator:a85342741a4373efeac19789c322d1aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae20c9db7f50a11ed63f04341286fc0d"><td class="memTemplParams" colspan="2">template&lt;std::size_t N&gt; </td></tr>
-<tr class="memitem:aae20c9db7f50a11ed63f04341286fc0d"><td class="memTemplItemLeft" align="right" valign="top">Eigen::Matrix&lt; double, N, 1 &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html#aae20c9db7f50a11ed63f04341286fc0d">getAttributeVectorNd</a> (const tinyxml2::XMLElement *element, const std::string &amp;attributeName)</td></tr>
-<tr class="separator:aae20c9db7f50a11ed63f04341286fc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a79fae4bb8e83049b9ba12b3c4be507bb"></a>
@@ -436,14 +430,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a07b8511877e0c1607dc16415de735bbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07b8511877e0c1607dc16415de735bbf">&#9670;&nbsp;</a></span>ModelInterfacePtr</h2>
+<a id="a12fba5978dc26932946d3bdfbc0ba023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12fba5978dc26932946d3bdfbc0ba023">&#9670;&nbsp;</a></span>ModelInterfacePtr</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a07b8511877e0c1607dc16415de735bbf">dart::utils::ModelInterfacePtr</a> = typedef urdf_shared_ptr&lt;urdf::ModelInterface&gt;</td>
+          <td class="memname">using <a class="el" href="../../d8/d28/namespacedart_1_1utils.html#a12fba5978dc26932946d3bdfbc0ba023">dart::utils::ModelInterfacePtr</a> = typedef std::shared_ptr&lt;urdf::ModelInterface&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1073,8 +1067,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aae20c9db7f50a11ed63f04341286fc0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae20c9db7f50a11ed63f04341286fc0d">&#9670;&nbsp;</a></span>getAttributeVectorNd()</h2>
+<a id="a55bf864ec8ee99c7f6f98d97ca0c80a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55bf864ec8ee99c7f6f98d97ca0c80a3">&#9670;&nbsp;</a></span>getAttributeVectorNd()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1082,7 +1076,7 @@ Functions</h2></td></tr>
 template&lt;std::size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;double, N, 1&gt; dart::utils::getAttributeVectorNd </td>
+          <td class="memname">Eigen::Matrix&lt; double, N, 1 &gt; dart::utils::getAttributeVectorNd </td>
           <td>(</td>
           <td class="paramtype">const tinyxml2::XMLElement *&#160;</td>
           <td class="paramname"><em>element</em>, </td>
@@ -1983,8 +1977,28 @@ template&lt;std::size_t N&gt; </div>
 
 </div>
 </div>
+<a id="aa40d7557af690e901d46c2213875cfa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40d7557af690e901d46c2213875cfa4">&#9670;&nbsp;</a></span>toString() <span class="overload">[1/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S , int N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string dart::utils::toString </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Matrix&lt; S, N, 1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaf0991ca23da84cda8333b698bfc6f12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf0991ca23da84cda8333b698bfc6f12">&#9670;&nbsp;</a></span>toString() <span class="overload">[1/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0991ca23da84cda8333b698bfc6f12">&#9670;&nbsp;</a></span>toString() <span class="overload">[2/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2001,8 +2015,38 @@ template&lt;std::size_t N&gt; </div>
 
 </div>
 </div>
+<a id="a70f07dd88402212c61bf44671d8db410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70f07dd88402212c61bf44671d8db410">&#9670;&nbsp;</a></span>toString() <span class="overload">[3/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename S &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string dart::utils::toString </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::Transform&lt; S, 3, Eigen::Isometry &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>rotationType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1650e56a57b5017472f94725d9322bad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1650e56a57b5017472f94725d9322bad">&#9670;&nbsp;</a></span>toString() <span class="overload">[2/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1650e56a57b5017472f94725d9322bad">&#9670;&nbsp;</a></span>toString() <span class="overload">[4/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2020,7 +2064,7 @@ template&lt;std::size_t N&gt; </div>
 </div>
 </div>
 <a id="abab96c43d769f15500a3b702e27f4666"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abab96c43d769f15500a3b702e27f4666">&#9670;&nbsp;</a></span>toString() <span class="overload">[3/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abab96c43d769f15500a3b702e27f4666">&#9670;&nbsp;</a></span>toString() <span class="overload">[5/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2038,7 +2082,7 @@ template&lt;std::size_t N&gt; </div>
 </div>
 </div>
 <a id="a940dc66fba1f0ee5fc99f320fb85eda2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a940dc66fba1f0ee5fc99f320fb85eda2">&#9670;&nbsp;</a></span>toString() <span class="overload">[4/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a940dc66fba1f0ee5fc99f320fb85eda2">&#9670;&nbsp;</a></span>toString() <span class="overload">[6/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2056,7 +2100,7 @@ template&lt;std::size_t N&gt; </div>
 </div>
 </div>
 <a id="a71fe7f1536b4651e57e56d83113bb39f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71fe7f1536b4651e57e56d83113bb39f">&#9670;&nbsp;</a></span>toString() <span class="overload">[5/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a71fe7f1536b4651e57e56d83113bb39f">&#9670;&nbsp;</a></span>toString() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2074,7 +2118,7 @@ template&lt;std::size_t N&gt; </div>
 </div>
 </div>
 <a id="a6300c4d6d990d3c1cae8b8d08b6659d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6300c4d6d990d3c1cae8b8d08b6659d2">&#9670;&nbsp;</a></span>toString() <span class="overload">[6/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6300c4d6d990d3c1cae8b8d08b6659d2">&#9670;&nbsp;</a></span>toString() <span class="overload">[8/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2091,116 +2135,8 @@ template&lt;std::size_t N&gt; </div>
 
 </div>
 </div>
-<a id="ac7334737de601e396c253e4c4401d0f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7334737de601e396c253e4c4401d0f3">&#9670;&nbsp;</a></span>toString() <span class="overload">[7/13]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string dart::utils::toString </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Vector2d &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa874d45abcc70bb929fc4e6bc181cfc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa874d45abcc70bb929fc4e6bc181cfc7">&#9670;&nbsp;</a></span>toString() <span class="overload">[8/13]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string dart::utils::toString </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Vector3d &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ade97b2796a68870258e06e5315d0be4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade97b2796a68870258e06e5315d0be4a">&#9670;&nbsp;</a></span>toString() <span class="overload">[9/13]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string dart::utils::toString </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Vector3i &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7537e627c6a90286e25482b12bc73eac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7537e627c6a90286e25482b12bc73eac">&#9670;&nbsp;</a></span>toString() <span class="overload">[10/13]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string dart::utils::toString </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d62/namespaceEigen.html#a256bc41e53605f5abb08663701978077">Eigen::Vector6d</a> &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af2b223e8a456b9258af73536f831aaf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2b223e8a456b9258af73536f831aaf6">&#9670;&nbsp;</a></span>toString() <span class="overload">[11/13]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string dart::utils::toString </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae36194488ef10299d87b5e6306ed99a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae36194488ef10299d87b5e6306ed99a2">&#9670;&nbsp;</a></span>toString() <span class="overload">[12/13]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string dart::utils::toString </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Isometry3d &amp;&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a775ea884e7744e2acbae6547809eb320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a775ea884e7744e2acbae6547809eb320">&#9670;&nbsp;</a></span>toString() <span class="overload">[13/13]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a775ea884e7744e2acbae6547809eb320">&#9670;&nbsp;</a></span>toString() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2343,8 +2279,8 @@ template&lt;std::size_t N&gt; </div>
 
 </div>
 </div>
-<a id="a85342741a4373efeac19789c322d1aa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85342741a4373efeac19789c322d1aa2">&#9670;&nbsp;</a></span>toVectorNd()</h2>
+<a id="a0d27259ddfde675fa1360772c8674661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d27259ddfde675fa1360772c8674661">&#9670;&nbsp;</a></span>toVectorNd()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2352,7 +2288,7 @@ template&lt;std::size_t N&gt; </div>
 template&lt;std::size_t N&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::Matrix&lt;double, N, 1&gt; dart::utils::toVectorNd </td>
+          <td class="memname">Eigen::Matrix&lt; double, N, 1 &gt; dart::utils::toVectorNd </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -2387,7 +2323,7 @@ template&lt;std::size_t N&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d8/d28/namespacedart_1_1utils.html">utils</a></li>
-    <li class="footer">Generated on Sat Jan 15 2022 15:05:25 for DART by
+    <li class="footer">Generated on Sat Jan 15 2022 21:44:25 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

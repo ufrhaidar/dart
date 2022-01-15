@@ -131,6 +131,8 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
     [ "StlHelpers.hpp", "dc/d2e/StlHelpers_8hpp.html", "dc/d2e/StlHelpers_8hpp" ],
     [ "Stopwatch.cpp", "d7/d55/Stopwatch_8cpp.html", "d7/d55/Stopwatch_8cpp" ],
     [ "Stopwatch.hpp", "d7/dfd/Stopwatch_8hpp.html", "d7/dfd/Stopwatch_8hpp" ],
+    [ "String.cpp", "d7/db3/String_8cpp.html", "d7/db3/String_8cpp" ],
+    [ "String.hpp", "d8/d32/String_8hpp.html", "d8/d32/String_8hpp" ],
     [ "sub_ptr.hpp", "d3/dba/sub__ptr_8hpp.html", "d3/dba/sub__ptr_8hpp" ],
     [ "Subject.cpp", "d7/d91/Subject_8cpp.html", null ],
     [ "Subject.hpp", "d7/d5f/Subject_8hpp.html", [

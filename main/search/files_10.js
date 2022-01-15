@@ -72,6 +72,8 @@ var searchData=
   ['stopwatch_2dimpl_2ehpp',['Stopwatch-impl.hpp',['../db/dbf/Stopwatch-impl_8hpp.html',1,'']]],
   ['stopwatch_2ecpp',['Stopwatch.cpp',['../d7/d55/Stopwatch_8cpp.html',1,'']]],
   ['stopwatch_2ehpp',['Stopwatch.hpp',['../d7/dfd/Stopwatch_8hpp.html',1,'']]],
+  ['string_2ecpp',['String.cpp',['../d7/db3/String_8cpp.html',1,'']]],
+  ['string_2ehpp',['String.hpp',['../d8/d32/String_8hpp.html',1,'']]],
   ['sub_5fptr_2ehpp',['sub_ptr.hpp',['../d9/d51/detail_2sub__ptr_8hpp.html',1,'(Global Namespace)'],['../d3/dba/sub__ptr_8hpp.html',1,'(Global Namespace)']]],
   ['subject_2ecpp',['Subject.cpp',['../d7/d91/Subject_8cpp.html',1,'']]],
   ['subject_2ehpp',['Subject.hpp',['../d7/d5f/Subject_8hpp.html',1,'']]],

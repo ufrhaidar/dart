@@ -984,11 +984,11 @@ var hierarchy =
       [ "dart::common::detail::ambiguate< Args >", "d4/db7/structdart_1_1common_1_1detail_1_1ambiguate.html", null ]
     ] ],
     [ "Base", null, [
-      [ "dart::common::MakeCloneable< Base, Mixin >", "d7/da1/classdart_1_1common_1_1MakeCloneable.html", null ]
-    ] ],
-    [ "Base", null, [
       [ "dart::dynamics::CompositePropertiesNode< Base >", "d1/dd1/classdart_1_1dynamics_1_1CompositePropertiesNode.html", null ],
       [ "dart::dynamics::detail::EntityNodeBase< Base, isCompositeBase >", "d4/d93/classdart_1_1dynamics_1_1detail_1_1EntityNodeBase.html", null ]
+    ] ],
+    [ "Base", null, [
+      [ "dart::common::MakeCloneable< Base, Mixin >", "d7/da1/classdart_1_1common_1_1MakeCloneable.html", null ]
     ] ],
     [ "BaseT", null, [
       [ "dart::common::detail::AspectWithState< BaseT, DerivedT, StateDataT, CompositeT, updateState >", "d9/d04/classdart_1_1common_1_1detail_1_1AspectWithState.html", null ],

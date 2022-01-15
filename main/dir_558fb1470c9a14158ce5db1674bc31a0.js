@@ -1,5 +1,6 @@
 var dir_558fb1470c9a14158ce5db1674bc31a0 =
 [
+    [ "detail", "dir_433755ac2bed55f8799665bdc7e8ccb8.html", "dir_433755ac2bed55f8799665bdc7e8ccb8" ],
     [ "mjcf", "dir_3a681c47fd3b26c2da9e409d1dc14366.html", "dir_3a681c47fd3b26c2da9e409d1dc14366" ],
     [ "sdf", "dir_aac3146568c74976f5f3de3ab0035948.html", "dir_aac3146568c74976f5f3de3ab0035948" ],
     [ "urdf", "dir_3167900535d36e4d345e8f71f69e35cd.html", "dir_3167900535d36e4d345e8f71f69e35cd" ],
