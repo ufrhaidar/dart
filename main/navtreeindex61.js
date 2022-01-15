@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"db/dfc/simulation_2SmartPointer_8hpp.html#ac5f80f874eba4de4247b7a0a51bb4315":[4,0,0,10,3,0],
+"db/dfc/simulation_2SmartPointer_8hpp.html#ae1b1310a3b1f0ec94c92b3b9d6f3abde":[4,0,0,10,3,3],
+"db/dfc/simulation_2SmartPointer_8hpp.html#ae261306cf7deb16250bdac03942644e4":[4,0,0,10,3,2],
+"db/dfc/simulation_2SmartPointer_8hpp_source.html":[4,0,0,10,3],
+"dc/d01/DARTCollisionDetector_8cpp.html":[4,0,0,0,1,2],
+"dc/d01/DARTCollisionDetector_8cpp.html#a33f770a0a4b825f5dd930d4437648721":[4,0,0,0,1,2,0],
 "dc/d01/DARTCollisionDetector_8cpp.html#a520e56bcf5668d2de3a482a12cf447e3":[4,0,0,0,1,2,1],
 "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html":[3,0,0,3,39,4],
 "dc/d01/classdart_1_1dynamics_1_1InverseKinematics_1_1GradientMethod.html#a01d2613366a4d2ee9dab8116306b0eb7":[3,0,0,3,39,4,5],
@@ -174,9 +180,9 @@ var NAVTREEINDEX61 =
 "dc/d29/structdart_1_1dynamics_1_1detail_1_1VisualAspectProperties.html#aa67a35bba006db16c618730fbfea8cdb":[3,0,0,3,0,37,0],
 "dc/d29/structdart_1_1dynamics_1_1detail_1_1VisualAspectProperties.html#ad7339563b5696d1cf3abe1a02990d306":[3,0,0,3,0,37,2],
 "dc/d29/structdart_1_1dynamics_1_1detail_1_1VisualAspectProperties.html#aff36f300a9ab24a5b7753da724867503":[3,0,0,3,0,37,5],
-"dc/d2e/StlHelpers_8hpp.html":[4,0,0,1,55],
-"dc/d2e/StlHelpers_8hpp.html#a7c4351ff43c76315b2549773a6fa57bc":[4,0,0,1,55,0],
-"dc/d2e/StlHelpers_8hpp_source.html":[4,0,0,1,55],
+"dc/d2e/StlHelpers_8hpp.html":[4,0,0,1,56],
+"dc/d2e/StlHelpers_8hpp.html#a7c4351ff43c76315b2549773a6fa57bc":[4,0,0,1,56,0],
+"dc/d2e/StlHelpers_8hpp_source.html":[4,0,0,1,56],
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html":[3,0,0,3,61],
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a062c3cedf57062040cd4fee24005abe2":[3,0,0,3,61,12],
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a0be096d66dcee0503f6fe490f442a971":[3,0,0,3,61,62],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a736c0179a85437e8a77966c9d5470024":[3,0,0,3,61,53],
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a73c015a63889238300d8e185c0eed9d4":[3,0,0,3,61,9],
 "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a849931f35617fc5a024fcee7f7091bf2":[3,0,0,3,61,17],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a87647f81ca2298a6419b5c8fba8026b2":[3,0,0,3,61,3],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a87647f81ca2298a6419b5c8fba8026b2a0b731f36042ad641c8fef8f9f81b939f":[3,0,0,3,61,3,3],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a87647f81ca2298a6419b5c8fba8026b2a44830069e30fc4c23bcd953b431f4c87":[3,0,0,3,61,3,2],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a87647f81ca2298a6419b5c8fba8026b2ab0ca7705c0e2fcca477af43fae4bf316":[3,0,0,3,61,3,1],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a87647f81ca2298a6419b5c8fba8026b2ad56ddcdb770057cbe1a41942b498ebc9":[3,0,0,3,61,3,0],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a963f8a9945fcd777f234c34f32bfff85":[3,0,0,3,61,16],
-"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a9b4196ab3459b36c41b50062e1c21ac6":[3,0,0,3,61,42]
+"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a87647f81ca2298a6419b5c8fba8026b2":[3,0,0,3,61,3]
 };

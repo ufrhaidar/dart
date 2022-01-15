@@ -1,9 +1,13 @@
 var NAVTREEINDEX48 =
 {
+"d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties.html#ac590ff1b6699a7423456b1c40c1d329c":[3,0,0,3,62,0,4],
+"d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties.html#acc9cc4a35a1acddff1d9333556783720":[3,0,0,3,62,0,0],
+"d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties.html#ad161a57901146087fdbaca9098f77129":[3,0,0,3,62,0,14],
+"d9/db4/structdart_1_1dynamics_1_1PointMass_1_1Properties.html#afa2786ef209b7edd2e55b29660bbcd6e":[3,0,0,3,62,0,12],
 "d9/db5/CapsuleShape_8hpp.html":[4,0,0,3,14],
 "d9/db5/CapsuleShape_8hpp_source.html":[4,0,0,3,14],
-"d9/db7/VersionCounter_8hpp.html":[4,0,0,1,66],
-"d9/db7/VersionCounter_8hpp_source.html":[4,0,0,1,66],
+"d9/db7/VersionCounter_8hpp.html":[4,0,0,1,67],
+"d9/db7/VersionCounter_8hpp_source.html":[4,0,0,1,67],
 "d9/db9/PathShortener_8cpp.html":[4,0,0,9,5],
 "d9/db9/PathShortener_8cpp.html#ab38e69aa0434552e8205bd1796061a03":[4,0,0,9,5,0],
 "d9/db9/ShapeFrameNode_8cpp.html":[4,0,0,4,1,18],
@@ -144,10 +148,10 @@ var NAVTREEINDEX48 =
 "d9/ddc/classdart_1_1collision_1_1BulletCollisionObject.html#af60d435ebc3f8e2523d60fce7f72f42b":[3,0,0,0,5,7],
 "d9/ddc/structdart_1_1math_1_1detail_1_1integratePositionImpl_3_01SO3Space_01_4.html":[3,0,0,7,0,2],
 "d9/ddc/structdart_1_1math_1_1detail_1_1integratePositionImpl_3_01SO3Space_01_4.html#a819639d95a44fe2e79a183b9bb068033":[3,0,0,7,0,2,0],
-"d9/dde/ProxyAspect_8hpp.html":[4,0,0,1,41],
-"d9/dde/ProxyAspect_8hpp.html#a52908372446d45b1fd44556197a83796":[4,0,0,1,41,2],
-"d9/dde/ProxyAspect_8hpp.html#a70630056cf85b3dc619da0be67c45669":[4,0,0,1,41,1],
-"d9/dde/ProxyAspect_8hpp_source.html":[4,0,0,1,41],
+"d9/dde/ProxyAspect_8hpp.html":[4,0,0,1,42],
+"d9/dde/ProxyAspect_8hpp.html#a52908372446d45b1fd44556197a83796":[4,0,0,1,42,2],
+"d9/dde/ProxyAspect_8hpp.html#a70630056cf85b3dc619da0be67c45669":[4,0,0,1,42,1],
+"d9/dde/ProxyAspect_8hpp_source.html":[4,0,0,1,42],
 "d9/de0/SkeletonAspect_8hpp.html":[4,0,0,3,0,37],
 "d9/de0/SkeletonAspect_8hpp.html#a03975ea60dd67170d319696dfaaf2da2":[4,0,0,3,0,37,13],
 "d9/de0/SkeletonAspect_8hpp.html#a0b09daf7985999916adfa1d7e1eed296":[4,0,0,3,0,37,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX48 =
 "d9/dff/classdart_1_1dynamics_1_1TemplateNodePtr.html#ad50dd3884e4dd07bc676af0137c98a23":[3,0,0,3,90,5],
 "d9/dff/classdart_1_1dynamics_1_1TemplateNodePtr.html#ae8769d6ce0464921d1dd6b2c7f324435":[3,0,0,3,90,14],
 "d9/dff/classdart_1_1dynamics_1_1TemplateNodePtr.html#aec26235ea529a84ea177747362110e85":[3,0,0,3,90,10],
-"d9/dff/classdart_1_1dynamics_1_1TemplateNodePtr.html#afd15ff753789e5c45b0c6a8769b166da":[3,0,0,3,90,8],
-"da/d06/Error_8cpp.html":[4,0,0,11,0,0,12],
-"da/d06/classdart_1_1math_1_1BoundingBox.html":[3,0,0,7,1],
-"da/d06/classdart_1_1math_1_1BoundingBox.html#a04a316c16422c39c530cc6af0f77f7c2":[3,0,0,7,1,5],
-"da/d06/classdart_1_1math_1_1BoundingBox.html#a20d35577d893dd49ffa4f05e64205c45":[3,0,0,7,1,8]
+"d9/dff/classdart_1_1dynamics_1_1TemplateNodePtr.html#afd15ff753789e5c45b0c6a8769b166da":[3,0,0,3,90,8]
 };

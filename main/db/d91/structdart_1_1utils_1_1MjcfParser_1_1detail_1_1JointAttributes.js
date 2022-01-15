@@ -7,7 +7,7 @@ var structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes =
     [ "mGroup", "db/d91/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes.html#a603fb2ef1eba88ac99961cf4a2233907", null ],
     [ "mLimited", "db/d91/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes.html#ab20da676dc0cfa88fc089cd1e31a9b55", null ],
     [ "mMargin", "db/d91/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes.html#aa9182da646d07e8e5a8eabad31a44bb9", null ],
-    [ "mName", "db/d91/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes.html#ade7fee046ca76afee24cef1b86c5daee", null ],
+    [ "mName", "db/d91/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes.html#adb6f9e7ed7f3a58590a16fdb909292e8", null ],
     [ "mPos", "db/d91/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes.html#ae47999698bcef29aeb929ea64eda19e9", null ],
     [ "mRange", "db/d91/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes.html#a4959049470f92613a2c20275e2654ef6", null ],
     [ "mRef", "db/d91/structdart_1_1utils_1_1MjcfParser_1_1detail_1_1JointAttributes.html#a22d4ad532f49088b854f53af67f2736f", null ],

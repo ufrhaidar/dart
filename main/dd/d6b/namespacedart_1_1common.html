@@ -316,6 +316,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3fd24c077cd490f0af28f214cb2a90e0"><td class="memTemplParams" colspan="2">template&lt;class DerivedT , typename PropertiesDataT , class CompositeT  = Composite, void(*)(DerivedT *) updateProperties = &amp;detail::NoOp&lt;DerivedT*&gt;&gt; </td></tr>
 <tr class="memitem:a3fd24c077cd490f0af28f214cb2a90e0"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a3fd24c077cd490f0af28f214cb2a90e0">AspectWithVersionedProperties</a> = <a class="el" href="../../da/db5/classdart_1_1common_1_1detail_1_1AspectWithVersionedProperties.html">detail::AspectWithVersionedProperties</a>&lt; <a class="el" href="../../dc/d65/classdart_1_1common_1_1CompositeTrackingAspect.html">CompositeTrackingAspect</a>&lt; CompositeT &gt;, DerivedT, PropertiesDataT, CompositeT, updateProperties &gt;</td></tr>
 <tr class="separator:a3fd24c077cd490f0af28f214cb2a90e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6cbb067dc34fdabc3cbd727a3e5756a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ae6cbb067dc34fdabc3cbd727a3e5756a">error_code</a> = ::std::error_code</td></tr>
+<tr class="separator:ae6cbb067dc34fdabc3cbd727a3e5756a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e980fe2587497d7848324ae6a805c32"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a7e980fe2587497d7848324ae6a805c32">LocalResourceRetrieverPtr</a> = std::shared_ptr&lt; <a class="el" href="../../d3/d40/classdart_1_1common_1_1LocalResourceRetriever.html">LocalResourceRetriever</a> &gt;</td></tr>
 <tr class="separator:a7e980fe2587497d7848324ae6a805c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe9029281b59a623b00e4bd99975d7dd"><td class="memTemplParams" colspan="2">template&lt;typename _Tp &gt; </td></tr>
@@ -324,9 +326,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:af73bfdde1ca200540110470dbc3fa4dc"><td class="memTemplParams" colspan="2">template&lt;typename _Key , typename _Tp , typename _Compare  = std::less&lt;_Key&gt;&gt; </td></tr>
 <tr class="memitem:af73bfdde1ca200540110470dbc3fa4dc"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#af73bfdde1ca200540110470dbc3fa4dc">aligned_map</a> = std::map&lt; _Key, _Tp, _Compare, Eigen::aligned_allocator&lt; std::pair&lt; const _Key, _Tp &gt; &gt;&gt;</td></tr>
 <tr class="separator:af73bfdde1ca200540110470dbc3fa4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae48ac50f62d6c599decd44dcaca5cd89"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ae48ac50f62d6c599decd44dcaca5cd89"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ae48ac50f62d6c599decd44dcaca5cd89">optional</a> = boost::optional&lt; T &gt;</td></tr>
-<tr class="separator:ae48ac50f62d6c599decd44dcaca5cd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63692c1d33c05a9813e6b2e78cee167f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a63692c1d33c05a9813e6b2e78cee167f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a63692c1d33c05a9813e6b2e78cee167f">optional</a> = std::optional&lt; T &gt;</td></tr>
+<tr class="separator:a63692c1d33c05a9813e6b2e78cee167f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52908372446d45b1fd44556197a83796"><td class="memTemplParams" colspan="2">template&lt;class CompositeT , typename StateT &gt; </td></tr>
 <tr class="memitem:a52908372446d45b1fd44556197a83796"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a52908372446d45b1fd44556197a83796">ProxyStateAspect</a> = <a class="el" href="../../d9/d18/classdart_1_1common_1_1detail_1_1ProxyStateAspect.html">detail::ProxyStateAspect</a>&lt; <a class="el" href="../../dc/d65/classdart_1_1common_1_1CompositeTrackingAspect.html">common::CompositeTrackingAspect</a>&lt; CompositeT &gt;, CompositeT, StateT &gt;</td></tr>
 <tr class="separator:a52908372446d45b1fd44556197a83796"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -525,6 +527,20 @@ template&lt;class DerivedT , typename PropertiesDataT , class CompositeT  = Comp
 
 </div>
 </div>
+<a id="ae6cbb067dc34fdabc3cbd727a3e5756a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6cbb067dc34fdabc3cbd727a3e5756a">&#9670;&nbsp;</a></span>error_code</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ae6cbb067dc34fdabc3cbd727a3e5756a">dart::common::error_code</a> = typedef ::std::error_code</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7e980fe2587497d7848324ae6a805c32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7e980fe2587497d7848324ae6a805c32">&#9670;&nbsp;</a></span>LocalResourceRetrieverPtr</h2>
 
@@ -539,8 +555,8 @@ template&lt;class DerivedT , typename PropertiesDataT , class CompositeT  = Comp
 
 </div>
 </div>
-<a id="ae48ac50f62d6c599decd44dcaca5cd89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae48ac50f62d6c599decd44dcaca5cd89">&#9670;&nbsp;</a></span>optional</h2>
+<a id="a63692c1d33c05a9813e6b2e78cee167f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63692c1d33c05a9813e6b2e78cee167f">&#9670;&nbsp;</a></span>optional</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -548,10 +564,11 @@ template&lt;class DerivedT , typename PropertiesDataT , class CompositeT  = Comp
 template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#ae48ac50f62d6c599decd44dcaca5cd89">dart::common::optional</a> = typedef boost::optional&lt;T&gt;</td>
+          <td class="memname">using <a class="el" href="../../dd/d6b/namespacedart_1_1common.html#a63692c1d33c05a9813e6b2e78cee167f">dart::common::optional</a> = typedef std::optional&lt;T&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000007">Deprecated:</a></b></dt><dd>Use std::optional instead </dd></dl>
 
 </div>
 </div>
@@ -1606,7 +1623,7 @@ template&lt;class DerivedT , typename StateDataT , typename PropertiesDataT , cl
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../dd/d6b/namespacedart_1_1common.html">common</a></li>
-    <li class="footer">Generated on Fri Jan 14 2022 23:50:59 for DART by
+    <li class="footer">Generated on Sat Jan 15 2022 15:05:21 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
