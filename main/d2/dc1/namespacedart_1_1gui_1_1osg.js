@@ -1,5 +1,6 @@
 var namespacedart_1_1gui_1_1osg =
 [
+    [ "detail", "df/d5f/namespacedart_1_1gui_1_1osg_1_1detail.html", "df/d5f/namespacedart_1_1gui_1_1osg_1_1detail" ],
     [ "render", "d4/d7f/namespacedart_1_1gui_1_1osg_1_1render.html", "d4/d7f/namespacedart_1_1gui_1_1osg_1_1render" ],
     [ "AboutWidget", "dd/da5/classdart_1_1gui_1_1osg_1_1AboutWidget.html", "dd/da5/classdart_1_1gui_1_1osg_1_1AboutWidget" ],
     [ "BodyNodeDnD", "d2/d22/classdart_1_1gui_1_1osg_1_1BodyNodeDnD.html", "d2/d22/classdart_1_1gui_1_1osg_1_1BodyNodeDnD" ],

@@ -1,5 +1,6 @@
 var dir_2b4f801031e8bcc2ca977d4a2c08cce1 =
 [
+    [ "detail", "dir_540f9b783e941ceba4b508ede894c3f8.html", "dir_540f9b783e941ceba4b508ede894c3f8" ],
     [ "render", "dir_af5f6e55beb8de631156bab63c0de554.html", "dir_af5f6e55beb8de631156bab63c0de554" ],
     [ "DefaultEventHandler.cpp", "da/d7d/DefaultEventHandler_8cpp.html", "da/d7d/DefaultEventHandler_8cpp" ],
     [ "DefaultEventHandler.hpp", "d8/db1/DefaultEventHandler_8hpp.html", "d8/db1/DefaultEventHandler_8hpp" ],
@@ -50,12 +51,10 @@ var dir_2b4f801031e8bcc2ca977d4a2c08cce1 =
     ] ],
     [ "TrackballManipulator.cpp", "de/d6e/TrackballManipulator_8cpp.html", null ],
     [ "TrackballManipulator.hpp", "d1/d98/TrackballManipulator_8hpp.html", "d1/d98/TrackballManipulator_8hpp" ],
+    [ "Utils.cpp", "d2/d87/gui_2osg_2Utils_8cpp.html", "d2/d87/gui_2osg_2Utils_8cpp" ],
     [ "Utils.hpp", "d4/da4/gui_2osg_2Utils_8hpp.html", "d4/da4/gui_2osg_2Utils_8hpp" ],
     [ "Viewer.cpp", "d0/d5b/Viewer_8cpp.html", "d0/d5b/Viewer_8cpp" ],
-    [ "Viewer.hpp", "d3/db5/Viewer_8hpp.html", [
-      [ "ViewerAttachment", "d0/d32/classdart_1_1gui_1_1osg_1_1ViewerAttachment.html", "d0/d32/classdart_1_1gui_1_1osg_1_1ViewerAttachment" ],
-      [ "Viewer", "da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html", "da/d56/classdart_1_1gui_1_1osg_1_1Viewer" ]
-    ] ],
+    [ "Viewer.hpp", "d3/db5/Viewer_8hpp.html", "d3/db5/Viewer_8hpp" ],
     [ "WorldNode.cpp", "d2/d9f/WorldNode_8cpp.html", [
       [ "WorldNodeCallback", "d1/d90/classdart_1_1gui_1_1osg_1_1WorldNodeCallback.html", "d1/d90/classdart_1_1gui_1_1osg_1_1WorldNodeCallback" ]
     ] ],

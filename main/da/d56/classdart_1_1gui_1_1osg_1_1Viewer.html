@@ -90,6 +90,7 @@ $(document).ready(function(){initNavTree('da/d56/classdart_1_1gui_1_1osg_1_1View
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="../../d6/d17/classdart_1_1gui_1_1osg_1_1Viewer-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -249,6 +250,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac43413ef5051fb7732ea0ccfcab9d3a2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#ac43413ef5051fb7732ea0ccfcab9d3a2">getVerticalFieldOfView</a> () const</td></tr>
 <tr class="memdesc:ac43413ef5051fb7732ea0ccfcab9d3a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the vertical field of view of the master camera of the view.  <a href="#ac43413ef5051fb7732ea0ccfcab9d3a2">More...</a><br /></td></tr>
 <tr class="separator:ac43413ef5051fb7732ea0ccfcab9d3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf850e36cf5c46078125ac85576faf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#afbf850e36cf5c46078125ac85576faf5">setCameraMode</a> (<a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a48645674d0408463ab193e5b6666c1ce">CameraMode</a> mode)</td></tr>
+<tr class="memdesc:afbf850e36cf5c46078125ac85576faf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the camera mode of the primary camera.  <a href="#afbf850e36cf5c46078125ac85576faf5">More...</a><br /></td></tr>
+<tr class="separator:afbf850e36cf5c46078125ac85576faf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208579f36a9b4509c28ecf4b60363a2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a48645674d0408463ab193e5b6666c1ce">CameraMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#a208579f36a9b4509c28ecf4b60363a2e">getCameraMode</a> () const</td></tr>
+<tr class="memdesc:a208579f36a9b4509c28ecf4b60363a2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the camera mode of the primary camera.  <a href="#a208579f36a9b4509c28ecf4b60363a2e">More...</a><br /></td></tr>
+<tr class="separator:a208579f36a9b4509c28ecf4b60363a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -344,6 +351,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:acb21558de80efdc434cd64c90a205ba8"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#a1bc1613ca5d6d0e8b2fbce5ef15dd38f">Observer</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d73/classdart_1_1common_1_1Subject.html#acb21558de80efdc434cd64c90a205ba8">mObservers</a></td></tr>
 <tr class="memdesc:acb21558de80efdc434cd64c90a205ba8"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of current Observers.  <a href="#acb21558de80efdc434cd64c90a205ba8">More...</a><br /></td></tr>
 <tr class="separator:acb21558de80efdc434cd64c90a205ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a470b1480abb8c672efb1818cc362143a"><td class="memItemLeft" align="right" valign="top">::osg::ref_ptr&lt; <a class="el" href="../../df/da7/classdart_1_1gui_1_1osg_1_1detail_1_1CameraModeCallback.html">detail::CameraModeCallback</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#a470b1480abb8c672efb1818cc362143a">mCameraModeCallback</a></td></tr>
+<tr class="memdesc:a470b1480abb8c672efb1818cc362143a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback to control the camera mode.  <a href="#a470b1480abb8c672efb1818cc362143a">More...</a><br /></td></tr>
+<tr class="separator:a470b1480abb8c672efb1818cc362143a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -814,6 +827,25 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a208579f36a9b4509c28ecf4b60363a2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a208579f36a9b4509c28ecf4b60363a2e">&#9670;&nbsp;</a></span>getCameraMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a48645674d0408463ab193e5b6666c1ce">CameraMode</a> dart::gui::osg::Viewer::getCameraMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the camera mode of the primary camera. </p>
+
+</div>
+</div>
 <a id="ad619292cec3d4a53bee8cee923aa8206"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad619292cec3d4a53bee8cee923aa8206">&#9670;&nbsp;</a></span>getDefaultEventHandler()</h2>
 
@@ -1207,6 +1239,26 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="afbf850e36cf5c46078125ac85576faf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbf850e36cf5c46078125ac85576faf5">&#9670;&nbsp;</a></span>setCameraMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dart::gui::osg::Viewer::setCameraMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a48645674d0408463ab193e5b6666c1ce">CameraMode</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the camera mode of the primary camera. </p>
+
+</div>
+</div>
 <a id="a7be06c979487c5dd8014af43723928f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7be06c979487c5dd8014af43723928f2">&#9670;&nbsp;</a></span>setupDefaultLights()</h2>
 
@@ -1565,6 +1617,30 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Map from BodyNode ptrs to <a class="el" href="../../d2/d22/classdart_1_1gui_1_1osg_1_1BodyNodeDnD.html">BodyNodeDnD</a> ptrs. </p>
+
+</div>
+</div>
+<a id="a470b1480abb8c672efb1818cc362143a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a470b1480abb8c672efb1818cc362143a">&#9670;&nbsp;</a></span>mCameraModeCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">::osg::ref_ptr&lt;<a class="el" href="../../df/da7/classdart_1_1gui_1_1osg_1_1detail_1_1CameraModeCallback.html">detail::CameraModeCallback</a>&gt; dart::gui::osg::Viewer::mCameraModeCallback</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Callback to control the camera mode. </p>
 
 </div>
 </div>
@@ -2152,7 +2228,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d83/namespacedart.html">dart</a></li><li class="navelem"><a class="el" href="../../d0/dcf/namespacedart_1_1gui.html">gui</a></li><li class="navelem"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html">osg</a></li><li class="navelem"><a class="el" href="../../da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html">Viewer</a></li>
-    <li class="footer">Generated on Sun Jan 16 2022 00:02:13 for DART by
+    <li class="footer">Generated on Thu Jan 20 2022 05:16:07 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

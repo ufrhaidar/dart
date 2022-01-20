@@ -87,345 +87,91 @@ $(document).ready(function(){initNavTree('d4/da4/gui_2osg_2Utils_8hpp.html','../
 
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Utils.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Eigen/Geometry&gt;</code><br />
+<code>#include &lt;osg/Camera&gt;</code><br />
 <code>#include &lt;osg/Matrix&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d8/dfd/Utils-impl_8hpp_source.html">dart/gui/osg/detail/Utils-impl.hpp</a>&quot;</code><br />
 </div>
 <p><a href="../../d4/da4/gui_2osg_2Utils_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d2/dc1/namespacedart_1_1gui_1_1osg"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html">dart::gui::osg</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8db3d3705e34fd5a9c1b0093f0fae8c4"><td class="memTemplParams" colspan="2">template&lt;typename T  = double&gt; </td></tr>
-<tr class="memitem:a8db3d3705e34fd5a9c1b0093f0fae8c4"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a8db3d3705e34fd5a9c1b0093f0fae8c4">getAlphaThreshold</a> ()</td></tr>
-<tr class="separator:a8db3d3705e34fd5a9c1b0093f0fae8c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2f3fcb20e0ba49c547a1a23ba41b8bf"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
-<tr class="memitem:ae2f3fcb20e0ba49c547a1a23ba41b8bf"><td class="memTemplItemLeft" align="right" valign="top">::osg::Matrix&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#ae2f3fcb20e0ba49c547a1a23ba41b8bf">eigToOsgMatrix</a> (const Eigen::Transform&lt; Scalar, 3, Eigen::Isometry &gt; &amp;tf)</td></tr>
-<tr class="separator:ae2f3fcb20e0ba49c547a1a23ba41b8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21d2efa3b79955b2a03bd07f077af3c4"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
-<tr class="memitem:a21d2efa3b79955b2a03bd07f077af3c4"><td class="memTemplItemLeft" align="right" valign="top">::osg::Matrix&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a21d2efa3b79955b2a03bd07f077af3c4">eigToOsgMatrix</a> (const Eigen::DenseBase&lt; Derived &gt; &amp;M)</td></tr>
-<tr class="separator:a21d2efa3b79955b2a03bd07f077af3c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78a87a2de643d86c8626e8fd19946198"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
-<tr class="memitem:a78a87a2de643d86c8626e8fd19946198"><td class="memTemplItemLeft" align="right" valign="top">::osg::Vec3f&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a78a87a2de643d86c8626e8fd19946198">eigToOsgVec3f</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
-<tr class="separator:a78a87a2de643d86c8626e8fd19946198"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a944c7faaeff20933da82a6ba919b1416"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
-<tr class="memitem:a944c7faaeff20933da82a6ba919b1416"><td class="memTemplItemLeft" align="right" valign="top">::osg::Vec3d&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a944c7faaeff20933da82a6ba919b1416">eigToOsgVec3d</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
-<tr class="separator:a944c7faaeff20933da82a6ba919b1416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae028370b26109b3f4b86290e6ed8ea92"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
-<tr class="memitem:ae028370b26109b3f4b86290e6ed8ea92"><td class="memTemplItemLeft" align="right" valign="top">std::conditional&lt; std::is_same&lt; typename Derived::Scalar, float &gt;::value, ::osg::Vec3f, ::osg::Vec3d &gt;::<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#ae028370b26109b3f4b86290e6ed8ea92">eigToOsgVec3</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
-<tr class="separator:ae028370b26109b3f4b86290e6ed8ea92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00bed679c338070e5aac35f93b1ddf38"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a00bed679c338070e5aac35f93b1ddf38">osgToEigVec3</a> (const ::osg::Vec3f &amp;vec)</td></tr>
-<tr class="separator:a00bed679c338070e5aac35f93b1ddf38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1126d85cfbf372914c9642881f84a276"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a1126d85cfbf372914c9642881f84a276">osgToEigVec3</a> (const ::osg::Vec3d &amp;vec)</td></tr>
-<tr class="separator:a1126d85cfbf372914c9642881f84a276"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5958ba65417fc7d724f4a562d9047a08"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
-<tr class="memitem:a5958ba65417fc7d724f4a562d9047a08"><td class="memTemplItemLeft" align="right" valign="top">::osg::Vec4f&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a5958ba65417fc7d724f4a562d9047a08">eigToOsgVec4f</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
-<tr class="separator:a5958ba65417fc7d724f4a562d9047a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0381a0e37a3240bac691e6fb821ae4d"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
-<tr class="memitem:ae0381a0e37a3240bac691e6fb821ae4d"><td class="memTemplItemLeft" align="right" valign="top">::osg::Vec4d&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#ae0381a0e37a3240bac691e6fb821ae4d">eigToOsgVec4d</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
-<tr class="separator:ae0381a0e37a3240bac691e6fb821ae4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90a12a1dc324b3974bd031d83c155ba3"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
-<tr class="memitem:a90a12a1dc324b3974bd031d83c155ba3"><td class="memTemplItemLeft" align="right" valign="top">std::conditional&lt; std::is_same&lt; typename Derived::Scalar, float &gt;::value, ::osg::Vec4f, ::osg::Vec4d &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a90a12a1dc324b3974bd031d83c155ba3">eigToOsgVec4</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
-<tr class="separator:a90a12a1dc324b3974bd031d83c155ba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af264e3539234b10bb1c6751d3b4435cf"><td class="memItemLeft" align="right" valign="top">Eigen::Vector4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#af264e3539234b10bb1c6751d3b4435cf">osgToEigVec4</a> (const ::osg::Vec4f &amp;vec)</td></tr>
-<tr class="separator:af264e3539234b10bb1c6751d3b4435cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bfe2e59c42c8f47d28e9379b743cca3"><td class="memItemLeft" align="right" valign="top">Eigen::Vector4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html#a2bfe2e59c42c8f47d28e9379b743cca3">osgToEigVec4</a> (const ::osg::Vec4d &amp;vec)</td></tr>
-<tr class="separator:a2bfe2e59c42c8f47d28e9379b743cca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dfad0ee626742a4171aa482cdd6579e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4dfad0ee626742a4171aa482cdd6579e"><td class="memTemplItemLeft" align="right" valign="top">constexpr T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a4dfad0ee626742a4171aa482cdd6579e">dart::gui::osg::getAlphaThreshold</a> ()</td></tr>
+<tr class="memdesc:a4dfad0ee626742a4171aa482cdd6579e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the alpha threshold for demining if the object is a transparent object or not.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a4dfad0ee626742a4171aa482cdd6579e">More...</a><br /></td></tr>
+<tr class="separator:a4dfad0ee626742a4171aa482cdd6579e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a807b59bd329e12c00436b7d76735386f"><td class="memTemplParams" colspan="2">template&lt;typename Scalar &gt; </td></tr>
+<tr class="memitem:a807b59bd329e12c00436b7d76735386f"><td class="memTemplItemLeft" align="right" valign="top">::osg::Matrix&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a807b59bd329e12c00436b7d76735386f">dart::gui::osg::eigToOsgMatrix</a> (const Eigen::Transform&lt; Scalar, 3, Eigen::Isometry &gt; &amp;tf)</td></tr>
+<tr class="memdesc:a807b59bd329e12c00436b7d76735386f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Eigen::Isometry to osg::Matrix.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a807b59bd329e12c00436b7d76735386f">More...</a><br /></td></tr>
+<tr class="separator:a807b59bd329e12c00436b7d76735386f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4f95ca6061dae9c41256ef1c6e2b2f"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:a6d4f95ca6061dae9c41256ef1c6e2b2f"><td class="memTemplItemLeft" align="right" valign="top">::osg::Matrix&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a6d4f95ca6061dae9c41256ef1c6e2b2f">dart::gui::osg::eigToOsgMatrix</a> (const Eigen::DenseBase&lt; Derived &gt; &amp;M)</td></tr>
+<tr class="memdesc:a6d4f95ca6061dae9c41256ef1c6e2b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Eigen::DenseBase to osg::Matrix.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a6d4f95ca6061dae9c41256ef1c6e2b2f">More...</a><br /></td></tr>
+<tr class="separator:a6d4f95ca6061dae9c41256ef1c6e2b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0043e3b9a16ca40096c24821d7f2a9d1"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:a0043e3b9a16ca40096c24821d7f2a9d1"><td class="memTemplItemLeft" align="right" valign="top">::osg::Vec3f&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a0043e3b9a16ca40096c24821d7f2a9d1">dart::gui::osg::eigToOsgVec3f</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
+<tr class="memdesc:a0043e3b9a16ca40096c24821d7f2a9d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Eigen::MatrixBase to osg::Vec3f.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a0043e3b9a16ca40096c24821d7f2a9d1">More...</a><br /></td></tr>
+<tr class="separator:a0043e3b9a16ca40096c24821d7f2a9d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca35abd36e12fa5f8a825dc379d17fcc"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:aca35abd36e12fa5f8a825dc379d17fcc"><td class="memTemplItemLeft" align="right" valign="top">::osg::Vec3d&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#aca35abd36e12fa5f8a825dc379d17fcc">dart::gui::osg::eigToOsgVec3d</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
+<tr class="memdesc:aca35abd36e12fa5f8a825dc379d17fcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Eigen::MatrixBase to osg::Vec3d.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#aca35abd36e12fa5f8a825dc379d17fcc">More...</a><br /></td></tr>
+<tr class="separator:aca35abd36e12fa5f8a825dc379d17fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b6023fce5943c624fc9774a835ead88"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:a9b6023fce5943c624fc9774a835ead88"><td class="memTemplItemLeft" align="right" valign="top">std::conditional&lt; std::is_same&lt; typename Derived::Scalar, float &gt;::value, ::osg::Vec3f, ::osg::Vec3d &gt;::<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a9b6023fce5943c624fc9774a835ead88">dart::gui::osg::eigToOsgVec3</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
+<tr class="memdesc:a9b6023fce5943c624fc9774a835ead88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Eigen::MatrixBase to osg::Vec3f or osg::Vec3d based on the scalar type.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a9b6023fce5943c624fc9774a835ead88">More...</a><br /></td></tr>
+<tr class="separator:a9b6023fce5943c624fc9774a835ead88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6923165705ceb96ef0567fe0d465808"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#ac6923165705ceb96ef0567fe0d465808">dart::gui::osg::osgToEigVec3</a> (const ::osg::Vec3f &amp;vec)</td></tr>
+<tr class="memdesc:ac6923165705ceb96ef0567fe0d465808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts osg::Vec3f to Eigen::Vector3f.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#ac6923165705ceb96ef0567fe0d465808">More...</a><br /></td></tr>
+<tr class="separator:ac6923165705ceb96ef0567fe0d465808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee77894ffb85b40484e1feb55698c25c"><td class="memItemLeft" align="right" valign="top">Eigen::Vector3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#aee77894ffb85b40484e1feb55698c25c">dart::gui::osg::osgToEigVec3</a> (const ::osg::Vec3d &amp;vec)</td></tr>
+<tr class="memdesc:aee77894ffb85b40484e1feb55698c25c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts osg::Vec3d to Eigen::Vector3d.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#aee77894ffb85b40484e1feb55698c25c">More...</a><br /></td></tr>
+<tr class="separator:aee77894ffb85b40484e1feb55698c25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1afd248070cbaba57f0c0ec7adffbbe0"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:a1afd248070cbaba57f0c0ec7adffbbe0"><td class="memTemplItemLeft" align="right" valign="top">::osg::Vec4f&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a1afd248070cbaba57f0c0ec7adffbbe0">dart::gui::osg::eigToOsgVec4f</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
+<tr class="memdesc:a1afd248070cbaba57f0c0ec7adffbbe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Eigen::MatrixBase to osg::Vec4f.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a1afd248070cbaba57f0c0ec7adffbbe0">More...</a><br /></td></tr>
+<tr class="separator:a1afd248070cbaba57f0c0ec7adffbbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50788ea2b85675206633bba2dc4a53b"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:ad50788ea2b85675206633bba2dc4a53b"><td class="memTemplItemLeft" align="right" valign="top">::osg::Vec4d&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#ad50788ea2b85675206633bba2dc4a53b">dart::gui::osg::eigToOsgVec4d</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
+<tr class="memdesc:ad50788ea2b85675206633bba2dc4a53b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Eigen::MatrixBase to osg::Vec4d.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#ad50788ea2b85675206633bba2dc4a53b">More...</a><br /></td></tr>
+<tr class="separator:ad50788ea2b85675206633bba2dc4a53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f86e322347a2bb36a3873cc994837e1"><td class="memTemplParams" colspan="2">template&lt;typename Derived &gt; </td></tr>
+<tr class="memitem:a8f86e322347a2bb36a3873cc994837e1"><td class="memTemplItemLeft" align="right" valign="top">std::conditional&lt; std::is_same&lt; typename Derived::Scalar, float &gt;::value, ::osg::Vec4f, ::osg::Vec4d &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a8f86e322347a2bb36a3873cc994837e1">dart::gui::osg::eigToOsgVec4</a> (const Eigen::MatrixBase&lt; Derived &gt; &amp;vec)</td></tr>
+<tr class="memdesc:a8f86e322347a2bb36a3873cc994837e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Eigen::MatrixBase to osg::Vec4f or osg::Vec4d based on the scalar type.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a8f86e322347a2bb36a3873cc994837e1">More...</a><br /></td></tr>
+<tr class="separator:a8f86e322347a2bb36a3873cc994837e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc2af14ff1c8d61da9291a6c3288ccac"><td class="memItemLeft" align="right" valign="top">Eigen::Vector4f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#adc2af14ff1c8d61da9291a6c3288ccac">dart::gui::osg::osgToEigVec4</a> (const ::osg::Vec4f &amp;vec)</td></tr>
+<tr class="memdesc:adc2af14ff1c8d61da9291a6c3288ccac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts osg::Vec4f to Eigen::Vector4f.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#adc2af14ff1c8d61da9291a6c3288ccac">More...</a><br /></td></tr>
+<tr class="separator:adc2af14ff1c8d61da9291a6c3288ccac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc1a1edca5d94150bbc7abfa3806ef6"><td class="memItemLeft" align="right" valign="top">Eigen::Vector4d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a8fc1a1edca5d94150bbc7abfa3806ef6">dart::gui::osg::osgToEigVec4</a> (const ::osg::Vec4d &amp;vec)</td></tr>
+<tr class="memdesc:a8fc1a1edca5d94150bbc7abfa3806ef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts osg::Vec4d to Eigen::Vector4d.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a8fc1a1edca5d94150bbc7abfa3806ef6">More...</a><br /></td></tr>
+<tr class="separator:a8fc1a1edca5d94150bbc7abfa3806ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865be6e32800391d54e0e27f888a64a2"><td class="memItemLeft" align="right" valign="top">::osg::Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a865be6e32800391d54e0e27f888a64a2">dart::gui::osg::createRttCamera</a> (::osg::Camera::BufferComponent buffer, ::osg::Texture *tex, bool isAbsolute=false)</td></tr>
+<tr class="memdesc:a865be6e32800391d54e0e27f888a64a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Render-To-Texture (RTT) camera.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a865be6e32800391d54e0e27f888a64a2">More...</a><br /></td></tr>
+<tr class="separator:a865be6e32800391d54e0e27f888a64a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2805b2027c629b903376965cfd327d44"><td class="memItemLeft" align="right" valign="top">::osg::Camera *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a2805b2027c629b903376965cfd327d44">dart::gui::osg::createHudCamera</a> (double left=0, double right=1, double bottom=0, double top=1)</td></tr>
+<tr class="memdesc:a2805b2027c629b903376965cfd327d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a head-up display (HUD) camera that renders on the top after the main scene is drawn, which is generally used for heads-up display.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#a2805b2027c629b903376965cfd327d44">More...</a><br /></td></tr>
+<tr class="separator:a2805b2027c629b903376965cfd327d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5fe27350fc0c734a76533740ee07efe"><td class="memItemLeft" align="right" valign="top">::osg::Geode *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#ad5fe27350fc0c734a76533740ee07efe">dart::gui::osg::createScreenQuad</a> (float width, float height, float scale=1.0f)</td></tr>
+<tr class="memdesc:ad5fe27350fc0c734a76533740ee07efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a osg::Geode of quad shape.  <a href="../../d2/dc1/namespacedart_1_1gui_1_1osg.html#ad5fe27350fc0c734a76533740ee07efe">More...</a><br /></td></tr>
+<tr class="separator:ad5fe27350fc0c734a76533740ee07efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ae2f3fcb20e0ba49c547a1a23ba41b8bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2f3fcb20e0ba49c547a1a23ba41b8bf">&#9670;&nbsp;</a></span>eigToOsgMatrix() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Scalar &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">::osg::Matrix eigToOsgMatrix </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::Transform&lt; Scalar, 3, Eigen::Isometry &gt; &amp;&#160;</td>
-          <td class="paramname"><em>tf</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a21d2efa3b79955b2a03bd07f077af3c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21d2efa3b79955b2a03bd07f077af3c4">&#9670;&nbsp;</a></span>eigToOsgMatrix() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">::osg::Matrix eigToOsgMatrix </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::DenseBase&lt; Derived &gt; &amp;&#160;</td>
-          <td class="paramname"><em>M</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae028370b26109b3f4b86290e6ed8ea92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae028370b26109b3f4b86290e6ed8ea92">&#9670;&nbsp;</a></span>eigToOsgVec3()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::conditional&lt; std::is_same&lt;typename Derived::Scalar, float&gt;::value, ::osg::Vec3f, ::osg::Vec3d&gt;::<a class="el" href="../../d8/d35/SkelParser_8cpp.html#a75b160f574a0be26114bae2c7686a5e1">type</a> eigToOsgVec3 </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::MatrixBase&lt; Derived &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a944c7faaeff20933da82a6ba919b1416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a944c7faaeff20933da82a6ba919b1416">&#9670;&nbsp;</a></span>eigToOsgVec3d()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">::osg::Vec3d eigToOsgVec3d </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::MatrixBase&lt; Derived &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a78a87a2de643d86c8626e8fd19946198"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78a87a2de643d86c8626e8fd19946198">&#9670;&nbsp;</a></span>eigToOsgVec3f()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">::osg::Vec3f eigToOsgVec3f </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::MatrixBase&lt; Derived &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a90a12a1dc324b3974bd031d83c155ba3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90a12a1dc324b3974bd031d83c155ba3">&#9670;&nbsp;</a></span>eigToOsgVec4()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::conditional&lt; std::is_same&lt;typename Derived::Scalar, float&gt;::value, ::osg::Vec4f, ::osg::Vec4d&gt; eigToOsgVec4 </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::MatrixBase&lt; Derived &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae0381a0e37a3240bac691e6fb821ae4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0381a0e37a3240bac691e6fb821ae4d">&#9670;&nbsp;</a></span>eigToOsgVec4d()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">::osg::Vec4d eigToOsgVec4d </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::MatrixBase&lt; Derived &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5958ba65417fc7d724f4a562d9047a08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5958ba65417fc7d724f4a562d9047a08">&#9670;&nbsp;</a></span>eigToOsgVec4f()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Derived &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">::osg::Vec4f eigToOsgVec4f </td>
-          <td>(</td>
-          <td class="paramtype">const Eigen::MatrixBase&lt; Derived &gt; &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8db3d3705e34fd5a9c1b0093f0fae8c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8db3d3705e34fd5a9c1b0093f0fae8c4">&#9670;&nbsp;</a></span>getAlphaThreshold()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T  = double&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr T getAlphaThreshold </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a00bed679c338070e5aac35f93b1ddf38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00bed679c338070e5aac35f93b1ddf38">&#9670;&nbsp;</a></span>osgToEigVec3() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Vector3f osgToEigVec3 </td>
-          <td>(</td>
-          <td class="paramtype">const ::osg::Vec3f &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1126d85cfbf372914c9642881f84a276"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1126d85cfbf372914c9642881f84a276">&#9670;&nbsp;</a></span>osgToEigVec3() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Vector3d osgToEigVec3 </td>
-          <td>(</td>
-          <td class="paramtype">const ::osg::Vec3d &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af264e3539234b10bb1c6751d3b4435cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af264e3539234b10bb1c6751d3b4435cf">&#9670;&nbsp;</a></span>osgToEigVec4() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Vector4f osgToEigVec4 </td>
-          <td>(</td>
-          <td class="paramtype">const ::osg::Vec4f &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2bfe2e59c42c8f47d28e9379b743cca3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bfe2e59c42c8f47d28e9379b743cca3">&#9670;&nbsp;</a></span>osgToEigVec4() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::Vector4d osgToEigVec4 </td>
-          <td>(</td>
-          <td class="paramtype">const ::osg::Vec4d &amp;&#160;</td>
-          <td class="paramname"><em>vec</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdca9e024c7189a7f761273aaa65cff0.html">dart</a></li><li class="navelem"><a class="el" href="../../dir_77df7651d5de09f92d5a9d7a4e71e16d.html">gui</a></li><li class="navelem"><a class="el" href="../../dir_2b4f801031e8bcc2ca977d4a2c08cce1.html">osg</a></li><li class="navelem"><a class="el" href="../../d4/da4/gui_2osg_2Utils_8hpp.html">Utils.hpp</a></li>
-    <li class="footer">Generated on Sun Jan 16 2022 00:02:09 for DART by
+    <li class="footer">Generated on Thu Jan 20 2022 05:16:04 for DART by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
