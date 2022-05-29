@@ -1,7 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#ad8b919a14495d55452c4c765e3e18290":[3,0,0,3,39,59],
-"db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#ad924f542ab476c4ab59fd1073b4c4669":[3,0,0,3,39,89],
 "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#ad950bbbf06f166fed7314a895311cff0":[3,0,0,3,39,15],
 "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#ade4380907bc4b36896fa26a75fba3912":[3,0,0,3,39,58],
 "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#adf232faf6e1246cea8bd1e1b64976105":[3,0,0,3,39,24],
@@ -249,5 +247,7 @@ var NAVTREEINDEX58 =
 "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da83b71a28c527c4ffa75c17a351314497":[3,0,0,3,24,2,11],
 "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dab3781e67bc25ddbdba9d9ed64dc4f7cd":[3,0,0,3,24,2,4],
 "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a52bc86be856e82f6f6d3d86da9cb4b0dae43d52b0c821bdc945470374f062deba":[3,0,0,3,24,2,14],
-"db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a5458f7bc729b33884193c6ef773a36de":[3,0,0,3,24,21]
+"db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a5458f7bc729b33884193c6ef773a36de":[3,0,0,3,24,21],
+"db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a5b07bfbdd44bbaef0c29cd0086705614":[3,0,0,3,24,10],
+"db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a5e86916a004c1eef2b6cc4916301a687":[3,0,0,3,24,27]
 };

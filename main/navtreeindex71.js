@@ -1,8 +1,8 @@
 var NAVTREEINDEX71 =
 {
 "de/d1c/detail_2EmbeddedAspect_8hpp_source.html":[4,0,0,1,0,10],
-"de/d21/Singleton_8hpp.html":[4,0,0,1,52],
-"de/d21/Singleton_8hpp_source.html":[4,0,0,1,52],
+"de/d21/Singleton_8hpp.html":[4,0,0,1,53],
+"de/d21/Singleton_8hpp_source.html":[4,0,0,1,53],
 "de/d24/EntityNode_8hpp.html":[4,0,0,3,30],
 "de/d24/EntityNode_8hpp_source.html":[4,0,0,3,30],
 "de/d24/Geom_8cpp.html":[4,0,0,11,1,0,14],

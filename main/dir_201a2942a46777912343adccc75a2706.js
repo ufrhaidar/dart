@@ -52,8 +52,8 @@ var dir_201a2942a46777912343adccc75a2706 =
     [ "RequiresAspect.hpp", "dc/d9b/detail_2RequiresAspect_8hpp.html", null ],
     [ "SharedLibraryManager.cpp", "de/ddd/SharedLibraryManager_8cpp.html", null ],
     [ "SharedLibraryManager.hpp", "d8/d14/SharedLibraryManager_8hpp.html", [
-      [ "hash<::dart::common::filesystem::path >", "da/d84/structstd_1_1hash_3_1_1dart_1_1common_1_1filesystem_1_1path_01_4.html", "da/d84/structstd_1_1hash_3_1_1dart_1_1common_1_1filesystem_1_1path_01_4" ],
-      [ "SharedLibraryManager", "d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager.html", "d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager" ]
+      [ "SharedLibraryManager", "d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager.html", "d0/d5b/classdart_1_1common_1_1detail_1_1SharedLibraryManager" ],
+      [ "FileSystemHash", "d6/d89/structdart_1_1common_1_1detail_1_1SharedLibraryManager_1_1FileSystemHash.html", "d6/d89/structdart_1_1common_1_1detail_1_1SharedLibraryManager_1_1FileSystemHash" ]
     ] ],
     [ "Signal.hpp", "dd/dc7/detail_2Signal_8hpp.html", null ],
     [ "Singleton-impl.hpp", "d0/d7d/Singleton-impl_8hpp.html", null ],
