@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"df/dbc/classdart_1_1optimizer_1_1Problem.html#ae682afcfda8ace829de51f38ce8481af":[3,0,0,8,16,10],
 "df/dbc/classdart_1_1optimizer_1_1Problem.html#ae9d21a8188e698db509707fec181fca9":[3,0,0,8,16,28],
 "df/dbc/classdart_1_1optimizer_1_1Problem.html#aece739ccd1fc4c00440a6a8f4cf861c3":[3,0,0,8,16,30],
 "df/dbc/classdart_1_1optimizer_1_1Problem.html#afba35354993dbf68a061bd2ca593551a":[3,0,0,8,16,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "functions_vars_o.html":[3,2,2,14],
 "functions_vars_p.html":[3,2,2,15],
 "functions_vars_q.html":[3,2,2,16],
-"functions_vars_r.html":[3,2,2,17],
-"functions_vars_s.html":[3,2,2,18]
+"functions_vars_r.html":[3,2,2,17]
 };

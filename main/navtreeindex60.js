@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"db/db4/classdart_1_1dynamics_1_1Group.html#abc752104432c8a2018b3aa842f57659a":[3,0,0,3,34,111],
 "db/db4/classdart_1_1dynamics_1_1Group.html#abe3241a4b77779c9545315f7193cfa56":[3,0,0,3,34,208],
 "db/db4/classdart_1_1dynamics_1_1Group.html#abf863d2e8f11ac02d7e6bb5f282d89f8":[3,0,0,3,34,87],
 "db/db4/classdart_1_1dynamics_1_1Group.html#abfdc6a5e0a739edf34dec444d3d68708":[3,0,0,3,34,164],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "db/df7/classdart_1_1gui_1_1osg_1_1RealTimeWorldNode.html#a0522ca9ad6ff89532c44ab560a345257":[3,0,0,4,1,19,10],
 "db/df7/classdart_1_1gui_1_1osg_1_1RealTimeWorldNode.html#a07aecc69c995343e6572ea027d9a91ac":[3,0,0,4,1,19,23],
 "db/df7/classdart_1_1gui_1_1osg_1_1RealTimeWorldNode.html#a0a1dede600a4decc2ae1254c7e6be56d":[3,0,0,4,1,19,11],
-"db/df7/classdart_1_1gui_1_1osg_1_1RealTimeWorldNode.html#a0a86455175a0d37a018ea694c4d16d28":[3,0,0,4,1,19,20],
-"db/df7/classdart_1_1gui_1_1osg_1_1RealTimeWorldNode.html#a1d48a3a17cfe604f8d511b2e70a3846b":[3,0,0,4,1,19,27]
+"db/df7/classdart_1_1gui_1_1osg_1_1RealTimeWorldNode.html#a0a86455175a0d37a018ea694c4d16d28":[3,0,0,4,1,19,20]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d9/db1/classdart_1_1gui_1_1osg_1_1ImGuiHandler.html#a49a0c4ac29d9109c116edf1c3e4c67c3":[3,0,0,4,1,8,9],
 "d9/db1/classdart_1_1gui_1_1osg_1_1ImGuiHandler.html#a5fcc804005ff86f994b9ff43e5a6e20f":[3,0,0,4,1,8,12],
 "d9/db1/classdart_1_1gui_1_1osg_1_1ImGuiHandler.html#a6fcfec783d7a368988d80c449ea6d4a9":[3,0,0,4,1,8,2],
 "d9/db1/classdart_1_1gui_1_1osg_1_1ImGuiHandler.html#a78c51062c60d471a08c1c102b0cdf7db":[3,0,0,4,1,8,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d9/dea/structdart_1_1collision_1_1dContactGeom.html#a347c892ff69b225e76ca4a7295254606":[3,0,0,0,18,0],
 "d9/deb/detail_2CompositeJoiner_8hpp.html":[4,0,0,1,0,7],
 "d9/deb/detail_2CompositeJoiner_8hpp_source.html":[4,0,0,1,0,7],
-"d9/df5/tri__tri__intersection__test_8hpp.html":[4,0,0,0,3,11],
-"d9/df5/tri__tri__intersection__test_8hpp.html#a045bb1af7b840f1d540f6b231c048cb5":[4,0,0,0,3,11,2]
+"d9/df5/tri__tri__intersection__test_8hpp.html":[4,0,0,0,3,11]
 };
