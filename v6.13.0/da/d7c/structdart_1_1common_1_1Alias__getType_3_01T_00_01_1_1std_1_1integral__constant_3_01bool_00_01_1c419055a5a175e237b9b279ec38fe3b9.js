@@ -1,4 +1,0 @@
-var structdart_1_1common_1_1Alias__getType_3_01T_00_01_1_1std_1_1integral__constant_3_01bool_00_01_1c419055a5a175e237b9b279ec38fe3b9 =
-[
-    [ "value", "da/d7c/structdart_1_1common_1_1Alias__getType_3_01T_00_01_1_1std_1_1integral__constant_3_01bool_00_01_1c419055a5a175e237b9b279ec38fe3b9.html#a6529854657c870edeed36bb2d0d2dbe0", null ]
-];
