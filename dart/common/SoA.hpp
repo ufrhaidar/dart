@@ -72,6 +72,24 @@ struct SoA
 
   /// @}
 
+  /// @{ @name Element Access
+
+  template <typename Func>
+  void each(Func&& func)
+  {
+    // Call std::apply with a lambda function that forwards the arguments to the
+    // provided function object
+    std::apply(
+        [&](auto&&... args) {
+          for (size_t i = 0; i < std::get<0>(data).size(); i++) {
+            (std::forward<Func>(func)(data.template get<Ts>()[i]), ...);
+          }
+        },
+        data);
+  }
+
+  /// @}
+
   /// Returns a const reference to the array at the specified index
   ///
   /// @tparam Index Index of the array

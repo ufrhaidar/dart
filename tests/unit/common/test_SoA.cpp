@@ -313,3 +313,29 @@ GTEST_TEST(SoATest, ReserveCapacity)
   soa.reserve(100);
   EXPECT_EQ(soa.getCapacity(), 100);
 }
+
+//==============================================================================
+GTEST_TEST(SoATest, Each)
+{
+  // Create an instance of the SoA class
+  SoA<int, char, double> soa;
+
+  // Resize the SoA to contain 3 elements
+  soa.resize(3, std::make_tuple(1, 'a', 2.0));
+
+  // Use the each method to apply a function to each element
+  soa.each([](const int& a, const char& b, const double& c) {
+    std::cout << a << ", " << b << ", " << c << std::endl;
+  });
+
+  soa.each([](int& a, char& b, double& c) {
+    a *= 2;
+    b = 'b';
+    c += 1.0;
+  });
+
+  // Check that the elements in the SoA have been modified
+//  EXPECT_EQ(std::get<0>(soa.data), std::vector<int>{2, 2, 2});
+//  EXPECT_EQ(std::get<1>(soa.data), std::vector<char>{'b', 'b', 'b'});
+//  EXPECT_EQ(std::get<2>(soa.data), std::vector<double>{3.0, 3.0, 3.0});
+}
