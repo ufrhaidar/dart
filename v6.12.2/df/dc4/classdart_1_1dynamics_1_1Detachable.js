@@ -33,8 +33,6 @@ var classdart_1_1dynamics_1_1Detachable =
     [ "setName", "df/dc4/classdart_1_1dynamics_1_1Detachable.html#a1a07773b34d8cb828c7e9fb0b546537d", null ],
     [ "setParentFrame", "df/dc4/classdart_1_1dynamics_1_1Detachable.html#affcdfa10f62780eaf14ba3db2b5515fe", null ],
     [ "mAccelerationChangedSignal", "df/dc4/classdart_1_1dynamics_1_1Detachable.html#a11c38bdf0fafb4c16bb17c17676b0522", null ],
-    [ "mAmFrame", "df/dc4/classdart_1_1dynamics_1_1Detachable.html#a1b1ed11d66b4113ebd8577927c3766f1", null ],
-    [ "mAmQuiet", "df/dc4/classdart_1_1dynamics_1_1Detachable.html#a4169c654d2a5e50d95b22922379f88dc", null ],
     [ "mFrameChangedSignal", "df/dc4/classdart_1_1dynamics_1_1Detachable.html#a3c139811e7f4cfc361a868fac330c2ae", null ],
     [ "mNameChangedSignal", "df/dc4/classdart_1_1dynamics_1_1Detachable.html#aadfdfede108bfa24d07cdd9920bf64cd", null ],
     [ "mNeedAccelerationUpdate", "df/dc4/classdart_1_1dynamics_1_1Detachable.html#a91cbe1081892564b1f84d2d09470c93d", null ],

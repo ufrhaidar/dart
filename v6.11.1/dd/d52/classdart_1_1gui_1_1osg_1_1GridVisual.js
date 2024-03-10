@@ -59,6 +59,5 @@ var classdart_1_1gui_1_1osg_1_1GridVisual =
     [ "mNumCells", "dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#af5943e8ad89a0682ac961fb6e92bafdd", null ],
     [ "mNumMinorLinesPerMajorLine", "dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#a91e0f0b125796f3019c9b2935872c04b", null ],
     [ "mOffset", "dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#ae5399b51d717e9ae98678d208523ef60", null ],
-    [ "mPlaneType", "dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#ae438e66c390bd4b5e174a4ef4893cc5c", null ],
-    [ "mViewer", "dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#a928e117891ede5691660dda50117ffbd", null ]
+    [ "mPlaneType", "dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#ae438e66c390bd4b5e174a4ef4893cc5c", null ]
 ];

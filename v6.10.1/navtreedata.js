@@ -1,27 +1,3 @@
-/*
- @licstart  The following is the entire license notice for the JavaScript code in this file.
-
- The MIT License (MIT)
-
- Copyright (C) 1997-2020 by Dimitri van Heesch
-
- Permission is hereby granted, free of charge, to any person obtaining a copy of this software
- and associated documentation files (the "Software"), to deal in the Software without restriction,
- including without limitation the rights to use, copy, modify, merge, publish, distribute,
- sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
-
- The above copyright notice and this permission notice shall be included in all copies or
- substantial portions of the Software.
-
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
- BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
- DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
- @licend  The above is the entire license notice for the JavaScript code in this file
-*/
 var NAVTREE =
 [
   [ "DART", "index.html", [
@@ -29,8 +5,8 @@ var NAVTREE =
       [ "Introduction", "index.html#intro", null ]
     ] ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
@@ -53,8 +29,8 @@ var NAVTREE =
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
@@ -69,84 +45,79 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html#a1dc26f229a1fa0968e9f938f266e5c15",
-"d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72",
-"d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#ab50e7aee09a136ec4a798ec2e302d302",
-"d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da563a83b086e0e955596b5235211975a2",
-"d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#a3b3225fa67667a0afa1ab2a755860cf0",
-"d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#a029ec025b526fbba02a4bab54b406649",
-"d1/dd5/classdart_1_1common_1_1ProxyCloneable.html#a6381bea9c9a2402712e45d6ef6ffe3ce",
-"d2/d09/classdart_1_1gui_1_1osg_1_1render_1_1osgAiNode.html#ad84d151d8c368ff3e8011334b3024293",
-"d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a3146a3ff71b16ef7cd27e057bd3d50d6",
-"d2/d90/structdart_1_1dynamics_1_1detail_1_1GenericJointState.html#a420fa0a1f11847d3b441d8cff3fced86",
-"d2/db2/DARTCollide_8cpp.html#a6a499c2347bdc35fbe5ff0489644bc98",
-"d3/d06/classdart_1_1gui_1_1glut_1_1Win2D.html#ac1f2b3fbdbfcce34eff01f4e77387509",
-"d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a10a3d6264811efadcd46b71720402c22",
-"d3/d19/classdart_1_1dynamics_1_1Skeleton.html#aa9a5df5310c343ce19523b57579ef3ff",
-"d3/d2a/classdart_1_1constraint_1_1BoxedLcpConstraintSolver.html#ac80c55a824f51788aa631ab31dea16b0",
-"d3/d43/classdart_1_1dynamics_1_1Chain.html#ad573d8740e417a9a7f96e30e4ac5161a",
-"d3/d8d/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Size.html#a53ddff149a1de44c3dec23ebf905bd90",
-"d3/dea/classdart_1_1gui_1_1osg_1_1render_1_1MultiSphereShapeNode.html#add0a9a68a6e26484336d67d699917f2f",
-"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#af2e1b03b403bf67fb521116c0c3e343f",
-"d4/d3b/optimizer_2ipopt_2BackwardCompatibility_8hpp.html",
-"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#acb21558de80efdc434cd64c90a205ba8",
-"d4/d9d/classdart_1_1dynamics_1_1ShapeNode.html#a11315e801ba83de9d5af03029bba81ed",
-"d4/de6/classdart_1_1dynamics_1_1CompositeIK.html#ad80b43ce92fdc7453aeacf5e76607818",
-"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a425180a959d394d0fc454c61319408f5",
-"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#ae997246a3dffc11dc60d22ff63ed3a49",
-"d5/d55/classdart_1_1dynamics_1_1PointMass.html#ae7c548ab68cce6ff5abf3e260b51c592",
-"d5/ddc/classdart_1_1gui_1_1glut_1_1Win3D.html#a4f8b08bab112fca3657ced04efe62e36",
-"d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html#ae22e395add153d56edcb2aa6813c55f2",
-"d6/d5b/classdart_1_1dynamics_1_1Joint.html#afdc74ee0832d12b85afa4544b9d63ff2",
-"d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a239cafbed2d21c762f85001b01c7f088",
-"d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a675ea9bc41741a4a62c8288c75f09fdd",
-"d6/df1/classdart_1_1gui_1_1osg_1_1render_1_1CapsuleShapeGeode.html#aec1312d507a8cb4f78a1b977644bd297",
-"d7/d41/classdart_1_1simulation_1_1World.html#a86faa74d959b06ff2a31c0b070bc238e",
-"d7/d5a/namespacedart_1_1dynamics.html#a888717018a8bfc1bd227c59a96838420",
-"d7/d8e/constraint_2SmartPointer_8hpp.html#ad5bbeae5e9a1b8aa6e4c83777c91034d",
-"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a1d2356b12d2d76814e3ddd8d55c98746",
-"d7/dd9/classdart_1_1gui_1_1osg_1_1InteractiveTool.html#a23e80814f15a528718f837005f6b8220",
-"d7/de3/classdart_1_1dynamics_1_1BallJoint.html#a43dd3ca22950885428e9d65c46823786",
-"d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#abfb16259c87319c0e6422dbe2f1af770",
+"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html#a6e76a25e3b4b8560666b68bb4b858538",
+"d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a7345754e4d7fa928e5945d2c6d1bc1d0",
+"d0/df6/classdart_1_1gui_1_1osg_1_1render_1_1SoftMeshShapeDrawable.html#a2c5c74b5a6cc275bddbf0df1e7e25159",
+"d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#ab4b8cdbc16851a7ee80ecbd6e317e921",
+"d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#aa98b85ae143c57fdbe746b26ba32851e",
+"d1/d90/classdart_1_1common_1_1Composite.html#a56fd2507b85bfc0ffd335269ba7db013",
+"d1/ddd/classdart_1_1dynamics_1_1LineSegmentShape.html#a033155768bb0ee6dd2f440b6aa89858a",
+"d2/d22/classdart_1_1gui_1_1osg_1_1BodyNodeDnD.html#aaf94b3534d0365c5a1055495e52f6313",
+"d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#a6ec28426291a8930aba3770d297a6ff4",
+"d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#ada78d0c2545ebd74bfed1aac254b9542",
+"d2/df4/structdart_1_1dynamics_1_1detail_1_1RevoluteJointProperties.html#aa4d7e06113ecfaf4a8a5976dda1642f1",
+"d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode.html#a91cbe1081892564b1f84d2d09470c93d",
+"d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a675c233a38e7db8b610228796a2a5591",
+"d3/d23/classdart_1_1constraint_1_1BoxedLcpSolver.html#a64ab605054262d8ed989b6c4f82c924b",
+"d3/d43/classdart_1_1dynamics_1_1Chain.html#a70300c24b5d07061ea5d6c051343ac8f",
+"d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#a61d01bb71d80b589ee363abd755e9f0fa86dba45230234e3863833e2a1879f413",
+"d3/dba/sub__ptr_8hpp.html#aaf0980612cd4d36f879823eb69711522",
+"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#ab5ae15f99efab0235a38bdd73e30ea4d",
+"d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a32b9c4f15ab283ccaf6a8c9809b79fc3",
+"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a8dd0c06856314d6074533d11b5299d7c",
+"d4/d97/classdart_1_1gui_1_1osg_1_1render_1_1PointCloudShapeNode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72",
+"d4/de6/classdart_1_1dynamics_1_1CompositeIK.html#a24e4f7973b48ead76d75fc7449f312ba",
+"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a326a10b56fdcebbd9290a9c4214b0170",
+"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#adc72f55dc2c3e25c507508470d10f22f",
+"d5/d55/classdart_1_1dynamics_1_1PointMass.html#abb2b07f1b17f645a39e8e53491ea4a76",
+"d5/ddc/classdart_1_1gui_1_1glut_1_1Win3D.html#a0be5b49421ce8923b6e0de519bcad550",
+"d6/d5b/classdart_1_1dynamics_1_1InverseKinematics_1_1Objective.html#a586ef1513a053c1d8ebfd0d27967e024",
+"d6/d5b/classdart_1_1dynamics_1_1Joint.html#af22b93f3e6cc6d7088f30713102b4251",
+"d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#a1b5711f0ab5746de7addee75647ac9f9",
+"d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a5e86916a004c1eef2b6cc4916301a687",
+"d6/df1/classdart_1_1gui_1_1osg_1_1render_1_1CapsuleShapeGeode.html#a97b954bea4ed8d6359fab9bef43404e0",
+"d7/d41/classdart_1_1simulation_1_1World.html#a610f3ffe5eff01b643dfc4eb5b3374dd",
+"d7/d8e/constraint_2SmartPointer_8hpp.html#a0b566227d1ca07451bc7634cc5785a6c",
+"d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#af37ffbcfe5be52e0d4ef70b546ad1e30",
+"d7/dd7/Helpers_8hpp.html#ad96afa4f4d8ec8978b290fd523808370",
+"d7/de3/classdart_1_1dynamics_1_1BallJoint.html#a22e44bfcfa7e8be5838a0a7b2b196daa",
+"d7/de4/classdart_1_1dynamics_1_1HeightmapShape.html#a9f3f9f3064ae04f54af8961ea1734175",
 "d8/d17/classdart_1_1dynamics_1_1FixedFrame.html#ad14eb572f3b82efee46ea88c3f46b0af",
-"d8/d3c/classdart_1_1integration_1_1RK4Integrator.html#a07f4179f57e8ea4f867447bf98a293b7",
-"d8/d57/classdart_1_1dynamics_1_1Linkage.html#ac4f1ee2e1c5318ac96b8cc0acb1802f8",
-"d8/d8d/classdart_1_1gui_1_1glut_1_1SoftSimWindow.html#a9520f2b789f23088a5d8561fe601a529",
-"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a1eb7534fd84a490e7e99bf09ed19dc65",
-"d8/db5/structdart_1_1optimizer_1_1GradientDescentSolver_1_1UniqueProperties.html",
-"d9/d00/classdart_1_1gui_1_1glut_1_1Window.html#ab285135cf455e923bafdca9fc6fba81d",
-"d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a52bc86be856e82f6f6d3d86da9cb4b0d",
-"d9/d63/classdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DUniqueProperties.html#a17e50d05ec5af7b1446ad8eb8eec0334",
-"d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#ab578b680e99b1f276fd2fd5a4b097458",
-"da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#ac834dace40819fb46c42ab769906b3f3",
-"da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html#addfc09cb47fa6ee187049da5fb170fbf",
-"da/d53/classdart_1_1dynamics_1_1GenericJoint.html#aed0debe178ca978e90b5c039e4edf74f",
-"da/d68/structdart_1_1dynamics_1_1Joint_1_1ExtendedProperties.html#ab821f24538d4da2e38efd8d84588049d",
-"da/db5/classdart_1_1common_1_1detail_1_1AspectWithVersionedProperties.html#acbf5ef8933f8335ab5aa9c60da06a9b9",
-"da/def/Default_8hpp.html",
-"db/d20/classdart_1_1dynamics_1_1Marker.html#abeb4b1e7375563d0f0c7955b5b24c856",
-"db/d4f/structdart_1_1collision_1_1RaycastOption.html",
-"db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html#ab773fe7af4adc2c463e093d46ceba1dd",
-"db/d95/XmlHelpers_8hpp.html#acc1b51980d8ca734760d0e92cb419cc6",
-"db/db4/classdart_1_1dynamics_1_1Group.html#a399a92f1621b614a3c10ed04f2c5e1a9",
-"db/dba/classdart_1_1common_1_1SpecializedForAspect_3_01SpecAspect_01_4.html#afeea27f7e82c82183c348848d3b3f6a9",
-"dc/d06/structdart_1_1dynamics_1_1detail_1_1PlanarJointProperties.html#ab578b680e99b1f276fd2fd5a4b097458",
-"dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a354115a68ccf0bbdc8bb8382c237e0a8",
-"dc/d70/classdart_1_1gui_1_1glut_1_1GraphWindow.html#a6b5763da1ea30c392af7106b1da7f444",
-"dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#a7c7b377f1dea6a459c7e9600f41237f1",
-"dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#a4f4b2ebda8f1ff6e90e9e7fa6f5d5bd2",
-"dd/d30/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Default.html#a6a0d8c9d0bc81b808d1005cb7b515f35",
-"dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#a87e82f70ffd57bc61c9899ffb32a3887",
-"dd/d6c/namespacedart_1_1constraint.html#af15dc1ac7a4d69bd567fc9d50ad80c1f",
-"dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html",
-"dd/dbc/classdart_1_1dynamics_1_1TemplateInverseKinematicsPtr.html#aac3254fb7a0480204914585dc343dbd7",
-"dd/dfc/detail_2Skeleton_8hpp.html",
-"de/d49/Geometry_8hpp.html#aa6dea7601b767f84a165bcdaf3c3a927ae0bd9f4a8d9f0863eafccd58ed9dd75e",
-"de/da6/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeNode.html",
-"de/dc7/classdart_1_1collision_1_1detail_1_1OdeBox.html#a545349eb54a8bd0d9dc0376dd6b21494",
-"df/d54/classdart_1_1gui_1_1osg_1_1render_1_1PointNodes.html#aae9ee87e705796c3173f5e704aa48afc",
-"df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#a7f19c73db390bb2f7da584985dae66c9",
-"functions_func_l.html"
+"d8/d57/classdart_1_1dynamics_1_1Linkage.html#a0f94a47e988e63e4c5aebd111ba35017",
+"d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a2d624517c304b53e0302fd015d564380",
+"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a06309b54dbc0b252df6efd296bae38d4",
+"d8/db1/DefaultEventHandler_8hpp.html#a1bff997d72f974fa7f0cb9872d7a7cd1a4c1a9f6cb2d7b7f6935026e3f440eabc",
+"d9/d00/classdart_1_1gui_1_1glut_1_1Window.html#a1f31bf22583a163aa94e560574da1f23",
+"d9/d4f/classdart_1_1dynamics_1_1PlaneShape.html#a0c6e8972545c65851285061e11cc6d24",
+"d9/d52/classdart_1_1dynamics_1_1ShapeFrame.html#af3cdd8f9baaf0941f202fd38573cb1bc",
+"d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#a7543b9c19cd45fa54529ec0a4aee4990",
+"da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a807ec09e1696c077004eabb3be46cab7",
+"da/d3f/classdart_1_1common_1_1EmbedStateAndProperties.html#ae41f8669f043aea14f436ece04bdbc41",
+"da/d53/classdart_1_1dynamics_1_1GenericJoint.html#af2aabc4ff535232c9d609fd773341f35",
+"da/d7d/DefaultEventHandler_8cpp.html#a586d152f84b6682d19c0a33a99e2ed13",
+"da/dbb/ServoMotorConstraint_8cpp.html#a1df203c33aed22bdff50496e142257d6",
+"da/dfd/classdart_1_1dynamics_1_1SharedLibraryIkFast.html#a78a331859996dc8542a6dc3a3342372d",
+"db/d38/classdart_1_1dynamics_1_1Frame.html#a25b5b95ea4987e4fc165a17f90d327f4abc1e3dd9885e9dbc8c5d4da3af679ec5",
+"db/d6c/classdart_1_1constraint_1_1LCPSolver.html#a2eccc6c7a7da7aba40739880c24615f6",
+"db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html#af783d407990d512e02fd3a13e63956fa",
+"db/d9a/classdart_1_1dynamics_1_1ScrewJoint.html#adf8c8775973da2209ce6027e0336218b",
+"db/db4/classdart_1_1dynamics_1_1Group.html#a8e06a0a102b53086f4afd4f430513c0f",
+"db/dd2/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeDrawable.html#acd928e75414b7cae77c110385ee92ef6",
+"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a1d2356b12d2d76814e3ddd8d55c98746",
+"dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a2e06320639cbb6699c30f936c7ff1663",
+"dc/d88/classdart_1_1gui_1_1osg_1_1InteractiveFrameDnD.html#ae79f8b82d06f3abf2056ee61bfc24063",
+"dc/d9d/structdart_1_1dynamics_1_1Skeleton_1_1DataCache.html#a4767978efc49a2d1db3c4b8a8f833f06",
+"dd/d19/OdeHeightmap-impl_8hpp.html#ab0633a5608a91922ce1868ecbbdeb2e3",
+"dd/d40/classdart_1_1gui_1_1osg_1_1InteractiveFrame.html#ade095f3d2478332694b2c4a81c7fe889",
+"dd/d80/classdart_1_1dynamics_1_1Branch.html#a14156aaa6f977df08c144a37cb766a40",
+"dd/d94/classdart_1_1gui_1_1osg_1_1render_1_1HeightmapShapeNode.html#a91c9ab8023e837482e7d40fd3e2326aa",
+"dd/dde/classdart_1_1gui_1_1osg_1_1render_1_1SphereShapeGeode.html#a7f19c73db390bb2f7da584985dae66c9",
+"de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a5e86916a004c1eef2b6cc4916301a687",
+"de/d8c/classdart_1_1gui_1_1osg_1_1render_1_1HeightmapShapeGeode.html#a7345754e4d7fa928e5945d2c6d1bc1d0",
+"de/db7/classdart_1_1dynamics_1_1DegreeOfFreedom.html#a9597d2ba544d2ec8d179d414ef011df7",
+"df/d30/OdeCollisionObject_8hpp_source.html",
+"df/d91/BoxShapeNode_8hpp_source.html",
+"functions_0x7e.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

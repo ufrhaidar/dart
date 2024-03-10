@@ -36,8 +36,6 @@ var classdart_1_1dynamics_1_1PointMassNotifier =
     [ "sendDestructionNotification", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a6ccea1e3a9fe763d4178c4503e2aae55", null ],
     [ "setName", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a534d6e80891082da3e0d9a811495dd2c", null ],
     [ "mAccelerationChangedSignal", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a11c38bdf0fafb4c16bb17c17676b0522", null ],
-    [ "mAmFrame", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a1b1ed11d66b4113ebd8577927c3766f1", null ],
-    [ "mAmQuiet", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a4169c654d2a5e50d95b22922379f88dc", null ],
     [ "mFrameChangedSignal", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#a3c139811e7f4cfc361a868fac330c2ae", null ],
     [ "mName", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#aa8f973ea4e01dd4fe370fdd0a9f5373d", null ],
     [ "mNameChangedSignal", "d5/d02/classdart_1_1dynamics_1_1PointMassNotifier.html#aadfdfede108bfa24d07cdd9920bf64cd", null ],

@@ -11,7 +11,7 @@ var classdart_1_1gui_1_1glut_1_1SimWindow =
     [ "drawEntities", "d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#afdc43a1a508b3da23fe9c789530901e4", null ],
     [ "drawEntity", "d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#ad20e713f2392912e05cc79ac8e5a05f9", null ],
     [ "drawMarker", "d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#a675f61f060274fe73eda317fb932455e", null ],
-    [ "drawPointMasses", "d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#a572d54583e828d02b7b94897802405dc", null ],
+    [ "drawPointMasses", "d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#a1c78aedbee12ade23c7fe89cc834a59f", null ],
     [ "drawShape", "d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#a165bc4f3e679605464767fc9baf8a07e", null ],
     [ "drawShapeFrame", "d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#aaaa72f765f9e478d1d3aad08fad95989", null ],
     [ "drawSkeleton", "d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#aedc6ff5a42b1fad6e7a3c6cac5cadc46", null ],

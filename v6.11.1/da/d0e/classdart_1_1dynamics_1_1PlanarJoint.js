@@ -16,10 +16,9 @@ var classdart_1_1dynamics_1_1PlanarJoint =
     [ "copy", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#afee4e7eeda0ae2f366b646ddd43effaf", null ],
     [ "copy", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a43fbe8b3cd1ff9e5ebc33beb7fcf83e1", null ],
     [ "createPlanarJointAspect", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a50fd397206ee6ef1d29f9e140bf5ce88", null ],
-    [ "getAspectProperties", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a0788e4712d5cb89bad92e00d174a3a7d", null ],
-    [ "getPlanarJointAspect", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a09127495be26e7854044ac6987066d77", null ],
-    [ "getPlanarJointAspect", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a23e11023ea3d8ff18de27e92c5752cba", null ],
     [ "getPlanarJointAspect", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#afd2dc5c1c4790918322359b05d55b442", null ],
+    [ "getPlanarJointAspect", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a23e11023ea3d8ff18de27e92c5752cba", null ],
+    [ "getPlanarJointAspect", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a09127495be26e7854044ac6987066d77", null ],
     [ "getPlanarJointProperties", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a09ddb71a3b344907b6f4c434255142a4", null ],
     [ "getPlaneType", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a805c54fba140d340c517a183d3ace417", null ],
     [ "getRelativeJacobianStatic", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a9d5f4cdf5c6bd3fa738549d42f85b82a", null ],
@@ -46,6 +45,5 @@ var classdart_1_1dynamics_1_1PlanarJoint =
     [ "updateRelativeJacobian", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#ab898462dc684cab753e6259a137dcca8", null ],
     [ "updateRelativeJacobianTimeDeriv", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a3973cb2cc637a3ae39be59a45020e883", null ],
     [ "updateRelativeTransform", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#af9a2ba98b6f181f12ab3bd7642932ee3", null ],
-    [ "Skeleton", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a6a11291b70c2cbded85d321ce539c62f", null ],
-    [ "mAspectProperties", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a07c72a6b991a9fde7662062f75371b6b", null ]
+    [ "Skeleton", "da/d0e/classdart_1_1dynamics_1_1PlanarJoint.html#a6a11291b70c2cbded85d321ce539c62f", null ]
 ];

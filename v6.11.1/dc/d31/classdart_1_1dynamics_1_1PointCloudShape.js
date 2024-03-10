@@ -89,7 +89,6 @@ var classdart_1_1dynamics_1_1PointCloudShape =
     [ "mColorMode", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#aa0922666473b562be6489a824c393a0d", null ],
     [ "mColors", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#acaca5a9d99e845c1f205dc6785695af9", null ],
     [ "mCounter", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a37566a2b695189faba091129cab79e94", null ],
-    [ "mDependent", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mID", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a0be096d66dcee0503f6fe490f442a971", null ],
     [ "mIsVolumeDirty", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a4236c7e2ceda5310939c787efe8cf0dc", null ],
@@ -99,7 +98,6 @@ var classdart_1_1dynamics_1_1PointCloudShape =
     [ "mType", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVersion", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a4321e571165126347ea3fa68279dae1d", null ],
-    [ "mVersionChangedSignal", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#aa19fa8177cd7578876cb982c51ed5b72", null ],
     [ "mVisualSize", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a1d2f9997e34eeb416d30e65fa34a0c4f", null ],
     [ "mVolume", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ],
     [ "onVersionChanged", "dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#acfa157609b596684398038765e2943db", null ]

@@ -67,7 +67,6 @@ var classdart_1_1dynamics_1_1MultiSphereConvexHullShape =
     [ "updateVolume", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a258094af2f4a1a36995a398c1fd2fe8f", null ],
     [ "mBoundingBox", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a3482c31f2aaf40f450ebac6951bf1033", null ],
     [ "mCounter", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a37566a2b695189faba091129cab79e94", null ],
-    [ "mDependent", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mID", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a0be096d66dcee0503f6fe490f442a971", null ],
     [ "mIsVolumeDirty", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a4236c7e2ceda5310939c787efe8cf0dc", null ],
@@ -76,7 +75,6 @@ var classdart_1_1dynamics_1_1MultiSphereConvexHullShape =
     [ "mType", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVersion", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a4321e571165126347ea3fa68279dae1d", null ],
-    [ "mVersionChangedSignal", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#aa19fa8177cd7578876cb982c51ed5b72", null ],
     [ "mVolume", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ],
     [ "onVersionChanged", "dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#acfa157609b596684398038765e2943db", null ]
 ];

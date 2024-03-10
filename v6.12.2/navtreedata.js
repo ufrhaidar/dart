@@ -1,27 +1,3 @@
-/*
- @licstart  The following is the entire license notice for the JavaScript code in this file.
-
- The MIT License (MIT)
-
- Copyright (C) 1997-2020 by Dimitri van Heesch
-
- Permission is hereby granted, free of charge, to any person obtaining a copy of this software
- and associated documentation files (the "Software"), to deal in the Software without restriction,
- including without limitation the rights to use, copy, modify, merge, publish, distribute,
- sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
-
- The above copyright notice and this permission notice shall be included in all copies or
- substantial portions of the Software.
-
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
- BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
- DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
- @licend  The above is the entire license notice for the JavaScript code in this file
-*/
 var NAVTREE =
 [
   [ "DART", "index.html", [
@@ -29,8 +5,8 @@ var NAVTREE =
       [ "Introduction", "index.html#intro", null ]
     ] ],
     [ "Deprecated List", "da/d58/deprecated.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", "namespacemembers_func" ],
@@ -53,8 +29,8 @@ var NAVTREE =
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
@@ -69,85 +45,80 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/d2d/classdart_1_1dynamics_1_1MeshShape.html#ae7e694e9bcb1a67a5000b9ed8ceaa7f5",
-"d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a085edcb112bca59f475d8a871fcce963",
-"d0/de1/classdart_1_1constraint_1_1WeldJointConstraint.html#aa6d39cac212392499af52afd3e8853b5",
-"d0/dff/classdart_1_1dynamics_1_1PyramidShape.html#a52bc86be856e82f6f6d3d86da9cb4b0da052d1a2f239a7f535a5bd477fc9a9599",
-"d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#a2f0f4068238a39f6aff37428d5e42378",
-"d1/d63/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Joint.html#ad3b4928a8fc8fffbabb18a71bc28fd34",
-"d1/dd4/classdart_1_1collision_1_1detail_1_1UnorderedPairs.html#a225b80da07ae8a974fd1aed51bc4f3a4",
-"d2/d09/classdart_1_1gui_1_1osg_1_1render_1_1osgAiNode.html#a6889c2d5c35abe685cea387c28223def",
-"d2/d64/classdart_1_1gui_1_1glut_1_1SimWindow.html#af956b4290f4665004c91c3f6c317e69c",
-"d2/d87/classdart_1_1dynamics_1_1EulerJoint.html#addc9941aced02c95143557599e8bccf5",
-"d2/dad/PrismaticJointAspect_8hpp.html#a325dabe3143c7fcf19a3ccd480e12a42",
-"d3/d06/classdart_1_1gui_1_1glut_1_1Win2D.html#a41bbabcab5c6537070c3ea360e16345b",
-"d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode.html#ae71b996db98ac43bdddd3e38a38e425e",
-"d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a82099fe0a07281f9bc9b346d945054d6",
-"d3/d2a/classdart_1_1constraint_1_1BoxedLcpConstraintSolver.html#a00eeb6445b8293ebe533214284a8e801",
-"d3/d43/classdart_1_1dynamics_1_1Chain.html#a8aee33a8f6a2c73bb1116bc0f3aa72bf",
-"d3/d73/classdart_1_1dynamics_1_1CylinderShape.html#ab90bddef38cfef8a4dcd93d770ef3a2e",
-"d3/ddd/CylinderShapeNode_8hpp.html",
-"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#ab870c5dc84953c39c3cd5a39bb49f34d",
-"d4/d23/classdart_1_1constraint_1_1SoftContactConstraint.html#a158e9ee1866df087a92091a36328cdb4",
-"d4/d4a/classdart_1_1dynamics_1_1MetaSkeleton.html#a3c6e894a5218dc8159c9f33fb9242f09",
-"d4/d7f/namespacedart_1_1gui_1_1osg_1_1render.html#ad75c03ac639996de04af26d7dca1fd2c",
-"d4/dbf/classdart_1_1constraint_1_1JointLimitConstraint.html#a94a269d545df9434535f3f0b6e481843",
-"d5/d12/structdart_1_1optimizer_1_1GradientDescentSolver_1_1Properties.html#afa79c2c6b67637bb2528d7f6b120a0ed",
-"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a92688a77a7d2f72fd7cb4c57b68f376a",
-"d5/d51/CollisionShapes_8hpp.html#aef85de675695006f198ed465eec12f8a",
-"d5/d84/structdart_1_1dynamics_1_1detail_1_1PlanarJointUniqueProperties.html#af7c20618a98b56bd7954bd2ba7e5d208",
-"d5/dfe/classdart_1_1dynamics_1_1WholeBodyIK.html#a16df8ff934c1134325ebfc21d064728a",
-"d6/d5b/classdart_1_1dynamics_1_1Joint.html#a7656bcdd99e1c55d68473b55704b384e",
-"d6/d7a/classdart_1_1collision_1_1detail_1_1OdeSphere.html#a51c1a5f6e27e86d922a124c07c499a0c",
-"d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#aafb640ad61ea2ddc9c8b2a30b69ea3bf",
-"d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#adc61e95900b11200cf770dab85c6cc40",
-"d7/d24/XmlHelpers_8cpp.html#a940dc66fba1f0ee5fc99f320fb85eda2",
-"d7/d54/classdart_1_1gui_1_1osg_1_1render_1_1EllipsoidShapeGeode.html#a1a0b5767e5245d109176e0550fe24b9b",
-"d7/d7e/structdart_1_1collision_1_1BulletCollisionShape.html#a9f4f9540549ab458bd595cdfab8939d9",
-"d7/dbc/classdart_1_1optimizer_1_1GradientDescentSolver.html#ab02173a3e286320198b1d902ed713cdb",
-"d7/dd3/classdart_1_1gui_1_1osg_1_1render_1_1PlaneShapeNode.html#a7f19c73db390bb2f7da584985dae66c9",
-"d7/dd9/classdart_1_1gui_1_1osg_1_1InteractiveTool.html#ab3b4825bc242b637b13562ace25f32c3",
-"d7/de3/classdart_1_1dynamics_1_1BallJoint.html#ace08d84bb1e048b8cacfa21ae5cc5b47",
-"d8/d07/structdart_1_1common_1_1Uri.html#a60851ebbac36c0d0e21e263b5f3373df",
-"d8/d28/namespacedart_1_1utils.html#a85342741a4373efeac19789c322d1aa2",
-"d8/d57/classdart_1_1dynamics_1_1Linkage.html#a1b5711f0ab5746de7addee75647ac9f9",
-"d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a4321e571165126347ea3fa68279dae1d",
-"d8/d96/namespacedart_1_1math.html#a74e4177978a837724e6e7a0cb245dbf2",
-"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a787ad8b7304a6dfeb258fa749cb4df6a",
-"d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a70e43014d5be3184f88e33eaf0d0694a",
-"d9/d32/classdart_1_1common_1_1Timer.html#a0ae3bedc2fa78e38501c8894760ccf4b",
-"d9/d4f/classdart_1_1dynamics_1_1Support.html#af083d3d70c641bda1b4ce71bcfcc1207",
-"d9/d84/classdart_1_1common_1_1Factory.html#a23301ce52e40a4906443a36879319f42",
-"d9/ddc/classdart_1_1collision_1_1BulletCollisionObject.html#a8a3a1bd948a596d2be54d1d7a2e449f0",
-"da/d1c/classdart_1_1dynamics_1_1SimpleFrame.html#a5cf19848a3e6dde6abaeb6a69386a266",
-"da/d53/classdart_1_1dynamics_1_1GenericJoint.html#a2713c49ecc7539a889544c91f1c56672",
-"da/d56/classdart_1_1gui_1_1osg_1_1Viewer.html#ad619292cec3d4a53bee8cee923aa8206",
-"da/da0/SoftMeshShapeNode_8hpp_source.html",
-"da/dcd/namespacedart_1_1collision.html#a688aee8a11cd6c22f133ede3bc6ce6a8",
-"da/dfd/classdart_1_1dynamics_1_1SharedLibraryIkFast.html#a9be4823acc2404ef51541f5197522ca0",
-"db/d38/classdart_1_1dynamics_1_1Frame.html#a3890e16a2150d928bb36e216fd255d5f",
-"db/d73/BulletCollisionDetector_8cpp.html",
-"db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html#afbf2a68883eaaf38436256c10f7b2182",
-"db/d9a/classdart_1_1dynamics_1_1ScrewJoint.html#ad0a2ab75969977ac350968638cf84673",
-"db/db4/classdart_1_1dynamics_1_1Group.html#a60f8357cfd6bba85640e79cc6fb2097c",
-"db/dc8/classdart_1_1dynamics_1_1Node.html#a160eb754f6132b8abf116d21cd8f8e3a",
-"dc/d0c/classdart_1_1constraint_1_1JointConstraint.html#a692ee2c89ba3d7d6dcf965ac7f82451f",
-"dc/d4c/classdart_1_1dynamics_1_1MultiSphereConvexHullShape.html#a582024cb3fcc3447a0054e7c4594da06",
-"dc/d77/classdart_1_1optimizer_1_1PagmoTypes.html",
-"dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#a9b52a8a7922c399b5ffc233aeef5e40e",
-"dc/dc5/classdart_1_1gui_1_1OpenGLRenderInterface.html#adce44f0bbe89e41b137eeea321dce79a",
-"dd/d40/classdart_1_1gui_1_1osg_1_1InteractiveFrame.html#a10c4c8b43980159e9bb8570ba50f0da6",
-"dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#addfc90e74fa975097c5a898f719c2a40",
-"dd/d80/classdart_1_1dynamics_1_1Branch.html#a0e9f021956167fdd2393158e188afef2",
-"dd/d81/namespacedart_1_1utils_1_1MjcfParser_1_1detail.html#a898bc29de74fe95f614ce67c777008e4a50c90da97a1a8b65181b1a8d43d8ba87",
-"dd/dbe/classdart_1_1gui_1_1osg_1_1render_1_1SphereShapeNode.html#aa10b700416998680e33f261226000310",
-"de/d09/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeGeode.html#a7f19c73db390bb2f7da584985dae66c9",
-"de/d49/Geometry_8hpp.html#af297b066593714b7d7006d531c2328ac",
-"de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a008b6655aa1cfa445eaa784a4ae5fb55",
-"de/ddb/Win2D_8hpp_source.html",
-"df/d62/classdart_1_1utils_1_1MjcfParser_1_1detail_1_1Inertial.html#a8858f397a273114ddc1443880bb5540e",
-"df/daa/classdart_1_1common_1_1SingleLockableReference.html#a9b900a770ed914a50afddd6d5ba97378",
-"functions_o.html"
+"d0/d2e/classdart_1_1common_1_1EmbeddedStateAspect.html#a010bb9c37ea5f0a1fe5176d4d848a601",
+"d0/d9b/classdart_1_1gui_1_1osg_1_1render_1_1MeshShapeNode.html#a2e4bb18a6b7b0866894bcc0bf98b4d72",
+"d0/de8/classdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForSkeleton.html#acf010e1d4b71b3bccf0bac819fc956f6",
+"d1/d01/classdart_1_1dynamics_1_1TemplateBodyNodePtr.html#a593a6ec66439490ef75ada1d18812401",
+"d1/d50/classdart_1_1dynamics_1_1JacobianNode.html#a92688a77a7d2f72fd7cb4c57b68f376a",
+"d1/d90/classdart_1_1common_1_1Composite.html#a1ea015f5856919a3c673fecd9a3ca0c6",
+"d1/ddc/classdart_1_1gui_1_1osg_1_1InteractiveToolDnD.html#ac22e724a2917b853d5ef81717c5c4371",
+"d2/d22/classdart_1_1gui_1_1osg_1_1BodyNodeDnD.html#a84ae8e5ed7da1e29ba49dd6e67e98750",
+"d2/d7a/classdart_1_1collision_1_1CollisionGroup.html#a0d2dea18214e0a6f38f4ce753eac03c3",
+"d2/d9b/classdart_1_1optimizer_1_1snopt_1_1SnoptInterface.html#a99d7fcde3398a4439b8a2d2c16f51b7ba7771d5556c089bb695a0e517e8dc7fe1",
+"d2/df4/structdart_1_1dynamics_1_1detail_1_1RevoluteJointProperties.html",
+"d3/d10/classdart_1_1dynamics_1_1TemplatedJacobianNode.html#a2f158ac167895e540709929d3265f1e5",
+"d3/d19/classdart_1_1dynamics_1_1Skeleton.html#a4581d0cf6b403cc5c9a965d28266f3b1",
+"d3/d19/classdart_1_1dynamics_1_1Skeleton.html#ae7b1b9f69eeb310ac04596e25b41ae89",
+"d3/d43/classdart_1_1dynamics_1_1Chain.html#a2dac01542cfe56e49b3449001aae262d",
+"d3/d71/detail_2Node_8hpp.html#a8521200f1adad1ef89d98754cc40b116",
+"d3/da8/classdart_1_1gui_1_1osg_1_1SimpleFrameShapeDnD.html#aa5049ac2589c4f25d705c424fcd9d6bcae42fc64a3f94477661688befc212293c",
+"d3/df1/classdart_1_1dynamics_1_1FreeJoint.html#a59ce80703b9e3f60868775b28626a857",
+"d4/d18/classdart_1_1constraint_1_1ContactConstraint.html#a72a7b140841064f0427a7fd9cce1da90",
+"d4/d47/namespacedart_1_1optimizer.html",
+"d4/d65/classdart_1_1lcpsolver_1_1ODELCPSolver.html#a350df3d8fa53b8fc9d61cbcf9125c2bc",
+"d4/db7/classdart_1_1collision_1_1DARTCollisionObject.html#a2d1426b0bd9f88a955e49a23453eea2d",
+"d5/d0f/LoadGlut_8hpp_source.html",
+"d5/d2e/classdart_1_1dynamics_1_1BodyNode.html#a7f4e06b90d81f8eb6cbaf2a45c2f9c56",
+"d5/d40/classdart_1_1common_1_1Signal_3_01__Res_07__ArgTypes_8_8_8_08_00_01Combiner_01_4.html#a8f32ad9712d25b359052c36d3482f0ae",
+"d5/d84/structdart_1_1dynamics_1_1detail_1_1PlanarJointUniqueProperties.html#a0d2d703f6dfd51a446e8ff36620dff50",
+"d5/dfd/classdart_1_1common_1_1sub__ptr.html#ac52d67e1922ff972aeb74815dd8abfa6",
+"d6/d5b/classdart_1_1dynamics_1_1Joint.html#a6a11291b70c2cbded85d321ce539c62f",
+"d6/d78/DistanceResult_8cpp.html",
+"d6/d9a/classdart_1_1dynamics_1_1ReferentialSkeleton.html#aa68c24c7e1116ec65b2731f7ff4391f2",
+"d6/dc9/classdart_1_1constraint_1_1ConstraintSolver.html#ac1ea09286c4f6123aed899becc91dd6d",
+"d7/d24/XmlHelpers_8cpp.html#a8a7f116a66ef33b51d9a60577b9332db",
+"d7/d50/structdart_1_1math_1_1RealVectorSpace.html#ad659a921f601e2eb0b4719b15fb61ed6",
+"d7/da1/classdart_1_1common_1_1MakeCloneable.html#a409797d464b2e8ea93580a98d07b5008",
+"d7/dcd/classdart_1_1dynamics_1_1ArrowShape.html#a9d2e8b206b851ca01cfd14641c88badd",
+"d7/dd9/classdart_1_1gui_1_1osg_1_1InteractiveTool.html#a8a3f596acbb226b3a8978e29e4d9e3c6",
+"d7/de3/classdart_1_1dynamics_1_1BallJoint.html#abb2f03e5c32d3574db7db76ce1cb0282",
+"d8/d07/structdart_1_1common_1_1Uri.html#a458b7d711b9049541fb2c3d0a525dd69",
+"d8/d2d/classdart_1_1dynamics_1_1detail_1_1BasicNodeManagerForBodyNode.html#a5f143f6e574a01928287801c88ee0296",
+"d8/d57/classdart_1_1dynamics_1_1Linkage.html#a82099fe0a07281f9bc9b346d945054d6",
+"d8/d6f/classdart_1_1gui_1_1osg_1_1WorldNode.html#af5acca26210496fa4b3a5146d6f0ea0a",
+"d8/da2/classdart_1_1dynamics_1_1WeldJoint.html#a6a11291b70c2cbded85d321ce539c62f",
+"d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a61d01bb71d80b589ee363abd755e9f0f",
+"d9/d30/common_2SmartPointer_8hpp.html#a53e9d3715034193bbacd12826d954f5f",
+"d9/d4f/classdart_1_1dynamics_1_1Support.html#ab352e81c20e72e27becd6b735856e637",
+"d9/d84/classdart_1_1common_1_1Factory.html#a22fabadebeab49801cd0140211033192",
+"d9/ddc/classdart_1_1collision_1_1BulletCollisionObject.html#a9793b2be4486eb4266546d87b35b764c",
+"da/d1c/classdart_1_1dynamics_1_1SimpleFrame.html#a66d2c86cdfaf4b89c55bca39deebf0bc",
+"da/d53/classdart_1_1dynamics_1_1GenericJoint.html#a364acf5ea7b44facc5af996ae597be70",
+"da/d5b/classdart_1_1constraint_1_1BalanceConstraint.html#a27970eb997546688bb945386d15711db",
+"da/da6/classdart_1_1common_1_1Aspect.html#aa3969ed77fdfacf60c2f121dede92869",
+"da/dcf/classdart_1_1gui_1_1osg_1_1render_1_1MultiSphereShapeGeode.html#ae2352d6eee6d9bf6daa670e3296772f8",
+"db/d18/classdart_1_1gui_1_1osg_1_1render_1_1ConeShapeDrawable.html#a37225d91a7208ce2c237a364fd79cda5",
+"db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a235467e11b04e78d5f1b59f087c3acf9",
+"db/d77/classdart_1_1dynamics_1_1ZeroDofJoint.html#a4fec9aeec94854891e76fe8b7fad1999",
+"db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#ae555b821480b29302109aa6d74c4428d",
+"db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a61d01bb71d80b589ee363abd755e9f0fa86dba45230234e3863833e2a1879f413",
+"db/db4/classdart_1_1dynamics_1_1Group.html#acd8363c40a39f80c7bd6f01bb2a0eb2a",
+"db/df7/classdart_1_1gui_1_1osg_1_1RealTimeWorldNode.html#aa6e6864894630de31d7013da42ce0765",
+"dc/d31/classdart_1_1dynamics_1_1PointCloudShape.html#a61d01bb71d80b589ee363abd755e9f0facab917881ac054365c6c62a35ede15b9",
+"dc/d54/classdart_1_1dynamics_1_1SoftBodyNode.html#a9894e306f793ee50238422454d1f66fa",
+"dc/d8d/classdart_1_1dynamics_1_1TranslationalJoint.html#a179ae34a29c38c6fd511a2bdf34a0bce",
+"dc/dbc/classdart_1_1gui_1_1osg_1_1render_1_1ConeShapeGeode.html#ae2352d6eee6d9bf6daa670e3296772f8",
+"dd/d1a/classdart_1_1gui_1_1osg_1_1SimpleFrameDnD.html#ae71b996db98ac43bdddd3e38a38e425e",
+"dd/d52/classdart_1_1gui_1_1osg_1_1GridVisual.html#a0748052aef4f7328f1d2fa9e13d371b3",
+"dd/d80/classdart_1_1dynamics_1_1Branch.html#a434cf2e7f22ca0599277d8ee2bdf43c0",
+"dd/d99/classdart_1_1collision_1_1FCLCollisionGroup.html#abd34a865623036fd7bc69afd32b0f6ca",
+"dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a7a024b60e94b1b98c9662f3cf29dc7d0",
+"de/d40/PathFollowingTrajectory_8cpp.html",
+"de/d90/classdart_1_1collision_1_1OdeCollisionGroup.html#a632910a4e7fceb9021fe840109b1a0e7",
+"de/db9/DARTCollisionObject_8cpp.html",
+"df/d5d/JacobianNode_8hpp_source.html",
+"df/da7/classdart_1_1gui_1_1osg_1_1render_1_1LineSegmentShapeGeode.html#aec1312d507a8cb4f78a1b977644bd297",
+"functions_h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

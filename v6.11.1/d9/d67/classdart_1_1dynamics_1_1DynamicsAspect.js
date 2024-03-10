@@ -33,5 +33,5 @@ var classdart_1_1dynamics_1_1DynamicsAspect =
     [ "setSecondaryFrictionCoeff", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a022fb307e2e16dcf98292f49c64f90f4", null ],
     [ "setSecondarySlipCompliance", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a39505bfd96fd88dbee62a8eb3fde87db", null ],
     [ "mProperties", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a7fde45d2751984165544c3dc8454f86b", null ],
-    [ "UpdateProperties", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#aa4f3462870531d11af29646397b2a4d2", null ]
+    [ "UpdateProperties", "d9/d67/classdart_1_1dynamics_1_1DynamicsAspect.html#a1a09856402be768ba020d745b378c30d", null ]
 ];

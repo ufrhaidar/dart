@@ -31,8 +31,8 @@ var classdart_1_1dynamics_1_1ConeShape =
     [ "addDataVariance", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
-    [ "computeInertia", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#af8bea650366935d4218d2ee36c7aa3f5", null ],
     [ "computeInertia", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a4fc55557f98bba45186fd33e00626f4b", null ],
+    [ "computeInertia", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#af8bea650366935d4218d2ee36c7aa3f5", null ],
     [ "computeInertiaFromDensity", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],
     [ "computeVolume", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#aab248e30ce2a455cf7614740a20503c7", null ],
@@ -64,7 +64,6 @@ var classdart_1_1dynamics_1_1ConeShape =
     [ "updateVolume", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a8a870ad517c3b0e43f6b0e4a31f3fddc", null ],
     [ "mBoundingBox", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a3482c31f2aaf40f450ebac6951bf1033", null ],
     [ "mCounter", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a37566a2b695189faba091129cab79e94", null ],
-    [ "mDependent", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mHeight", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a169dacc6799027a500d008d0fafba61c", null ],
     [ "mID", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a0be096d66dcee0503f6fe490f442a971", null ],
@@ -74,7 +73,6 @@ var classdart_1_1dynamics_1_1ConeShape =
     [ "mType", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVersion", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a4321e571165126347ea3fa68279dae1d", null ],
-    [ "mVersionChangedSignal", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#aa19fa8177cd7578876cb982c51ed5b72", null ],
     [ "mVolume", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ],
     [ "onVersionChanged", "de/d3e/classdart_1_1dynamics_1_1ConeShape.html#acfa157609b596684398038765e2943db", null ]
 ];

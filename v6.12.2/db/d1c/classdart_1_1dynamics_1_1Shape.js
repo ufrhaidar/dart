@@ -59,7 +59,6 @@ var classdart_1_1dynamics_1_1Shape =
     [ "updateVolume", "db/d1c/classdart_1_1dynamics_1_1Shape.html#ac2e6b1a14d06548dea26e2f3bb82278a", null ],
     [ "mBoundingBox", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a3482c31f2aaf40f450ebac6951bf1033", null ],
     [ "mCounter", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a37566a2b695189faba091129cab79e94", null ],
-    [ "mDependent", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mID", "db/d1c/classdart_1_1dynamics_1_1Shape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a0be096d66dcee0503f6fe490f442a971", null ],
     [ "mIsVolumeDirty", "db/d1c/classdart_1_1dynamics_1_1Shape.html#a4236c7e2ceda5310939c787efe8cf0dc", null ],

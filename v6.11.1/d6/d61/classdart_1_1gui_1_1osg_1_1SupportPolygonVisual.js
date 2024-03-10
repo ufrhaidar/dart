@@ -48,6 +48,5 @@ var classdart_1_1gui_1_1osg_1_1SupportPolygonVisual =
     [ "mSkeleton", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#ace2a0fd4225612fcf1672d8d57e10b2b", null ],
     [ "mTreeIndex", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a71713362aa6e912e81b5561b5d2a3dc9", null ],
     [ "mValidColor", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#adec3e9199f67505b2c0846405848a2d1", null ],
-    [ "mVertices", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#aaceb7a01c560d44a2c3395c8b0840e95", null ],
-    [ "mViewer", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#a928e117891ede5691660dda50117ffbd", null ]
+    [ "mVertices", "d6/d61/classdart_1_1gui_1_1osg_1_1SupportPolygonVisual.html#aaceb7a01c560d44a2c3395c8b0840e95", null ]
 ];

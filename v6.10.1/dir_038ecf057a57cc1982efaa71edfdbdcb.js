@@ -78,6 +78,7 @@ var dir_038ecf057a57cc1982efaa71edfdbdcb =
     [ "Signal.hpp", "d8/d84/Signal_8hpp.html", [
       [ "Connection", "d1/d23/classdart_1_1common_1_1Connection.html", "d1/d23/classdart_1_1common_1_1Connection" ],
       [ "ScopedConnection", "de/d43/classdart_1_1common_1_1ScopedConnection.html", "de/d43/classdart_1_1common_1_1ScopedConnection" ],
+      [ "Signal", "d9/d0f/classdart_1_1common_1_1Signal.html", null ],
       [ "Signal< _Res(_ArgTypes...), Combiner >", "d5/d40/classdart_1_1common_1_1Signal_3_01__Res_07__ArgTypes_8_8_8_08_00_01Combiner_01_4.html", "d5/d40/classdart_1_1common_1_1Signal_3_01__Res_07__ArgTypes_8_8_8_08_00_01Combiner_01_4" ],
       [ "Signal< void(_ArgTypes...)>", "d4/de2/classdart_1_1common_1_1Signal_3_01void_07__ArgTypes_8_8_8_08_4.html", "d4/de2/classdart_1_1common_1_1Signal_3_01void_07__ArgTypes_8_8_8_08_4" ],
       [ "SlotRegister", "d4/ded/classdart_1_1common_1_1SlotRegister.html", "d4/ded/classdart_1_1common_1_1SlotRegister" ]

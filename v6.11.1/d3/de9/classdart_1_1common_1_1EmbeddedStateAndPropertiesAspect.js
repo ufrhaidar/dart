@@ -34,11 +34,11 @@ var classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect =
     [ "setComposite", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a551d0635c8ca05fb3986f31fca48b07d", null ],
     [ "setProperties", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#acb1c2c36d0cd716f7854d299eecad3aa", null ],
     [ "setState", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a47aa721cfb882bc7f41869962b3e33e9", null ],
-    [ "GetEmbeddedProperties", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a13b8182881945e124f7dfc7b9572dde6", null ],
-    [ "GetEmbeddedState", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a436fcea891498541eed38c8df2354af3", null ],
+    [ "GetEmbeddedProperties", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#aa9d605b2f6d36600205a36ef297fcda8", null ],
+    [ "GetEmbeddedState", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#ac679a29de175ad38ce2bb2bbac0b8d55", null ],
     [ "mComposite", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a91a4fca62fe6a2ecef8ed1744f116281", null ],
     [ "mTemporaryProperties", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a433e1f90fcb1aa44e6cc784c4d7e1671", null ],
     [ "mTemporaryState", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#aff62f694821d796a9b38ed94b16f9306", null ],
-    [ "SetEmbeddedProperties", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#ad3812b8b51697ee2ed735acbce53114c", null ],
-    [ "SetEmbeddedState", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a1dc26f229a1fa0968e9f938f266e5c15", null ]
+    [ "SetEmbeddedProperties", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#a1ab9802208dbd4cb6954973d4a03a791", null ],
+    [ "SetEmbeddedState", "d3/de9/classdart_1_1common_1_1EmbeddedStateAndPropertiesAspect.html#ac44c34587477600401a8cd64ade20e1f", null ]
 ];

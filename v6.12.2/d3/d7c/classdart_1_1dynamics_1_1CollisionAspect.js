@@ -20,5 +20,5 @@ var classdart_1_1dynamics_1_1CollisionAspect =
     [ "setCollidable", "d3/d7c/classdart_1_1dynamics_1_1CollisionAspect.html#aba83f93d37734f8aadfd53ddb57044c0", null ],
     [ "setProperties", "d3/d7c/classdart_1_1dynamics_1_1CollisionAspect.html#acbf5ef8933f8335ab5aa9c60da06a9b9", null ],
     [ "mProperties", "d3/d7c/classdart_1_1dynamics_1_1CollisionAspect.html#a7fde45d2751984165544c3dc8454f86b", null ],
-    [ "UpdateProperties", "d3/d7c/classdart_1_1dynamics_1_1CollisionAspect.html#aa4f3462870531d11af29646397b2a4d2", null ]
+    [ "UpdateProperties", "d3/d7c/classdart_1_1dynamics_1_1CollisionAspect.html#a1a09856402be768ba020d745b378c30d", null ]
 ];

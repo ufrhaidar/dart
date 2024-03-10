@@ -58,7 +58,6 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical =
     [ "mExtraDofs", "dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#aac62d5856582226d268c4142c2dbb7c4", null ],
     [ "mGradientP", "dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad6e44c86f78b7126405a4513cc0a149a", null ],
     [ "mIK", "dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#aa0d3b3fca2c935154f44494f2a0898e4", null ],
-    [ "mInitialPositionsCache", "dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a05f468e6ae18bdac2db0747a5001bad1", null ],
     [ "mLastGradient", "dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#ad07e1a8119541fb898652b466b4e55e1", null ],
     [ "mLastPositions", "dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a9be4823acc2404ef51541f5197522ca0", null ],
     [ "mLimitViolationCache", "dd/dec/classdart_1_1dynamics_1_1InverseKinematics_1_1Analytical.html#a1cb76819bb1b5860dc7cf7552287dba4", null ],

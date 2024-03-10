@@ -31,8 +31,8 @@ var classdart_1_1dynamics_1_1CapsuleShape =
     [ "addDataVariance", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
-    [ "computeInertia", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#aa5397509d1f34d79768c7fa92d8ffb4e", null ],
     [ "computeInertia", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a2d624517c304b53e0302fd015d564380", null ],
+    [ "computeInertia", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#aa5397509d1f34d79768c7fa92d8ffb4e", null ],
     [ "computeInertiaFromDensity", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],
     [ "computeVolume", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a743316a7f53090dd08972938495875f7", null ],
@@ -64,7 +64,6 @@ var classdart_1_1dynamics_1_1CapsuleShape =
     [ "updateVolume", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a0189c28e28f2e08e92c1a502665db058", null ],
     [ "mBoundingBox", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a3482c31f2aaf40f450ebac6951bf1033", null ],
     [ "mCounter", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a37566a2b695189faba091129cab79e94", null ],
-    [ "mDependent", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mHeight", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a0e97b8fac8be38174e3872c8d3bcd497", null ],
     [ "mID", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a0be096d66dcee0503f6fe490f442a971", null ],
@@ -74,7 +73,6 @@ var classdart_1_1dynamics_1_1CapsuleShape =
     [ "mType", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVersion", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a4321e571165126347ea3fa68279dae1d", null ],
-    [ "mVersionChangedSignal", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#aa19fa8177cd7578876cb982c51ed5b72", null ],
     [ "mVolume", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ],
     [ "onVersionChanged", "d8/d65/classdart_1_1dynamics_1_1CapsuleShape.html#acfa157609b596684398038765e2943db", null ]
 ];

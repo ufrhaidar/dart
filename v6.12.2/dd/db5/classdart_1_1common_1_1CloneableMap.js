@@ -11,8 +11,8 @@ var classdart_1_1common_1_1CloneableMap =
     [ "getMap", "dd/db5/classdart_1_1common_1_1CloneableMap.html#abcb5fc37c710c51c5ccaafa749e4a2e8", null ],
     [ "merge", "dd/db5/classdart_1_1common_1_1CloneableMap.html#a93aeaee2e9516b8a6c5cf18a2b26a719", null ],
     [ "merge", "dd/db5/classdart_1_1common_1_1CloneableMap.html#ac62a3bd4535dccbbfc9a12f47ad61284", null ],
-    [ "operator=", "dd/db5/classdart_1_1common_1_1CloneableMap.html#abbb16bb59d92c598e20d42425035a28b", null ],
     [ "operator=", "dd/db5/classdart_1_1common_1_1CloneableMap.html#af4134405d57ded8c5496aac90bcc6d16", null ],
+    [ "operator=", "dd/db5/classdart_1_1common_1_1CloneableMap.html#abbb16bb59d92c598e20d42425035a28b", null ],
     [ "operator=", "dd/db5/classdart_1_1common_1_1CloneableMap.html#a129c87a6d78430b9403339daa10c1074", null ],
     [ "operator=", "dd/db5/classdart_1_1common_1_1CloneableMap.html#a784bd1b02d71db3ee808b074aa951170", null ],
     [ "mMap", "dd/db5/classdart_1_1common_1_1CloneableMap.html#a0b32eae6988dcc912741424361b45e2d", null ]

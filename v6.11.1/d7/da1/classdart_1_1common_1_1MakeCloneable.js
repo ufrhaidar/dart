@@ -10,8 +10,8 @@ var classdart_1_1common_1_1MakeCloneable =
     [ "clone", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#a409797d464b2e8ea93580a98d07b5008", null ],
     [ "copy", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#a06498f552f3c755ae290a5884fbc6f30", null ],
     [ "createShared", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#ac74dad4a0fe7b50318131297d979b56f", null ],
-    [ "operator=", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#af95ae2ed8e92612ad534cf1e2edbcbf0", null ],
     [ "operator=", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#af957ecb768c390dd2b6c3ddc47ab9882", null ],
-    [ "operator=", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#a6712503d817319346eb1ff534e60c23e", null ],
-    [ "operator=", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#a9465f413444c0958aae6e4077c740194", null ]
+    [ "operator=", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#a9465f413444c0958aae6e4077c740194", null ],
+    [ "operator=", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#af95ae2ed8e92612ad534cf1e2edbcbf0", null ],
+    [ "operator=", "d7/da1/classdart_1_1common_1_1MakeCloneable.html#a6712503d817319346eb1ff534e60c23e", null ]
 ];

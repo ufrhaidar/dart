@@ -51,8 +51,8 @@ var Geometry_8cpp =
     [ "HullAngleComparison", "d7/def/Geometry_8cpp.html#ae49e071956594129e38963ee5658b352", null ],
     [ "isInsideSupportPolygon", "d7/def/Geometry_8cpp.html#a797012fe8e744db0d506962babc459e9", null ],
     [ "isLeftTurn", "d7/def/Geometry_8cpp.html#aedf772d885972a89cdfb838ba4ed7d30", null ],
-    [ "logMap", "d7/def/Geometry_8cpp.html#ace4da4be316f9118106f4aacfe8f64f9", null ],
     [ "logMap", "d7/def/Geometry_8cpp.html#a91021e58843804e7ca334848ff9f0323", null ],
+    [ "logMap", "d7/def/Geometry_8cpp.html#ace4da4be316f9118106f4aacfe8f64f9", null ],
     [ "makeSkewSymmetric", "d7/def/Geometry_8cpp.html#abc4b6c2f5202c6ee0d82ff84812dae6b", null ],
     [ "matrixToEulerXYX", "d7/def/Geometry_8cpp.html#a2cc210efedf46185991c7d7a48041302", null ],
     [ "matrixToEulerXYZ", "d7/def/Geometry_8cpp.html#a53e69e887f81c59d26779a25fbe6ea7d", null ],
@@ -63,11 +63,11 @@ var Geometry_8cpp =
     [ "matrixToEulerZYX", "d7/def/Geometry_8cpp.html#ad2b40ea6672026a84497098ac5cb1397", null ],
     [ "parallelAxisTheorem", "d7/def/Geometry_8cpp.html#a81735893e4f6d1cf950a0aa181db367e", null ],
     [ "quatDeriv", "d7/def/Geometry_8cpp.html#abb994d2ee6ea73bb6cbe905cd1315b84", null ],
-    [ "quatSecondDeriv", "d7/def/Geometry_8cpp.html#abe977fd6ccd95a05f68c80d4b33cdae7", null ],
+    [ "quatSecondDeriv", "d7/def/Geometry_8cpp.html#a84d204205a4aab3f25b2d6eec85c43d7", null ],
     [ "quatToExp", "d7/def/Geometry_8cpp.html#a141d99b2112e9037173869b04db2f2f1", null ],
     [ "rotatePoint", "d7/def/Geometry_8cpp.html#a7ea25a547fac6b565c3648d4ff166015", null ],
     [ "rotatePoint", "d7/def/Geometry_8cpp.html#abe4adfd592c2583df0a781858b2fb95e", null ],
-    [ "transformInertia", "d7/def/Geometry_8cpp.html#aebd8c711fd983dff046d7743ba79777e", null ],
+    [ "transformInertia", "d7/def/Geometry_8cpp.html#a729c89efdeb2557f1106bf89275e5b2a", null ],
     [ "verifyRotation", "d7/def/Geometry_8cpp.html#a251a976dbb610f07df4ef5b3efba4f00", null ],
     [ "verifyTransform", "d7/def/Geometry_8cpp.html#a87b8aed61a081a0130e6e24759af13e4", null ]
 ];

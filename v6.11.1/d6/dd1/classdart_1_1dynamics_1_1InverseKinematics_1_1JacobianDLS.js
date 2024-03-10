@@ -28,7 +28,6 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS =
     [ "mDLSProperties", "d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#a17324baae17af05c41e86ef803030170", null ],
     [ "mGradientP", "d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#ad6e44c86f78b7126405a4513cc0a149a", null ],
     [ "mIK", "d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#aa0d3b3fca2c935154f44494f2a0898e4", null ],
-    [ "mInitialPositionsCache", "d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#a05f468e6ae18bdac2db0747a5001bad1", null ],
     [ "mLastGradient", "d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#ad07e1a8119541fb898652b466b4e55e1", null ],
     [ "mLastPositions", "d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#a9be4823acc2404ef51541f5197522ca0", null ],
     [ "mMethodName", "d6/dd1/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianDLS.html#a1747a0e1688b185f1b26c58633afa483", null ],

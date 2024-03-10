@@ -15,12 +15,11 @@ var classdart_1_1dynamics_1_1RevoluteJoint =
     [ "copy", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a6dbf9998c56d94ce9363275e41eab0b6", null ],
     [ "copy", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a11095f913d3c44e294c65a6de1263272", null ],
     [ "createRevoluteJointAspect", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#ac9e75f03224ae09e23f42d00498187cc", null ],
-    [ "getAspectProperties", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a0788e4712d5cb89bad92e00d174a3a7d", null ],
     [ "getAxis", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#acb1cec84b29edaaf272e98bb6eedb8e3", null ],
     [ "getRelativeJacobianStatic", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a44190786326f97860ade1d328bf8b84f", null ],
-    [ "getRevoluteJointAspect", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#ac4b6052cc64f4868a23af779c5c89709", null ],
-    [ "getRevoluteJointAspect", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a45089020dd07849fc7091364942b417a", null ],
     [ "getRevoluteJointAspect", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#af97b82d34532a94454f8fbc74da621ff", null ],
+    [ "getRevoluteJointAspect", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a45089020dd07849fc7091364942b417a", null ],
+    [ "getRevoluteJointAspect", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#ac4b6052cc64f4868a23af779c5c89709", null ],
     [ "getRevoluteJointProperties", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#ad6f4f285cd57656c64678f6592d444ff", null ],
     [ "getStaticType", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#ad569b5a0e79b7ae7478ba51d09fa50b4", null ],
     [ "getType", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#aff4abb1d9f42271db94f6e08cc50502c", null ],
@@ -39,6 +38,5 @@ var classdart_1_1dynamics_1_1RevoluteJoint =
     [ "updateRelativeJacobian", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#ad7a510b0e7097a58b4b8730bd107781a", null ],
     [ "updateRelativeJacobianTimeDeriv", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a6da36fb3ea844ffd095e63c714edf513", null ],
     [ "updateRelativeTransform", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a431d26057c3e8a8394c72e99cbd3e815", null ],
-    [ "Skeleton", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a6a11291b70c2cbded85d321ce539c62f", null ],
-    [ "mAspectProperties", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a07c72a6b991a9fde7662062f75371b6b", null ]
+    [ "Skeleton", "d7/dc0/classdart_1_1dynamics_1_1RevoluteJoint.html#a6a11291b70c2cbded85d321ce539c62f", null ]
 ];

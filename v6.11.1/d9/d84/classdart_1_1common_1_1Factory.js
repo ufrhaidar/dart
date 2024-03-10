@@ -11,8 +11,8 @@ var classdart_1_1common_1_1Factory =
     [ "create", "d9/d84/classdart_1_1common_1_1Factory.html#a51f91632ac453abea89d165365eb681f", null ],
     [ "defaultCreator", "d9/d84/classdart_1_1common_1_1Factory.html#ac0226109315c5b060cfe1e94b82c32b3", null ],
     [ "getKeys", "d9/d84/classdart_1_1common_1_1Factory.html#a19bf1c94576d574e8a6922366ca117f3", null ],
-    [ "registerCreator", "d9/d84/classdart_1_1common_1_1Factory.html#a22fabadebeab49801cd0140211033192", null ],
     [ "registerCreator", "d9/d84/classdart_1_1common_1_1Factory.html#a58ac38a6e84a827a76a2e131c5a604f1", null ],
+    [ "registerCreator", "d9/d84/classdart_1_1common_1_1Factory.html#a22fabadebeab49801cd0140211033192", null ],
     [ "unregisterAllCreators", "d9/d84/classdart_1_1common_1_1Factory.html#af174ac4c58d87d9f5fd0e466976ff61e", null ],
     [ "unregisterCreator", "d9/d84/classdart_1_1common_1_1Factory.html#a6cfe9f8eeac2daacd9d6c0840a9e9bea", null ],
     [ "mCreatorMap", "d9/d84/classdart_1_1common_1_1Factory.html#affab25c26a3c839fabacec2f9ed68eaf", null ]

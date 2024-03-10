@@ -68,7 +68,6 @@ var classdart_1_1dynamics_1_1EllipsoidShape =
     [ "updateVolume", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#aa8282162021c67bce668ead29bce8079", null ],
     [ "mBoundingBox", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a3482c31f2aaf40f450ebac6951bf1033", null ],
     [ "mCounter", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a37566a2b695189faba091129cab79e94", null ],
-    [ "mDependent", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mDiameters", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a058a9460c186458471444dc357da5513", null ],
     [ "mID", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a0be096d66dcee0503f6fe490f442a971", null ],
@@ -77,7 +76,6 @@ var classdart_1_1dynamics_1_1EllipsoidShape =
     [ "mType", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVersion", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a4321e571165126347ea3fa68279dae1d", null ],
-    [ "mVersionChangedSignal", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#aa19fa8177cd7578876cb982c51ed5b72", null ],
     [ "mVolume", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ],
     [ "onVersionChanged", "db/da3/classdart_1_1dynamics_1_1EllipsoidShape.html#acfa157609b596684398038765e2943db", null ]
 ];

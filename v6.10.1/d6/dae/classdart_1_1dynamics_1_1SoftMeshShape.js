@@ -65,7 +65,6 @@ var classdart_1_1dynamics_1_1SoftMeshShape =
     [ "mAssimpMesh", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a868af1a4a861bc27ea1f01d8b2894aed", null ],
     [ "mBoundingBox", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a3482c31f2aaf40f450ebac6951bf1033", null ],
     [ "mCounter", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a37566a2b695189faba091129cab79e94", null ],
-    [ "mDependent", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mID", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a0be096d66dcee0503f6fe490f442a971", null ],
     [ "mIsVolumeDirty", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a4236c7e2ceda5310939c787efe8cf0dc", null ],
@@ -74,7 +73,6 @@ var classdart_1_1dynamics_1_1SoftMeshShape =
     [ "mType", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVersion", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a4321e571165126347ea3fa68279dae1d", null ],
-    [ "mVersionChangedSignal", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#aa19fa8177cd7578876cb982c51ed5b72", null ],
     [ "mVolume", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ],
     [ "onVersionChanged", "d6/dae/classdart_1_1dynamics_1_1SoftMeshShape.html#acfa157609b596684398038765e2943db", null ]
 ];

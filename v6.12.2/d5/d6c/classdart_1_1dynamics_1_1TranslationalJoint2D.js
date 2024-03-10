@@ -16,15 +16,14 @@ var classdart_1_1dynamics_1_1TranslationalJoint2D =
     [ "copy", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a3ce250d79f233c0ff2208c7fe5ea3207", null ],
     [ "copy", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#ad096856d4b8e1a36df904a170d9745dc", null ],
     [ "createTranslationalJoint2DAspect", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#af3d43869e3511c9589678fde97b503e3", null ],
-    [ "getAspectProperties", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a0788e4712d5cb89bad92e00d174a3a7d", null ],
     [ "getPlaneType", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a6f39b211b21092311aeae8fe3ff2f745", null ],
     [ "getRelativeJacobianStatic", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a2b1e791cb1ece2f4b4df44edac493bad", null ],
     [ "getStaticType", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#acda0509f58e358d23a4992e350b65c8a", null ],
     [ "getTranslationalAxis1", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a0eee33d91a827a062753a711ea5af7e5", null ],
     [ "getTranslationalAxis2", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a0fd0328a4d60f443506af8d9ec70e7bc", null ],
-    [ "getTranslationalJoint2DAspect", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a49ca03a57f043b434d13720b876a09a6", null ],
-    [ "getTranslationalJoint2DAspect", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#ada220e2c96d5341a0668599a0c5105a4", null ],
     [ "getTranslationalJoint2DAspect", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a92dccdf9a1229e4eb0e86613055f6865", null ],
+    [ "getTranslationalJoint2DAspect", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#ada220e2c96d5341a0668599a0c5105a4", null ],
+    [ "getTranslationalJoint2DAspect", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a49ca03a57f043b434d13720b876a09a6", null ],
     [ "getTranslationalJoint2DProperties", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a1eae372dc3b52c3c6ce17a9c05acb61e", null ],
     [ "getType", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a4d6cccb7e0b5581fec0968fec16e14b8", null ],
     [ "hasTranslationalJoint2DAspect", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#ae06b04135d8cb6a924db65aff7d6b189", null ],
@@ -45,6 +44,5 @@ var classdart_1_1dynamics_1_1TranslationalJoint2D =
     [ "updateRelativeJacobian", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a0e45fcbb566cf09df8b7c0977bfa9478", null ],
     [ "updateRelativeJacobianTimeDeriv", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a03014afe2283aa68b71abbb00356b7bc", null ],
     [ "updateRelativeTransform", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#adbd4521c30956ddf37ca016336955fa9", null ],
-    [ "Skeleton", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a6a11291b70c2cbded85d321ce539c62f", null ],
-    [ "mAspectProperties", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a07c72a6b991a9fde7662062f75371b6b", null ]
+    [ "Skeleton", "d5/d6c/classdart_1_1dynamics_1_1TranslationalJoint2D.html#a6a11291b70c2cbded85d321ce539c62f", null ]
 ];

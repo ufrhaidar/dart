@@ -33,8 +33,8 @@ var classdart_1_1gui_1_1RenderInterface =
     [ "setDefaultMaterial", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a8cd89010b88c95160166130d0306341d", null ],
     [ "setLineWidth", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a1a0f119484e96729e2131f19c8e3992a", null ],
     [ "setMaterial", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#abccf000c7c8bc686e8e2e589203f0f57", null ],
-    [ "setPenColor", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#affbcdd9be962f9ceaa059e37a73775c5", null ],
     [ "setPenColor", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a8991b5411b314d29bce08451ca9b771b", null ],
+    [ "setPenColor", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#affbcdd9be962f9ceaa059e37a73775c5", null ],
     [ "setViewport", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a9faa6d10d6f67c8e1275b0c3644ddc84", null ],
     [ "transform", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#aeffe527e87a5d375fb2e1d6d85433b6d", null ],
     [ "translate", "d2/d6f/classdart_1_1gui_1_1RenderInterface.html#a6c4e9eaf1ce45dee239d14aa4d775cd8", null ]

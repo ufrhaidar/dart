@@ -33,5 +33,5 @@ var classdart_1_1dynamics_1_1VisualAspect =
     [ "setShadowed", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#a469cf700cb3e8caff5d0095c06a50c20", null ],
     [ "show", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#ac4741d29df073a76f72d1f1eaa8e9f5a", null ],
     [ "mProperties", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#a7fde45d2751984165544c3dc8454f86b", null ],
-    [ "UpdateProperties", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#aa4f3462870531d11af29646397b2a4d2", null ]
+    [ "UpdateProperties", "d1/d66/classdart_1_1dynamics_1_1VisualAspect.html#a1a09856402be768ba020d745b378c30d", null ]
 ];

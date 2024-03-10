@@ -16,7 +16,6 @@ var classdart_1_1dynamics_1_1EndEffector =
     [ "copy", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#acedae02a8f5cf0839e9fc03eb3c5852f", null ],
     [ "createSupport", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a98ed5692db6b835d7f550fac36420a3e", null ],
     [ "dirtyTransform", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a355f29b09d277aeae53b4a71debd04c3", null ],
-    [ "getAspectProperties", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a0788e4712d5cb89bad92e00d174a3a7d", null ],
     [ "getEndEffectorProperties", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a1de914eebe5bc47dde264df1d032e27d", null ],
     [ "getSupport", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a93a922fa23d25c11f8c265a45398b0f8", null ],
     [ "getSupport", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a33d2f9733ce77b92a589f4b33eed6991", null ],
@@ -33,6 +32,5 @@ var classdart_1_1dynamics_1_1EndEffector =
     [ "setSupport", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a663165035b646155dc9d0231590de2ee", null ],
     [ "setSupport", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a65826ddf82d4b77e814eaaa2feeb9052", null ],
     [ "BodyNode", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#ab59408dd3d4e7a025ca332d546a5688b", null ],
-    [ "Skeleton", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a6a11291b70c2cbded85d321ce539c62f", null ],
-    [ "mAspectProperties", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a07c72a6b991a9fde7662062f75371b6b", null ]
+    [ "Skeleton", "db/d3c/classdart_1_1dynamics_1_1EndEffector.html#a6a11291b70c2cbded85d321ce539c62f", null ]
 ];

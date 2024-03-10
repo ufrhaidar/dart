@@ -22,7 +22,6 @@ var classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose =
     [ "setComponentWiseClamp", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a155e99d503735e1e9d769f055699717b", null ],
     [ "mGradientP", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#ad6e44c86f78b7126405a4513cc0a149a", null ],
     [ "mIK", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#aa0d3b3fca2c935154f44494f2a0898e4", null ],
-    [ "mInitialPositionsCache", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a05f468e6ae18bdac2db0747a5001bad1", null ],
     [ "mLastGradient", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#ad07e1a8119541fb898652b466b4e55e1", null ],
     [ "mLastPositions", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a9be4823acc2404ef51541f5197522ca0", null ],
     [ "mMethodName", "d8/d60/classdart_1_1dynamics_1_1InverseKinematics_1_1JacobianTranspose.html#a1747a0e1688b185f1b26c58633afa483", null ],

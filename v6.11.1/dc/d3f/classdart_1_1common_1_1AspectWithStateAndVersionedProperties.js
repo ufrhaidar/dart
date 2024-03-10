@@ -28,6 +28,6 @@ var classdart_1_1common_1_1AspectWithStateAndVersionedProperties =
     [ "setState", "dc/d3f/classdart_1_1common_1_1AspectWithStateAndVersionedProperties.html#aaf4114caf39a4b22ff780fcded7aaf7b", null ],
     [ "mProperties", "dc/d3f/classdart_1_1common_1_1AspectWithStateAndVersionedProperties.html#a7fde45d2751984165544c3dc8454f86b", null ],
     [ "mState", "dc/d3f/classdart_1_1common_1_1AspectWithStateAndVersionedProperties.html#a96646506e02438db8dd93e671f0ae1b8", null ],
-    [ "UpdateProperties", "dc/d3f/classdart_1_1common_1_1AspectWithStateAndVersionedProperties.html#a031109c5d785f55da924c85f1673dbe2", null ],
-    [ "UpdateState", "dc/d3f/classdart_1_1common_1_1AspectWithStateAndVersionedProperties.html#a6fb7a00a8075d54e4c085cced11db33e", null ]
+    [ "UpdateProperties", "dc/d3f/classdart_1_1common_1_1AspectWithStateAndVersionedProperties.html#a804002003121437cd7e3b2fa572682f9", null ],
+    [ "UpdateState", "dc/d3f/classdart_1_1common_1_1AspectWithStateAndVersionedProperties.html#aced7a3de2104004d0bfa8498b77abb27", null ]
 ];

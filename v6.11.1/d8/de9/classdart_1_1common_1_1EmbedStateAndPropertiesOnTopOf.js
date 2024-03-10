@@ -9,9 +9,5 @@ var classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf =
     [ "Derived", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a2713c49ecc7539a889544c91f1c56672", null ],
     [ "Impl", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#aea33dcced2d344092574deb6aa84782f", null ],
     [ "EmbedStateAndPropertiesOnTopOf", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a6d872b96d92a00ce2c2efd090d675b48", null ],
-    [ "~EmbedStateAndPropertiesOnTopOf", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a0e0d191de36aace6de38657b5b071999", null ],
-    [ "getAspectProperties", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a3ab70e22481ea4a65ea442c5cf143788", null ],
-    [ "getAspectState", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a5a2a0b8f89c8326ab80200a0f0129b22", null ],
-    [ "mAspectProperties", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#adc32d6d51e7c90c6e54aa2bd737f62d1", null ],
-    [ "mAspectState", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a405ce6bb8f6fb68672230932ac980c8c", null ]
+    [ "~EmbedStateAndPropertiesOnTopOf", "d8/de9/classdart_1_1common_1_1EmbedStateAndPropertiesOnTopOf.html#a0e0d191de36aace6de38657b5b071999", null ]
 ];

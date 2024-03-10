@@ -32,8 +32,8 @@ var classdart_1_1dynamics_1_1SphereShape =
     [ "addDataVariance", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#ad0839111649737fa96e7e771eb0c7efb", null ],
     [ "addObserver", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#ae71b996db98ac43bdddd3e38a38e425e", null ],
     [ "checkDataVariance", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a4aae7f3d060fc6c9b7a37b9893975f67", null ],
-    [ "computeInertia", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a1b73568bd20b2ad7379229ed8c9b6d6b", null ],
     [ "computeInertia", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a33fabe68736a6b9897a8d4ee3c6ec671", null ],
+    [ "computeInertia", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a1b73568bd20b2ad7379229ed8c9b6d6b", null ],
     [ "computeInertiaFromDensity", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a6c19eb72b7edd3677dfb4b277e6dbfd9", null ],
     [ "computeInertiaFromMass", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a70e43014d5be3184f88e33eaf0d0694a", null ],
     [ "computeVolume", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a0898a59138502b028569752aae9ff570", null ],
@@ -63,7 +63,6 @@ var classdart_1_1dynamics_1_1SphereShape =
     [ "updateVolume", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a4efbabebe15cdf3713757cae6fd3f4f4", null ],
     [ "mBoundingBox", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a3482c31f2aaf40f450ebac6951bf1033", null ],
     [ "mCounter", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a37566a2b695189faba091129cab79e94", null ],
-    [ "mDependent", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a1f3c82c02ec494656d533a73e638576b", null ],
     [ "mID", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#acae9d9d1241451e02c61b7fcf2359031", null ],
     [ "mIsBoundingBoxDirty", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a0be096d66dcee0503f6fe490f442a971", null ],
     [ "mIsVolumeDirty", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a4236c7e2ceda5310939c787efe8cf0dc", null ],
@@ -72,7 +71,6 @@ var classdart_1_1dynamics_1_1SphereShape =
     [ "mType", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a0c6e8972545c65851285061e11cc6d24", null ],
     [ "mVariance", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#aa4ec0172edc2d98894b5a41228b598a8", null ],
     [ "mVersion", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a4321e571165126347ea3fa68279dae1d", null ],
-    [ "mVersionChangedSignal", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#aa19fa8177cd7578876cb982c51ed5b72", null ],
     [ "mVolume", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#a0d9eb76ab4c229100cba7ccc833aee0e", null ],
     [ "onVersionChanged", "d8/dc9/classdart_1_1dynamics_1_1SphereShape.html#acfa157609b596684398038765e2943db", null ]
 ];

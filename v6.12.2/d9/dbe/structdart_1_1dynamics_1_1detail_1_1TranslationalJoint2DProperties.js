@@ -31,7 +31,6 @@ var structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties =
     [ "mMimicMultiplier", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#aaac03b2ac3e766fea3787f97c06a105a", null ],
     [ "mMimicOffset", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#a19ebf0cd713b0d21efc90bef285e5215", null ],
     [ "mName", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#a66f16840ca66f1546f9c6d2fd442f3b2", null ],
-    [ "mPlaneType", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#ad24e3a50f0a17d30a6d452dd0a062e95", null ],
     [ "mPositionLowerLimits", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#aa4d7e06113ecfaf4a8a5976dda1642f1", null ],
     [ "mPositionUpperLimits", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#a0eeb9119012fe814ddc0fb22228242db", null ],
     [ "mPreserveDofNames", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#a11e070d1eb7bef9d9bf67151e1328cda", null ],
@@ -39,7 +38,6 @@ var structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties =
     [ "mSpringStiffnesses", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#ae44a5592d680713b541a590132ff384b", null ],
     [ "mT_ChildBodyToJoint", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#ab821f24538d4da2e38efd8d84588049d", null ],
     [ "mT_ParentBodyToJoint", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#ae9df26986678236e90a31f889aebd1db", null ],
-    [ "mTransAxes", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#a2bcbe416b95f22a45cf6da67a230a75e", null ],
     [ "mVelocityLowerLimits", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#accbcbf0c066ada35fecb66bccf25f1ce", null ],
     [ "mVelocityUpperLimits", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#a4305dcdf9ac1d67d240914cd2ddc7e58", null ],
     [ "NumDofs", "d9/dbe/structdart_1_1dynamics_1_1detail_1_1TranslationalJoint2DProperties.html#ab578b680e99b1f276fd2fd5a4b097458", null ]

@@ -10,8 +10,8 @@ var classdart_1_1math_1_1Random =
     [ "getSeedMutable", "dd/dfb/classdart_1_1math_1_1Random.html#ab10668d48db07b855eaa3e96407ee16b", null ],
     [ "normal", "dd/dfb/classdart_1_1math_1_1Random.html#a5eeb2097b022dea3446b9f0d0bdb977f", null ],
     [ "setSeed", "dd/dfb/classdart_1_1math_1_1Random.html#a7cf7cc807b6ac7e5cebfdada1f1bbb07", null ],
-    [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#a761aeef69c37fb996a729b04626fc927", null ],
-    [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#add4c11a4eb7a3cf09150c764f9b73616", null ],
     [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#ad00fe993ed0adfa07bfb29e9ef202b46", null ],
-    [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#a2c88d21839617de8785904185d75b3a5", null ]
+    [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#a2c88d21839617de8785904185d75b3a5", null ],
+    [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#add4c11a4eb7a3cf09150c764f9b73616", null ],
+    [ "uniform", "dd/dfb/classdart_1_1math_1_1Random.html#a761aeef69c37fb996a729b04626fc927", null ]
 ];

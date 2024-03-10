@@ -15,15 +15,14 @@ var classdart_1_1dynamics_1_1UniversalJoint =
     [ "copy", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a12162592af48bd3b41ac1095614aad35", null ],
     [ "copy", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#aba73be458b1dc6226d4f493c560b2fd4", null ],
     [ "createUniversalJointAspect", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a98d1b5f55d094b4310ac8997072e7089", null ],
-    [ "getAspectProperties", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a0788e4712d5cb89bad92e00d174a3a7d", null ],
     [ "getAxis1", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#acfc44f0b8a5effb74ce810d244976cd1", null ],
     [ "getAxis2", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a607246c4eae7ce61489d6829ec2f1809", null ],
     [ "getRelativeJacobianStatic", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a72531e86882958636130b6e5480b6478", null ],
     [ "getStaticType", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a9ff29d3abe8c6c3c50dcb5fffc53d7bf", null ],
     [ "getType", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a3a67ed6e9ad933ffea31c25719cab61c", null ],
-    [ "getUniversalJointAspect", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a6d5ff8071b6b7560314bd4a59b53cc16", null ],
-    [ "getUniversalJointAspect", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a54825aef6b7e5a465630038650abab1d", null ],
     [ "getUniversalJointAspect", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#ab682b6a15c1453d82a66ffc2af68bf79", null ],
+    [ "getUniversalJointAspect", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a54825aef6b7e5a465630038650abab1d", null ],
+    [ "getUniversalJointAspect", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a6d5ff8071b6b7560314bd4a59b53cc16", null ],
     [ "getUniversalJointProperties", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a96df89b688e1c0ad88a6814049b3a8b1", null ],
     [ "hasUniversalJointAspect", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#ababc72da4ee10a2e989ec2039d487c94", null ],
     [ "isCyclic", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#ab18f3974290978750c1b69721db68438", null ],
@@ -41,6 +40,5 @@ var classdart_1_1dynamics_1_1UniversalJoint =
     [ "updateRelativeJacobian", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a72afeb5631d06e4aa13f59ad6e0611ec", null ],
     [ "updateRelativeJacobianTimeDeriv", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#abd0a82116262d45f87e4d176b59bafb3", null ],
     [ "updateRelativeTransform", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a8ccc587ffc4084db16ca2628401a03ee", null ],
-    [ "Skeleton", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a6a11291b70c2cbded85d321ce539c62f", null ],
-    [ "mAspectProperties", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a07c72a6b991a9fde7662062f75371b6b", null ]
+    [ "Skeleton", "d1/d0e/classdart_1_1dynamics_1_1UniversalJoint.html#a6a11291b70c2cbded85d321ce539c62f", null ]
 ];

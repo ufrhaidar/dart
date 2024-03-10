@@ -15,11 +15,10 @@ var classdart_1_1dynamics_1_1PrismaticJoint =
     [ "copy", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a4adfbba6ca99f5427235f0a19f4dc10c", null ],
     [ "copy", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#ab6c29fffe9e83c831dde581e6fadc0d4", null ],
     [ "createPrismaticJointAspect", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a0524a4ca0ae6f058f2eeec008f8a9177", null ],
-    [ "getAspectProperties", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a0788e4712d5cb89bad92e00d174a3a7d", null ],
     [ "getAxis", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#af65e66d9e00e680ba5f9fe9b4d4a9c4d", null ],
-    [ "getPrismaticJointAspect", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a7bcf5bcd4dae11936baafb3174875ef8", null ],
-    [ "getPrismaticJointAspect", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#ac57cc54f63c139f89395c1c3e1678e43", null ],
     [ "getPrismaticJointAspect", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#ae9b5cc871b635e7a6d481d3223399ec8", null ],
+    [ "getPrismaticJointAspect", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#ac57cc54f63c139f89395c1c3e1678e43", null ],
+    [ "getPrismaticJointAspect", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a7bcf5bcd4dae11936baafb3174875ef8", null ],
     [ "getPrismaticJointProperties", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#af3e2594fb3bcb0652a4e66320f57fe4b", null ],
     [ "getRelativeJacobianStatic", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#aebae92f8d6aea8e1b3d1571abd5b197d", null ],
     [ "getStaticType", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#adaf8b545421de1d11d7ae426458169d6", null ],
@@ -39,6 +38,5 @@ var classdart_1_1dynamics_1_1PrismaticJoint =
     [ "updateRelativeJacobian", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a3915b87e31ab263c66ed43670e9d49d0", null ],
     [ "updateRelativeJacobianTimeDeriv", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#ad394e1197dd621b1bc8aed74dcc7a904", null ],
     [ "updateRelativeTransform", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a415be08a9a8d0b5d0fe5c9e3deb696e9", null ],
-    [ "Skeleton", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a6a11291b70c2cbded85d321ce539c62f", null ],
-    [ "mAspectProperties", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a07c72a6b991a9fde7662062f75371b6b", null ]
+    [ "Skeleton", "de/da9/classdart_1_1dynamics_1_1PrismaticJoint.html#a6a11291b70c2cbded85d321ce539c62f", null ]
 ];

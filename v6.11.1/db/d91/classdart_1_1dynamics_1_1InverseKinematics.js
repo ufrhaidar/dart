@@ -54,7 +54,7 @@ var classdart_1_1dynamics_1_1InverseKinematics =
     [ "resetTargetConnection", "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a553b50ea2ac82dd734d59a297d737646", null ],
     [ "sendDestructionNotification", "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a6ccea1e3a9fe763d4178c4503e2aae55", null ],
     [ "setActive", "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a02761d556eb6492181f351ae3018f85b", null ],
-    [ "setDofs", "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#ab4258a94e33ee865c943430c52e98fec", null ],
+    [ "setDofs", "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a8d0d93d1448b0e8b71fbeba41d7fd75a", null ],
     [ "setDofs", "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#aecaa6a8c45f0d2d145fb210b7554fc9e", null ],
     [ "setErrorMethod", "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a4477d5cc0b186d4ee71a7e72172ee173", null ],
     [ "setGradientMethod", "db/d91/classdart_1_1dynamics_1_1InverseKinematics.html#a649c933f1f4870ce459ff588fc1b205a", null ],
