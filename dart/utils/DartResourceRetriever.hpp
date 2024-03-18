@@ -33,9 +33,10 @@
 #ifndef DART_UTILS_DARTRESOURCERETRIEVER_HPP_
 #define DART_UTILS_DARTRESOURCERETRIEVER_HPP_
 
+#include <dart/common/Resource.hpp>
 #include <dart/common/ResourceRetriever.hpp>
+#include <dart/common/Uri.hpp>
 
-#include <unordered_map>
 #include <vector>
 
 namespace dart {

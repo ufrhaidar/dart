@@ -40,6 +40,7 @@
 #include <dart/common/Deprecated.hpp>
 #include <dart/common/Logging.hpp>
 #include <dart/common/ResourceRetriever.hpp>
+#include <dart/common/Uri.hpp>
 
 #include <Eigen/Dense>
 #include <Eigen/Geometry>

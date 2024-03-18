@@ -30,53 +30,13 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef DART_COMMON_RESOURCERETRIEVER_HPP_
-#define DART_COMMON_RESOURCERETRIEVER_HPP_
+#pragma once
 
-#include <dart/common/Resource.hpp>
-#include <dart/common/Uri.hpp>
+#include <dart/v7/resource_loader.hpp>
 
-#include <memory>
-#include <string>
+namespace dart::common {
 
-namespace dart {
-namespace common {
-
-/// ResourceRetriever provides methods for testing for the existance of and
-/// accessing the content of a resource specified by URI.
-class ResourceRetriever
-{
-public:
-  virtual ~ResourceRetriever() = default;
-
-  /// Returns whether the resource specified by a URI exists.
-  virtual bool exists(const Uri& uri) = 0;
-
-  /// Returns the resource specified by a URI or nullptr on failure.
-  virtual ResourcePtr retrieve(const Uri& uri) = 0;
-
-  /// Reads all data from the resource of uri, and returns it as a string.
-  ///
-  /// \param[in] uri URI to the resource to be retrieved.
-  /// \return The string retrieved from the resource.
-  /// \throw std::runtime_error when failed to read sucessfully.
-  virtual std::string readAll(const Uri& uri);
-
-  /// Returns absolute file path to \c uri; an empty string if unavailable.
-  ///
-  /// This base class returns an empty string by default.
-  virtual std::string getFilePath(const Uri& uri);
-
-  // We don't const-qualify for exists, retrieve, readAll, and getFilePath here.
-  // Derived classes of ResourceRetriever will be interacting with external
-  // resources that you don't necessarily have control over so we cannot
-  // guarantee that you get the same result every time with the same input Uri.
-  // Indeed, const-qualification for those functions is pointless.
-};
-
+using ResourceRetriever = v7::ResourceLoader;
 using ResourceRetrieverPtr = std::shared_ptr<ResourceRetriever>;
 
-} // namespace common
-} // namespace dart
-
-#endif // ifndef DART_COMMON_RESOURCERETRIEVER_HPP_
+} // namespace dart::common

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -30,34 +30,57 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "dart/common/ResourceRetriever.hpp"
+#include "dart/v7/local_resource_loader.hpp"
 
-#include "dart/common/Console.hpp"
+#include "dart/v7/local_resource.hpp"
 
-#include <sstream>
+#include <fstream>
 
-namespace dart {
-namespace common {
+namespace dart::v7 {
 
 //==============================================================================
-std::string ResourceRetriever::readAll(const Uri& uri)
+bool LocalResourceLoader::exists(const Uri& uri)
 {
-  auto resource = retrieve(uri);
+  return !getFilePath(uri).empty();
+}
 
-  if (!resource) {
-    std::stringstream ss;
-    ss << "Failed retrieving a resource from '" << uri.toString() << "'.";
-    throw std::runtime_error(ss.str());
+//==============================================================================
+ResourcePtr LocalResourceLoader::retrieve(const Uri& uri)
+{
+  if (uri.mScheme.get_value_or("file") != "file") {
+    return nullptr;
+  } else if (!uri.mPath) {
+    return nullptr;
   }
 
-  return resource->readAll();
+  const auto resource
+      = std::make_shared<LocalResource>(uri.getFilesystemPath());
+
+  if (resource->isGood()) {
+    return resource;
+  } else {
+    return nullptr;
+  }
 }
 
 //==============================================================================
-std::string ResourceRetriever::getFilePath(const Uri& /*uri*/)
+std::string LocalResourceLoader::getFilePath(const Uri& uri)
 {
-  return "";
+  // Open and close the file to check if it exists. It would be more efficient
+  // to stat() it, but that is not portable.
+  if (uri.mScheme.get_value_or("file") != "file") {
+    return "";
+  } else if (!uri.mPath) {
+    return "";
+  }
+
+  const auto path = uri.getFilesystemPath();
+
+  if (std::ifstream(path, std::ios::binary).good()) {
+    return path;
+  } else {
+    return "";
+  }
 }
 
-} // namespace common
-} // namespace dart
+} // namespace dart::v7

@@ -88,6 +88,4 @@ public:
   virtual std::string readAll();
 };
 
-using ResourcePtr = std::shared_ptr<Resource>;
-
 } // namespace dart::v7

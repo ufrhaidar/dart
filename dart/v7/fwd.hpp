@@ -34,7 +34,24 @@
 
 #include <dart/config.hpp>
 
+#include <memory>
+
+// Define a typedef for const and non-const version of shared_ptr and weak_ptr
+// for the class X
+#define DART_DECL_CLASS_PTRS(X)                                                \
+  class X;                                                                     \
+  using X##Ptr = std::shared_ptr<X>;                                           \
+  using Const##X##Ptr = std::shared_ptr<const X>;                              \
+  using X##WeakPtr = std::weak_ptr<X>;                                         \
+  using Const##X##WeakPtr = std::weak_ptr<const X>;                            \
+  using X##UniquePtr = std::unique_ptr<X>;                                     \
+  using Const##X##UniquePtr = std::unique_ptr<const X>;
+
 namespace dart::v7 {
+
+DART_DECL_CLASS_PTRS(Resource)
+DART_DECL_CLASS_PTRS(LocalResource)
+DART_DECL_CLASS_PTRS(ResourceLoader)
 
 struct StepInfo;
 

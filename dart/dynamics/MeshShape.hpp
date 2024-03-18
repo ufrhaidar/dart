@@ -36,6 +36,7 @@
 #include <dart/dynamics/Shape.hpp>
 
 #include <dart/common/ResourceRetriever.hpp>
+#include <dart/common/Uri.hpp>
 
 #include <assimp/scene.h>
 

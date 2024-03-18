@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -32,11 +32,25 @@
 
 #pragma once
 
-#include <dart/v7/local_resource_loader.hpp>
+#include <dart/v7/resource_loader.hpp>
 
-namespace dart::common {
+namespace dart::v7 {
 
-using LocalResourceRetriever = v7::LocalResourceLoader;
-using LocalResourceRetrieverPtr = std::shared_ptr<LocalResourceRetriever>;
+/// LocalResourceLoaderprovides access to local resources specified by
+/// file:// URIs by wrapping the standard C and C++ file manipulation routines.
+class LocalResourceLoader : public ResourceLoader
+{
+public:
+  ~LocalResourceLoader() override = default;
 
-} // namespace dart::common
+  // Documentation inherited.
+  bool exists(const Uri& uri) override;
+
+  // Documentation inherited.
+  ResourcePtr retrieve(const Uri& uri) override;
+
+  // Documentation inherited.
+  std::string getFilePath(const Uri& uri) override;
+};
+
+} // namespace dart::v7

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -30,58 +30,26 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "dart/common/LocalResourceRetriever.hpp"
+#include "dart/v7/resource_loader.hpp"
 
-#include "dart/common/Console.hpp"
-#include "dart/common/LocalResource.hpp"
-#include "dart/common/Uri.hpp"
+namespace dart::v7 {
 
-#include <fstream>
-#include <iostream>
-
-namespace dart {
-namespace common {
-
-//==============================================================================
-bool LocalResourceRetriever::exists(const Uri& _uri)
+std::string ResourceLoader::readAll(const Uri& uri)
 {
-  return !getFilePath(_uri).empty();
+  auto resource = retrieve(uri);
+
+  if (!resource) {
+    std::stringstream ss;
+    ss << "Failed retrieving a resource from '" << uri.toString() << "'.";
+    throw std::runtime_error(ss.str());
+  }
+
+  return resource->readAll();
 }
 
-//==============================================================================
-common::ResourcePtr LocalResourceRetriever::retrieve(const Uri& _uri)
+std::string ResourceLoader::getFilePath(const Uri& /*uri*/)
 {
-  if (_uri.mScheme.get_value_or("file") != "file")
-    return nullptr;
-  else if (!_uri.mPath)
-    return nullptr;
-
-  const auto resource
-      = std::make_shared<LocalResource>(_uri.getFilesystemPath());
-
-  if (resource->isGood())
-    return resource;
-  else
-    return nullptr;
+  return "";
 }
 
-//==============================================================================
-std::string LocalResourceRetriever::getFilePath(const Uri& uri)
-{
-  // Open and close the file to check if it exists. It would be more efficient
-  // to stat() it, but that is not portable.
-  if (uri.mScheme.get_value_or("file") != "file")
-    return "";
-  else if (!uri.mPath)
-    return "";
-
-  const auto path = uri.getFilesystemPath();
-
-  if (std::ifstream(path, std::ios::binary).good())
-    return path;
-  else
-    return "";
-}
-
-} // namespace common
-} // namespace dart
+} // namespace dart::v7

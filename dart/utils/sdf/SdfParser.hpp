@@ -39,6 +39,7 @@
 
 #include <dart/common/Deprecated.hpp>
 #include <dart/common/ResourceRetriever.hpp>
+#include <dart/common/Uri.hpp>
 
 namespace dart {
 namespace utils {

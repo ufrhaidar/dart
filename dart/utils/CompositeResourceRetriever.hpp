@@ -34,7 +34,9 @@
 #define DART_UTILS_COMPOSITERESOURCERETRIEVER_HPP_
 
 #include <dart/common/ClassWithVirtualBase.hpp>
+#include <dart/common/Resource.hpp>
 #include <dart/common/ResourceRetriever.hpp>
+#include <dart/common/Uri.hpp>
 
 #include <unordered_map>
 #include <vector>
