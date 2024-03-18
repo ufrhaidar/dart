@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -30,12 +30,76 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#pragma once
+#include "dart/v7/local_resource.hpp"
 
-#include <dart/v7/local_resource.hpp>
+#include <gtest/gtest.h>
 
-namespace dart::common {
+#include <fstream>
 
-using LocalResource = v7::LocalResource;
+using namespace dart;
+using namespace v7;
 
-} // namespace dart::common
+class LocalResourceTest : public ::testing::Test
+{
+protected:
+  LocalResourceTest()
+  {
+    // Create a test file
+    std::ofstream testFile("test.txt");
+    testFile << "This is a test file.";
+    testFile.close();
+  }
+
+  ~LocalResourceTest()
+  {
+    // Delete the test file
+    std::remove("test.txt");
+  }
+};
+
+TEST_F(LocalResourceTest, TestGetSize)
+{
+  LocalResource res("test.txt");
+  std::string data = res.readAll();
+  std::size_t fileSize = data.size();
+  EXPECT_EQ(fileSize, res.getSize());
+}
+
+TEST_F(LocalResourceTest, TestTell)
+{
+  LocalResource res("test.txt");
+  res.seek(10, Resource::SeekType::SET);
+  std::size_t position = res.tell();
+  EXPECT_EQ(position, 10);
+}
+
+TEST_F(LocalResourceTest, TestSeek)
+{
+  LocalResource res("test.txt");
+  res.seek(10, Resource::SeekType::SET);
+  std::size_t position = res.tell();
+  EXPECT_EQ(position, 10);
+}
+
+TEST_F(LocalResourceTest, TestRead)
+{
+  LocalResource res("test.txt");
+  char buffer[100];
+  std::size_t bytesRead = res.read(buffer, 1, 100);
+  EXPECT_EQ(bytesRead, res.getSize());
+}
+
+TEST_F(LocalResourceTest, TestReadAll)
+{
+  LocalResource res("test.txt");
+  std::string data = res.readAll();
+  EXPECT_EQ(data, "This is a test file.");
+}
+
+TEST_F(LocalResourceTest, TestIsGood)
+{
+  LocalResource res("test.txt");
+  EXPECT_TRUE(res.isGood());
+  LocalResource res2("nonexistentfile.txt");
+  EXPECT_FALSE(res2.isGood());
+}

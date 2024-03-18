@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -30,12 +30,10 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#pragma once
+#include "dart/v7/empty.hpp"
 
-#include <dart/v7/local_resource.hpp>
+namespace dart::v7 {
 
-namespace dart::common {
+//
 
-using LocalResource = v7::LocalResource;
-
-} // namespace dart::common
+} // namespace dart::v7

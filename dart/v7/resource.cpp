@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -30,17 +30,12 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "dart/common/Resource.hpp"
+#include "dart/v7/resource.hpp"
 
-#include "dart/common/Console.hpp"
+#include <stdexcept>
 
-#include <exception>
-#include <string>
+namespace dart::v7 {
 
-namespace dart {
-namespace common {
-
-//==============================================================================
 std::string Resource::readAll()
 {
   std::string content;
@@ -48,11 +43,11 @@ std::string Resource::readAll()
   const auto result = read(&content.front(), content.size(), 1);
   // Safe because std::string is guaranteed to be contiguous in C++11.
 
-  if (result != 1)
+  if (result != 1) {
     throw std::runtime_error("Failed reading data from a resource.");
+  }
 
   return content;
 }
 
-} // namespace common
-} // namespace dart
+} // namespace dart::v7
