@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -30,50 +30,116 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef DART_MATH_DETAIL_MESH_IMPL_HPP_
-#define DART_MATH_DETAIL_MESH_IMPL_HPP_
+#pragma once
 
-#include <dart/math/Mesh.hpp>
+#include <dart/config.hpp>
 
-namespace dart {
-namespace math {
+#include <Eigen/Core>
+
+#include <vector>
+
+namespace dart::v7 {
+
+/// Base class for meshes.
+template <typename S_>
+class Mesh
+{
+public:
+  // Type aliases
+  using S = S_;
+  using Index = std::size_t;
+  using Vector3 = Eigen::Matrix<S, 3, 1>;
+  using Vertices = std::vector<Vector3>;
+  using Normals = std::vector<Vector3>;
+  using Indices = std::vector<Index>;
+
+  /// Destructor.
+  virtual ~Mesh();
+
+  /// Returns true if the mesh contains vertices.
+  bool hasVertices() const;
+
+  /// Returns true if the mesh contains vertex normals.
+  bool hasVertexNormals() const;
+
+  /// Returns the vertices of the mesh.
+  const Vertices& getVertices() const;
+
+  /// Returns the vertex normals of the mesh.
+  const Normals& getVertexNormals() const;
+
+  /// Clears all the vertices and vertex normals.
+  virtual void clear();
+
+  /// Returns true if the mesh has no vertices.
+  bool isEmpty() const;
+
+  /// Translates the mesh vertices by adding \c translation to the vertices.
+  void translate(const Vector3& translation);
+
+  /// Addition operator.
+  Mesh operator+(const Mesh& other) const;
+
+  /// Addition assignment operator.
+  Mesh& operator+=(const Mesh& other);
+
+protected:
+  /// Default constructor.
+  Mesh();
+
+  /// Normalizes the vertex normals.
+  void normalizeVertexNormals();
+
+  /// Vertices of the mesh.
+  Vertices mVertices;
+
+  /// Vertex normals of the mesh.
+  Normals mVertexNormals;
+};
+
+using Meshf = Mesh<float>;
+using Meshd = Mesh<double>;
+
+} // namespace dart::v7
 
 //==============================================================================
+//
+// Implementation
+//
+//==============================================================================
+
+namespace dart::v7 {
+
 template <typename S>
 Mesh<S>::~Mesh()
 {
   // Do nothing
 }
 
-//==============================================================================
 template <typename S>
 bool Mesh<S>::hasVertices() const
 {
   return !mVertices.empty();
 }
 
-//==============================================================================
 template <typename S>
 bool Mesh<S>::hasVertexNormals() const
 {
   return hasVertices() && mVertices.size() == mVertexNormals.size();
 }
 
-//==============================================================================
 template <typename S>
 const typename Mesh<S>::Vertices& Mesh<S>::getVertices() const
 {
   return this->mVertices;
 }
 
-//==============================================================================
 template <typename S>
 const typename Mesh<S>::Normals& Mesh<S>::getVertexNormals() const
 {
   return this->mVertexNormals;
 }
 
-//==============================================================================
 template <typename S>
 void Mesh<S>::clear()
 {
@@ -81,14 +147,12 @@ void Mesh<S>::clear()
   mVertexNormals.clear();
 }
 
-//==============================================================================
 template <typename S>
 bool Mesh<S>::isEmpty() const
 {
   return !(this->hasVertices());
 }
 
-//==============================================================================
 template <typename S>
 void Mesh<S>::translate(const Vector3& translation)
 {
@@ -97,14 +161,12 @@ void Mesh<S>::translate(const Vector3& translation)
   }
 }
 
-//==============================================================================
 template <typename S>
 Mesh<S> Mesh<S>::operator+(const Mesh& other) const
 {
   return (Mesh(*this) += other);
 }
 
-//==============================================================================
 template <typename S>
 Mesh<S>& Mesh<S>::operator+=(const Mesh& other)
 {
@@ -129,14 +191,12 @@ Mesh<S>& Mesh<S>::operator+=(const Mesh& other)
   return *this;
 }
 
-//==============================================================================
 template <typename S>
 Mesh<S>::Mesh()
 {
   // Do nothing
 }
 
-//==============================================================================
 template <typename S>
 void Mesh<S>::normalizeVertexNormals()
 {
@@ -145,7 +205,4 @@ void Mesh<S>::normalizeVertexNormals()
   }
 }
 
-} // namespace math
-} // namespace dart
-
-#endif // DART_MATH_DETAIL_MESH_IMPL_HPP_
+} // namespace dart::v7

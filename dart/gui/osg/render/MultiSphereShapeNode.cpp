@@ -36,6 +36,7 @@
 #include "dart/dynamics/SimpleFrame.hpp"
 #include "dart/gui/osg/Utils.hpp"
 #include "dart/math/Icosphere.hpp"
+#include "dart/math/TriMesh.hpp"
 
 #include <osg/CullFace>
 #include <osg/Depth>

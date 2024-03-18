@@ -36,8 +36,6 @@
 
 #include <assimp/IOStream.hpp>
 
-#include <iostream>
-
 #include <cassert>
 
 namespace dart {

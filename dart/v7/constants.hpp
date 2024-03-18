@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -32,13 +32,12 @@
 
 #pragma once
 
-#include <dart/v7/math/mesh.hpp>
-
-namespace dart::math {
+namespace dart::v7 {
 
 template <typename S>
-using Mesh = v7::Mesh<S>;
-using Meshf = Mesh<float>;
-using Meshd = Mesh<double>;
+[[nodiscard]] S phi()
+{
+  return 1.618033988749894848204586834365638117720309179805762862135448623L;
+}
 
-} // namespace dart::math
+} // namespace dart::v7

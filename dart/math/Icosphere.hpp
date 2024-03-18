@@ -30,77 +30,15 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef DART_MATH_ICOSPHERE_HPP_
-#define DART_MATH_ICOSPHERE_HPP_
+#pragma once
 
-#include <dart/math/TriMesh.hpp>
+#include <dart/v7/math/icosphere.hpp>
 
-#include <Eigen/Core>
+namespace dart::math {
 
-#include <map>
-#include <vector>
-
-namespace dart {
-namespace math {
-
-/// The class Icosphere represents an icosphere where the subdivision and radius
-/// are configurable.
-template <typename S_>
-class Icosphere : public TriMesh<S_>
-{
-public:
-  // Type aliases
-  using S = S_;
-  using Base = TriMesh<S>;
-  using Index = typename Base::Index;
-  using Vector3 = typename Base::Vector3;
-  using Triangle = typename Base::Triangle;
-  using Vertices = std::vector<Vector3>;
-  using Normals = typename Base::Normals;
-  using Triangles = std::vector<Triangle>;
-
-  /// Returns the number of vertices of icosphere given subdivisions.
-  static std::size_t getNumVertices(std::size_t subdivisions);
-
-  /// Returns the number of edges of icosphere given subdivisions.
-  static std::size_t getNumEdges(std::size_t subdivisions);
-
-  /// Returns the number of triangles of icosphere given subdivisions.
-  static std::size_t getNumTriangles(std::size_t subdivisions);
-
-  /// Returns vertices and faces of icosahedron given radius.
-  static std::pair<Vertices, Triangles> computeIcosahedron(S radius);
-
-  /// Construct an icosphere given radius and subdivisions.
-  ///
-  /// \param[in] radius: The radius of the icosphere.
-  /// \param[in] subdivisions: The number of subdividing an icosahedron. Passing
-  /// 1 generates icosahedron without subdividing.
-  Icosphere(S radius, std::size_t subdivisions);
-
-  /// Returns the radius of the icosphere.
-  S getRadius() const;
-
-  /// Returns the number of subdivisions of the icosphere.
-  std::size_t getNumSubdivisions() const;
-
-private:
-  /// Internal function to build icosphere given radius and subdivisions.
-  void build();
-
-  /// Radius of icosphere.
-  S mRadius;
-
-  /// Number of subdividing an icosahedron.
-  std::size_t mSubdivisions;
-};
-
+template <typename S>
+using Icosphere = v7::Icosphere<S>;
 using Icospheref = Icosphere<float>;
 using Icosphered = Icosphere<double>;
 
-} // namespace math
-} // namespace dart
-
-#include <dart/math/detail/Icosphere-impl.hpp>
-
-#endif // DART_MATH_ICOSPHERE_HPP_
+} // namespace dart::math

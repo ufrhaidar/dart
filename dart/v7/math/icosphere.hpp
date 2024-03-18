@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -30,15 +30,84 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <dart/math/Constants.hpp>
-#include <dart/math/Icosphere.hpp>
+#pragma once
+
+#include <dart/v7/math/tri_mesh.hpp>
+
+#include <map>
+#include <vector>
+
+namespace dart::v7 {
+
+/// The class Icosphere represents an icosphere where the subdivision and radius
+/// are configurable.
+template <typename S_>
+class Icosphere : public TriMesh<S_>
+{
+public:
+  // Type aliases
+  using S = S_;
+  using Base = TriMesh<S>;
+  using Index = typename Base::Index;
+  using Vector3 = typename Base::Vector3;
+  using Triangle = typename Base::Triangle;
+  using Vertices = std::vector<Vector3>;
+  using Normals = typename Base::Normals;
+  using Triangles = std::vector<Triangle>;
+
+  /// Returns the number of vertices of icosphere given subdivisions.
+  static std::size_t getNumVertices(std::size_t subdivisions);
+
+  /// Returns the number of edges of icosphere given subdivisions.
+  static std::size_t getNumEdges(std::size_t subdivisions);
+
+  /// Returns the number of triangles of icosphere given subdivisions.
+  static std::size_t getNumTriangles(std::size_t subdivisions);
+
+  /// Returns vertices and faces of icosahedron given radius.
+  static std::pair<Vertices, Triangles> computeIcosahedron(S radius);
+
+  /// Construct an icosphere given radius and subdivisions.
+  ///
+  /// \param[in] radius: The radius of the icosphere.
+  /// \param[in] subdivisions: The number of subdividing an icosahedron. Passing
+  /// 1 generates icosahedron without subdividing.
+  Icosphere(S radius, std::size_t subdivisions);
+
+  /// Returns the radius of the icosphere.
+  S getRadius() const;
+
+  /// Returns the number of subdivisions of the icosphere.
+  std::size_t getNumSubdivisions() const;
+
+private:
+  /// Internal function to build icosphere given radius and subdivisions.
+  void build();
+
+  /// Radius of icosphere.
+  S mRadius;
+
+  /// Number of subdividing an icosahedron.
+  std::size_t mSubdivisions;
+};
+
+using Icospheref = Icosphere<float>;
+using Icosphered = Icosphere<double>;
+
+} // namespace dart::v7
+
+//==============================================================================
+//
+// Implementation
+//
+//==============================================================================
+
+#include <dart/v7/constants.hpp>
 
 #include <array>
 
-namespace dart {
-namespace math {
+namespace dart::v7 {
 
-//==============================================================================
 template <typename S>
 std::size_t Icosphere<S>::getNumVertices(std::size_t subdivisions)
 {
@@ -48,28 +117,24 @@ std::size_t Icosphere<S>::getNumVertices(std::size_t subdivisions)
   return numVertices;
 }
 
-//==============================================================================
 template <typename S>
 std::size_t Icosphere<S>::getNumEdges(std::size_t subdivisions)
 {
   return getNumTriangles(subdivisions) / 2 * 3;
 }
 
-//==============================================================================
 template <typename S>
 std::size_t Icosphere<S>::getNumTriangles(std::size_t subdivisions)
 {
   return 20 * std::pow(4, subdivisions);
 }
 
-//==============================================================================
 template <typename S>
 std::pair<typename Icosphere<S>::Vertices, typename Icosphere<S>::Triangles>
 Icosphere<S>::computeIcosahedron(S radius)
 {
-  constexpr S phi = constants<S>::phi();
-  const S unitX = 1 / std::sqrt(1 + phi * phi);
-  const S unitZ = unitX * phi;
+  const S unitX = 1 / std::sqrt(1 + phi<S>() * phi<S>());
+  const S unitZ = unitX * phi<S>();
 
   const S x = radius * unitX;
   const S z = radius * unitZ;
@@ -97,7 +162,6 @@ Icosphere<S>::computeIcosahedron(S radius)
   return std::make_pair(vertices, triangles);
 }
 
-//==============================================================================
 template <typename S>
 Icosphere<S>::Icosphere(S radius, std::size_t subdivisions)
   : mRadius(radius), mSubdivisions(subdivisions)
@@ -110,21 +174,18 @@ Icosphere<S>::Icosphere(S radius, std::size_t subdivisions)
   build();
 }
 
-//==============================================================================
 template <typename S>
 S Icosphere<S>::getRadius() const
 {
   return mRadius;
 }
 
-//==============================================================================
 template <typename S>
 std::size_t Icosphere<S>::getNumSubdivisions() const
 {
   return mSubdivisions;
 }
 
-//==============================================================================
 template <typename S>
 void Icosphere<S>::build()
 {
@@ -210,5 +271,4 @@ void Icosphere<S>::build()
   this->mTriangles = *currFaces;
 }
 
-} // namespace math
-} // namespace dart
+} // namespace dart::v7

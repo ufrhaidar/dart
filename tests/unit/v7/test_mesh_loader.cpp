@@ -30,12 +30,15 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "dart/math/TriMesh.hpp"
+#include <dart/v7/io/mesh_loader.hpp>
 
-namespace dart {
-namespace math {
+#include <gtest/gtest.h>
 
-template class TriMesh<double>;
+using namespace dart;
+using namespace v7;
 
-} // namespace math
-} // namespace dart
+TEST(MeshLoaderTest, Empty)
+{
+  auto loader = AssimpMeshLoader<double>();
+  (void)loader;
+}

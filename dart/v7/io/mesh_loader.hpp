@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -32,13 +32,35 @@
 
 #pragma once
 
-#include <dart/v7/math/mesh.hpp>
+#include <dart/config.hpp>
 
-namespace dart::math {
+#include <dart/v7/math/tri_mesh.hpp>
 
+#include <memory>
+
+namespace dart::v7 {
+
+/// Abstract base class for mesh loaders.
+/// @tparam S Scalar type
 template <typename S>
-using Mesh = v7::Mesh<S>;
-using Meshf = Mesh<float>;
-using Meshd = Mesh<double>;
+class MeshLoader
+{
+public:
+  using Scalar = S;
+  using Mesh = TriMesh<S>;
 
-} // namespace dart::math
+  /// Default constructor.
+  MeshLoader() = default;
+
+  /// Destructor.
+  virtual ~MeshLoader() = default;
+
+  /// Loads a mesh from a file.
+  /// @param[in] filepath Path to the file to load.
+  /// @param[in] retriever Resource retriever to use for loading the file.
+  /// @return A mesh loaded from the file.
+  [[nodiscard]] virtual std::unique_ptr<Mesh> load(const std::string& filepath)
+      = 0;
+};
+
+} // namespace dart::v7

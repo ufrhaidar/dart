@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2011-2024, The DART development contributors
+ * Copyright (c) The DART development contributors
  * All rights reserved.
  *
  * The list of contributors can be found at:
@@ -30,19 +30,46 @@
  *   POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef DART_MATH_DETAIL_GEOMETRY_IMPL_HPP_
-#define DART_MATH_DETAIL_GEOMETRY_IMPL_HPP_
+#pragma once
 
-#include "dart/external/convhull_3d/safe_convhull_3d.h"
+#include <dart/config.hpp>
 
-#include <dart/math/Geometry.hpp>
+#include <Eigen/Core>
+
+#include <vector>
+
+namespace dart::v7 {
+
+/// Generates a 3D convex hull given vertices and indices.
+///
+/// \tparam S: The scalar type of the vertices.
+/// \tparam Index: The index type of the triangles.
+/// \param[in] vertices: The given vertices to generate a convex hull from.
+/// \param[in] optimize: (Optional) Whether to discard vertices that are not
+/// referred to in the resulted convex hull. The resulted indices will be
+/// updated accordingly.
+/// \return A tuple of the vertices and indices of the resulted convex hull.
+template <typename S = double, typename Index = std::size_t>
+std::tuple<
+    std::vector<Eigen::Matrix<S, 3, 1>>,
+    std::vector<Eigen::Matrix<Index, 3, 1>>>
+computeConvexHull3D(
+    const std::vector<Eigen::Matrix<S, 3, 1>>& vertices, bool optimize = true);
+
+} // namespace dart::v7
+
+//==============================================================================
+//
+// Implementation
+//
+//==============================================================================
+
+#include <dart/external/convhull_3d/safe_convhull_3d.h>
 
 #include <unordered_map>
 
-namespace dart {
-namespace math {
+namespace dart::v7 {
 
-//==============================================================================
 template <typename S, typename Index>
 std::tuple<
     std::vector<Eigen::Matrix<S, 3, 1>>,
@@ -77,7 +104,6 @@ discardUnusedVertices(
   return std::make_tuple(newVertices, newTriangles);
 }
 
-//==============================================================================
 template <typename S, typename Index>
 std::tuple<
     std::vector<Eigen::Matrix<S, 3, 1>>,
@@ -120,7 +146,4 @@ computeConvexHull3D(
     return std::make_pair(inputVertices, eigenFaces);
 }
 
-} // namespace math
-} // namespace dart
-
-#endif // DART_MATH_DETAIL_GEOMETRY_IMPL_HPP_
+} // namespace dart::v7
