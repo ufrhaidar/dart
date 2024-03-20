@@ -61,7 +61,7 @@ jobs:
 
       - name: Build
         run: |
-          ./.ci/build_docs.sh build
+          ./scripts/build_docs.sh build
 
       - name: Deploy
         if: ${{ github.ref == 'refs/heads/main' }}
