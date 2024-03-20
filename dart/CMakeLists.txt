@@ -45,7 +45,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${DART_BINARY_DIR}/lib")
 # dart-collision-bullet - {dart}, collision/bullet, [bullet]
 # dart-utils - {dart}, utils, utils/sdf, [tinyxml2]
 # dart-utils-urdf - {dart-utils}, utils/urdf, [urdfdom]
-# dart-gui - {dart}, gui, [opengl, glut]
+# dart-gui - {dart}, gui, [opengl]
 # dart-gui-osg - {dart-gui}, gui/osg, gui/osg/render, [openscenegraph]
 
 #===============================================================================
@@ -82,7 +82,7 @@ add_subdirectory(collision)
 add_subdirectory(constraint)
 add_subdirectory(simulation)
 add_subdirectory(utils) # tinyxml2, bullet
-add_subdirectory(gui) # opengl, glut, bullet
+add_subdirectory(gui) # opengl, bullet
 
 set(DART_CONFIG_HPP_IN ${DART_SOURCE_DIR}/dart/config.hpp.in)
 set(DART_CONFIG_HPP_OUT ${DART_BINARY_DIR}/dart/config.hpp)

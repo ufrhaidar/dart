@@ -39,7 +39,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/fontconfig-2.14.2-h14ed4e7_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/fonts-conda-ecosystem-1-0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/fonts-conda-forge-1-0.tar.bz2
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/freeglut-3.2.2-hac7e632_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/freetype-2.12.1-h267a509_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/gettext-0.21.1-h27087fc_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/glfw-3.4-hd590300_0.conda
@@ -171,7 +170,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xcb-util-wm-0.4.1-h8ee46fc_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xkeyboard-config-2.41-hd590300_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-fixesproto-5.0-h7f98852_1002.tar.bz2
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-inputproto-2.3.2-h7f98852_1002.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-kbproto-1.0.7-h7f98852_1002.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libice-1.1.1-hd590300_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libsm-1.2.4-h7391055_0.conda
@@ -180,7 +178,6 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxdmcp-1.1.3-h7f98852_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxext-1.3.4-h0b41bf4_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxfixes-5.0.3-h7f98852_1004.tar.bz2
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxi-1.7.10-h7f98852_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxinerama-1.1.5-h27087fc_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-xextproto-7.3.0-h0b41bf4_1003.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/xorg-xf86vidmodeproto-2.3.1-h7f98852_1002.tar.bz2
@@ -2166,28 +2163,6 @@ packages:
   license_family: MIT
   size: 111787
   timestamp: 1684688787619
-- kind: conda
-  name: freeglut
-  version: 3.2.2
-  build: hac7e632_2
-  build_number: 2
-  subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/freeglut-3.2.2-hac7e632_2.conda
-  sha256: 6dc7be5d0853ea5bcbb2b1921baf7d069605594c207e8ce36a662f447cd81a3f
-  md5: 6e553df297f6e64668efb54302e0f139
-  depends:
-  - libgcc-ng >=12
-  - libstdcxx-ng >=12
-  - libxcb >=1.15,<1.16.0a0
-  - xorg-libx11 >=1.8.4,<2.0a0
-  - xorg-libxau >=1.0.11,<2.0a0
-  - xorg-libxext >=1.3.4,<2.0a0
-  - xorg-libxfixes
-  - xorg-libxi
-  license: MIT
-  license_family: MIT
-  size: 142933
-  timestamp: 1684688443008
 - kind: conda
   name: freetype
   version: 2.12.1
@@ -8153,21 +8128,6 @@ packages:
   size: 9122
   timestamp: 1617479697350
 - kind: conda
-  name: xorg-inputproto
-  version: 2.3.2
-  build: h7f98852_1002
-  build_number: 1002
-  subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/xorg-inputproto-2.3.2-h7f98852_1002.tar.bz2
-  sha256: 6c8c2803de0f643f8bad16ece3f9a7259e4a49247543239c182d66d5e3a129a7
-  md5: bcd1b3396ec6960cbc1d2855a9e60b2b
-  depends:
-  - libgcc-ng >=9.3.0
-  license: MIT
-  license_family: MIT
-  size: 19602
-  timestamp: 1610027678228
-- kind: conda
   name: xorg-kbproto
   version: 1.0.7
   build: h27ca646_1002
@@ -8432,24 +8392,6 @@ packages:
   license_family: MIT
   size: 18145
   timestamp: 1617717802636
-- kind: conda
-  name: xorg-libxi
-  version: 1.7.10
-  build: h7f98852_0
-  subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/xorg-libxi-1.7.10-h7f98852_0.tar.bz2
-  sha256: 745c1284a96b4282fe6fe122b2643e1e8c26a7ff40b733a8f4b61357238c4e68
-  md5: e77615e5141cad5a2acaa043d1cf0ca5
-  depends:
-  - libgcc-ng >=9.3.0
-  - xorg-inputproto
-  - xorg-libx11 >=1.7.0,<2.0a0
-  - xorg-libxext 1.3.*
-  - xorg-libxfixes 5.0.*
-  license: MIT
-  license_family: MIT
-  size: 47287
-  timestamp: 1620070911951
 - kind: conda
   name: xorg-libxinerama
   version: 1.1.5

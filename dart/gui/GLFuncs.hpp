@@ -42,13 +42,6 @@
 namespace dart {
 namespace gui {
 
-/// \deprecated Deprecated in 6.6. Please use
-/// dart::gui::glut::drawStringOnScreen() instead in
-/// dart/gui/glut/GLUTFuncs.hpp file.
-DART_DEPRECATED(6.6)
-void drawStringOnScreen(
-    float _x, float _y, const std::string& _s, bool _bigFont = true);
-
 /// \brief
 void drawArrow3D(
     const Eigen::Vector3d& _pt,
