@@ -155,10 +155,3 @@ TEST(Lemke, Lemke_12D)
   EXPECT_EQ(err, 0);
   EXPECT_TRUE(dart::lcpsolver::validate(A, (*f), b));
 }
-
-//==============================================================================
-int main(int argc, char* argv[])
-{
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
-}
