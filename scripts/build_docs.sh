@@ -106,7 +106,7 @@ EOF
       echo "Both docs/doxygen/html and doxygen/html are empty. No files moved."
     fi
 
-  done <${DART_CLONE_DIR}/.ci/docs_versions.txt
+  done <${DART_CLONE_DIR}/scripts/docs_versions.txt
 
 }
 
