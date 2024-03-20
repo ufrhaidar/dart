@@ -44,11 +44,11 @@ while read version; do
 
   # Check if docs/doxygen/html is not empty
   if [ "$(ls -A docs/doxygen/html 2>/dev/null)" ]; then
-    echo "Moving docs/doxygen/html..."
+    echo "Moving docs/doxygen/html to ${DART_DOCS_OUTPUT_DIR}/${version}..."
     mv docs/doxygen/html "${DART_DOCS_OUTPUT_DIR}/${version}"
   # Else, check if doxygen/html is not empty
   elif [ "$(ls -A doxygen/html 2>/dev/null)" ]; then
-    echo "Moving doxygen/html..."
+    echo "Moving doxygen/html ${DART_DOCS_OUTPUT_DIR}/${version}..."
     mv doxygen/html "${DART_DOCS_OUTPUT_DIR}/${version}"
   else
     echo "Both docs/doxygen/html and doxygen/html are empty. No files moved."
