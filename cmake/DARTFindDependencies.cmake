@@ -132,6 +132,17 @@ option(DART_SKIP_spdlog "If ON, do not use spdlog even if it is found." OFF)
 mark_as_advanced(DART_SKIP_spdlog)
 dart_find_package(spdlog)
 
+if(DART_BUILD_RERUN)
+  include(FetchContent)
+  FetchContent_Declare(rerun_sdk
+    URL https://github.com/rerun-io/rerun/releases/download/0.14.1/rerun_cpp_sdk.zip
+  )
+  FetchContent_MakeAvailable(rerun_sdk)
+  if(NOT TARGET rerun_sdk)
+    message(FATAL_ERROR "Failed to set up rerun_sdk target when DART_BUILD_RERUN=${DART_BUILD_RERUN}")
+  endif()
+endif()
+
 #--------------------
 # Misc. dependencies
 #--------------------
@@ -139,4 +150,3 @@ dart_find_package(spdlog)
 # Doxygen
 find_package(Doxygen QUIET)
 dart_check_optional_package(DOXYGEN "generating API documentation" "doxygen")
-
