@@ -1170,8 +1170,6 @@ void Skeleton(py::module& m)
           +[](const dart::dynamics::Skeleton* self) -> double {
             return self->computePotentialEnergy();
           })
-      //      .def("clearCollidingBodies", +[](dart::dynamics::Skeleton *self)
-      //      -> void { return self->clearCollidingBodies(); })
       .def(
           "getCOM",
           +[](const dart::dynamics::Skeleton* self) -> Eigen::Vector3d {

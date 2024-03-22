@@ -487,11 +487,6 @@ void ReferentialSkeleton(py::module& m)
           +[](const dart::dynamics::ReferentialSkeleton* self) -> double {
             return self->computePotentialEnergy();
           })
-      //      .def(
-      //          "clearCollidingBodies",
-      //          +[](dart::dynamics::ReferentialSkeleton* self) {
-      //            self->clearCollidingBodies();
-      //          })
       .def(
           "getCOM",
           +[](const dart::dynamics::ReferentialSkeleton* self)

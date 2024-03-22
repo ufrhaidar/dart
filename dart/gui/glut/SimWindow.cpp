@@ -115,19 +115,6 @@ void SimWindow::drawSkeletons() const
     drawSkeleton(mWorld->getSkeleton(i).get());
 }
 
-//==============================================================================
-void SimWindow::drawSkels()
-{
-  drawSkeletons();
-}
-
-//==============================================================================
-void SimWindow::drawEntities()
-{
-  for (std::size_t i = 0; i < mWorld->getNumSimpleFrames(); ++i)
-    drawShapeFrame(mWorld->getSimpleFrame(i).get());
-}
-
 void SimWindow::displayTimer(int _val)
 {
   int numIter = mDisplayTimeout / (mWorld->getTimeStep() * 1000);
