@@ -97,6 +97,8 @@ public:
 protected:
   /// \brief Body node to be tested
   dart::dynamics::BodyNode* mBodyNode;
+
+  dart::dynamics::ConstraintSolver* mConstraintSolver;
 };
 
 #endif // EXAMPLES_ATLASSIMBICON_TERMINALCONDITION_HPP_

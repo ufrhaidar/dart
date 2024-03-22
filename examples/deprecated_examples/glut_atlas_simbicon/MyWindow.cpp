@@ -71,27 +71,6 @@ void MyWindow::timeStepping()
 }
 
 //==============================================================================
-void MyWindow::drawSkels()
-{
-  //  glEnable(GL_LIGHTING);
-  //  glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
-
-  for (unsigned int i = 0; i < mWorld->getNumSkeletons(); i++)
-    drawSkeleton(mWorld->getSkeleton(i).get());
-
-  // draw arrow
-  if (mImpulseDuration > 0) {
-    Eigen::Vector3d poa = mWorld->getSkeleton("drc_skeleton")
-                              ->getBodyNode("pelvis")
-                              ->getTransform()
-                          * Eigen::Vector3d(0.0, 0.0, 0.0);
-    Eigen::Vector3d start = poa - mForce / 500.0;
-    double len = mForce.norm() / 500.0;
-    dart::gui::drawArrow3D(start, mForce, len, 0.05, 0.1);
-  }
-}
-
-//==============================================================================
 void MyWindow::keyboard(unsigned char _key, int _x, int _y)
 {
   switch (_key) {

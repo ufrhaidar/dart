@@ -53,9 +53,6 @@ public:
   void timeStepping() override;
 
   // Documentation inherited
-  void drawSkels() override;
-
-  // Documentation inherited
   void keyboard(unsigned char _key, int _x, int _y) override;
 
 private:
