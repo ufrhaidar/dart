@@ -110,6 +110,19 @@ endif()
 # Optional dependencies
 #=======================
 
+find_package(Python3 COMPONENTS Interpreter Development REQUIRED)
+
+if(DART_BUILD_DARTPY2)
+  include(FetchContent)
+  FetchContent_Declare(nanobind
+    GIT_REPOSITORY https://github.com/wjakob/nanobind.git
+    GIT_TAG master
+    GIT_SHALLOW TRUE
+    GIT_PROGRESS TRUE
+  )
+  FetchContent_MakeAvailable(nanobind)
+endif()
+
 if(DART_BUILD_PROFILE)
   include(FetchContent)
   FetchContent_Declare(tracy
@@ -125,8 +138,6 @@ if(DART_BUILD_PROFILE)
     target_compile_options(TracyClient PRIVATE -w)
   endif()
 endif()
-
-find_package(Python3 COMPONENTS Interpreter Development)
 
 option(DART_SKIP_spdlog "If ON, do not use spdlog even if it is found." OFF)
 mark_as_advanced(DART_SKIP_spdlog)
