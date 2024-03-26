@@ -220,33 +220,20 @@ void BoxedLcpConstraintSolver::solveConstrainedGroup(ConstrainedGroup& group)
                   mA.data() + index, false);
             }
           }
-
-          // Filling symmetric part of A matrix
-          {
-            DART_PROFILE_SCOPED_N("Fill lower triangle of A");
-            for (std::size_t k = 0; k < i; ++k) {
-              const int indexI = mOffset[i] + j;
-              for (std::size_t l = 0;
-                   l < group.getConstraint(k)->getDimension();
-                   ++l) {
-                const int indexJ = mOffset[k] + l;
-                mA(indexI, indexJ) = mA(indexJ, indexI);
-              }
-            }
-          }
         }
       }
-
-      assert(isSymmetric(
-          n,
-          mA.data(),
-          mOffset[i],
-          mOffset[i] + constraint->getDimension() - 1));
 
       {
         DART_PROFILE_SCOPED_N("Unexcite");
         constraint->unexcite();
       }
+    }
+
+    {
+      // Fill lower triangle blocks of A matrix
+      DART_PROFILE_SCOPED_N("Fill lower triangle of A");
+      mA.triangularView<Eigen::Lower>()
+          = mA.triangularView<Eigen::Upper>().transpose();
     }
   }
 
