@@ -81,6 +81,28 @@ namespace simulation {
 
 DART_COMMON_DECLARE_SHARED_WEAK(World)
 
+enum class CollisionDetectorType
+{
+  FCL,
+  BULLET,
+  ODE,
+  DART,
+  CUSTOM,
+};
+
+struct WorldConfig
+{
+  std::string name{"world"};
+  Eigen::Vector3d gravity{Eigen::Vector3d(0, 0, -9.81)};
+  double timeStep{0.001};
+  CollisionDetectorType collisionDetectorType{CollisionDetectorType::FCL};
+
+  WorldConfig(const std::string& name = "world") : name(name)
+  {
+    // Empty
+  }
+};
+
 /// class World
 DART_DECLARE_CLASS_WITH_VIRTUAL_BASE_BEGIN
 class World : public virtual common::Subject
@@ -100,8 +122,14 @@ public:
   /// Creates a World
   static std::shared_ptr<World> create(const std::string& name = "world");
 
+  /// Creates a World
+  static std::shared_ptr<World> create(const WorldConfig& config);
+
   /// Constructor
   World(const std::string& _name = "world");
+
+  /// Constructor
+  World(const WorldConfig& config);
 
   /// Destructor
   virtual ~World();

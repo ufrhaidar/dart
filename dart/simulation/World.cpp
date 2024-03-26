@@ -60,12 +60,24 @@ std::shared_ptr<World> World::create(const std::string& name)
 }
 
 //==============================================================================
-World::World(const std::string& _name)
-  : mName(_name),
-    mNameMgrForSkeletons("World::Skeleton | " + _name, "skeleton"),
-    mNameMgrForSimpleFrames("World::SimpleFrame | " + _name, "frame"),
-    mGravity(0.0, 0.0, -9.81),
-    mTimeStep(0.001),
+std::shared_ptr<World> World::create(const WorldConfig& config)
+{
+  return std::make_shared<World>(config);
+}
+
+//==============================================================================
+World::World(const std::string& _name) : World(WorldConfig(_name))
+{
+  // Empty
+}
+
+//==============================================================================
+World::World(const WorldConfig& config)
+  : mName(config.name),
+    mNameMgrForSkeletons("World::Skeleton | " + mName, "skeleton"),
+    mNameMgrForSimpleFrames("World::SimpleFrame | " + mName, "frame"),
+    mGravity(config.gravity),
+    mTimeStep(config.timeStep),
     mTime(0.0),
     mFrame(0),
     mRecording(new Recording(mSkeletons)),
@@ -74,6 +86,20 @@ World::World(const std::string& _name)
   mIndices.push_back(0);
 
   auto solver = std::make_unique<constraint::BoxedLcpConstraintSolver>();
+
+  switch (config.collisionDetectorType) {
+    case CollisionDetectorType::FCL:
+      solver->setCollisionDetector(collision::FCLCollisionDetector::create());
+      break;
+    case CollisionDetectorType::BULLET:
+      solver->setCollisionDetector(collision::BulletCollisionDetector::create());
+      break;
+    default:
+      dtwarn << "[World::World] Unsupported constraint solver type. Using the "
+             << "default constraint solver instead.\n";
+      break;
+  }
+
   setConstraintSolver(std::move(solver));
 }
 
