@@ -37,29 +37,45 @@
 #include "dart/dynamics/FreeJoint.hpp"
 #include "dart/dynamics/ShapeFrame.hpp"
 #include "dart/dynamics/ShapeNode.hpp"
+#include "dart/dynamics/SphereShape.hpp"
 
 namespace dart::dynamics {
 
-SkeletonPtr RigidBody::create(const Config& config)
+std::shared_ptr<RigidBody> RigidBody::create(const Config& config)
 {
-  return SkeletonPtr(new RigidBody(config));
+  return std::make_shared<RigidBody>(config);
 }
 
-RigidBody::RigidBody(const Config& config) : Skeleton(config.name)
+RigidBody::RigidBody(const Config& config)
 {
-  auto jointAndBody = this->createJointAndBodyNodePair<dynamics::FreeJoint>();
-  auto body = jointAndBody.second;
-  auto shapeNode = body->createShapeNodeWith<
+  mSkeleton = Skeleton::create(config.name);
+  DART_ASSERT(mSkeleton);
+
+  std::tie(mParentJoint, mBodyNode)
+      = mSkeleton->createJointAndBodyNodePair<FreeJoint>();
+  DART_ASSERT(mParentJoint);
+  DART_ASSERT(mBodyNode);
+
+  // TODO: Add shape factory by the string type
+  if (config.shapeType == BoxShape::getStaticType()) {
+    mShape
+        = std::make_shared<dynamics::BoxShape>(Eigen::Vector3d(0.5, 0.5, 0.5));
+  } else {
+    mShape = std::make_shared<dynamics::SphereShape>(0.5);
+  }
+  DART_ASSERT(mShape);
+
+  mShapeNode = mBodyNode->createShapeNodeWith<
       dynamics::VisualAspect,
       dynamics::CollisionAspect,
-      dynamics::DynamicsAspect>(
-      std::make_shared<dynamics::BoxShape>(Eigen::Vector3d(0.3, 0.3, 0.3)));
-  (void)shapeNode;
+      dynamics::DynamicsAspect>(mShape);
+  DART_ASSERT(mShapeNode);
+  mShapeNode->setShape(nullptr);
 }
 
 RigidBody::~RigidBody()
 {
-  // Do nothing
+  // Empty
 }
 
 } // namespace dart::dynamics

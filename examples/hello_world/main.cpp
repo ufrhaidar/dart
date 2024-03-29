@@ -41,26 +41,17 @@ using namespace dart;
 int main()
 {
   // Create a box-shaped rigid body
-  auto skeleton = dynamics::Skeleton::create();
-  auto jointAndBody
-      = skeleton->createJointAndBodyNodePair<dynamics::FreeJoint>();
-  auto body = jointAndBody.second;
-  Eigen::Isometry3d tf = Eigen::Isometry3d::Identity();
-  tf.translation() << 0, 0, 1;
-  tf.linear() = math::expMapRot(Eigen::Vector3d::Random());
-  body->getParentJoint()->setTransformFromParentBodyNode(tf);
-  auto shapeNode = body->createShapeNodeWith<
-      dynamics::VisualAspect,
-      dynamics::CollisionAspect,
-      dynamics::DynamicsAspect>(
-      std::make_shared<dynamics::BoxShape>(Eigen::Vector3d(0.3, 0.3, 0.3)));
-  body->setInertia(dynamics::Inertia(
-      1, Eigen::Vector3d::Zero(), shapeNode->getShape()->computeInertia(1.0)));
-  shapeNode->getVisualAspect()->setColor(dart::Color::Blue());
-  auto body2 = dynamics::RigidBody::create();
-  (void)body2;
+  auto box = dynamics::RigidBody::create(dynamics::RigidBodyConfig("box"));
+  box->setPosition(Eigen::Vector3d(0, 0, 1));
+  box->setOrientation(math::expMapRot(Eigen::Vector3d::Random()));
+  box->setInertia(box->getShape()->computeInertia(1.0));
+  box->setColor(Color::Blue());
 
   // Create ground
+  // auto ground = dynamics::RigidBody::create("ground");
+  // ground->setColor(Color::LightGray());
+  // ground->setStatic();
+
   auto ground = dynamics::Skeleton::create("ground");
   auto groundBody
       = ground->createJointAndBodyNodePair<dynamics::WeldJoint>().second;
@@ -73,7 +64,7 @@ int main()
 
   // Create a world and add the rigid body and ground to the world
   auto world = simulation::World::create();
-  world->addSkeleton(skeleton);
+  world->addSkeleton(box->getSkeleton());
   world->addSkeleton(ground);
 
   // Wrap a WorldNode around it

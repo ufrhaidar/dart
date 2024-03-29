@@ -32,6 +32,8 @@
 
 #pragma once
 
+#include <dart/dynamics/BoxShape.hpp>
+#include <dart/dynamics/FreeJoint.hpp>
 #include <dart/dynamics/Skeleton.hpp>
 
 namespace dart::dynamics {
@@ -40,6 +42,7 @@ struct RigidBodyConfig
 {
   std::string name = "RigidBody";
   Eigen::Vector3d position = Eigen::Vector3d::Zero();
+  std::string shapeType = BoxShape::getStaticType();
 
   RigidBodyConfig(const std::string& name = "RigidBody") : name(name)
   {
@@ -47,20 +50,95 @@ struct RigidBodyConfig
   }
 };
 
-class RigidBody : public Skeleton
+class RigidBody
 {
 public:
   using Config = RigidBodyConfig;
 
-  static SkeletonPtr create(const Config& config = Config());
+  static std::shared_ptr<RigidBody> create(const Config& config = Config());
 
   /// Constructor
   explicit RigidBody(const Config& config = Config());
 
   /// Destructor
-  ~RigidBody() override;
+  virtual ~RigidBody();
 
-  void setPosition(const Eigen::Vector3d& position);
+  template <typename Derived>
+  void setPosition(const Eigen::MatrixBase<Derived>& position)
+  {
+    auto tf = mBodyNode->getTransform();
+    tf.translation() = position;
+    FreeJoint::setTransformOf(mParentJoint, tf);
+  }
+
+  [[nodiscard]] Eigen::Vector3d getPosition() const
+  {
+    return mBodyNode->getTransform().translation();
+  }
+
+  template <typename Derived>
+  void setOrientation(const Eigen::MatrixBase<Derived>& rotationMap)
+  {
+    auto tf = mBodyNode->getTransform();
+    tf.linear() = rotationMap;
+    FreeJoint::setTransformOf(mParentJoint, tf);
+  }
+
+  [[nodiscard]] Eigen::Matrix3d getOrientation() const
+  {
+    return mBodyNode->getTransform().linear();
+  }
+
+  void setInertia(const Eigen::Matrix3d& inertia)
+  {
+    const auto& inertial = mBodyNode->getInertia();
+    mBodyNode->setInertia(
+        Inertia(inertial.getMass(), inertial.getLocalCOM(), inertia));
+  }
+
+  ConstShapePtr getShape() const
+  {
+    return mShape;
+  }
+
+  ShapePtr getShape()
+  {
+    return mShape;
+  }
+
+  void setColor(const Eigen::Vector3d& rgb)
+  {
+    mShapeNode->getVisualAspect()->setColor(rgb);
+  }
+
+  SkeletonPtr getSkeleton()
+  {
+    return mSkeleton;
+  }
+
+  ConstSkeletonPtr getSkeleton() const
+  {
+    return mSkeleton;
+  }
+
+  void setStatic(bool value = true) {
+    if (value) {
+      mParentJoint->setActuatorType(Joint::LOCKED);
+    } else {
+      mParentJoint->setActuatorType(Joint::FORCE);
+    }
+  }
+
+  [[nodiscard]] bool isStatic() const {
+    return mParentJoint->isKinematic();
+  }
+
+private:
+  SkeletonPtr mSkeleton;
+  BodyNode* mBodyNode;
+  FreeJoint* mParentJoint;
+  ShapeNodePtr mShapeNode;
+  ShapePtr mShape;
 };
 
 } // namespace dart::dynamics
