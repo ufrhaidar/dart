@@ -88,7 +88,7 @@ int main()
       for (auto k = 0; k < dim; ++k) {
         auto x = i - dim / 2;
         auto y = j - dim / 2;
-        auto z = k + 5;
+        auto z = k + 1;
         auto position = Eigen::Vector3d(x, y, z);
         auto size = Eigen::Vector3d(0.9, 0.9, 0.9);
         auto color = Eigen::Vector3d(

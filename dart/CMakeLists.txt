@@ -127,6 +127,7 @@ target_link_libraries(dart
     Eigen3::Eigen
     fcl
     assimp
+    Taskflow::Taskflow
 )
 if(TARGET fmt::fmt-header-only)
   target_link_libraries(dart PUBLIC fmt::fmt-header-only)
@@ -213,7 +214,7 @@ endif()
 add_component_targets(${PROJECT_NAME} dart dart)
 add_component_dependencies(${PROJECT_NAME} dart external-odelcpsolver)
 add_component_dependency_packages(${PROJECT_NAME} dart
-  assimp Eigen3 fcl fmt
+  assimp Eigen3 fcl fmt Taskflow
 )
 if(TARGET octomap)
   add_component_dependency_packages(${PROJECT_NAME} dart octomap)

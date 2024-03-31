@@ -74,13 +74,16 @@ test-all = { cmd = "cmake --build build -j --target ALL", depends_on = [
     "configure",
 ] }
 
-example-hello-world = { cmd = "cmake --build build --target hello_world --parallel && ./build/bin/hello_world", depends_on = [
+ex-hello-world = { cmd = "cmake --build build --target hello_world --parallel && ./build/bin/hello_world", depends_on = [
     "configure",
 ] }
-example-atlas-puppet = { cmd = "cmake --build build --target atlas_puppet --parallel && ./build/bin/atlas_puppet", depends_on = [
+ex-atlas-puppet = { cmd = "cmake --build build --target atlas_puppet --parallel && ./build/bin/atlas_puppet", depends_on = [
     "configure",
 ] }
-example-atlas-simbicon = { cmd = "cmake --build build --target atlas_simbicon --parallel && ./build/bin/atlas_simbicon", depends_on = [
+ex-atlas-simbicon = { cmd = "cmake --build build --target atlas_simbicon --parallel && ./build/bin/atlas_simbicon", depends_on = [
+    "configure",
+] }
+ex-boxes = { cmd = "cmake --build build --target boxes --parallel && ./build/bin/boxes", depends_on = [
     "configure",
 ] }
 
@@ -107,6 +110,7 @@ clang-format-14 = ">=14.0.6,<14.1"
 [target.linux-64.dependencies]
 freeglut = ">=3.2.2,<3.3"
 imgui = ">=1.90.4,<1.91"
+taskflow = ">=3.7.0,<3.8"
 
 [target.linux-64.tasks]
 tracy = { cmd = "docker run --rm -d -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix:rw --net=host tracy-profiler" }
@@ -120,6 +124,7 @@ clang-format-14 = ">=14.0.6,<14.1"
 
 [target.osx-64.dependencies]
 imgui = ">=1.90.4,<1.91"
+taskflow = ">=3.7.0,<3.8"
 
 [target.osx-64.tasks]
 
@@ -141,6 +146,7 @@ imgui = ">=1.90.4,<1.91"
 
 [target.win-64.dependencies]
 freeglut = ">=3.2.2,<3.3"
+taskflow = ">=3.7.0,<3.8"
 
 [target.win-64.tasks]
 configure = { cmd = "cmake -S . -B build -G 'Visual Studio 17 2022' -DDART_VERBOSE=ON -DDART_MSVC_DEFAULT_OPTIONS=ON -DBUILD_SHARED_LIBS=OFF -DDART_USE_SYSTEM_IMGUI=OFF" }
