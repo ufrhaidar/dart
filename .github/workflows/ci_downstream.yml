@@ -20,6 +20,9 @@ on:
     - cron: "0 2 * * 0,3" # Run every Sunday and Wednesday at 02:00
   workflow_dispatch:
 
+env:
+  DOCKER_REPO: jslee02/dart-dev # https://hub.docker.com/repository/docker/jslee02/dart-dev
+
 jobs:
   tracy:
     name: gazebo
