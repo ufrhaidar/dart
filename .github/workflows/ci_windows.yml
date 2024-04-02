@@ -73,7 +73,6 @@ jobs:
             -G "Visual Studio 17 2022" ^
             -A x64 ^
             -Wno-dev ${{ matrix.toolset }} ^
-            -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} ^
             -DCMAKE_TOOLCHAIN_FILE="${{ github.workspace }}/vcpkg/scripts/buildsystems/vcpkg.cmake" ^
             -DDART_MSVC_DEFAULT_OPTIONS=ON ^
             -DDART_VERBOSE=ON ^
