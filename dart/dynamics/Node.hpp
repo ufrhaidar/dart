@@ -76,8 +76,8 @@ private:
 /// In most cases, when creating your own custom Node class, you will also want
 /// to inherit from AccessoryNode using CRTP.
 DART_DECLARE_CLASS_WITH_VIRTUAL_BASE_BEGIN
-class Node : public virtual common::Subject,
-             public virtual common::VersionCounter
+class DART_API Node : public virtual common::Subject,
+                      public virtual common::VersionCounter
 {
 public:
   friend class BodyNode;

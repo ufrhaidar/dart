@@ -41,7 +41,7 @@ namespace dart {
 namespace constraint {
 
 /// Implementation of projected Gauss-Seidel (PGS) LCP solver.
-class PgsBoxedLcpSolver : public BoxedLcpSolver
+class DART_API PgsBoxedLcpSolver : public BoxedLcpSolver
 {
 public:
   struct Option

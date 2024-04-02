@@ -49,12 +49,13 @@ class Skeleton;
 class EndEffector;
 
 //==============================================================================
-class Support final : public common::AspectWithStateAndVersionedProperties<
-                          Support,
-                          detail::SupportStateData,
-                          detail::SupportPropertiesData,
-                          EndEffector,
-                          &detail::SupportUpdate>
+class DART_API Support final
+  : public common::AspectWithStateAndVersionedProperties<
+        Support,
+        detail::SupportStateData,
+        detail::SupportPropertiesData,
+        EndEffector,
+        &detail::SupportUpdate>
 {
 public:
   DART_COMMON_ASPECT_STATE_PROPERTY_CONSTRUCTORS(Support)
@@ -75,10 +76,10 @@ public:
 };
 
 //==============================================================================
-class EndEffector final : public common::EmbedPropertiesOnTopOf<
-                              EndEffector,
-                              detail::EndEffectorProperties,
-                              detail::EndEffectorCompositeBase>
+class DART_API EndEffector final : public common::EmbedPropertiesOnTopOf<
+                                       EndEffector,
+                                       detail::EndEffectorProperties,
+                                       detail::EndEffectorCompositeBase>
 {
 public:
   friend class Skeleton;

@@ -35,6 +35,8 @@
 
 #include <dart/config.hpp>
 
+#include <dart/Export.hpp>
+
 #include <dart/common/Castable.hpp>
 
 #include <iostream>
@@ -45,7 +47,7 @@
 namespace dart::common {
 
 /// Base class for std::allocator compatible allocators.
-class MemoryAllocator : public Castable<MemoryAllocator>
+class DART_API MemoryAllocator : public Castable<MemoryAllocator>
 {
 public:
   /// Returns the default memory allocator

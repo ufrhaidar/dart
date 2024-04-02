@@ -55,7 +55,7 @@ class ShapeNodeCollisionObject;
 namespace constraint {
 
 /// ConstraintSolver manages constraints and computes constraint impulses
-class ConstraintSolver
+class DART_API ConstraintSolver
 {
 public:
   /// Constructor

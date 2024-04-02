@@ -41,6 +41,8 @@
   #include <sys/time.h>
 #endif
 
+#include <dart/Export.hpp>
+
 #include <dart/common/Deprecated.hpp>
 
 namespace dart {
@@ -52,7 +54,7 @@ namespace common {
 /// For measure the time, gettimeofday() api is used
 ///
 /// \deprecated Use Stopwatch instead.
-class DART_DEPRECATED(6.13) Timer
+class DART_API DART_DEPRECATED(6.13) Timer
 {
 public:
   /// \brief Default constructor

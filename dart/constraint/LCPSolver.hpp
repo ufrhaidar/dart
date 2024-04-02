@@ -33,6 +33,8 @@
 #ifndef DART_CONSTRAINT_LCPSOLVER_HPP_
 #define DART_CONSTRAINT_LCPSOLVER_HPP_
 
+#include <dart/Export.hpp>
+
 namespace dart {
 namespace constraint {
 
@@ -41,7 +43,7 @@ class ConstrainedGroup;
 /// \deprecated This header has been deprecated in DART 6.7.
 ///
 /// LCPSolver
-class LCPSolver
+class DART_API LCPSolver
 {
 public:
   /// Solve constriant impulses for a constrained group

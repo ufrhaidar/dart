@@ -50,7 +50,7 @@ class SoftBodyNode;
 class PointMassNotifier;
 
 ///
-class PointMass : public common::Subject
+class DART_API PointMass : public common::Subject
 {
 public:
   friend class SoftBodyNode;

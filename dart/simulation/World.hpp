@@ -83,7 +83,7 @@ DART_COMMON_DECLARE_SHARED_WEAK(World)
 
 /// class World
 DART_DECLARE_CLASS_WITH_VIRTUAL_BASE_BEGIN
-class World : public virtual common::Subject
+class DART_API World : public virtual common::Subject
 {
 public:
   using NameChangedSignal = common::Signal<void(

@@ -33,6 +33,8 @@
 #ifndef DART_COLLISION_COLLISIONDETECTOR_HPP_
 #define DART_COLLISION_COLLISIONDETECTOR_HPP_
 
+#include <dart/Export.hpp>
+
 #include <dart/collision/CollisionOption.hpp>
 #include <dart/collision/CollisionResult.hpp>
 #include <dart/collision/Contact.hpp>
@@ -56,7 +58,8 @@ namespace collision {
 
 class CollisionObject;
 
-class CollisionDetector : public std::enable_shared_from_this<CollisionDetector>
+class DART_API CollisionDetector
+  : public std::enable_shared_from_this<CollisionDetector>
 {
 public:
   friend class CollisionObject;

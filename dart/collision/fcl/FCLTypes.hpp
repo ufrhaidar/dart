@@ -33,6 +33,8 @@
 #ifndef DART_COLLISION_FCL_FCLTTYPES_HPP_
 #define DART_COLLISION_FCL_FCLTTYPES_HPP_
 
+#include <dart/Export.hpp>
+
 #include <dart/collision/fcl/BackwardCompatibility.hpp>
 
 #include <Eigen/Dense>
@@ -40,7 +42,7 @@
 namespace dart {
 namespace collision {
 
-class FCLTypes
+class DART_API FCLTypes
 {
 public:
   /// Convert FCL vector3 type to Eigen vector3 type

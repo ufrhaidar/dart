@@ -39,7 +39,7 @@
 namespace dart {
 namespace collision {
 
-class FCLCollisionObject : public CollisionObject
+class DART_API FCLCollisionObject : public CollisionObject
 {
 public:
   friend class FCLCollisionDetector;

@@ -45,10 +45,10 @@ namespace dynamics {
 
 class BodyNode;
 
-class Marker final : public common::EmbedPropertiesOnTopOf<
-                         Marker,
-                         detail::MarkerProperties,
-                         FixedJacobianNode>
+class DART_API Marker final : public common::EmbedPropertiesOnTopOf<
+                                  Marker,
+                                  detail::MarkerProperties,
+                                  FixedJacobianNode>
 {
 public:
   using ConstraintType = detail::MarkerProperties::ConstraintType;

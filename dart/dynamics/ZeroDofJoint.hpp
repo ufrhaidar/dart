@@ -44,7 +44,7 @@ class BodyNode;
 class Skeleton;
 
 /// class ZeroDofJoint
-class ZeroDofJoint : public Joint
+class DART_API ZeroDofJoint : public Joint
 {
 public:
   struct Properties : Joint::Properties

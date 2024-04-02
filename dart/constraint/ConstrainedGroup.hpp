@@ -35,6 +35,8 @@
 
 #include <dart/config.hpp>
 
+#include <dart/Export.hpp>
+
 #include <dart/constraint/SmartPointer.hpp>
 
 #include <Eigen/Dense>
@@ -57,7 +59,7 @@ class ConstraintSolver;
 /// ConstrainedGroup is a group of skeletons that interact each other with
 /// constraints
 /// \sa class ConstraintSolver
-class ConstrainedGroup
+class DART_API ConstrainedGroup
 {
 public:
   //----------------------------------------------------------------------------

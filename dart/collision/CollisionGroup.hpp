@@ -33,6 +33,8 @@
 #ifndef DART_COLLISION_COLLISIONGROUP_HPP_
 #define DART_COLLISION_COLLISIONGROUP_HPP_
 
+#include <dart/Export.hpp>
+
 #include <dart/collision/CollisionOption.hpp>
 #include <dart/collision/CollisionResult.hpp>
 #include <dart/collision/DistanceOption.hpp>
@@ -52,7 +54,7 @@
 namespace dart {
 namespace collision {
 
-class CollisionGroup
+class DART_API CollisionGroup
 {
 public:
   /// Constructor

@@ -75,7 +75,7 @@ const double DefaultIKLinearWeight = 1.0;
 /// safely cloned  over to another JacobianNode, as long as every
 /// optimizer::Function that depends on the JacobianNode inherits the
 /// InverseKinematics::Function class and correctly overloads the clone function
-class InverseKinematics : public common::Subject
+class DART_API InverseKinematics : public common::Subject
 {
 public:
   /// Create an InverseKinematics module for a specified node

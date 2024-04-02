@@ -46,7 +46,7 @@ namespace constraint {
 /// PgsBoxedLcpSolver.hpp instead.
 ///
 /// PGSLCPSolver
-class PGSLCPSolver : public LCPSolver
+class DART_API PGSLCPSolver : public LCPSolver
 {
 public:
   /// Constructor

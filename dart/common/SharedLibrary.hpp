@@ -33,6 +33,8 @@
 #ifndef DART_COMMON_SHAREDLIBRARY_HPP_
 #define DART_COMMON_SHAREDLIBRARY_HPP_
 
+#include <dart/Export.hpp>
+
 #include <dart/common/Deprecated.hpp>
 #include <dart/common/Filesystem.hpp>
 #include <dart/common/Platform.hpp>
@@ -84,7 +86,7 @@ class SharedLibraryManager;
 } // namespace detail
 
 /// SharedLibrary is a RAII object wrapping a shared library.
-class SharedLibrary
+class DART_API SharedLibrary
 {
 protected:
   enum ProtectedConstructionTag

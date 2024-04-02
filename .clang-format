@@ -66,23 +66,23 @@ IncludeCategories:
     Priority: 22
   - Regex: '^<dart\/utils\/.*\.h(pp)?>$'
     Priority: 23
-  - Regex: '^<dart\/simulation\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/Export.hpp>$'
     Priority: 24
-  - Regex: '^<dart\/constraint\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/simulation\/.*\.h(pp)?>$'
     Priority: 25
-  - Regex: '^<dart\/collision\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/constraint\/.*\.h(pp)?>$'
     Priority: 26
-  - Regex: '^<dart\/dynamics\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/collision\/.*\.h(pp)?>$'
     Priority: 27
-  - Regex: '^<dart\/optimizer\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/dynamics\/.*\.h(pp)?>$'
     Priority: 28
-  - Regex: '^<dart\/lcpsolver\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/optimizer\/.*\.h(pp)?>$'
     Priority: 29
-  - Regex: '^<dart\/integration\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/lcpsolver\/.*\.h(pp)?>$'
     Priority: 30
-  - Regex: '^<dart\/math\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/integration\/.*\.h(pp)?>$'
     Priority: 31
-  - Regex: '^<dart\/common\/.*\.h(pp)?>$'
+  - Regex: '^<dart\/math\/.*\.h(pp)?>$'
     Priority: 32
   - Regex: '^<dart\/common\/.*\.h(pp)?>$'
     Priority: 33

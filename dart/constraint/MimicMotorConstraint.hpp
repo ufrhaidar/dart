@@ -49,7 +49,7 @@ class Joint;
 namespace constraint {
 
 /// Servo motor constraint
-class MimicMotorConstraint : public ConstraintBase
+class DART_API MimicMotorConstraint : public ConstraintBase
 {
 public:
   /// Constructor that creates a MimicMotorConstraint using the given

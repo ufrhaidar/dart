@@ -51,7 +51,7 @@ namespace dynamics {
 /// so that they match whatever assembly they had the last time
 /// Linkage::reassemble() was called (or the assembly that they had when the
 /// Linkage was constructed, if Linkage::reassemble has never been called).
-class Linkage : public ReferentialSkeleton
+class DART_API Linkage : public ReferentialSkeleton
 {
 public:
   /// The Criteria class is used to specify how a Linkage should be constructed

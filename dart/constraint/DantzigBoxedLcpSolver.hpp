@@ -38,7 +38,7 @@
 namespace dart {
 namespace constraint {
 
-class DantzigBoxedLcpSolver : public BoxedLcpSolver
+class DART_API DantzigBoxedLcpSolver : public BoxedLcpSolver
 {
 public:
   // Documentation inherited.

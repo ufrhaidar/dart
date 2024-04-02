@@ -44,7 +44,7 @@ namespace constraint {
 
 /// WeldJointConstraint represents weld joint constraint between a body and the
 /// world or between two bodies
-class WeldJointConstraint : public DynamicJointConstraint
+class DART_API WeldJointConstraint : public DynamicJointConstraint
 {
 public:
   /// Constructor that takes one body

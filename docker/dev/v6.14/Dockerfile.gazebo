@@ -1,0 +1,16 @@
+# Use an Ubuntu base image
+FROM jslee02/dart-dev:ubuntu-jammy-v6.14
+
+# Avoid warnings by switching to noninteractive
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Compile and install DART and dartpy
+COPY . /opt/dart
+WORKDIR /opt/dart
+RUN cd /opt/dart \
+    && cmake \
+    -B build \
+    -DCMAKE_INSTALL_PREFIX=/usr/ \
+    -DCMAKE_BUILD_TYPE=Release .. \
+    -DBUILD_SHARED_LIBS=ON \
+    && cmake --build build --target install -j

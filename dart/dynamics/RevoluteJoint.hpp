@@ -39,7 +39,7 @@ namespace dart {
 namespace dynamics {
 
 /// class RevoluteJoint
-class RevoluteJoint : public detail::RevoluteJointBase
+class DART_API RevoluteJoint : public detail::RevoluteJointBase
 {
 public:
   friend class Skeleton;

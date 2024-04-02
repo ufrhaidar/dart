@@ -39,7 +39,7 @@
 namespace dart {
 namespace constraint {
 
-class BoxedLcpConstraintSolver : public ConstraintSolver
+class DART_API BoxedLcpConstraintSolver : public ConstraintSolver
 {
 public:
   /// Constructor

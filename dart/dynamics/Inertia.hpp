@@ -33,6 +33,8 @@
 #ifndef DART_DYNAMICS_INERTIA_HPP_
 #define DART_DYNAMICS_INERTIA_HPP_
 
+#include <dart/Export.hpp>
+
 #include <dart/math/MathTypes.hpp>
 
 #include <array>
@@ -40,7 +42,7 @@
 namespace dart {
 namespace dynamics {
 
-class Inertia
+class DART_API Inertia
 {
 public:
   /// Enumeration for minimal inertia parameters

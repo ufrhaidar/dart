@@ -39,7 +39,7 @@ namespace dart::common {
 
 /// A stateless memory allocator (in release mode) that uses std::malloc and
 /// std::free for memory allocation and deallocation.
-class CAllocator : public MemoryAllocator
+class DART_API CAllocator : public MemoryAllocator
 {
 public:
   /// Constructor

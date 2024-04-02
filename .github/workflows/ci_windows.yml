@@ -22,14 +22,14 @@ on:
 
 jobs:
   build:
-    name: win-${{ matrix.build_type }}
+    name: win-${{ matrix.build_type }}-shared_libs=${{ matrix.build_shared_libs }}
     runs-on: windows-latest
     strategy:
       fail-fast: false
       matrix:
         toolset: [""]
         build_type: [Release]
-        build_shared_libs: [OFF] # TODO(JS): Add ON once shared lib build is resolved
+        build_shared_libs: [ON, OFF]
 
     steps:
       - name: Checkout
@@ -73,7 +73,6 @@ jobs:
             -G "Visual Studio 17 2022" ^
             -A x64 ^
             -Wno-dev ${{ matrix.toolset }} ^
-            -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} ^
             -DCMAKE_TOOLCHAIN_FILE="${{ github.workspace }}/vcpkg/scripts/buildsystems/vcpkg.cmake" ^
             -DDART_MSVC_DEFAULT_OPTIONS=ON ^
             -DDART_VERBOSE=ON ^

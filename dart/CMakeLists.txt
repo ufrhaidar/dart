@@ -114,6 +114,13 @@ get_property(dart_core_sources GLOBAL PROPERTY DART_CORE_SOURCES)
 
 # Add target
 dart_add_library(dart ${dart_core_headers} ${dart_core_sources})
+dart_generate_export_header(
+  TARGET_NAME dart
+  DESTINATION ${CMAKE_CURRENT_BINARY_DIR}
+  EXPORT_FILE_NAME Export.hpp
+  BASE_NAME DART
+  BASE_DIR ${CMAKE_CURRENT_SOURCE_DIR}
+)
 target_include_directories(dart BEFORE
   PUBLIC
     $<BUILD_INTERFACE:${DART_SOURCE_DIR}>

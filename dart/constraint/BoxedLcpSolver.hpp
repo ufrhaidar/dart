@@ -35,6 +35,8 @@
 
 #include <dart/config.hpp>
 
+#include <dart/Export.hpp>
+
 #include <dart/common/Castable.hpp>
 
 #include <Eigen/Core>
@@ -44,7 +46,7 @@
 namespace dart {
 namespace constraint {
 
-class BoxedLcpSolver : public common::Castable<BoxedLcpSolver>
+class DART_API BoxedLcpSolver : public common::Castable<BoxedLcpSolver>
 {
 public:
   /// Destructor
