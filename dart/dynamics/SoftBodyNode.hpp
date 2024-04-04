@@ -331,7 +331,7 @@ private:
   void updateInertiaWithPointMass();
 };
 
-class SoftBodyNodeHelper
+class DART_API SoftBodyNodeHelper
 {
 public:
   /// Create a Properties struct for a box-shaped SoftBodyNode with 8

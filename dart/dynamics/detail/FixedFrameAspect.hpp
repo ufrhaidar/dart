@@ -33,13 +33,14 @@
 #ifndef DART_DYNAMICS_DETAIL_FIXEDFRAMEASPECT_HPP_
 #define DART_DYNAMICS_DETAIL_FIXEDFRAMEASPECT_HPP_
 
-#include <Eigen/Geometry>
+#include <dart/Export.hpp>
 
+#include <Eigen/Geometry>
 namespace dart {
 namespace dynamics {
 namespace detail {
 
-struct FixedFrameProperties
+struct DART_API FixedFrameProperties
 {
   /// The relative transform of the FixedFrame
   Eigen::Isometry3d mRelativeTf;

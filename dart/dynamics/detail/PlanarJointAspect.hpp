@@ -109,8 +109,8 @@ struct DART_API PlanarJointUniqueProperties
 };
 
 //==============================================================================
-struct PlanarJointProperties : GenericJoint<math::R3Space>::Properties,
-                               PlanarJointUniqueProperties
+struct DART_API PlanarJointProperties : GenericJoint<math::R3Space>::Properties,
+                                        PlanarJointUniqueProperties
 {
   DART_DEFINE_ALIGNED_SHARED_OBJECT_CREATOR(PlanarJointProperties)
 

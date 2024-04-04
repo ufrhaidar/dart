@@ -4,13 +4,32 @@ FROM jslee02/dart-dev:ubuntu-jammy-v6.14
 # Avoid warnings by switching to noninteractive
 ENV DEBIAN_FRONTEND=noninteractive
 
+WORKDIR /ws
+
 # Compile and install DART and dartpy
-COPY . /opt/dart
-WORKDIR /opt/dart
-RUN cd /opt/dart \
-    && cmake \
-    -B build \
+COPY . /ws/dart
+RUN rm -rf /ws/dart/build
+RUN  cmake \
+    -S dart \
+    -B dart/build \
     -DCMAKE_INSTALL_PREFIX=/usr/ \
     -DCMAKE_BUILD_TYPE=Release .. \
     -DBUILD_SHARED_LIBS=ON \
-    && cmake --build build --target install -j
+    && cmake \
+    --build dart/build \
+    --target install \
+    -j16
+
+# Install Gazebo from source
+ENV IGNITION_PHYSICS_VERSION=7
+RUN apt-add-repository -s "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable $(lsb_release -c -s) main"
+RUN apt-get build-dep -y ignition-physics${IGNITION_PHYSICS_VERSION}-dev
+RUN clone https://github.com/ignitionrobotics/ign-physics -b ign-physics${IGNITION_PHYSICS_VERSION}
+RUN cmake \
+    -S ign-physics \
+    -B ign-physics/build \
+    -DCMAKE_BUILD_TYPE=Release .. \
+    && cmake \
+    --build build \
+    --target install \
+    -j16
