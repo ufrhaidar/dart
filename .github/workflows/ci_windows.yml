@@ -28,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         toolset: [""]
-        build_type: [Release]
+        build_type: [Debug, Release]
         build_shared_libs: [OFF] # TODO(JS): Add ON once shared lib build is resolved
 
     steps:

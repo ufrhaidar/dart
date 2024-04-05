@@ -166,3 +166,21 @@ test-dartpy = { cmd = "cmake --build build --config Release -j --target pytest",
 test-all = { cmd = "cmake --build build --config Release -j --target ALL", depends_on = [
     "configure",
 ] }
+example-hello-world = { cmd = "cmake --build build --config Release --target hello_world --parallel && ./build/bin/hello_world", depends_on = [
+    "configure",
+] }
+example-atlas-puppet = { cmd = "cmake --build build --config Release --target atlas_puppet --parallel && ./build/bin/atlas_puppet", depends_on = [
+    "configure",
+] }
+example-atlas-simbicon = { cmd = "cmake --build build --config Release --target atlas_simbicon --parallel && ./build/bin/atlas_simbicon", depends_on = [
+    "configure",
+] }
+bm-boxes = { cmd = "cmake --build build --config Release --target BM_INTEGRATION_boxes --parallel && ./build/bin/BM_INTEGRATION_boxes", depends_on = [
+    "configure",
+] }
+bm-empty = { cmd = "cmake --build build --config Release --target BM_INTEGRATION_empty --parallel && ./build/bin/BM_INTEGRATION_empty", depends_on = [
+    "configure",
+] }
+bm-kinematics = { cmd = "cmake --build build --config Release --target BM_INTEGRATION_kinematics --parallel && ./build/bin/BM_INTEGRATION_kinematics", depends_on = [
+    "configure",
+] }
