@@ -46,6 +46,7 @@ install-local = { cmd = "cmake --install build --prefix $CONDA_PREFIX", depends_
 ] }
 
 configure = { cmd = "cmake -G Ninja -S . -B build -DCMAKE_BUILD_TYPE=Release -DDART_VERBOSE=ON -DDART_USE_SYSTEM_IMGUI=ON" }
+configure-dev = { cmd = "cmake -G Ninja -S . -B build -DCMAKE_BUILD_TYPE=Debug -DDART_VERBOSE=ON -DDART_USE_SYSTEM_IMGUI=ON" }
 
 lint = { cmd = "cmake --build build --target format && black . && isort .", depends_on = [
     "configure",
@@ -57,8 +58,14 @@ check-lint = { cmd = "cmake --build build --target check-format && black . --che
 build = { cmd = "cmake --build build -j --target all", depends_on = [
     "configure",
 ] }
+build-dev = { cmd = "cmake --build build -j --target all", depends_on = [
+    "configure-dev",
+] }
 build-tests = { cmd = "cmake --build build -j --target tests", depends_on = [
     "configure",
+] }
+build-tests-dev = { cmd = "cmake --build build -j --target tests", depends_on = [
+    "configure-dev",
 ] }
 build-dartpy = { cmd = "cmake --build build -j --target dartpy", depends_on = [
     "configure",
@@ -66,6 +73,9 @@ build-dartpy = { cmd = "cmake --build build -j --target dartpy", depends_on = [
 
 test = { cmd = "ctest --test-dir build --output-on-failure", depends_on = [
     "build-tests",
+] }
+test-dev = { cmd = "ctest --test-dir build --output-on-failure", depends_on = [
+    "build-tests-dev",
 ] }
 test-dartpy = { cmd = "cmake --build build -j --target pytest", depends_on = [
     "configure",
@@ -151,7 +161,13 @@ check-lint = { cmd = "black . --check && isort . --check", depends_on = [
 build = { cmd = "cmake --build build --config Release -j", depends_on = [
     "configure",
 ] }
+build-dev = { cmd = "cmake --build build --config Debug -j", depends_on = [
+    "configure",
+] }
 build-tests = { cmd = "cmake --build build --config Release -j --target tests", depends_on = [
+    "configure",
+] }
+build-tests-dev = { cmd = "cmake --build build --config Debug -j --target tests", depends_on = [
     "configure",
 ] }
 build-dartpy = { cmd = "cmake --build build -j --target dartpy", depends_on = [
@@ -159,6 +175,9 @@ build-dartpy = { cmd = "cmake --build build -j --target dartpy", depends_on = [
 ] }
 test = { cmd = "ctest --test-dir build --build-config Release --output-on-failure", depends_on = [
     "build-tests",
+] }
+test-dev = { cmd = "ctest --test-dir build --build-config Debug --output-on-failure", depends_on = [
+    "build-tests-dev",
 ] }
 test-dartpy = { cmd = "cmake --build build --config Release -j --target pytest", depends_on = [
     "configure",
