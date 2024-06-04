@@ -565,6 +565,7 @@ void BoxedLcpConstraintSolver::solveConstrainedGroups()
   // Solve problems
   {
     DART_PROFILE_SCOPED_N("Solve problems");
+    tf::Taskflow mTaskflow;
     mTaskflow.for_each_index(0, numGroups, 1, [&](int i) {
       solveBoxedLcp(mProblems[i], mConstrainedGroups[i]);
     });

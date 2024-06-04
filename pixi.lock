@@ -74,14 +74,14 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libexpat-2.6.2-h59595ed_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libffi-3.4.2-h7f98852_5.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libflac-1.4.3-h59595ed_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-13.2.0-h77fa898_11.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-13.2.0-h77fa898_13.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgcrypt-1.10.3-hd590300_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgettextpo-0.22.5-h59595ed_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgettextpo-devel-0.22.5-h59595ed_2.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-13.2.0-h69a702a_11.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-13.2.0-h3d2ce59_11.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-13.2.0-h69a702a_13.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-13.2.0-h3d2ce59_13.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libglib-2.80.2-hf974151_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgomp-13.2.0-h77fa898_11.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libgomp-13.2.0-h77fa898_13.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgpg-error-1.49-h4f305b6_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libhwloc-2.10.0-default_h5622ce7_1001.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libiconv-1.17-hd590300_2.conda
@@ -102,7 +102,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libspral-2024.05.08-h1b93dcb_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libsqlite-3.46.0-hde9e2c9_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libssh2-1.11.0-h0841786_0.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-13.2.0-hc0a3c3a_11.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-13.2.0-hc0a3c3a_13.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libsystemd0-255-h3516f8a_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libtasn1-4.19.0-h166bdaf_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libtiff-4.6.0-h1dd3fc0_3.conda
@@ -155,6 +155,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-69.1.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/spdlog-1.12.0-hd2e6256_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/svt-av1-1.4.1-hcb278e6_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/taskflow-3.7.0-h297d8ca_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tbb-2021.12.0-h297d8ca_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tinyxml2-10.0.0-h59595ed_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.13-noxft_h4845f30_101.conda
@@ -317,6 +318,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-69.1.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/spdlog-1.12.0-h8dd852c_2.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/svt-av1-1.4.1-hf0c8a7f_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-64/taskflow-3.7.0-h3c5361c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/tbb-2021.12.0-h3c5361c_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/tinyxml2-10.0.0-h73e2aa4_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/tk-8.6.13-h1abcd95_1.conda
@@ -578,6 +580,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/setuptools-69.1.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/spdlog-1.12.0-h64d2f7d_2.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/svt-av1-1.4.1-h63175ca_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/taskflow-3.7.0-h7f575de_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/tbb-2021.12.0-hc790b64_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/tinyxml2-10.0.0-h63175ca_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/tk-8.6.13-h5226925_1.conda
@@ -3981,21 +3984,20 @@ packages:
 - kind: conda
   name: libgcc-ng
   version: 13.2.0
-  build: h77fa898_11
-  build_number: 11
+  build: h77fa898_13
+  build_number: 13
   subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-13.2.0-h77fa898_11.conda
-  sha256: bbdd49b5a191105cf4bf82a59d611afa1e8568efa556dd988e4e5d0efc3058b1
-  md5: 0b3b218a596bb4c3854cc9ee799f94e5
+  url: https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-13.2.0-h77fa898_13.conda
+  sha256: ffa0f472c8b37f864de855af2d3c057f1813162319f10ebd97332d73fc27ba60
+  md5: 9358cdd61ef0d600d2a0dde2d53b006c
   depends:
   - _libgcc_mutex 0.1 conda_forge
   - _openmp_mutex >=4.5
   constrains:
-  - libgomp 13.2.0 h77fa898_11
+  - libgomp 13.2.0 h77fa898_13
   license: GPL-3.0-only WITH GCC-exception-3.1
-  license_family: GPL
-  size: 796010
-  timestamp: 1718867009281
+  size: 792721
+  timestamp: 1719179941452
 - kind: conda
   name: libgcrypt
   version: 1.10.3
@@ -4141,18 +4143,17 @@ packages:
 - kind: conda
   name: libgfortran-ng
   version: 13.2.0
-  build: h69a702a_11
-  build_number: 11
+  build: h69a702a_13
+  build_number: 13
   subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-13.2.0-h69a702a_11.conda
-  sha256: f91aa928161201f189057c90db1508def36bef6329ebb29a71d8064b180250dd
-  md5: 4c3e460d6acf8e43e4ce8bf405187eb7
+  url: https://conda.anaconda.org/conda-forge/linux-64/libgfortran-ng-13.2.0-h69a702a_13.conda
+  sha256: 3ef5d92510e9cdd70ec2a9f1f83b8c1d327ff0f9bfc17831a8f8f06f10c2085c
+  md5: 516e66b26eea14e7e322fe99e88e0f02
   depends:
-  - libgfortran5 13.2.0 h3d2ce59_11
+  - libgfortran5 13.2.0 h3d2ce59_13
   license: GPL-3.0-only WITH GCC-exception-3.1
-  license_family: GPL
-  size: 48638
-  timestamp: 1718867040994
+  size: 48419
+  timestamp: 1719179972468
 - kind: conda
   name: libgfortran5
   version: 13.2.0
@@ -4173,20 +4174,19 @@ packages:
 - kind: conda
   name: libgfortran5
   version: 13.2.0
-  build: h3d2ce59_11
-  build_number: 11
+  build: h3d2ce59_13
+  build_number: 13
   subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-13.2.0-h3d2ce59_11.conda
-  sha256: de8535b5fb39a78f4b7473b88c400c922ae063f29500c097743b480fd0a4f326
-  md5: c485da4fdb454539f852a90ae06e9bb7
+  url: https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-13.2.0-h3d2ce59_13.conda
+  sha256: 19cffb68b19ff5f426d1cb3db670dccb73c09f54b8d3f8e304665e2cee68f14f
+  md5: 1e380198685bc1e993bbbc4b579f5916
   depends:
   - libgcc-ng >=13.2.0
   constrains:
   - libgfortran-ng 13.2.0
   license: GPL-3.0-only WITH GCC-exception-3.1
-  license_family: GPL
-  size: 1467184
-  timestamp: 1718867019794
+  size: 1459384
+  timestamp: 1719179951703
 - kind: conda
   name: libgfortran5
   version: 13.2.0
@@ -4269,18 +4269,17 @@ packages:
 - kind: conda
   name: libgomp
   version: 13.2.0
-  build: h77fa898_11
-  build_number: 11
+  build: h77fa898_13
+  build_number: 13
   subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/libgomp-13.2.0-h77fa898_11.conda
-  sha256: f4112111fa350bcd8d6d354cdde3426751a579add88fa523f6483c714821e681
-  md5: 8c462ced2af33648195dc9459f331f31
+  url: https://conda.anaconda.org/conda-forge/linux-64/libgomp-13.2.0-h77fa898_13.conda
+  sha256: c5949bec7eee93cdd5c367e6e5c5e92ee1c5139a827567af23853dd52721d8ed
+  md5: d370d1855cca14dff6a819c90c77497c
   depends:
   - _libgcc_mutex 0.1 conda_forge
   license: GPL-3.0-only WITH GCC-exception-3.1
-  license_family: GPL
-  size: 444606
-  timestamp: 1718866940233
+  size: 444091
+  timestamp: 1719179831697
 - kind: conda
   name: libgpg-error
   version: '1.49'
@@ -5261,18 +5260,17 @@ packages:
 - kind: conda
   name: libstdcxx-ng
   version: 13.2.0
-  build: hc0a3c3a_11
-  build_number: 11
+  build: hc0a3c3a_13
+  build_number: 13
   subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-13.2.0-hc0a3c3a_11.conda
-  sha256: e03f0f2712f45a85234016bcc5afa76023e31e00a2e74d8819a1b3bdf091fdb0
-  md5: eaa8ea74083fb4a78ae19e431e556003
+  url: https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-13.2.0-hc0a3c3a_13.conda
+  sha256: 143171c6084e526122cc2976fbbfadf7b9f50e5d13036adf20feb7ed9d036dd2
+  md5: 1053882642ed5bbc799e1e866ff86826
   depends:
-  - libgcc-ng 13.2.0 h77fa898_11
+  - libgcc-ng 13.2.0 h77fa898_13
   license: GPL-3.0-only WITH GCC-exception-3.1
-  license_family: GPL
-  size: 3874046
-  timestamp: 1718867032452
+  size: 3836375
+  timestamp: 1719179964037
 - kind: conda
   name: libsystemd0
   version: '255'
@@ -5898,6 +5896,7 @@ packages:
   constrains:
   - openmp 18.1.8|18.1.8.*
   license: Apache-2.0 WITH LLVM-exception
+  license_family: APACHE
   size: 276438
   timestamp: 1718911793488
 - kind: conda
@@ -7736,6 +7735,52 @@ packages:
   license_family: BSD
   size: 2413709
   timestamp: 1670989070228
+- kind: conda
+  name: taskflow
+  version: 3.7.0
+  build: h297d8ca_0
+  subdir: linux-64
+  url: https://conda.anaconda.org/conda-forge/linux-64/taskflow-3.7.0-h297d8ca_0.conda
+  sha256: 962e7636085fab4d7a79f09036881a7105cfb17a2c0e2105a370169c438a57d4
+  md5: a0cacff3af3b38b61d7cf01a7f5a1339
+  depends:
+  - libgcc-ng >=12
+  - libstdcxx-ng >=12
+  license: MIT
+  license_family: MIT
+  size: 143383
+  timestamp: 1715068154996
+- kind: conda
+  name: taskflow
+  version: 3.7.0
+  build: h3c5361c_0
+  subdir: osx-64
+  url: https://conda.anaconda.org/conda-forge/osx-64/taskflow-3.7.0-h3c5361c_0.conda
+  sha256: 833d91fe5f98844b2ddd411660b53ac1d6957a52baf26b1736159c0612a48bfc
+  md5: 3e80f5232372178ea8bc753ad0021309
+  depends:
+  - __osx >=10.13
+  - libcxx >=16
+  license: MIT
+  license_family: MIT
+  size: 143776
+  timestamp: 1715068524511
+- kind: conda
+  name: taskflow
+  version: 3.7.0
+  build: h7f575de_0
+  subdir: win-64
+  url: https://conda.anaconda.org/conda-forge/win-64/taskflow-3.7.0-h7f575de_0.conda
+  sha256: c35492db9775ecff5f502b4c79f8cf0980f2aab4b5b2cd319ffb3b834c2ce601
+  md5: 8b089a4a7c16be4786ae3bb8ba9c768a
+  depends:
+  - ucrt >=10.0.20348.0
+  - vc >=14.2,<15
+  - vc14_runtime >=14.29.30139
+  license: MIT
+  license_family: MIT
+  size: 143555
+  timestamp: 1715068441731
 - kind: conda
   name: tbb
   version: 2021.12.0
